@@ -181,9 +181,13 @@ def load_terms_from_csv(filepath: str):
 
     return abbreviations, cn_to_en
 
-MEDICAL_ABBREVIATIONS, CN_TO_EN = load_terms_from_csv(
-    os.path.join(os.path.dirname(__file__), "terms.csv")
-)
+MEDICAL_ABBREVIATIONS, CN_TO_EN = {}, {}
+try:
+    MEDICAL_ABBREVIATIONS, CN_TO_EN = load_terms_from_csv(
+        os.path.join(os.path.dirname(__file__), "terms.csv")
+    )
+except Exception:
+    pass
 
 # 加载通用医学词汇（无缩写，仅中英文对照，翻译时作为术语参考）
 def load_vocabulary(filepath: str) -> dict:
@@ -208,9 +212,13 @@ def load_vocabulary(filepath: str) -> dict:
             continue
     return vocab
 
-MEDICAL_VOCABULARY = load_vocabulary(
-    os.path.join(os.path.dirname(__file__), "vocabulary.csv")
-)
+MEDICAL_VOCABULARY = {}
+try:
+    MEDICAL_VOCABULARY = load_vocabulary(
+        os.path.join(os.path.dirname(__file__), "vocabulary.csv")
+    )
+except Exception:
+    pass
 
 # 额外中文术语（CSV 中可能没有的标准中文别名）
 _extra_cn = {
