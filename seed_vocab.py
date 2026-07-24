@@ -1,333 +1,17 @@
-﻿英文术语,中文译名,学科
-myocardial infarction,心肌梗死,心血管
-coronary artery disease,冠状动脉疾病,心血管
-atherosclerosis,动脉粥样硬化,心血管
-revascularization,血运重建,心血管
-stent thrombosis,支架内血栓,心血管
-restenosis,再狭窄,心血管
-cardiac troponin,心肌肌钙蛋白,心血管
-natriuretic peptide,利钠肽,心血管
-cardiac output,心输出量,心血管
-systemic vascular resistance,体循环血管阻力,心血管
-pulmonary capillary wedge pressure,肺毛细血管楔压,心血管
-cardiogenic shock,心源性休克,心血管
-systolic dysfunction,收缩功能障碍,心血管
-diastolic dysfunction,舒张功能障碍,心血管
-ventricular remodeling,心室重构,心血管
-oxidative stress,氧化应激,基础医学
-inflammation,炎症,基础医学
-apoptosis,细胞凋亡,基础医学
-autophagy,自噬,基础医学
-necrosis,坏死,基础医学
-fibrosis,纤维化,基础医学
-ischemia reperfusion injury,缺血再灌注损伤,基础医学
-signal transduction,信号转导,基础医学
-transcription factor,转录因子,基础医学
-gene expression,基因表达,基础医学
-epigenetics,表观遗传学,基础医学
-methylation,甲基化,基础医学
-phosphorylation,磷酸化,基础医学
-ubiquitination,泛素化,基础医学
-proteasome,蛋白酶体,基础医学
-neovascularization,新生血管形成,基础医学
-angiogenesis,血管生成,基础医学
-vasculogenesis,血管发生,基础医学
-lymphangiogenesis,淋巴管生成,基础医学
-epithelial mesenchymal transition,上皮间质转化,肿瘤
-tumor microenvironment,肿瘤微环境,肿瘤
-immune checkpoint,免疫检查点,肿瘤
-programmed cell death,程序性细胞死亡,肿瘤
-tumor infiltrating lymphocyte,肿瘤浸润淋巴细胞,肿瘤
-microsatellite instability,微卫星不稳定性,肿瘤
-mismatch repair,错配修复,肿瘤
-circulating tumor DNA,循环肿瘤DNA,肿瘤
-minimal residual disease,微小残留病变,肿瘤
-neoadjuvant chemotherapy,新辅助化疗,肿瘤
-adjuvant chemotherapy,辅助化疗,肿瘤
-palliative care,姑息治疗,肿瘤
-cytokine release syndrome,细胞因子释放综合征,肿瘤
-glomerular filtration rate,肾小球滤过率,肾病
-tubulointerstitial fibrosis,肾小管间质纤维化,肾病
-proteinuria,蛋白尿,肾病
-hematuria,血尿,肾病
-nephrotic syndrome,肾病综合征,肾病
-nephritic syndrome,肾炎综合征,肾病
-renin angiotensin aldosterone system,肾素血管紧张素醛固酮系统,内分泌
-glycemic control,血糖控制,内分泌
-insulin resistance,胰岛素抵抗,内分泌
-beta cell dysfunction,β细胞功能障碍,内分泌
-glycemic variability,血糖变异性,内分泌
-hypoglycemia unawareness,无症状性低血糖,内分泌
-metabolic syndrome,代谢综合征,内分泌
-thyroid storm,甲状腺危象,内分泌
-diabetic neuropathy,糖尿病神经病变,内分泌
-diabetic retinopathy,糖尿病视网膜病变,内分泌
-diabetic nephropathy,糖尿病肾病,内分泌
-bronchoalveolar lavage,支气管肺泡灌洗,呼吸
-ventilation perfusion mismatch,通气灌注不匹配,呼吸
-airway remodeling,气道重塑,呼吸
-mucociliary clearance,黏液纤毛清除,呼吸
-pulmonary hypertension,肺动脉高压,呼吸
-diffuse alveolar damage,弥漫性肺泡损伤,呼吸
-ground glass opacity,磨玻璃样阴影,影像
-consolidation,实变,影像
-cerebrospinal fluid,脑脊液,神经
-blood brain barrier,血脑屏障,神经
-synaptic plasticity,突触可塑性,神经
-neuroinflammation,神经炎症,神经
-neurodegeneration,神经退行性变,神经
-demyelination,脱髓鞘,神经
-excitotoxicity,兴奋性毒性,神经
-coagulation cascade,凝血级联反应,血液
-fibrinolysis,纤维蛋白溶解,血液
-hematopoiesis,造血,血液
-erythropoiesis,红细胞生成,血液
-thrombocytopenia,血小板减少,血液
-neutropenia,中性粒细胞减少,血液
-leukocytosis,白细胞增多,血液
-acid base balance,酸碱平衡,生理学
-homeostasis,内稳态,生理学
-pharmacokinetics,药代动力学,药理
-pharmacodynamics,药效动力学,药理
-bioavailability,生物利用度,药理
-therapeutic index,治疗指数,药理
-adverse drug reaction,药物不良反应,药理
-drug drug interaction,药物相互作用,药理
-cytochrome P450,细胞色素P450,药理
-half life,半衰期,药理
-steady state concentration,稳态血药浓度,药理
-first pass effect,首过效应,药理
-dose response relationship,量效关系,药理
-placebo effect,安慰剂效应,临床研究
-confounding factor,混杂因素,临床研究
-selection bias,选择偏倚,临床研究
-publication bias,发表偏倚,临床研究
-statistical significance,统计学显著性,临床研究
-power analysis,把握度分析,临床研究
-sample size calculation,样本量计算,临床研究
-primary endpoint,主要终点,临床研究
-secondary endpoint,次要终点,临床研究
-surrogate endpoint,替代终点,临床研究
-number needed to treat,需要治疗的人数,临床研究
-number needed to harm,需要伤害的人数,临床研究
-absolute risk reduction,绝对风险降低,临床研究
-relative risk reduction,相对风险降低,临床研究
-sensitivity,灵敏度,临床研究
-specificity,特异度,临床研究
-positive predictive value,阳性预测值,临床研究
-negative predictive value,阴性预测值,临床研究
-likelihood ratio,似然比,临床研究
-area under curve,曲线下面积,临床研究
-receiver operating characteristic,受试者工作特征曲线,临床研究
-informed consent,知情同意,医学伦理
-institutional review board,机构审查委员会,医学伦理
-declaration of Helsinki,赫尔辛基宣言,医学伦理
-evidence based medicine,循证医学,临床研究
-systematic review,系统综述,临床研究
-case control study,病例对照研究,临床研究
-cohort study,队列研究,临床研究
-cross sectional study,横断面研究,临床研究
-longitudinal study,纵向研究,临床研究
-prospective study,前瞻性研究,临床研究
-retrospective study,回顾性研究,临床研究
-histopathology,组织病理学,病理
-immunohistochemistry,免疫组织化学,病理
-in situ hybridization,原位杂交,病理
-polymerase chain reaction,聚合酶链反应,分子生物学
-western blot,蛋白质印迹法,分子生物学
-enzyme linked immunosorbent assay,酶联免疫吸附试验,分子生物学
-flow cytometry,流式细胞术,分子生物学
-next generation sequencing,下一代测序,分子生物学
-genome wide association study,全基因组关联研究,遗传学
-single nucleotide polymorphism,单核苷酸多态性,遗传学
-copy number variation,拷贝数变异,遗传学
-loss of heterozygosity,杂合性缺失,遗传学
-DNA,脱氧核糖核酸,分子生物学
-RNA,核糖核酸,分子生物学
-PCR,聚合酶链反应,分子生物学
-qPCR,实时荧光定量聚合酶链反应,分子生物学
-RT-PCR,逆转录聚合酶链反应,分子生物学
-Southern blot,DNA印迹法,分子生物学
-Northern blot,RNA印迹法,分子生物学
-ELISA,酶联免疫吸附测定,分子生物学
-EMSA,电泳迁移率变动分析,分子生物学
-ChIP,染色质免疫沉淀,分子生物学
-RNAi,RNA干扰,分子生物学
-siRNA,小干扰RNA,分子生物学
-miRNA,微小RNA,分子生物学
-lncRNA,长链非编码RNA,分子生物学
-CRISPR,成簇规律间隔短回文重复序列,分子生物学
-Cas9,CRISPR相关蛋白9,分子生物学
-Plasmid,质粒,分子生物学
-Vector,载体,分子生物学
-Promoter,启动子,分子生物学
-Enhancer,增强子,分子生物学
-Exon,外显子,分子生物学
-Intron,内含子,分子生物学
-Splicing,剪接,分子生物学
-Cell membrane,细胞膜,细胞生物学
-Cytoplasm,细胞质,细胞生物学
-Nucleus,细胞核,细胞生物学
-Mitochondrion,线粒体,细胞生物学
-Endoplasmic reticulum,内质网,细胞生物学
-Golgi apparatus,高尔基体,细胞生物学
-Lysosome,溶酶体,细胞生物学
-Peroxisome,过氧化物酶体,细胞生物学
-Cytoskeleton,细胞骨架,细胞生物学
-Microtubule,微管,细胞生物学
-Actin,肌动蛋白,细胞生物学
-Myosin,肌球蛋白,细胞生物学
-Cell cycle,细胞周期,细胞生物学
-Mitosis,有丝分裂,细胞生物学
-Meiosis,减数分裂,细胞生物学
-Cell signaling,细胞信号转导,细胞生物学
-Receptor,受体,细胞生物学
-Ligand,配体,细胞生物学
-Kinase,激酶,细胞生物学
-Phosphatase,磷酸酶,细胞生物学
-Transcription,转录,细胞生物学
-Antigen,抗原,免疫学
-Antibody,抗体,免疫学
-Immunoglobulin,免疫球蛋白,免疫学
-T cell,T细胞,免疫学
-B cell,B细胞,免疫学
-NK cell,自然杀伤细胞,免疫学
-Macrophage,巨噬细胞,免疫学
-Dendritic cell,树突状细胞,免疫学
-Cytokine,细胞因子,免疫学
-Chemokine,趋化因子,免疫学
-Interleukin,白细胞介素,免疫学
-Interferon,干扰素,免疫学
-TNF,肿瘤坏死因子,免疫学
-Complement,补体,免疫学
-MHC,主要组织相容性复合体,免疫学
-TCR,T细胞受体,免疫学
-BCR,B细胞受体,免疫学
-CD marker,分化簇标记,免疫学
-Immune tolerance,免疫耐受,免疫学
-Autoimmunity,自身免疫,免疫学
-Hypersensitivity,超敏反应,免疫学
-Bacterium,细菌,微生物学
-Virus,病毒,微生物学
-Fungus,真菌,微生物学
-Parasite,寄生虫,微生物学
-Gram stain,革兰染色,微生物学
-Culture,培养,微生物学
-Antibiotic,抗生素,微生物学
-Antimicrobial,抗微生物药,微生物学
-Pathogen,病原体,微生物学
-Virulence,毒力,微生物学
-Inoculation,接种,微生物学
-Incubation,孵育,微生物学
-Agar plate,琼脂平板,微生物学
-Colony,菌落,微生物学
-Sequencing,测序,微生物学
-Strain,株,微生物学
-Resistance,耐药性,微生物学
-Susceptibility,敏感性,微生物学
-Biofilm,生物被膜,微生物学
-Endotoxin,内毒素,微生物学
-Exotoxin,外毒素,微生物学
-Bacteriophage,噬菌体,微生物学
-Prion,朊病毒,微生物学
-Viroid,类病毒,微生物学
-Hypoxia,缺氧,病理生理学
-Ischemia,缺血,病理生理学
-Reperfusion,再灌注,病理生理学
-Edema,水肿,病理生理学
-Shock,休克,病理生理学
-DIC,弥散性血管内凝血,病理生理学
-Acidosis,酸中毒,病理生理学
-Alkalosis,碱中毒,病理生理学
-Electrolyte imbalance,电解质紊乱,病理生理学
-Fever,发热,病理生理学
-Pain,疼痛,病理生理学
-Stress,应激,病理生理学
-Adaptation,适应,病理生理学
-Hypertrophy,肥大,病理生理学
-Hyperplasia,增生,病理生理学
-Atrophy,萎缩,病理生理学
-Metaplasia,化生,病理生理学
-Dysplasia,异型增生,病理生理学
-Neoplasia,肿瘤形成,病理生理学
-Metastasis,转移,病理生理学
-Thrombosis,血栓形成,病理生理学
-Embolism,栓塞,病理生理学
-Infarction,梗死,病理生理学
-Sepsis,脓毒症,病理生理学
-Drug,药物,药理学
-Agonist,激动剂,药理学
-Antagonist,拮抗剂,药理学
-Affinity,亲和力,药理学
-Efficacy,效能,药理学
-Potency,效价,药理学
-LD50,半数致死量,药理学
-ED50,半数有效量,药理学
-Half-life,半衰期,药理学
-Clearance,清除率,药理学
-Volume of distribution,表观分布容积,药理学
-Metabolism,代谢,药理学
-Side effect,副作用,药理学
-Toxicity,毒性,药理学
-Tolerance,耐受性,药理学
-Dependence,依赖性,药理学
-Addiction,成瘾,药理学
-Placebo,安慰剂,药理学
-Dose-response curve,剂量-反应曲线,药理学
-Skeleton,骨骼,解剖学
-Skull,颅骨,解剖学
-Vertebra,椎骨,解剖学
-Rib,肋骨,解剖学
-Sternum,胸骨,解剖学
-Clavicle,锁骨,解剖学
-Scapula,肩胛骨,解剖学
-Humerus,肱骨,解剖学
-Radius,桡骨,解剖学
-Ulna,尺骨,解剖学
-Pelvis,骨盆,解剖学
-Femur,股骨,解剖学
-Tibia,胫骨,解剖学
-Fibula,腓骨,解剖学
-Joint,关节,解剖学
-Muscle,肌肉,解剖学
-Nerve,神经,解剖学
-Artery,动脉,解剖学
-Vein,静脉,解剖学
-Heart,心脏,解剖学
-Lung,肺,解剖学
-Liver,肝脏,解剖学
-Kidney,肾脏,解剖学
-Brain,脑,解剖学
-Spinal cord,脊髓,解剖学
-Tissue,组织,组织胚胎学
-Epithelium,上皮组织,组织胚胎学
-Connective tissue,结缔组织,组织胚胎学
-Muscle tissue,肌组织,组织胚胎学
-Nervous tissue,神经组织,组织胚胎学
-Cartilage,软骨,组织胚胎学
-Bone,骨组织,组织胚胎学
-Blood,血液,组织胚胎学
-Lymph,淋巴,组织胚胎学
-Germ layer,胚层,组织胚胎学
-Ectoderm,外胚层,组织胚胎学
-Mesoderm,中胚层,组织胚胎学
-Endoderm,内胚层,组织胚胎学
-Embryo,胚胎,组织胚胎学
-Fetus,胎儿,组织胚胎学
-Placenta,胎盘,组织胚胎学
-Amnion,羊膜,组织胚胎学
-Chorion,绒毛膜,组织胚胎学
-Allantois,尿囊,组织胚胎学
-Yolk sac,卵黄囊,组织胚胎学
-Gastrulation,原肠形成,组织胚胎学
-Neurulation,神经胚形成,组织胚胎学
-Organogenesis,器官发生,组织胚胎学
-Histogenesis,组织发生,组织胚胎学
-Cytodifferentiation,细胞分化,组织胚胎学
+"""
+一次性写入通用医学文献词汇表
+"""
+import csv
+import os
+
+VOCAB_FILE = r"C:\Users\年年\medical-translator\vocabulary.csv"
+
+VOCAB = """
 英文术语,中文译名,学科
 ablation,消融术,手术
 abscess,脓肿,病理
 absorption,吸收,生理
+acidosis,酸中毒,病理生理
 acinus,腺泡,组织学
 action potential,动作电位,生理
 acute,急性的,临床
@@ -339,6 +23,8 @@ adverse effect,不良反应,药理
 aetiology,病因学,基础医学
 afferent,传入的,生理
 agglutination,凝集反应,免疫
+agonist,激动剂,药理
+alkalosis,碱中毒,病理生理
 allograft,同种异体移植物,移植
 alveolus,肺泡,组织学
 amino acid,氨基酸,生化
@@ -349,17 +35,26 @@ analgesia,镇痛,疼痛
 anaphylaxis,过敏反应,免疫
 anastomosis,吻合术,手术
 aneurysm,动脉瘤,病理
+angiogenesis,血管生成,生理
 anomaly,异常,病理
+antagonist,拮抗剂,药理
+antibody,抗体,免疫
+antigen,抗原,免疫
 antioxidant,抗氧化剂,生化
 aorta,主动脉,解剖
 aphasia,失语症,神经
+apoptosis,细胞凋亡,细胞生物学
 arrhythmia,心律失常,心血管
 arthroplasty,关节成形术,骨科
 ascites,腹水,消化
 ataxia,共济失调,神经
+atherosclerosis,动脉粥样硬化,病理
+atrophy,萎缩,病理
 autoimmune,自身免疫的,免疫
+autophagy,自噬,细胞生物学
 bacteremia,菌血症,感染
 benign,良性的,肿瘤
+bioavailability,生物利用度,药理
 biomarker,生物标志物,检验
 biopsy,活检,病理
 biosynthesis,生物合成,生化
@@ -371,6 +66,7 @@ calcification,钙化,病理
 carcinogen,致癌物,肿瘤
 carcinoma,癌,肿瘤
 cardiomyopathy,心肌病,心血管
+cartilage,软骨,组织学
 cascade,级联反应,生化
 catheter,导管,护理
 causalgia,灼痛,神经
@@ -394,12 +90,14 @@ convalescence,恢复期,临床
 coronary,冠状动脉的,解剖
 cortex,皮质,解剖
 cryotherapy,冷冻疗法,治疗
+cytokine,细胞因子,免疫
 cytology,细胞学,病理
 cytotoxicity,细胞毒性,免疫
 debridement,清创术,外科
 decompensation,失代偿,病理生理
 degeneration,变性,病理
 dementia,痴呆,神经
+demyelination,脱髓鞘,神经
 dendritic,树突状的,组织学
 denervation,去神经,神经
 deoxyribonucleic acid,脱氧核糖核酸,分子生物学
@@ -423,11 +121,15 @@ diverticulum,憩室,消化
 dosage,剂量,药理
 duct,导管,解剖
 dysfunction,功能障碍,病理生理
+dysplasia,异型增生,病理
 dyspnea,呼吸困难,症状
 dystrophy,营养不良,病理
+edema,水肿,症状
 efferent,传出的,生理
 effusion,渗出液,病理
 electrolyte,电解质,生化
+embolism,栓塞,病理
+embryo,胚胎,生殖
 emission,发射,影像
 endemic,地方性的,公卫
 endocytosis,胞吞作用,细胞生物学
@@ -438,6 +140,8 @@ enteric,肠的,解剖
 enzyme,酶,生化
 eosinophil,嗜酸性粒细胞,血液
 epidemiology,流行病学,公卫
+epigenetics,表观遗传学,遗传
+epithelium,上皮,组织学
 erosion,糜烂,病理
 erythema,红斑,皮肤
 erythrocyte,红细胞,血液
@@ -446,6 +150,7 @@ exacerbation,加重,临床
 excision,切除术,外科
 excretion,排泄,生理
 exogenous,外源性的,生理
+exon,外显子,遗传
 expression,表达,分子生物学
 extracellular,细胞外的,细胞生物学
 extravasation,外渗,病理
@@ -454,9 +159,12 @@ fascia,筋膜,解剖
 fasting,禁食的,临床
 fatigue,疲劳,症状
 ferritin,铁蛋白,检验
+fetus,胎儿,妇产科
 fibrillation,纤维性颤动,心血管
 fibrin,纤维蛋白,血液
+fibrinolysis,纤维蛋白溶解,血液
 fibroblast,成纤维细胞,组织学
+fibrosis,纤维化,病理
 fistula,瘘管,病理
 flora,菌群,微生物
 fluorescence,荧光,检验
@@ -497,45 +205,59 @@ hernia,疝,外科
 heterogeneity,异质性,病理
 histamine,组胺,免疫
 histology,组织学,基础医学
+homeostasis,内稳态,生理
 hormone,激素,内分泌
 hydrolysis,水解,生化
 hyperglycemia,高血糖,内分泌
+hyperplasia,增生,病理
+hypersensitivity,超敏反应,免疫
 hypertension,高血压,心血管
+hypertrophy,肥大,病理
 hypoglycemia,低血糖,内分泌
 hypoplasia,发育不全,病理
 hypotension,低血压,心血管
 hypothalamus,下丘脑,神经
 hypotonia,肌张力减低,神经
+hypoxia,缺氧,病理生理
 iatrogenic,医源性的,临床
 idiopathic,特发性的,临床
 ileum,回肠,解剖
 immune response,免疫应答,免疫
 immunocompromised,免疫功能受损的,免疫
 immunodeficiency,免疫缺陷,免疫
+immunoglobulin,免疫球蛋白,免疫
 immunosuppression,免疫抑制,免疫
 implant,植入物,外科
 incidence,发病率,公卫
 incision,切口,外科
 incontinence,失禁,泌尿
+infarction,梗死,病理
 infection,感染,感染
 infestation,侵染,感染
+inflammation,炎症,病理
 ingestion,摄入,临床
 inhalation,吸入,临床
 inheritance,遗传,遗传
 inhibitor,抑制剂,药理
 innate,先天的,免疫
 innervation,神经支配,神经
+inoculation,接种,微生物
 insulin,胰岛素,内分泌
 integrin,整合素,细胞生物学
+interferon,干扰素,免疫
+interleukin,白细胞介素,免疫
 interstitial,间质的,组织学
 intracellular,细胞内的,细胞生物学
 intravenous,静脉内的,临床
 intrinsic,内源性的,生理
+intron,内含子,遗传
 invasiveness,侵袭性,肿瘤
+ischemia,缺血,病理
 jaundice,黄疸,症状
 juxtaglomerular,近球旁的,组织学
 karyotype,核型,遗传
 keratin,角蛋白,生化
+kinase,激酶,生化
 laceration,撕裂伤,外科
 lactation,泌乳,妇产科
 laparotomy,剖腹术,外科
@@ -550,6 +272,8 @@ lipoprotein,脂蛋白,生化
 lumen,管腔,解剖
 lymphocyte,淋巴细胞,血液
 lysis,溶解,生化
+lysosome,溶酶体,细胞生物学
+macrophage,巨噬细胞,血液
 malabsorption,吸收不良,消化
 malformation,畸形,病理
 malignancy,恶性肿瘤,肿瘤
@@ -560,21 +284,27 @@ mast cell,肥大细胞,血液
 maternal,母体的,妇产科
 mediastinum,纵隔,解剖
 medulla,髓质,解剖
+meiosis,减数分裂,遗传
 membrane,膜,细胞生物学
 meninges,脑膜,解剖
 menstruation,月经,妇产科
 mesenchyme,间充质,组织学
 metabolite,代谢物,生化
+metaplasia,化生,病理
+metastasis,转移,肿瘤
 microbiology,微生物学,微生物
 microcirculation,微循环,生理
 microglia,小胶质细胞,神经
 microorganism,微生物,微生物
 microscope,显微镜,设备
+mitochondrion,线粒体,细胞生物学
+mitosis,有丝分裂,细胞生物学
 morbidity,发病率,公卫
 morphology,形态学,基础医学
 mortality,死亡率,公卫
 motility,运动功能,生理
 mucosa,黏膜,组织学
+muscle,肌肉,解剖
 mutagen,诱变剂,遗传
 mutation,突变,遗传
 myelin,髓鞘,神经
@@ -584,20 +314,24 @@ myopathy,肌病,神经
 naevus,痣,皮肤
 natriuretic,利尿钠的,心血管
 nausea,恶心,症状
+necrosis,坏死,病理
 neonatal,新生儿的,儿科
 neoplasm,新生物,肿瘤
 nephron,肾单位,解剖
+nerve,神经,解剖
 neuralgia,神经痛,神经
 neuritis,神经炎,神经
 neurogenesis,神经发生,神经
 neuron,神经元,神经
 neuropathy,神经病,神经
 neurotransmitter,神经递质,神经
+neutropenia,中性粒细胞减少,血液
 neutrophil,中性粒细胞,血液
 nociceptor,伤害感受器,神经
 node,淋巴结,解剖
 nodule,结节,病理
 nucleolus,核仁,细胞生物学
+nucleus,细胞核,细胞生物学
 nutrient,营养素,营养
 obesity,肥胖,公卫
 obstruction,梗阻,病理
@@ -621,8 +355,10 @@ oxygenation,氧合,生理
 pacemaker,起搏器,心血管
 pancreas,胰腺,消化
 paralysis,瘫痪,神经
+parasite,寄生虫,感染
 parenchyma,实质,组织学
 paresis,轻瘫,神经
+pathogen,病原体,感染
 pathogenesis,发病机制,基础医学
 pathology,病理学,基础医学
 pathophysiology,病理生理学,基础医学
@@ -635,12 +371,17 @@ peristalsis,蠕动,生理
 peritoneum,腹膜,解剖
 permeability,通透性,生理
 phagocytosis,吞噬作用,免疫
+pharmacodynamics,药效动力学,药理
+pharmacokinetics,药代动力学,药理
 pharynx,咽,解剖
 phenotype,表型,遗传
+phosphorylation,磷酸化,生化
 physiology,生理学,基础医学
 pinocytosis,吞饮作用,细胞生物学
+placenta,胎盘,妇产科
 plaque,斑块,病理
 plasma,血浆,血液
+plasmid,质粒,分子生物学
 platelet,血小板,血液
 pleura,胸膜,解剖
 pneumonia,肺炎,呼吸
@@ -661,6 +402,8 @@ proprioception,本体感觉,神经
 prostaglandin,前列腺素,生化
 prostate,前列腺,泌尿
 protease,蛋白酶,生化
+proteasome,蛋白酶体,生化
+proteinuria,蛋白尿,肾病
 protocol,方案,临床研究
 proximal,近端的,解剖
 pruritus,瘙痒,症状
@@ -672,6 +415,7 @@ purpura,紫癜,血液
 pus,脓液,病理
 pyrexia,发热,症状
 radiotherapy,放射治疗,肿瘤
+receptor,受体,药理
 recombination,重组,遗传
 recurrence,复发,临床
 reflex,反射,生理
@@ -682,8 +426,10 @@ rejection,排斥,移植
 remission,缓解,肿瘤
 renal,肾的,肾病
 repair,修复,外科
+reperfusion,再灌注,心血管
 replication,复制,分子生物学
 resection,切除,外科
+resistance,耐药性,药理
 resorption,吸收,生理
 respiration,呼吸,生理
 resuscitation,复苏,急诊
@@ -692,6 +438,7 @@ reticulocyte,网织红细胞,血液
 retina,视网膜,眼科
 retinoblastoma,视网膜母细胞瘤,肿瘤
 reuptake,再摄取,神经
+revascularization,血运重建,心血管
 rheumatoid,类风湿的,风湿免疫
 rhinorrhoea,鼻漏,耳鼻喉
 ribosome,核糖体,细胞生物学
@@ -702,9 +449,11 @@ secretion,分泌,生理
 sedation,镇静,麻醉
 seizure,癫痫发作,神经
 senescence,衰老,细胞生物学
+sepsis,脓毒症,感染
 sequela,后遗症,临床
 serotonin,5-羟色胺,神经
 serum,血清,血液
+shock,休克,急诊
 skeletal,骨骼的,骨科
 sodium,钠,生化
 somatic,躯体的,生理
@@ -722,6 +471,7 @@ steroid,类固醇,药理
 stimulus,刺激,生理
 stomach,胃,消化
 stomatitis,口腔炎,消化
+strain,菌株,微生物
 stroke,卒中,神经
 stroma,间质,组织学
 subclinical,亚临床的,临床
@@ -731,6 +481,7 @@ substrate,底物,生化
 suction,吸引,手术
 suppression,抑制,生理
 surgery,外科,外科
+susceptibility,易感性,免疫
 suture,缝合,外科
 synapse,突触,神经
 syndrome,综合征,临床
@@ -746,12 +497,15 @@ testosterone,睾酮,内分泌
 tetanus,破伤风,感染
 therapy,治疗,临床
 thrombocyte,血小板,血液
+thrombosis,血栓形成,心血管
 thymus,胸腺,免疫
 thyroid,甲状腺,内分泌
+tissue,组织,基础医学
 tolerability,耐受性,药理
 tomography,断层扫描,影像
 tonsil,扁桃体,免疫
 topical,局部的,临床
+toxicity,毒性,药理
 toxin,毒素,微生物
 trachea,气管,解剖
 tract,道,解剖
@@ -771,6 +525,7 @@ trunk,躯干,解剖
 tubule,小管,解剖
 tumor,肿瘤,肿瘤
 turgor,充盈度,体检
+ubiquitination,泛素化,生化
 ulcer,溃疡,病理
 ultrasound,超声,影像
 umbilicus,脐,解剖
@@ -787,11 +542,15 @@ vasculature,脉管系统,解剖
 vasculitis,血管炎,风湿免疫
 vasoconstriction,血管收缩,生理
 vasodilation,血管舒张,生理
+vector,载体,分子生物学
+vein,静脉,解剖
 ventilation,通气,呼吸
 ventricle,心室,心血管
 venule,微静脉,解剖
 vessel,血管,解剖
 viability,存活能力,细胞生物学
+virulence,毒力,微生物
+virus,病毒,微生物
 visceral,内脏的,解剖
 vitamin,维生素,营养
 vomiting,呕吐,症状
@@ -800,3 +559,47 @@ wheezing,喘息,呼吸
 wound,伤口,外科
 xenograft,异种移植物,移植
 zygote,受精卵,生殖
+""".strip()
+
+def main():
+    # 加载已有
+    existing = {}
+    if os.path.exists(VOCAB_FILE):
+        with open(VOCAB_FILE, "r", encoding="utf-8-sig") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                en = (row.get("英文术语") or "").strip().lower()
+                if en and en not in existing:
+                    existing[en] = [
+                        row.get("英文术语", "").strip(),
+                        row.get("中文译名", "").strip(),
+                        row.get("学科", "").strip(),
+                    ]
+
+    print(f"已有 {len(existing)} 条通用术语")
+
+    new_count = 0
+    for line in VOCAB.split("\n"):
+        line = line.strip()
+        if not line:
+            continue
+        parts = [p.strip() for p in line.split(",", 2)]
+        if len(parts) >= 2:
+            en_key = parts[0].lower()
+            if en_key and en_key not in existing:
+                subject = parts[2] if len(parts) >= 3 else "基础医学"
+                existing[en_key] = [parts[0], parts[1], subject]
+                new_count += 1
+
+    print(f"新增 {new_count} 条")
+
+    with open(VOCAB_FILE, "w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["英文术语", "中文译名", "学科"])
+        for row in existing.values():
+            writer.writerow(row)
+
+    print(f"→ 通用术语库总量: {len(existing)} 条")
+
+if __name__ == "__main__":
+    main()
