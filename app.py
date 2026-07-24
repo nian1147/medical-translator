@@ -386,13 +386,41 @@ def lookup_abbreviation(client: OpenAI, query: str, direction: str = "auto") -> 
 
 def extract_text_from_pdf(file_bytes: bytes) -> str:
     """从 PDF 文件中提取文字"""
-    text = ""
-    reader = PyPDF2.PdfReader(io.BytesIO(file_bytes))
-    for page in reader.pages:
-        page_text = page.extract_text()
-        if page_text:
-            text += page_text + "\n"
-    return text.strip()
+    temp_path = os.path.join(os.path.dirname(__file__), "_temp_upload.pdf")
+    try:
+        with open(temp_path, "wb") as f:
+            f.write(file_bytes)
+        reader = PyPDF2.PdfReader(temp_path)
+        text = ""
+        for page in reader.pages:
+            page_text = page.extract_text()
+            if page_text:
+                text += page_text + "\n"
+        # Clean up temp file
+        try:
+            os.remove(temp_path)
+        except Exception:
+            pass
+        if text.strip():
+            return text.strip()
+        # If PyPDF2 extracted nothing, try pdfplumber as fallback
+        try:
+            import pdfplumber
+            with pdfplumber.open(io.BytesIO(file_bytes)) as pdf:
+                text = ""
+                for page in pdf.pages:
+                    pt = page.extract_text()
+                    if pt:
+                        text += pt + "\n"
+                return text.strip() or "[No extractable text found in PDF]"
+        except ImportError:
+            return "[PDF text extraction failed. Try converting PDF to TXT first.]"
+    except Exception:
+        try:
+            os.remove(temp_path)
+        except Exception:
+            pass
+        return "[PDF text extraction failed. Try converting PDF to TXT first.]"
 
 
 def extract_text_from_docx(file_bytes: bytes) -> str:
