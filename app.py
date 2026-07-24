@@ -882,21 +882,22 @@ with tab3:
                 if len(extracted_text) > preview_len:
                     st.caption(f"仅显示前 {preview_len:,} 字符，全文共 {len(extracted_text):,} 字符")
 
+            # 缩写识别结果
             abbreviations = find_abbreviations_in_text(extracted_text)
             if abbreviations:
-                st.markdown("##### 🔬 文献中识别的医学缩写")
-                chips_html = ""
-                for abbr, full_en, full_cn in abbreviations:
-                    chips_html += (
-                        f'<span class="abbr-chip">'
-                        f'<strong>{abbr}</strong>'
-                        f'<span class="arrow">→</span>'
-                        f'{full_cn}'
-                        f'</span> '
-                    )
-                st.markdown(chips_html, unsafe_allow_html=True)
+                with st.expander(f"🔬 文献中识别的医学缩写（{len(abbreviations)} 个）", expanded=False):
+                    chips_html = ""
+                    for abbr, full_en, full_cn in abbreviations:
+                        chips_html += (
+                            f'<span class="abbr-chip">'
+                            f'<strong>{abbr}</strong>'
+                            f'<span class="arrow">→</span>'
+                            f'{full_cn}'
+                            f'</span> '
+                        )
+                    st.markdown(chips_html, unsafe_allow_html=True)
 
-            if st.button("🔄 翻译全文", type="primary", use_container_width=True):
+            # 翻译按钮
                 if not api_key:
                     st.error("⚠️ 请先在左侧边栏输入 DeepSeek API Key")
                 else:
