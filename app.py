@@ -83,20 +83,26 @@ st.markdown(
 with st.sidebar:
     st.markdown("## ⚙️ 设置")
 
-    # API Key 输入
-    # 优先从 st.secrets 读取（Streamlit Cloud 部署用），其次从环境变量，最后手动输入
+    # API Key — Cloud 端用 Secrets 配置，本地可手动输入
+    has_secret = "DEEPSEEK_API_KEY" in st.secrets and st.secrets["DEEPSEEK_API_KEY"]
     saved_key = st.secrets.get("DEEPSEEK_API_KEY", "") or os.environ.get("DEEPSEEK_API_KEY", "")
-    api_key = st.text_input(
-        "🔑 DeepSeek API Key",
-        type="password",
-        value=saved_key,
-        help="从 platform.deepseek.com 获取，形如 sk-xxxxxxxx",
-        placeholder="sk-xxxxxxxxxxxxxxxx",
-    )
 
-    # 保存 API Key 按钮（仅本地运行时生效，Cloud 端用 Secrets 配置）
-    if "DEEPSEEK_API_KEY" not in st.secrets and api_key:
-        if st.button("💾 记住 API Key（下次不用重新输）"):
+    if has_secret:
+        # Cloud 端：Key 已在后台配置，不展示给用户
+        api_key = saved_key
+        st.success("✅ API Key 已配置，可直接使用")
+    else:
+        # 本地端：需要用户手动输入
+        api_key = st.text_input(
+            "🔑 DeepSeek API Key",
+            type="password",
+            value=saved_key,
+            help="从 platform.deepseek.com 获取，形如 sk-xxxxxxxx",
+            placeholder="sk-xxxxxxxxxxxxxxxx",
+        )
+
+    # 保存 API Key（仅本地端无 secrets 时显示）
+    if not has_secret and api_key and st.button("💾 记住 API Key（下次不用重新输）"):
             try:
                 secrets_dir = os.path.join(os.path.dirname(__file__), ".streamlit")
                 os.makedirs(secrets_dir, exist_ok=True)
