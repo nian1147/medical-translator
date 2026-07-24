@@ -735,7 +735,7 @@ was also lower in the PCI group (8.3% vs 15.7%, p<0.001).""", language=None)
                         # 将「关键术语注释」部分折叠
                         import re as _re
                         _parts = _re.split(
-                            r'(?:\n\n|\n)(?:##\s*)?(?:关键术语注释|关键术语|术语注释|📌 关键术语|📋 术语注释)',
+                            r'(?:\n|\r\n)(?:#{1,3}\s*)?(?:[^\n]{0,10})?(?:关键术语注释|关键术语|术语注释)(?:[^\n]*)?(?:\n)',
                             result, maxsplit=1
                         )
                         translation_body = _parts[0].strip()
