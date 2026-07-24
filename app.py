@@ -506,6 +506,7 @@ with tab2:
 
     # 常用缩写速查
     with st.expander("📚 常用医学缩写速查表"):
+        abbr_dict = MEDICAL_ABBREVIATIONS if isinstance(MEDICAL_ABBREVIATIONS, dict) else {}
         categories = {
             "心血管系统": ["STEMI", "NSTEMI", "PCI", "CABG", "ACS", "HF", "AF", "LVEF", "HTN", "CAD"],
             "呼吸系统": ["COPD", "ARDS", "PE", "OSA", "FEV1", "FVC"],
@@ -525,8 +526,8 @@ with tab2:
             with cols[col_idx % 3]:
                 st.markdown(f"**{cat_name}**")
                 for a in abbrs:
-                    if a in MEDICAL_ABBREVIATIONS:
-                        full_en, full_cn = MEDICAL_ABBREVIATIONS[a]
+                    if a in abbr_dict:
+                        full_en, full_cn = abbr_dict[a]
                         st.caption(f"• **{a}** — {full_cn}")
             col_idx += 1
 
