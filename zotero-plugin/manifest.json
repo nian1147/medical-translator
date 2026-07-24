@@ -1,17 +1,24 @@
 {
-  "manifest_version": 2,
-  "name": "Medical Translator",
+  "name": "medical-translator",
+  "addonName": "Medical Translator",
+  "addonID": "medical-translator@zotero.org",
+  "addonRef": "medicaltranslator",
   "version": "1.0.0",
-  "description": "Medical literature translation with DeepSeek API and 3375-term medical library",
+  "description": "Medical literature translation with DeepSeek API and 3375-term library",
+  "main": "src/index.js",
   "author": "nian1147",
-  "applications": {
-    "zotero": {
-      "id": "medical-translator@zotero.org",
-      "update_url": "",
-      "strict_min_version": "9.0",
-      "strict_max_version": "10.*"
-    }
+  "homepage": "https://github.com/nian1147/medical-translator",
+  "permissions": [
+    "http://localhost:8765/*",
+    "https://*.onrender.com/*"
+  ],
+  "engines": {
+    "zotero": ">=7.0"
   },
-  "bootstrap": true
+  "bootstrap": true,
+  "config": {
+    "prefPrefix": "medicaltranslator",
+    "prefDomain": "extensions.zotero"
+  }
 }
 
