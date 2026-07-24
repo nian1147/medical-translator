@@ -1,0 +1,4 @@
+[OK] 3375 abbreviations + 801 vocabulary loaded
+[API] http://localhost:8765
+ * Serving Flask app 'api_server'
+ * Debug mode: off
