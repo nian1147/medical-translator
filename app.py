@@ -94,14 +94,17 @@ with st.sidebar:
         placeholder="sk-xxxxxxxxxxxxxxxx",
     )
 
-    # 保存 API Key 按钮（保存到环境变量文件）
-    if api_key and st.button("💾 记住 API Key（下次不用重新输）"):
-        # 写入 .streamlit/secrets.toml
-        secrets_dir = os.path.join(os.path.dirname(__file__), ".streamlit")
-        os.makedirs(secrets_dir, exist_ok=True)
-        with open(os.path.join(secrets_dir, "secrets.toml"), "w") as f:
-            f.write(f'DEEPSEEK_API_KEY = "{api_key}"\n')
-        st.success("已保存！下次打开自动加载 ✅")
+    # 保存 API Key 按钮（仅本地运行时生效，Cloud 端用 Secrets 配置）
+    if "DEEPSEEK_API_KEY" not in st.secrets and api_key:
+        if st.button("💾 记住 API Key（下次不用重新输）"):
+            try:
+                secrets_dir = os.path.join(os.path.dirname(__file__), ".streamlit")
+                os.makedirs(secrets_dir, exist_ok=True)
+                with open(os.path.join(secrets_dir, "secrets.toml"), "w") as f:
+                    f.write(f'DEEPSEEK_API_KEY = "{api_key}"\n')
+                st.success("已保存！下次打开自动加载 ✅")
+            except OSError:
+                st.info("💡 你在 Cloud 端运行，请在「Settings → Secrets」中配置 API Key")
 
     st.markdown("---")
 
