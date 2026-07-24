@@ -1,1303 +1,1587 @@
-ç¼©å†™,è‹±æ–‡å…¨ç§°,ä¸­æ–‡è¯‘å,å­¦ç§‘
-STEMI,ST-segment Elevation Myocardial Infarction,STæ®µæŠ¬é«˜å‹å¿ƒè‚Œæ¢—æ­»,å¿ƒè¡€ç®¡
-NSTEMI,Non-ST-segment Elevation Myocardial Infarction,éSTæ®µæŠ¬é«˜å‹å¿ƒè‚Œæ¢—æ­»,å¿ƒè¡€ç®¡
-PCI,Percutaneous Coronary Intervention,ç»çš®å† çŠ¶åŠ¨è„‰ä»‹å…¥æ²»ç–—,å¿ƒè¡€ç®¡
-CABG,Coronary Artery Bypass Grafting,å† çŠ¶åŠ¨è„‰æ—è·¯ç§»æ¤æœ¯,å¿ƒè¡€ç®¡
-ACS,Acute Coronary Syndrome,æ€¥æ€§å† è„‰ç»¼åˆå¾,å¿ƒè¡€ç®¡
-HF,Heart Failure,å¿ƒåŠ›è¡°ç«­,å¿ƒè¡€ç®¡
-CHF,Congestive Heart Failure,å……è¡€æ€§å¿ƒåŠ›è¡°ç«­,å¿ƒè¡€ç®¡
-AF,Atrial Fibrillation,å¿ƒæˆ¿é¢¤åŠ¨,å¿ƒè¡€ç®¡
-VT,Ventricular Tachycardia,å®¤æ€§å¿ƒåŠ¨è¿‡é€Ÿ,å¿ƒè¡€ç®¡
-VF,Ventricular Fibrillation,å¿ƒå®¤é¢¤åŠ¨,å¿ƒè¡€ç®¡
-LVEF,Left Ventricular Ejection Fraction,å·¦å¿ƒå®¤å°„è¡€åˆ†æ•°,å¿ƒè¡€ç®¡
-CAD,Coronary Artery Disease,å† çŠ¶åŠ¨è„‰ç–¾ç—…,å¿ƒè¡€ç®¡
-HTN,Hypertension,é«˜è¡€å‹,å¿ƒè¡€ç®¡
-SBP,Systolic Blood Pressure,æ”¶ç¼©å‹,å¿ƒè¡€ç®¡
-DBP,Diastolic Blood Pressure,èˆ’å¼ å‹,å¿ƒè¡€ç®¡
-CCB,Calcium Channel Blocker,é’™é€šé“é˜»æ»å‰‚,å¿ƒè¡€ç®¡
-ACEI,Angiotensin-Converting Enzyme Inhibitor,è¡€ç®¡ç´§å¼ ç´ è½¬åŒ–é…¶æŠ‘åˆ¶å‰‚,å¿ƒè¡€ç®¡
-ARB,Angiotensin Receptor Blocker,è¡€ç®¡ç´§å¼ ç´ å—ä½“é˜»æ»å‰‚,å¿ƒè¡€ç®¡
-MI,Myocardial Infarction,å¿ƒè‚Œæ¢—æ­»,å¿ƒè¡€ç®¡
-MACE,Major Adverse Cardiovascular Events,ä¸»è¦ä¸è‰¯å¿ƒè¡€ç®¡äº‹ä»¶,å¿ƒè¡€ç®¡
-COPD,Chronic Obstructive Pulmonary Disease,æ…¢æ€§é˜»å¡æ€§è‚ºç–¾ç—…,å‘¼å¸
-ARDS,Acute Respiratory Distress Syndrome,æ€¥æ€§å‘¼å¸çª˜è¿«ç»¼åˆå¾,å‘¼å¸
-PE,Pulmonary Embolism,è‚ºæ “å¡,å‘¼å¸
-OSA,Obstructive Sleep Apnea,é˜»å¡æ€§ç¡çœ å‘¼å¸æš‚åœ,å‘¼å¸
-FEV1,Forced Expiratory Volume in 1 second,ç¬¬1ç§’ç”¨åŠ›å‘¼æ°”å®¹ç§¯,å‘¼å¸
-FVC,Forced Vital Capacity,ç”¨åŠ›è‚ºæ´»é‡,å‘¼å¸
-CVA,Cerebrovascular Accident,è„‘è¡€ç®¡æ„å¤–ï¼ˆè„‘å’ä¸­ï¼‰,ç¥ç»
-TIA,Transient Ischemic Attack,çŸ­æš‚æ€§è„‘ç¼ºè¡€å‘ä½œ,ç¥ç»
-AD,Alzheimer's Disease,é˜¿å°”èŒ¨æµ·é»˜ç—…,ç¥ç»
-PD,Parkinson's Disease,å¸•é‡‘æ£®ç—…,ç¥ç»
-MS,Multiple Sclerosis,å¤šå‘æ€§ç¡¬åŒ–,ç¥ç»
-EEG,Electroencephalogram,è„‘ç”µå›¾,ç¥ç»
-MRI,Magnetic Resonance Imaging,ç£å…±æŒ¯æˆåƒ,å½±åƒæ£€æŸ¥
-CT,Computed Tomography,è®¡ç®—æœºæ–­å±‚æ‰«æ,å½±åƒæ£€æŸ¥
-PET,Positron Emission Tomography,æ­£ç”µå­å‘å°„æ–­å±‚æ‰«æ,å½±åƒæ£€æŸ¥
-US,Ultrasound,è¶…å£°æ£€æŸ¥,å½±åƒæ£€æŸ¥
-DM,Diabetes Mellitus,ç³–å°¿ç—…,å†…åˆ†æ³Œä»£è°¢
-T1DM,Type 1 Diabetes Mellitus,1å‹ç³–å°¿ç—…,å†…åˆ†æ³Œä»£è°¢
-T2DM,Type 2 Diabetes Mellitus,2å‹ç³–å°¿ç—…,å†…åˆ†æ³Œä»£è°¢
-HbA1c,Glycated Hemoglobin,ç³–åŒ–è¡€çº¢è›‹ç™½,å†…åˆ†æ³Œä»£è°¢
-TSH,Thyroid-Stimulating Hormone,ä¿ƒç”²çŠ¶è…ºæ¿€ç´ ,å†…åˆ†æ³Œä»£è°¢
-DKA,Diabetic Ketoacidosis,ç³–å°¿ç—…é…®ç—‡é…¸ä¸­æ¯’,å†…åˆ†æ³Œä»£è°¢
-PCOS,Polycystic Ovary Syndrome,å¤šå›Šåµå·¢ç»¼åˆå¾,å†…åˆ†æ³Œä»£è°¢
-NSCLC,Non-Small Cell Lung Cancer,éå°ç»†èƒè‚ºç™Œ,è‚¿ç˜¤
-SCLC,Small Cell Lung Cancer,å°ç»†èƒè‚ºç™Œ,è‚¿ç˜¤
-CRC,Colorectal Cancer,ç»“ç›´è‚ ç™Œ,è‚¿ç˜¤
-HCC,Hepatocellular Carcinoma,è‚ç»†èƒç™Œ,è‚¿ç˜¤
-ALL,Acute Lymphoblastic Leukemia,æ€¥æ€§æ·‹å·´ç»†èƒç™½è¡€ç—…,è‚¿ç˜¤
-AML,Acute Myeloid Leukemia,æ€¥æ€§é«“ç³»ç™½è¡€ç—…,è‚¿ç˜¤
-CML,Chronic Myeloid Leukemia,æ…¢æ€§é«“ç³»ç™½è¡€ç—…,è‚¿ç˜¤
-CR,Complete Response,å®Œå…¨ç¼“è§£,è‚¿ç˜¤
-PR,Partial Response,éƒ¨åˆ†ç¼“è§£,è‚¿ç˜¤
-OS,Overall Survival,æ€»ç”Ÿå­˜æœŸ,è‚¿ç˜¤
-PFS,Progression-Free Survival,æ— è¿›å±•ç”Ÿå­˜æœŸ,è‚¿ç˜¤
-DFS,Disease-Free Survival,æ— ç—…ç”Ÿå­˜æœŸ,è‚¿ç˜¤
-ORR,Objective Response Rate,å®¢è§‚ç¼“è§£ç‡,è‚¿ç˜¤
-UTI,Urinary Tract Infection,æ³Œå°¿ç³»æ„ŸæŸ“,æ„ŸæŸ“
-CAP,Community-Acquired Pneumonia,ç¤¾åŒºè·å¾—æ€§è‚ºç‚,æ„ŸæŸ“
-HAP,Hospital-Acquired Pneumonia,åŒ»é™¢è·å¾—æ€§è‚ºç‚,æ„ŸæŸ“
-TB,Tuberculosis,ç»“æ ¸ç—…,æ„ŸæŸ“
-HIV,Human Immunodeficiency Virus,äººç±»å…ç–«ç¼ºé™·ç—…æ¯’,æ„ŸæŸ“
-AIDS,Acquired Immunodeficiency Syndrome,è·å¾—æ€§å…ç–«ç¼ºé™·ç»¼åˆå¾,æ„ŸæŸ“
-HBV,Hepatitis B Virus,ä¹™å‹è‚ç‚ç—…æ¯’,æ„ŸæŸ“
-HCV,Hepatitis C Virus,ä¸™å‹è‚ç‚ç—…æ¯’,æ„ŸæŸ“
-MRSA,Methicillin-Resistant Staphylococcus Aureus,è€ç”²æ°§è¥¿æ—é‡‘é»„è‰²è‘¡è„çƒèŒ,æ„ŸæŸ“
-GERD,Gastroesophageal Reflux Disease,èƒƒé£Ÿç®¡åæµç—…,æ¶ˆåŒ–
-IBD,Inflammatory Bowel Disease,ç‚ç—‡æ€§è‚ ç—…,æ¶ˆåŒ–
-UC,Ulcerative Colitis,æºƒç–¡æ€§ç»“è‚ ç‚,æ¶ˆåŒ–
-CD,Crohn's Disease,å…‹ç½—æ©ç—…,æ¶ˆåŒ–
-IBS,Irritable Bowel Syndrome,è‚ æ˜“æ¿€ç»¼åˆå¾,æ¶ˆåŒ–
-NAFLD,Non-Alcoholic Fatty Liver Disease,éé…’ç²¾æ€§è„‚è‚ªæ€§è‚ç—…,æ¶ˆåŒ–
-PUD,Peptic Ulcer Disease,æ¶ˆåŒ–æ€§æºƒç–¡,æ¶ˆåŒ–
-CKD,Chronic Kidney Disease,æ…¢æ€§è‚¾è„ç—…,è‚¾ç—…
-ESRD,End-Stage Renal Disease,ç»ˆæœ«æœŸè‚¾ç—…,è‚¾ç—…
-AKI,Acute Kidney Injury,æ€¥æ€§è‚¾æŸä¼¤,è‚¾ç—…
-GFR,Glomerular Filtration Rate,è‚¾å°çƒæ»¤è¿‡ç‡,è‚¾ç—…
-RBC,Red Blood Cell,çº¢ç»†èƒ,è¡€æ¶²/æ£€éªŒ
-WBC,White Blood Cell,ç™½ç»†èƒ,è¡€æ¶²/æ£€éªŒ
-PLT,Platelet,è¡€å°æ¿,è¡€æ¶²/æ£€éªŒ
-Hb,Hemoglobin,è¡€çº¢è›‹ç™½,è¡€æ¶²/æ£€éªŒ
-Hct,Hematocrit,è¡€ç»†èƒæ¯”å®¹,è¡€æ¶²/æ£€éªŒ
-PT,Prothrombin Time,å‡è¡€é…¶åŸæ—¶é—´,è¡€æ¶²/æ£€éªŒ
-APTT,Activated Partial Thromboplastin Time,æ´»åŒ–éƒ¨åˆ†å‡è¡€æ´»é…¶æ—¶é—´,è¡€æ¶²/æ£€éªŒ
-INR,International Normalized Ratio,å›½é™…æ ‡å‡†åŒ–æ¯”å€¼,è¡€æ¶²/æ£€éªŒ
-DVT,Deep Vein Thrombosis,æ·±é™è„‰è¡€æ “,è¡€æ¶²/æ£€éªŒ
-RCT,Randomized Controlled Trial,éšæœºå¯¹ç…§è¯•éªŒ,ä¸´åºŠç ”ç©¶
-OR,Odds Ratio,æ¯”å€¼æ¯”,ä¸´åºŠç ”ç©¶
-RR,Risk Ratio,é£é™©æ¯”,ä¸´åºŠç ”ç©¶
-HR,Hazard Ratio,é£é™©æ¯”,ä¸´åºŠç ”ç©¶
-CI,Confidence Interval,ç½®ä¿¡åŒºé—´,ä¸´åºŠç ”ç©¶
-AE,Adverse Event,ä¸è‰¯äº‹ä»¶,ä¸´åºŠç ”ç©¶
-SAE,Serious Adverse Event,ä¸¥é‡ä¸è‰¯äº‹ä»¶,ä¸´åºŠç ”ç©¶
-ITT,Intention-to-Treat,æ„å‘æ€§æ²»ç–—åˆ†æ,ä¸´åºŠç ”ç©¶
-PP,Per-Protocol,ç¬¦åˆæ–¹æ¡ˆé›†åˆ†æ,ä¸´åºŠç ”ç©¶
-q.d.,quaque die (once daily),æ¯æ—¥ä¸€æ¬¡,ç»™è¯æ–¹å¼
-b.i.d.,bis in die (twice daily),æ¯æ—¥ä¸¤æ¬¡,ç»™è¯æ–¹å¼
-t.i.d.,ter in die (three times daily),æ¯æ—¥ä¸‰æ¬¡,ç»™è¯æ–¹å¼
-p.r.n.,pro re nata (as needed),å¿…è¦æ—¶,ç»™è¯æ–¹å¼
-NPO,nil per os (nothing by mouth),ç¦é£Ÿ,ç»™è¯æ–¹å¼
-STAT,statim (immediately),ç«‹å³,ç»™è¯æ–¹å¼
-SOB,Shortness of Breath,æ°”ä¿ƒ,ä¸´åºŠç—‡çŠ¶
-CP,Chest Pain,èƒ¸ç—›,ä¸´åºŠç—‡çŠ¶
-LOC,Loss of Consciousness,æ„è¯†ä¸§å¤±,ä¸´åºŠç—‡çŠ¶
-ROS,Review of Systems,ç³»ç»Ÿå›é¡¾,ç—…å†
-HPI,History of Present Illness,ç°ç—…å²,ç—…å†
-PMH,Past Medical History,æ—¢å¾€å²,ç—…å†
-ç¼©å†™,è‹±æ–‡å…¨ç§°,ä¸­æ–‡è¯‘å,å­¦ç§‘
-ACS,Acute Coronary Syndrome,æ€¥æ€§å† è„‰ç»¼åˆå¾,å¿ƒè¡€ç®¡å†…ç§‘
-AF,Atrial Fibrillation,å¿ƒæˆ¿é¢¤åŠ¨,å¿ƒè¡€ç®¡å†…ç§‘
-AMI,Acute Myocardial Infarction,æ€¥æ€§å¿ƒè‚Œæ¢—æ­»,å¿ƒè¡€ç®¡å†…ç§‘
-BNP,Brain Natriuretic Peptide,è„‘é’ è‚½,å¿ƒè¡€ç®¡å†…ç§‘
-CABG,Coronary Artery Bypass Grafting,å† çŠ¶åŠ¨è„‰æ—è·¯ç§»æ¤æœ¯,å¿ƒè¡€ç®¡å†…ç§‘
-CAD,Coronary Artery Disease,å† çŠ¶åŠ¨è„‰ç–¾ç—…,å¿ƒè¡€ç®¡å†…ç§‘
-CCB,Calcium Channel Blocker,é’™é€šé“é˜»æ»å‰‚,å¿ƒè¡€ç®¡å†…ç§‘
-CHF,Congestive Heart Failure,å……è¡€æ€§å¿ƒåŠ›è¡°ç«­,å¿ƒè¡€ç®¡å†…ç§‘
-CRP,C-Reactive Protein,Cååº”è›‹ç™½,å¿ƒè¡€ç®¡å†…ç§‘
-CTnI,Cardiac Troponin I,å¿ƒè‚Œè‚Œé’™è›‹ç™½I,å¿ƒè¡€ç®¡å†…ç§‘
-DVT,Deep Vein Thrombosis,æ·±é™è„‰è¡€æ “å½¢æˆ,å¿ƒè¡€ç®¡å†…ç§‘
-ECG,Electrocardiogram,å¿ƒç”µå›¾,å¿ƒè¡€ç®¡å†…ç§‘
-EF,Ejection Fraction,å°„è¡€åˆ†æ•°,å¿ƒè¡€ç®¡å†…ç§‘
-HF,Heart Failure,å¿ƒåŠ›è¡°ç«­,å¿ƒè¡€ç®¡å†…ç§‘
-IABP,Intra-Aortic Balloon Pump,ä¸»åŠ¨è„‰å†…çƒå›Šåæ,å¿ƒè¡€ç®¡å†…ç§‘
-LDL,Low-Density Lipoprotein,ä½å¯†åº¦è„‚è›‹ç™½,å¿ƒè¡€ç®¡å†…ç§‘
-LVEF,Left Ventricular Ejection Fraction,å·¦å¿ƒå®¤å°„è¡€åˆ†æ•°,å¿ƒè¡€ç®¡å†…ç§‘
-MACE,Major Adverse Cardiovascular Events,ä¸»è¦ä¸è‰¯å¿ƒè¡€ç®¡äº‹ä»¶,å¿ƒè¡€ç®¡å†…ç§‘
-MI,Myocardial Infarction,å¿ƒè‚Œæ¢—æ­»,å¿ƒè¡€ç®¡å†…ç§‘
-NYHA,New York Heart Association,çº½çº¦å¿ƒè„åä¼š,å¿ƒè¡€ç®¡å†…ç§‘
-PCI,Percutaneous Coronary Intervention,ç»çš®å† çŠ¶åŠ¨è„‰ä»‹å…¥æ²»ç–—,å¿ƒè¡€ç®¡å†…ç§‘
-STEMI,ST-Segment Elevation Myocardial Infarction,STæ®µæŠ¬é«˜å‹å¿ƒè‚Œæ¢—æ­»,å¿ƒè¡€ç®¡å†…ç§‘
-TIA,Transient Ischemic Attack,çŸ­æš‚æ€§è„‘ç¼ºè¡€å‘ä½œ,å¿ƒè¡€ç®¡å†…ç§‘
-VT,Ventricular Tachycardia,å®¤æ€§å¿ƒåŠ¨è¿‡é€Ÿ,å¿ƒè¡€ç®¡å†…ç§‘
-ARF,Acute Respiratory Failure,æ€¥æ€§å‘¼å¸è¡°ç«­,å‘¼å¸å†…ç§‘
-ARDS,Acute Respiratory Distress Syndrome,æ€¥æ€§å‘¼å¸çª˜è¿«ç»¼åˆå¾,å‘¼å¸å†…ç§‘
-BAL,Bronchoalveolar Lavage,æ”¯æ°”ç®¡è‚ºæ³¡çŒæ´—,å‘¼å¸å†…ç§‘
-BALF,Bronchoalveolar Lavage Fluid,æ”¯æ°”ç®¡è‚ºæ³¡çŒæ´—æ¶²,å‘¼å¸å†…ç§‘[reference:0]
-BIPAP,Bilevel Positive Airway Pressure,åŒæ°´å¹³æ°”é“æ­£å‹é€šæ°”,å‘¼å¸å†…ç§‘
-CAP,Community-Acquired Pneumonia,ç¤¾åŒºè·å¾—æ€§è‚ºç‚,å‘¼å¸å†…ç§‘
-COPD,Chronic Obstructive Pulmonary Disease,æ…¢æ€§é˜»å¡æ€§è‚ºç–¾ç—…,å‘¼å¸å†…ç§‘[reference:1]
-CTPA,CT Pulmonary Angiography,CTè‚ºåŠ¨è„‰é€ å½±,å‘¼å¸å†…ç§‘
-DVT,Deep Vein Thrombosis,æ·±é™è„‰è¡€æ “å½¢æˆ,å‘¼å¸å†…ç§‘
-FEV1,Forced Expiratory Volume in 1 Second,ç¬¬1ç§’ç”¨åŠ›å‘¼æ°”å®¹ç§¯,å‘¼å¸å†…ç§‘
-FVC,Forced Vital Capacity,ç”¨åŠ›è‚ºæ´»é‡,å‘¼å¸å†…ç§‘
-HAP,Hospital-Acquired Pneumonia,åŒ»é™¢è·å¾—æ€§è‚ºç‚,å‘¼å¸å†…ç§‘[reference:2]
-IPF,Idiopathic Pulmonary Fibrosis,ç‰¹å‘æ€§è‚ºçº¤ç»´åŒ–,å‘¼å¸å†…ç§‘[reference:3]
-LTOT,Long-Term Oxygen Therapy,é•¿æœŸæ°§ç–—,å‘¼å¸å†…ç§‘
-MV,Mechanical Ventilation,æœºæ¢°é€šæ°”,å‘¼å¸å†…ç§‘
-NIV,Non-Invasive Ventilation,æ— åˆ›é€šæ°”,å‘¼å¸å†…ç§‘
-OSA,Obstructive Sleep Apnea,é˜»å¡æ€§ç¡çœ å‘¼å¸æš‚åœ,å‘¼å¸å†…ç§‘[reference:4]
-PAP,Pulmonary Arterial Pressure,è‚ºåŠ¨è„‰å‹,å‘¼å¸å†…ç§‘
-PEEP,Positive End-Expiratory Pressure,å‘¼æ°”æœ«æ­£å‹,å‘¼å¸å†…ç§‘
-PFT,Pulmonary Function Test,è‚ºåŠŸèƒ½æ£€æŸ¥,å‘¼å¸å†…ç§‘
-SaO2,Oxygen Saturation,è¡€æ°§é¥±å’Œåº¦,å‘¼å¸å†…ç§‘
-SpO2,Pulse Oximetry Oxygen Saturation,è„‰æè¡€æ°§é¥±å’Œåº¦,å‘¼å¸å†…ç§‘
-TB,Tuberculosis,ç»“æ ¸ç—…,å‘¼å¸å†…ç§‘
-VAP,Ventilator-Associated Pneumonia,å‘¼å¸æœºç›¸å…³æ€§è‚ºç‚,å‘¼å¸å†…ç§‘[reference:5]
-ALT,Alanine Aminotransferase,ä¸™æ°¨é…¸æ°¨åŸºè½¬ç§»é…¶,æ¶ˆåŒ–å†…ç§‘[reference:6]
-AST,Aspartate Aminotransferase,å¤©å†¬æ°¨é…¸æ°¨åŸºè½¬ç§»é…¶,æ¶ˆåŒ–å†…ç§‘[reference:7]
-CA19-9,Carbohydrate Antigen 19-9,ç³–ç±»æŠ—åŸ19-9,æ¶ˆåŒ–å†…ç§‘[reference:8]
-CEA,Carcinoembryonic Antigen,ç™ŒèƒšæŠ—åŸ,æ¶ˆåŒ–å†…ç§‘
-CRP,C-Reactive Protein,Cååº”è›‹ç™½,æ¶ˆåŒ–å†…ç§‘
-CT,Computed Tomography,è®¡ç®—æœºæ–­å±‚æ‰«æ,æ¶ˆåŒ–å†…ç§‘
-EGD,Esophagogastroduodenoscopy,é£Ÿç®¡èƒƒåäºŒæŒ‡è‚ é•œæ£€æŸ¥,æ¶ˆåŒ–å†…ç§‘[reference:9]
-ERCP,Endoscopic Retrograde Cholangiopancreatography,å†…é•œé€†è¡Œèƒ°èƒ†ç®¡é€ å½±,æ¶ˆåŒ–å†…ç§‘[reference:10]
-EUS,Endoscopic Ultrasound,è¶…å£°å†…é•œæ£€æŸ¥,æ¶ˆåŒ–å†…ç§‘[reference:11]
-GERD,Gastroesophageal Reflux Disease,èƒƒé£Ÿç®¡åæµç—…,æ¶ˆåŒ–å†…ç§‘
-GI,Gastrointestinal,èƒƒè‚ é“çš„,æ¶ˆåŒ–å†…ç§‘[reference:12]
-HCC,Hepatocellular Carcinoma,è‚ç»†èƒç™Œ,æ¶ˆåŒ–å†…ç§‘[reference:13]
-HBV,Hepatitis B Virus,ä¹™å‹è‚ç‚ç—…æ¯’,æ¶ˆåŒ–å†…ç§‘[reference:14]
-HCV,Hepatitis C Virus,ä¸™å‹è‚ç‚ç—…æ¯’,æ¶ˆåŒ–å†…ç§‘[reference:15]
-IBD,Inflammatory Bowel Disease,ç‚ç—‡æ€§è‚ ç—…,æ¶ˆåŒ–å†…ç§‘
-IBS,Irritable Bowel Syndrome,è‚ æ˜“æ¿€ç»¼åˆå¾,æ¶ˆåŒ–å†…ç§‘
-LC,Liver Cirrhosis,è‚ç¡¬åŒ–,æ¶ˆåŒ–å†…ç§‘
-NAFLD,Nonalcoholic Fatty Liver Disease,éé…’ç²¾æ€§è„‚è‚ªæ€§è‚ç—…,æ¶ˆåŒ–å†…ç§‘
-NASH,Nonalcoholic Steatohepatitis,éé…’ç²¾æ€§è„‚è‚ªæ€§è‚ç‚,æ¶ˆåŒ–å†…ç§‘
-PBC,Primary Biliary Cholangitis,åŸå‘æ€§èƒ†æ±æ€§èƒ†ç®¡ç‚,æ¶ˆåŒ–å†…ç§‘
-PUD,Peptic Ulcer Disease,æ¶ˆåŒ–æ€§æºƒç–¡,æ¶ˆåŒ–å†…ç§‘
-UC,Ulcerative Colitis,æºƒç–¡æ€§ç»“è‚ ç‚,æ¶ˆåŒ–å†…ç§‘
-AD,Alzheimer's Disease,é˜¿å°”èŒ¨æµ·é»˜ç—…,ç¥ç»å†…ç§‘
-ADHD,Attention-Deficit/Hyperactivity Disorder,æ³¨æ„ç¼ºé™·å¤šåŠ¨éšœç¢,ç¥ç»å†…ç§‘[reference:16]
-AIDP,Acute Inflammatory Demyelinating Polyneuropathy,æ€¥æ€§ç‚ç—‡æ€§è„±é«“é˜æ€§å¤šå‘æ€§ç¥ç»ç—…,ç¥ç»å†…ç§‘
-ALS,Amyotrophic Lateral Sclerosis,è‚Œèç¼©ä¾§ç´¢ç¡¬åŒ–,ç¥ç»å†…ç§‘
-CAA,Cerebral Amyloid Angiopathy,è„‘æ·€ç²‰æ ·è¡€ç®¡ç—…,ç¥ç»å†…ç§‘
-CNS,Central Nervous System,ä¸­æ¢ç¥ç»ç³»ç»Ÿ,ç¥ç»å†…ç§‘[reference:19]
-CSF,Cerebrospinal Fluid,è„‘è„Šæ¶²,ç¥ç»å†…ç§‘[reference:20]
-CVT,Cerebral Venous Thrombosis,é¢…å†…é™è„‰ç³»ç»Ÿè¡€æ “å½¢æˆ,ç¥ç»å†…ç§‘
-GBS,Guillain-BarrÃ© Syndrome,å‰å…°-å·´é›·ç»¼åˆå¾,ç¥ç»å†…ç§‘
-ICH,Intracerebral Hemorrhage,è„‘å‡ºè¡€,ç¥ç»å†…ç§‘
-MCI,Mild Cognitive Impairment,è½»åº¦è®¤çŸ¥åŠŸèƒ½éšœç¢,ç¥ç»å†…ç§‘[reference:24]
-MS,Multiple Sclerosis,å¤šå‘æ€§ç¡¬åŒ–,ç¥ç»å†…ç§‘
-PD,Parkinson's Disease,å¸•é‡‘æ£®ç—…,ç¥ç»å†…ç§‘
-PET,Positron Emission Tomography,æ­£ç”µå­å‘å°„æ–­å±‚æ˜¾åƒ,ç¥ç»å†…ç§‘[reference:25]
-SAH,Subarachnoid Hemorrhage,è››ç½‘è†œä¸‹è…”å‡ºè¡€,ç¥ç»å†…ç§‘
-SCD,Subacute Combined Degeneration of Spinal Cord,äºšæ€¥æ€§è”åˆå˜æ€§,ç¥ç»å†…ç§‘
-SSRI,Selective Serotonin Reuptake Inhibitor,é€‰æ‹©æ€§5-ç¾Ÿè‰²èƒºå†æ‘„å–æŠ‘åˆ¶å‰‚,ç¥ç»å†…ç§‘[reference:28]
-TGA,Transient Global Amnesia,çŸ­æš‚æ€§å…¨é¢é—å¿˜ç—‡,ç¥ç»å†…ç§‘
-TIA,Transient Ischemic Attack,çŸ­æš‚æ€§è„‘ç¼ºè¡€å‘ä½œ,ç¥ç»å†…ç§‘
-DM,Diabetes Mellitus,ç³–å°¿ç—…,å†…åˆ†æ³Œç§‘[reference:31]
-DPP-4,Dipeptidyl Peptidase-4,äºŒè‚½åŸºè‚½é…¶-4,å†…åˆ†æ³Œç§‘[reference:32]
-FPG,Fasting Plasma Glucose,ç©ºè…¹è¡€ç³–,å†…åˆ†æ³Œç§‘[reference:33]
-GDM,Gestational Diabetes Mellitus,å¦Šå¨ æœŸç³–å°¿ç—…,å†…åˆ†æ³Œç§‘[reference:34]
-GH,Growth Hormone,ç”Ÿé•¿æ¿€ç´ ,å†…åˆ†æ³Œç§‘
-GHRH,Growth Hormone-Releasing Hormone,ç”Ÿé•¿æ¿€ç´ é‡Šæ”¾æ¿€ç´ ,å†…åˆ†æ³Œç§‘
-GLP-1,Glucagon-Like Peptide-1,èƒ°é«˜ç³–ç´ æ ·è‚½-1,å†…åˆ†æ³Œç§‘[reference:37]
-HbA1c,Hemoglobin A1c,ç³–åŒ–è¡€çº¢è›‹ç™½,å†…åˆ†æ³Œç§‘
-HDL,High-Density Lipoprotein,é«˜å¯†åº¦è„‚è›‹ç™½,å†…åˆ†æ³Œç§‘
-HPA,Hypothalamic-Pituitary-Adrenal Axis,ä¸‹ä¸˜è„‘-å‚ä½“-è‚¾ä¸Šè…ºè½´,å†…åˆ†æ³Œç§‘[reference:40]
-IGF-1,Insulin-Like Growth Factor-1,èƒ°å²›ç´ æ ·ç”Ÿé•¿å› å­-1,å†…åˆ†æ³Œç§‘[reference:41]
-IGT,Impaired Glucose Tolerance,ç³–è€é‡å—æŸ,å†…åˆ†æ³Œç§‘[reference:42]
-LDL,Low-Density Lipoprotein,ä½å¯†åº¦è„‚è›‹ç™½,å†…åˆ†æ³Œç§‘
-MS,Metabolic Syndrome,ä»£è°¢ç»¼åˆå¾,å†…åˆ†æ³Œç§‘
-PO,Per Os (Oral),å£æœ,å†…åˆ†æ³Œç§‘[reference:45]
-PPG,Postprandial Glucose,é¤åè¡€ç³–,å†…åˆ†æ³Œç§‘[reference:46]
-PRL,Prolactin,å‚¬ä¹³ç´ ,å†…åˆ†æ³Œç§‘
-RAAS,Renin-Angiotensin-Aldosterone System,è‚¾ç´ -è¡€ç®¡ç´§å¼ ç´ -é†›å›ºé…®ç³»ç»Ÿ,å†…åˆ†æ³Œç§‘
-SGLT2,Sodium-Glucose Cotransporter 2,é’ -è‘¡è„ç³–ååŒè½¬è¿è›‹ç™½2,å†…åˆ†æ³Œç§‘
-T1DM,Type 1 Diabetes Mellitus,1å‹ç³–å°¿ç—…,å†…åˆ†æ³Œç§‘
-T2DM,Type 2 Diabetes Mellitus,2å‹ç³–å°¿ç—…,å†…åˆ†æ³Œç§‘
-TG,Triglyceride,ç”˜æ²¹ä¸‰é…¯,å†…åˆ†æ³Œç§‘
-TSH,Thyroid-Stimulating Hormone,ä¿ƒç”²çŠ¶è…ºæ¿€ç´ ,å†…åˆ†æ³Œç§‘
-ACEI,Angiotensin-Converting Enzyme Inhibitor,è¡€ç®¡ç´§å¼ ç´ è½¬æ¢é…¶æŠ‘åˆ¶å‰‚,è‚¾è„å†…ç§‘
-ACR,Albumin-to-Creatinine Ratio,ç™½è›‹ç™½/è‚Œé…æ¯”å€¼,è‚¾è„å†…ç§‘
-ADPKD,Autosomal Dominant Polycystic Kidney Disease,å¸¸æŸ“è‰²ä½“æ˜¾æ€§é—ä¼ æ€§å¤šå›Šè‚¾ç—…,è‚¾è„å†…ç§‘[reference:54]
-ANCA,Anti-Neutrophil Cytoplasmic Antibody,æŠ—ä¸­æ€§ç²’ç»†èƒèƒæµ†æŠ—ä½“,è‚¾è„å†…ç§‘[reference:55]
-ARB,Angiotensin II Receptor Blocker,è¡€ç®¡ç´§å¼ ç´ â…¡å—ä½“æ‹®æŠ—å‰‚,è‚¾è„å†…ç§‘
-BUN,Blood Urea Nitrogen,è¡€å°¿ç´ æ°®,è‚¾è„å†…ç§‘[reference:57]
-CKD,Chronic Kidney Disease,æ…¢æ€§è‚¾è„ç—…,è‚¾è„å†…ç§‘
-Cr,Creatinine,è‚Œé…,è‚¾è„å†…ç§‘[reference:59]
-eGFR,Estimated Glomerular Filtration Rate,ä¼°ç®—è‚¾å°çƒæ»¤è¿‡ç‡,è‚¾è„å†…ç§‘
-ESRD,End-Stage Renal Disease,ç»ˆæœ«æœŸè‚¾ç—…,è‚¾è„å†…ç§‘[reference:61]
-GFR,Glomerular Filtration Rate,è‚¾å°çƒæ»¤è¿‡ç‡,è‚¾è„å†…ç§‘
-GN,Glomerulonephritis,è‚¾å°çƒè‚¾ç‚,è‚¾è„å†…ç§‘
-Hb,Hemoglobin,è¡€çº¢è›‹ç™½,è‚¾è„å†…ç§‘[reference:63]
-HD,Hemodialysis,è¡€æ¶²é€æ,è‚¾è„å†…ç§‘
-HUS,Hemolytic Uremic Syndrome,æº¶è¡€å°¿æ¯’ç»¼åˆå¾,è‚¾è„å†…ç§‘
-KUB,Kidney-Ureter-Bladder,è‚¾-è¾“å°¿ç®¡-è†€èƒ±(å¹³ç‰‡),è‚¾è„å†…ç§‘[reference:65]
-PD,Peritoneal Dialysis,è…¹è†œé€æ,è‚¾è„å†…ç§‘
-RAAS,Renin-Angiotensin-Aldosterone System,è‚¾ç´ -è¡€ç®¡ç´§å¼ ç´ -é†›å›ºé…®ç³»ç»Ÿ,è‚¾è„å†…ç§‘
-RBC,Red Blood Cell,çº¢ç»†èƒ,è‚¾è„å†…ç§‘
-SCr,Serum Creatinine,è¡€æ¸…è‚Œé…,è‚¾è„å†…ç§‘[reference:68]
-TIN,Tubulointerstitial Nephritis,è‚¾å°ç®¡é—´è´¨æ€§è‚¾ç‚,è‚¾è„å†…ç§‘
-UACR,Urine Albumin-to-Creatinine Ratio,å°¿ç™½è›‹ç™½/è‚Œé…æ¯”å€¼,è‚¾è„å†…ç§‘
-UTI,Urinary Tract Infection,å°¿è·¯æ„ŸæŸ“,è‚¾è„å†…ç§‘[reference:70]
-WBC,White Blood Cell,ç™½ç»†èƒ,è‚¾è„å†…ç§‘
-AFP,Alpha-Fetoprotein,ç”²èƒè›‹ç™½,è¡€æ¶²ç§‘[reference:72]
-ALL,Acute Lymphoblastic Leukemia,æ€¥æ€§æ·‹å·´ç»†èƒç™½è¡€ç—…,è¡€æ¶²ç§‘
-AML,Acute Myeloid Leukemia,æ€¥æ€§é«“ç³»ç™½è¡€ç—…,è¡€æ¶²ç§‘
-APTT,Activated Partial Thromboplastin Time,æ´»åŒ–éƒ¨åˆ†å‡è¡€æ´»é…¶æ—¶é—´,è¡€æ¶²ç§‘[reference:73]
-CBC,Complete Blood Count,å…¨è¡€ç»†èƒè®¡æ•°,è¡€æ¶²ç§‘[reference:74]
-CLL,Chronic Lymphocytic Leukemia,æ…¢æ€§æ·‹å·´ç»†èƒç™½è¡€ç—…,è¡€æ¶²ç§‘
-CML,Chronic Myeloid Leukemia,æ…¢æ€§é«“ç³»ç™½è¡€ç—…,è¡€æ¶²ç§‘
-DIC,Disseminated Intravascular Coagulation,å¼¥æ•£æ€§è¡€ç®¡å†…å‡è¡€,è¡€æ¶²ç§‘[reference:75]
-ESR,Erythrocyte Sedimentation Rate,çº¢ç»†èƒæ²‰é™ç‡,è¡€æ¶²ç§‘[reference:76]
-Hb,Hemoglobin,è¡€çº¢è›‹ç™½,è¡€æ¶²ç§‘[reference:77]
-Hct,Hematocrit,è¡€ç»†èƒæ¯”å®¹,è¡€æ¶²ç§‘[reference:78]
-HL,Hodgkin's Lymphoma,éœå¥‡é‡‘æ·‹å·´ç˜¤,è¡€æ¶²ç§‘[reference:79]
-HSC,Hematopoietic Stem Cell,é€ è¡€å¹²ç»†èƒ,è¡€æ¶²ç§‘[reference:80]
-INR,International Normalized Ratio,å›½é™…æ ‡å‡†åŒ–æ¯”å€¼,è¡€æ¶²ç§‘[reference:81]
-MCH,Mean Corpuscular Hemoglobin,å¹³å‡çº¢ç»†èƒè¡€çº¢è›‹ç™½é‡,è¡€æ¶²ç§‘[reference:82]
-MCHC,Mean Corpuscular Hemoglobin Concentration,å¹³å‡çº¢ç»†èƒè¡€çº¢è›‹ç™½æµ“åº¦,è¡€æ¶²ç§‘[reference:83]
-MCV,Mean Corpuscular Volume,å¹³å‡çº¢ç»†èƒä½“ç§¯,è¡€æ¶²ç§‘[reference:84]
-NHL,Non-Hodgkin's Lymphoma,ééœå¥‡é‡‘æ·‹å·´ç˜¤,è¡€æ¶²ç§‘
-PLT,Platelet,è¡€å°æ¿,è¡€æ¶²ç§‘
-PT,Prothrombin Time,å‡è¡€é…¶åŸæ—¶é—´,è¡€æ¶²ç§‘[reference:86]
-PTT,Partial Thromboplastin Time,éƒ¨åˆ†å‡è¡€æ´»é…¶æ—¶é—´,è¡€æ¶²ç§‘[reference:87]
-RBC,Red Blood Cell,çº¢ç»†èƒ,è¡€æ¶²ç§‘
-WBC,White Blood Cell,ç™½ç»†èƒ,è¡€æ¶²ç§‘
-5-FU,5-Fluorouracil,5-æ°Ÿå°¿å˜§å•¶,è‚¿ç˜¤å†…ç§‘[reference:90]
-AFP,Alpha-Fetoprotein,ç”²èƒè›‹ç™½,è‚¿ç˜¤å†…ç§‘[reference:91]
-CA125,Carbohydrate Antigen 125,ç³–ç±»æŠ—åŸ125,è‚¿ç˜¤å†…ç§‘[reference:92]
-CEA,Carcinoembryonic Antigen,ç™ŒèƒšæŠ—åŸ,è‚¿ç˜¤å†…ç§‘[reference:93]
-CR,Complete Response,å®Œå…¨ç¼“è§£,è‚¿ç˜¤å†…ç§‘[reference:94]
-CRC,Colorectal Cancer,ç»“ç›´è‚ ç™Œ,è‚¿ç˜¤å†…ç§‘[reference:95]
-CTCAE,Common Terminology Criteria for Adverse Events,ä¸è‰¯ååº”å¸¸è§æœ¯è¯­æ ‡å‡†,è‚¿ç˜¤å†…ç§‘[reference:96]
-DFS,Disease-Free Survival,æ— ç—…ç”Ÿå­˜æœŸ,è‚¿ç˜¤å†…ç§‘
-EGFR,Epidermal Growth Factor Receptor,è¡¨çš®ç”Ÿé•¿å› å­å—ä½“,è‚¿ç˜¤å†…ç§‘[reference:97]
-FISH,Fluorescence In Situ Hybridization,è§å…‰åŸä½æ‚äº¤,è‚¿ç˜¤å†…ç§‘[reference:98]
-GIST,Gastrointestinal Stromal Tumor,èƒƒè‚ é“é—´è´¨ç˜¤,è‚¿ç˜¤å†…ç§‘[reference:99]
-HER2,Human Epidermal Growth Factor Receptor 2,äººè¡¨çš®ç”Ÿé•¿å› å­å—ä½“2,è‚¿ç˜¤å†…ç§‘[reference:100]
-IHC,Immunohistochemistry,å…ç–«ç»„ç»‡åŒ–å­¦,è‚¿ç˜¤å†…ç§‘[reference:101]
-MMP,Matrix Metalloproteinase,åŸºè´¨é‡‘å±è›‹ç™½é…¶,è‚¿ç˜¤å†…ç§‘[reference:102]
-NSCLC,Non-Small Cell Lung Cancer,éå°ç»†èƒè‚ºç™Œ,è‚¿ç˜¤å†…ç§‘[reference:103]
-OS,Overall Survival,æ€»ç”Ÿå­˜æœŸ,è‚¿ç˜¤å†…ç§‘
-PCR,Polymerase Chain Reaction,èšåˆé…¶é“¾ååº”,è‚¿ç˜¤å†…ç§‘[reference:104]
-PD,Progressive Disease,ç–¾ç—…è¿›å±•,è‚¿ç˜¤å†…ç§‘
-PFS,Progression-Free Survival,æ— è¿›å±•ç”Ÿå­˜æœŸ,è‚¿ç˜¤å†…ç§‘
-PR,Partial Response,éƒ¨åˆ†ç¼“è§£,è‚¿ç˜¤å†…ç§‘
-SCLC,Small Cell Lung Cancer,å°ç»†èƒè‚ºç™Œ,è‚¿ç˜¤å†…ç§‘[reference:105]
-TKI,Tyrosine Kinase Inhibitor,é…ªæ°¨é…¸æ¿€é…¶æŠ‘åˆ¶å‰‚,è‚¿ç˜¤å†…ç§‘[reference:106]
-TNF,Tumor Necrosis Factor,è‚¿ç˜¤åæ­»å› å­,è‚¿ç˜¤å†…ç§‘[reference:107]
-VEGF,Vascular Endothelial Growth Factor,è¡€ç®¡å†…çš®ç”Ÿé•¿å› å­,è‚¿ç˜¤å†…ç§‘[reference:108]
-AIDS,Acquired Immunodeficiency Syndrome,è·å¾—æ€§å…ç–«ç¼ºé™·ç»¼åˆå¾,æ„ŸæŸ“ç§‘[reference:109]
-ALT,Alanine Aminotransferase,ä¸™æ°¨é…¸æ°¨åŸºè½¬ç§»é…¶,æ„ŸæŸ“ç§‘[reference:110]
-APACHE II,Acute Physiology and Chronic Health Evaluation II,æ€¥æ€§ç”Ÿç†å­¦ä¸æ…¢æ€§å¥åº·çŠ¶å†µè¯„åˆ†ç³»ç»Ÿâ…¡,æ„ŸæŸ“ç§‘[reference:111]
-AST,Aspartate Aminotransferase,å¤©å†¬æ°¨é…¸æ°¨åŸºè½¬ç§»é…¶,æ„ŸæŸ“ç§‘[reference:112]
-BALF,Bronchoalveolar Lavage Fluid,æ”¯æ°”ç®¡è‚ºæ³¡çŒæ´—æ¶²,æ„ŸæŸ“ç§‘[reference:113]
-BMI,Body Mass Index,ä½“è´¨æŒ‡æ•°,æ„ŸæŸ“ç§‘[reference:114]
-BP,Blood Pressure,è¡€å‹,æ„ŸæŸ“ç§‘[reference:115]
-BUN,Blood Urea Nitrogen,è¡€å°¿ç´ æ°®,æ„ŸæŸ“ç§‘[reference:116]
-CDC,Centers for Disease Control and Prevention,ç–¾ç—…æ§åˆ¶ä¸é¢„é˜²ä¸­å¿ƒ,æ„ŸæŸ“ç§‘[reference:117]
-CLSI,Clinical and Laboratory Standards Institute,ç¾å›½ä¸´åºŠå’Œå®éªŒå®¤æ ‡å‡†åŒ–åä¼š,æ„ŸæŸ“ç§‘[reference:118]
-CRE,Carbapenem-Resistant Enterobacteriaceae,ç¢³é’éœ‰çƒ¯ç±»è€è¯è‚ æ†èŒç§‘ç»†èŒ,æ„ŸæŸ“ç§‘[reference:119]
-CRP,C-Reactive Protein,Cååº”è›‹ç™½,æ„ŸæŸ“ç§‘[reference:120]
-CSF,Cerebrospinal Fluid,è„‘è„Šæ¶²,æ„ŸæŸ“ç§‘[reference:121]
-ESBL,Extended-Spectrum Beta-Lactamase,è¶…å¹¿è°±Î²-å†…é…°èƒºé…¶,æ„ŸæŸ“ç§‘[reference:122]
-HAI,Healthcare-Associated Infection,åŒ»ç–—ä¿å¥ç›¸å…³æ„ŸæŸ“,æ„ŸæŸ“ç§‘[reference:123]
-HBV,Hepatitis B Virus,ä¹™å‹è‚ç‚ç—…æ¯’,æ„ŸæŸ“ç§‘[reference:124]
-HCV,Hepatitis C Virus,ä¸™å‹è‚ç‚ç—…æ¯’,æ„ŸæŸ“ç§‘[reference:125]
-HIV,Human Immunodeficiency Virus,äººç±»å…ç–«ç¼ºé™·ç—…æ¯’,æ„ŸæŸ“ç§‘[reference:126]
-ICU,Intensive Care Unit,é‡ç—‡ç›‘æŠ¤ç—…æˆ¿,æ„ŸæŸ“ç§‘[reference:127]
-MRSA,Methicillin-Resistant Staphylococcus Aureus,è€ç”²æ°§è¥¿æ—é‡‘é»„è‰²è‘¡è„çƒèŒ,æ„ŸæŸ“ç§‘[reference:128]
-PCR,Polymerase Chain Reaction,èšåˆé…¶é“¾ååº”,æ„ŸæŸ“ç§‘[reference:129]
-PCT,Procalcitonin,é™é’™ç´ åŸ,æ„ŸæŸ“ç§‘[reference:130]
-SSI,Surgical Site Infection,æ‰‹æœ¯éƒ¨ä½æ„ŸæŸ“,æ„ŸæŸ“ç§‘[reference:131]
-VAP,Ventilator-Associated Pneumonia,å‘¼å¸æœºç›¸å…³æ€§è‚ºç‚,æ„ŸæŸ“ç§‘[reference:132]
-VRE,Vancomycin-Resistant Enterococcus,ä¸‡å¤éœ‰ç´ è€è¯è‚ çƒèŒ,æ„ŸæŸ“ç§‘[reference:133]
-ABC,Airway-Breathing-Circulation,æ°”é“-å‘¼å¸-å¾ªç¯,æ€¥è¯ŠåŒ»å­¦
-ACLS,Advanced Cardiac Life Support,é«˜çº§å¿ƒè¡€ç®¡ç”Ÿå‘½æ”¯æŒ,æ€¥è¯ŠåŒ»å­¦
-ALS,Advanced Life Support,é«˜çº§ç”Ÿå‘½æ”¯æŒ,æ€¥è¯ŠåŒ»å­¦
-AMI,Acute Myocardial Infarction,æ€¥æ€§å¿ƒè‚Œæ¢—æ­»,æ€¥è¯ŠåŒ»å­¦
-APACHE II,Acute Physiology and Chronic Health Evaluation II,æ€¥æ€§ç”Ÿç†å­¦ä¸æ…¢æ€§å¥åº·çŠ¶å†µè¯„åˆ†ç³»ç»Ÿâ…¡,æ€¥è¯ŠåŒ»å­¦[reference:134]
-BLS,Basic Life Support,åŸºç¡€ç”Ÿå‘½æ”¯æŒ,æ€¥è¯ŠåŒ»å­¦
-BP,Blood Pressure,è¡€å‹,æ€¥è¯ŠåŒ»å­¦
-CPR,Cardiopulmonary Resuscitation,å¿ƒè‚ºå¤è‹,æ€¥è¯ŠåŒ»å­¦[reference:135]
-CT,Computed Tomography,è®¡ç®—æœºæ–­å±‚æ‰«æ,æ€¥è¯ŠåŒ»å­¦
-DIC,Disseminated Intravascular Coagulation,å¼¥æ•£æ€§è¡€ç®¡å†…å‡è¡€,æ€¥è¯ŠåŒ»å­¦[reference:136]
-ER,Emergency Room,æ€¥è¯Šå®¤,æ€¥è¯ŠåŒ»å­¦[reference:137]
-FAST,Focused Assessment with Sonography for Trauma,åˆ›ä¼¤è¶…å£°é‡ç‚¹è¯„ä¼°,æ€¥è¯ŠåŒ»å­¦
-GCS,Glasgow Coma Scale,æ ¼æ‹‰æ–¯å“¥æ˜è¿·è¯„åˆ†,æ€¥è¯ŠåŒ»å­¦
-HR,Heart Rate,å¿ƒç‡,æ€¥è¯ŠåŒ»å­¦
-ICU,Intensive Care Unit,é‡ç—‡ç›‘æŠ¤ç—…æˆ¿,æ€¥è¯ŠåŒ»å­¦[reference:138]
-MAP,Mean Arterial Pressure,å¹³å‡åŠ¨è„‰å‹,æ€¥è¯ŠåŒ»å­¦
-MI,Myocardial Infarction,å¿ƒè‚Œæ¢—æ­»,æ€¥è¯ŠåŒ»å­¦[reference:140]
-NIV,Non-Invasive Ventilation,æ— åˆ›é€šæ°”,æ€¥è¯ŠåŒ»å­¦
-PEEP,Positive End-Expiratory Pressure,å‘¼æ°”æœ«æ­£å‹,æ€¥è¯ŠåŒ»å­¦
-PE,Pulmonary Embolism,è‚ºæ “å¡,æ€¥è¯ŠåŒ»å­¦
-ROSC,Return of Spontaneous Circulation,è‡ªä¸»å¾ªç¯æ¢å¤,æ€¥è¯ŠåŒ»å­¦
-SBP,Systolic Blood Pressure,æ”¶ç¼©å‹,æ€¥è¯ŠåŒ»å­¦
-SOFA,Sequential Organ Failure Assessment,åºè´¯å™¨å®˜è¡°ç«­è¯„ä¼°,æ€¥è¯ŠåŒ»å­¦[reference:142]
-TIA,Transient Ischemic Attack,çŸ­æš‚æ€§è„‘ç¼ºè¡€å‘ä½œ,æ€¥è¯ŠåŒ»å­¦
-ASA,American Society of Anesthesiologists,ç¾å›½éº»é†‰åŒ»å¸ˆåä¼š,éº»é†‰ç§‘[reference:143]
-BIS,Bispectral Index,è„‘ç”µåŒé¢‘æŒ‡æ•°,éº»é†‰ç§‘
-BMI,Body Mass Index,ä½“è´¨æŒ‡æ•°,éº»é†‰ç§‘[reference:144]
-CVP,Central Venous Pressure,ä¸­å¿ƒé™è„‰å‹,éº»é†‰ç§‘[reference:145]
-DBP,Diastolic Blood Pressure,èˆ’å¼ å‹,éº»é†‰ç§‘[reference:146]
-ETCO2,End-Tidal Carbon Dioxide,å‘¼æ°”æœ«äºŒæ°§åŒ–ç¢³åˆ†å‹,éº»é†‰ç§‘
-HR,Heart Rate,å¿ƒç‡,éº»é†‰ç§‘[reference:147]
-ICP,Intracranial Pressure,é¢…å†…å‹,éº»é†‰ç§‘
-MAC,Minimum Alveolar Concentration,æœ€ä½è‚ºæ³¡æœ‰æ•ˆæµ“åº¦,éº»é†‰ç§‘
-MAP,Mean Arterial Pressure,å¹³å‡åŠ¨è„‰å‹,éº»é†‰ç§‘[reference:148]
-NIBP,Non-Invasive Blood Pressure,æ— åˆ›è¡€å‹,éº»é†‰ç§‘[reference:149]
-NMDA,N-Methyl-D-Aspartate,N-ç”²åŸº-D-å¤©å†¬æ°¨é…¸,éº»é†‰ç§‘[reference:150]
-PaCO2,Arterial Carbon Dioxide Tension,åŠ¨è„‰è¡€äºŒæ°§åŒ–ç¢³åˆ†å‹,éº»é†‰ç§‘[reference:151]
-PaO2,Arterial Oxygen Tension,åŠ¨è„‰è¡€æ°§åˆ†å‹,éº»é†‰ç§‘[reference:152]
-PACU,Post-Anesthesia Care Unit,éº»é†‰åç›‘æŠ¤å®¤,éº»é†‰ç§‘[reference:153]
-PETCO2,End-Tidal Carbon Dioxide Tension,å‘¼æ°”æœ«äºŒæ°§åŒ–ç¢³åˆ†å‹,éº»é†‰ç§‘[reference:154]
-RR,Respiratory Rate,å‘¼å¸é¢‘ç‡,éº»é†‰ç§‘[reference:155]
-SBP,Systolic Blood Pressure,æ”¶ç¼©å‹,éº»é†‰ç§‘[reference:156]
-SpO2,Pulse Oximetry Oxygen Saturation,è„‰æè¡€æ°§é¥±å’Œåº¦,éº»é†‰ç§‘[reference:157]
-TCI,Target-Controlled Infusion,é¶æ§è¾“æ³¨,éº»é†‰ç§‘[reference:158]
-TOF,Train-of-Four,å››ä¸ªæˆä¸²åˆºæ¿€,éº»é†‰ç§‘
-VAS,Visual Analog Scale,è§†è§‰æ¨¡æ‹Ÿè¯„åˆ†æ³•,éº»é†‰ç§‘[reference:159]
-VT,Tidal Volume,æ½®æ°”é‡,éº»é†‰ç§‘[reference:160]
-ACOG,American College of Obstetricians and Gynecologists,ç¾å›½å¦‡äº§ç§‘å­¦é™¢,å¦‡äº§ç§‘
-AFI,Amniotic Fluid Index,ç¾Šæ°´æŒ‡æ•°,å¦‡äº§ç§‘
-AFP,Alpha-Fetoprotein,ç”²èƒè›‹ç™½,å¦‡äº§ç§‘
-AGA,Appropriate for Gestational Age,é€‚äºèƒé¾„,å¦‡äº§ç§‘
-AROM,Artificial Rupture of Membranes,äººå·¥ç ´è†œ,å¦‡äº§ç§‘
-BPD,Biparietal Diameter,åŒé¡¶å¾„,å¦‡äº§ç§‘
-BPP,Biophysical Profile,ç”Ÿç‰©ç‰©ç†è¯„åˆ†,å¦‡äº§ç§‘
-CPD,Cephalopelvic Disproportion,å¤´ç›†ä¸ç§°,å¦‡äº§ç§‘
-C/S,Cesarean Section,å‰–å®«äº§æœ¯,å¦‡äº§ç§‘
-D&C,Dilation and Curettage,åˆ®å®«æœ¯,å¦‡äº§ç§‘[reference:170]
-EBL,Estimated Blood Loss,ä¼°è®¡å¤±è¡€é‡,å¦‡äº§ç§‘
-EDC,Estimated Date of Confinement,é¢„äº§æœŸ,å¦‡äº§ç§‘
-EFW,Estimated Fetal Weight,ä¼°è®¡èƒå„¿ä½“é‡,å¦‡äº§ç§‘
-FHR,Fetal Heart Rate,èƒå¿ƒç‡,å¦‡äº§ç§‘
-FHT,Fetal Heart Tones,èƒå¿ƒéŸ³,å¦‡äº§ç§‘
-FM,Fetal Movement,èƒåŠ¨,å¦‡äº§ç§‘
-GA,Gestational Age,å­•é¾„,å¦‡äº§ç§‘
-GBS,Group B Streptococcus,Bæ—é“¾çƒèŒ,å¦‡äº§ç§‘
-GDM,Gestational Diabetes Mellitus,å¦Šå¨ æœŸç³–å°¿ç—…,å¦‡äº§ç§‘
-HC,Head Circumference,å¤´å›´,å¦‡äº§ç§‘
-hCG,Human Chorionic Gonadotropin,äººç»’æ¯›è†œä¿ƒæ€§è…ºæ¿€ç´ ,å¦‡äº§ç§‘
-IUGR,Intrauterine Growth Restriction,å®«å†…ç”Ÿé•¿å—é™,å¦‡äº§ç§‘
-IUD,Intrauterine Device,å®«å†…èŠ‚è‚²å™¨,å¦‡äº§ç§‘
-NST,Non-Stress Test,æ— åº”æ¿€è¯•éªŒ,å¦‡äº§ç§‘
-PROM,Premature Rupture of Membranes,èƒè†œæ—©ç ´,å¦‡äº§ç§‘
-AGA,Appropriate for Gestational Age,é€‚äºèƒé¾„,å„¿ç§‘[reference:184]
-AGE,Acute Gastroenteritis,æ€¥æ€§èƒƒè‚ ç‚,å„¿ç§‘[reference:185]
-BPD,Bronchopulmonary Dysplasia,æ”¯æ°”ç®¡è‚ºå‘è‚²ä¸è‰¯,å„¿ç§‘
-CHD,Congenital Heart Disease,å…ˆå¤©æ€§å¿ƒè„ç—…,å„¿ç§‘
-CP,Cerebral Palsy,è„‘æ€§ç˜«ç—ª,å„¿ç§‘[reference:186]
-CSF,Cerebrospinal Fluid,è„‘è„Šæ¶²,å„¿ç§‘
-G6PD,Glucose-6-Phosphate Dehydrogenase,è‘¡è„ç³–-6-ç£·é…¸è„±æ°¢é…¶,å„¿ç§‘[reference:187]
-HFMD,Hand-Foot-and-Mouth Disease,æ‰‹è¶³å£ç—…,å„¿ç§‘
-HIE,Hypoxic-Ischemic Encephalopathy,ç¼ºæ°§ç¼ºè¡€æ€§è„‘ç—…,å„¿ç§‘
-HIV,Human Immunodeficiency Virus,äººç±»å…ç–«ç¼ºé™·ç—…æ¯’,å„¿ç§‘[reference:188]
-ICP,Intracranial Pressure,é¢…å†…å‹,å„¿ç§‘
-IUGR,Intrauterine Growth Restriction,å®«å†…ç”Ÿé•¿å—é™,å„¿ç§‘
-IVIG,Intravenous Immunoglobulin,é™è„‰æ³¨å°„å…ç–«çƒè›‹ç™½,å„¿ç§‘
-LBW,Low Birth Weight,ä½å‡ºç”Ÿä½“é‡,å„¿ç§‘
-NEC,Necrotizing Enterocolitis,åæ­»æ€§å°è‚ ç»“è‚ ç‚,å„¿ç§‘
-NGT,Nasogastric Tube,é¼»èƒƒç®¡,å„¿ç§‘
-NICU,Neonatal Intensive Care Unit,æ–°ç”Ÿå„¿é‡ç—‡ç›‘æŠ¤ç—…æˆ¿,å„¿ç§‘
-PDA,Patent Ductus Arteriosus,åŠ¨è„‰å¯¼ç®¡æœªé—­,å„¿ç§‘
-PICU,Pediatric Intensive Care Unit,å„¿ç§‘é‡ç—‡ç›‘æŠ¤ç—…æˆ¿,å„¿ç§‘
-PND,Parenteral Nutrition,è‚ å¤–è¥å…»,å„¿ç§‘
-RSV,Respiratory Syncytial Virus,å‘¼å¸é“åˆèƒç—…æ¯’,å„¿ç§‘
-SGA,Small for Gestational Age,å°äºèƒé¾„,å„¿ç§‘
-SIDS,Sudden Infant Death Syndrome,å©´å„¿çŒæ­»ç»¼åˆå¾,å„¿ç§‘[reference:190]
-VSD,Ventricular Septal Defect,å®¤é—´éš”ç¼ºæŸ,å„¿ç§‘
-AMD,Age-Related Macular Degeneration,å¹´é¾„ç›¸å…³æ€§é»„æ–‘å˜æ€§,çœ¼ç§‘[reference:191]
-BCVA,Best Corrected Visual Acuity,æœ€ä½³çŸ«æ­£è§†åŠ›,çœ¼ç§‘
-CCT,Central Corneal Thickness,ä¸­å¤®è§’è†œåšåº¦,çœ¼ç§‘
-CDFI,Color Doppler Flow Imaging,å½©è‰²å¤šæ™®å‹’è¡€æµæˆåƒ,çœ¼ç§‘[reference:192]
-DME,Diabetic Macular Edema,ç³–å°¿ç—…æ€§é»„æ–‘æ°´è‚¿,çœ¼ç§‘
-DR,Diabetic Retinopathy,ç³–å°¿ç—…è§†ç½‘è†œç—…å˜,çœ¼ç§‘
-ERM,Epiretinal Membrane,è§†ç½‘è†œå‰è†œ,çœ¼ç§‘
-ERG,Electroretinogram,è§†ç½‘è†œç”µå›¾,çœ¼ç§‘
-FFA,Fluorescein Fundus Angiography,è§å…‰ç´ çœ¼åº•è¡€ç®¡é€ å½±,çœ¼ç§‘
-FOV,Vitreous Opacity,ç»ç’ƒä½“æ··æµŠ,çœ¼ç§‘
-GA,Geographic Atrophy,åœ°å›¾æ ·èç¼©,çœ¼ç§‘[reference:193]
-IOL,Intraocular Lens,äººå·¥æ™¶çŠ¶ä½“,çœ¼ç§‘[reference:194]
-IOP,Intraocular Pressure,çœ¼å†…å‹,çœ¼ç§‘
-LASIK,Laser-Assisted In Situ Keratomileusis,å‡†åˆ†å­æ¿€å…‰åŸä½è§’è†œç£¨é•¶æœ¯,çœ¼ç§‘
-OCT,Optical Coherence Tomography,å…‰å­¦ç›¸å¹²æ–­å±‚æ‰«æ,çœ¼ç§‘[reference:195]
-OD,Oculus Dexter,å³çœ¼,çœ¼ç§‘[reference:196]
-OS,Oculus Sinister,å·¦çœ¼,çœ¼ç§‘[reference:197]
-OU,Oculus Unitas,åŒçœ¼,çœ¼ç§‘[reference:198]
-PDR,Proliferative Diabetic Retinopathy,å¢æ®–æ€§ç³–å°¿ç—…è§†ç½‘è†œç—…å˜,çœ¼ç§‘
-PRK,Photorefractive Keratectomy,å±ˆå…‰æ€§è§’è†œåˆ‡å‰Šæœ¯,çœ¼ç§‘
-RAPD,Relative Afferent Pupillary Defect,ç›¸å¯¹æ€§ä¼ å…¥æ€§ç³å­”ç¼ºé™·,çœ¼ç§‘
-RNFL,Retinal Nerve Fiber Layer,è§†ç½‘è†œç¥ç»çº¤ç»´å±‚,çœ¼ç§‘
-VEP,Visual Evoked Potential,è§†è§‰è¯±å‘ç”µä½,çœ¼ç§‘
-ENT,Ear-Nose-Throat,è€³é¼»å–‰ç§‘,è€³é¼»å–‰ç§‘[reference:199]
-ABR,Auditory Brainstem Response,å¬æ€§è„‘å¹²ååº”,è€³é¼»å–‰ç§‘[reference:200]
-AOM,Acute Otitis Media,æ€¥æ€§ä¸­è€³ç‚,è€³é¼»å–‰ç§‘
-AR,Allergic Rhinitis,å˜åº”æ€§é¼»ç‚,è€³é¼»å–‰ç§‘
-BPPV,Benign Paroxysmal Positional Vertigo,è‰¯æ€§é˜µå‘æ€§ä½ç½®æ€§çœ©æ™•,è€³é¼»å–‰ç§‘
-CRS,Chronic Rhinosinusitis,æ…¢æ€§é¼»çª¦ç‚,è€³é¼»å–‰ç§‘[reference:202]
-CSA,Central Sleep Apnea,ä¸­æ¢æ€§ç¡çœ å‘¼å¸æš‚åœ,è€³é¼»å–‰ç§‘[reference:203]
-EAC,External Auditory Canal,å¤–è€³é“,è€³é¼»å–‰ç§‘
-ETD,Eustachian Tube Dysfunction,å’½é¼“ç®¡åŠŸèƒ½éšœç¢,è€³é¼»å–‰ç§‘
-FESS,Functional Endoscopic Sinus Surgery,åŠŸèƒ½æ€§å†…é•œé¼»çª¦æ‰‹æœ¯,è€³é¼»å–‰ç§‘
-HL,Hearing Loss,å¬åŠ›æŸå¤±,è€³é¼»å–‰ç§‘
-LPR,Laryngopharyngeal Reflux,å–‰å’½åæµ,è€³é¼»å–‰ç§‘
-ME,Middle Ear,ä¸­è€³,è€³é¼»å–‰ç§‘
-NSD,Nasal Septal Deviation,é¼»ä¸­éš”åæ›²,è€³é¼»å–‰ç§‘[reference:204]
-OME,Otitis Media with Effusion,åˆ†æ³Œæ€§ä¸­è€³ç‚,è€³é¼»å–‰ç§‘
-OSA,Obstructive Sleep Apnea,é˜»å¡æ€§ç¡çœ å‘¼å¸æš‚åœ,è€³é¼»å–‰ç§‘[reference:205]
-SNHL,Sensorineural Hearing Loss,æ„ŸéŸ³ç¥ç»æ€§å¬åŠ›æŸå¤±,è€³é¼»å–‰ç§‘[reference:206]
-TM,Tympanic Membrane,é¼“è†œ,è€³é¼»å–‰ç§‘
-TMD,Temporomandibular Disorder,é¢ä¸‹é¢Œå…³èŠ‚ç´Šä¹±,è€³é¼»å–‰ç§‘
-TNA,Transnasal Approach,ç»é¼»å…¥è·¯,è€³é¼»å–‰ç§‘
-VR,Vestibular Rehabilitation,å‰åº­åº·å¤,è€³é¼»å–‰ç§‘
-BSA,Body Surface Area,ä½“è¡¨é¢ç§¯,çš®è‚¤ç§‘[reference:207]
-CKC,Cryosurgery,å†·å†»æ‰‹æœ¯,çš®è‚¤ç§‘
-COC,Combined Oral Contraceptive,å¤æ–¹å£æœé¿å­•è¯,çš®è‚¤ç§‘[reference:208]
-DDAVP,Desmopressin,å»æ°¨åŠ å‹ç´ ,çš®è‚¤ç§‘
-DMSO,Dimethyl Sulfoxide,äºŒç”²åŸºäºšç œ,çš®è‚¤ç§‘[reference:209]
-GAG,Glucosaminoglycan,æ°¨åŸºè‘¡èšç³–,çš®è‚¤ç§‘
-HSV,Herpes Simplex Virus,å•çº¯ç–±ç–¹ç—…æ¯’,çš®è‚¤ç§‘
-IL,Interleukin,ç™½ç»†èƒä»‹ç´ ,çš®è‚¤ç§‘[reference:211]
-KO,Koilocyte,æŒ–ç©ºç»†èƒ,çš®è‚¤ç§‘
-MM,Malignant Melanoma,æ¶æ€§é»‘è‰²ç´ ç˜¤,çš®è‚¤ç§‘
-NSAIDs,Non-Steroidal Anti-Inflammatory Drugs,éç”¾ä½“æŠ—ç‚è¯,çš®è‚¤ç§‘
-PASI,Psoriasis Area and Severity Index,é“¶å±‘ç—…é¢ç§¯å’Œä¸¥é‡ç¨‹åº¦æŒ‡æ•°,çš®è‚¤ç§‘[reference:213]
-PDT,Photodynamic Therapy,å…‰åŠ¨åŠ›ç–—æ³•,çš®è‚¤ç§‘
-PUVA,Psoralen Ultraviolet A,è¡¥éª¨è„‚ç´ é•¿æ³¢ç´«å¤–çº¿,çš®è‚¤ç§‘
-RAST,Radioallergosorbent Test,æ”¾å°„å˜åº”åŸå¸é™„è¯•éªŒ,çš®è‚¤ç§‘
-RPR,Rapid Plasma Reagin,å¿«é€Ÿè¡€æµ†ååº”ç´ ,çš®è‚¤ç§‘
-SCORAD,Scoring Atopic Dermatitis,ç‰¹åº”æ€§çš®ç‚è¯„åˆ†,çš®è‚¤ç§‘[reference:214]
-SLE,Systemic Lupus Erythematosus,ç³»ç»Ÿæ€§çº¢æ–‘ç‹¼ç–®,çš®è‚¤ç§‘[reference:215]
-STD,Sexually Transmitted Disease,æ€§ä¼ æ’­ç–¾ç—…,çš®è‚¤ç§‘
-TEN,Toxic Epidermal Necrolysis,ä¸­æ¯’æ€§è¡¨çš®åæ­»æ¾è§£ç—‡,çš®è‚¤ç§‘
-UVA,Ultraviolet A,é•¿æ³¢ç´«å¤–çº¿,çš®è‚¤ç§‘[reference:216]
-UVB,Ultraviolet B,ä¸­æ³¢ç´«å¤–çº¿,çš®è‚¤ç§‘
-VDRL,Venereal Disease Research Laboratory,æ€§ç—…ç ”ç©¶å®éªŒå®¤(è¯•éªŒ),çš®è‚¤ç§‘
-ACL,Anterior Cruciate Ligament,å‰äº¤å‰éŸ§å¸¦,éª¨ç§‘[reference:217]
-AO,Arbeitsgemeinschaft fÃ¼r Osteosynthesefragen,å›½é™…å†…å›ºå®šç ”ç©¶å­¦ä¼š,éª¨ç§‘[reference:218]
-AVN,Avascular Necrosis,ç¼ºè¡€æ€§åæ­»,éª¨ç§‘[reference:219]
-BMD,Bone Mineral Density,éª¨å¯†åº¦,éª¨ç§‘
-BMP,Bone Morphogenetic Protein,éª¨å½¢æ€å‘ç”Ÿè›‹ç™½,éª¨ç§‘[reference:220]
-CT,Computed Tomography,è®¡ç®—æœºæ–­å±‚æ‰«æ,éª¨ç§‘
-DDH,Developmental Dysplasia of the Hip,å‘è‚²æ€§é«‹å…³èŠ‚å‘è‚²ä¸è‰¯,éª¨ç§‘[reference:221]
-DVT,Deep Vein Thrombosis,æ·±é™è„‰è¡€æ “å½¢æˆ,éª¨ç§‘[reference:222]
-EMG,Electromyography,è‚Œç”µå›¾,éª¨ç§‘
-FNF,Femoral Neck Fracture,è‚¡éª¨é¢ˆéª¨æŠ˜,éª¨ç§‘[reference:223]
-HA,Harris Hip Score,Harrisé«‹å…³èŠ‚è¯„åˆ†,éª¨ç§‘
-IVD,Intervertebral Disc,æ¤é—´ç›˜,éª¨ç§‘[reference:224]
-KOA,Knee Osteoarthritis,è†å…³èŠ‚éª¨å…³èŠ‚ç‚,éª¨ç§‘
-LBP,Low Back Pain,ä¸‹èƒŒç—›,éª¨ç§‘[reference:225]
-MRI,Magnetic Resonance Imaging,ç£å…±æŒ¯æˆåƒ,éª¨ç§‘
-NSAIDs,Non-Steroidal Anti-Inflammatory Drugs,éç”¾ä½“æŠ—ç‚è¯,éª¨ç§‘
-OA,Osteoarthritis,éª¨å…³èŠ‚ç‚,éª¨ç§‘
-ORIF,Open Reduction and Internal Fixation,åˆ‡å¼€å¤ä½å†…å›ºå®š,éª¨ç§‘
-PCL,Posterior Cruciate Ligament,åäº¤å‰éŸ§å¸¦,éª¨ç§‘
-PMMA,Polymethyl Methacrylate,èšç”²åŸºä¸™çƒ¯é…¸ç”²é…¯,éª¨ç§‘
-ROM,Range of Motion,æ´»åŠ¨èŒƒå›´,éª¨ç§‘
-THA,Total Hip Arthroplasty,å…¨é«‹å…³èŠ‚ç½®æ¢æœ¯,éª¨ç§‘
-TKA,Total Knee Arthroplasty,å…¨è†å…³èŠ‚ç½®æ¢æœ¯,éª¨ç§‘
-VAS,Visual Analog Scale,è§†è§‰æ¨¡æ‹Ÿè¯„åˆ†æ³•,éª¨ç§‘[reference:227]
-AUA,American Urological Association,ç¾å›½æ³Œå°¿å¤–ç§‘å­¦ä¼š,æ³Œå°¿å¤–ç§‘[reference:228]
-BOO,Bladder Outlet Obstruction,è†€èƒ±å‡ºå£æ¢—é˜»,æ³Œå°¿å¤–ç§‘[reference:229]
-BPH,Benign Prostatic Hyperplasia,è‰¯æ€§å‰åˆ—è…ºå¢ç”Ÿ,æ³Œå°¿å¤–ç§‘[reference:230]
-CIS,Carcinoma In Situ,åŸä½ç™Œ,æ³Œå°¿å¤–ç§‘
-ED,Erectile Dysfunction,å‹ƒèµ·åŠŸèƒ½éšœç¢,æ³Œå°¿å¤–ç§‘[reference:231]
-ESWL,Extracorporeal Shock Wave Lithotripsy,ä½“å¤–å†²å‡»æ³¢ç¢çŸ³æœ¯,æ³Œå°¿å¤–ç§‘[reference:232]
-GCT,Germ Cell Tumor,ç”Ÿæ®–ç»†èƒè‚¿ç˜¤,æ³Œå°¿å¤–ç§‘
-IPSS,International Prostate Symptom Score,å›½é™…å‰åˆ—è…ºç—‡çŠ¶è¯„åˆ†,æ³Œå°¿å¤–ç§‘[reference:233]
-IVU,Intravenous Urography,é™è„‰å°¿è·¯é€ å½±,æ³Œå°¿å¤–ç§‘[reference:234]
-KUB,Kidney-Ureter-Bladder,è‚¾-è¾“å°¿ç®¡-è†€èƒ±(å¹³ç‰‡),æ³Œå°¿å¤–ç§‘[reference:235]
-LUTS,Lower Urinary Tract Symptoms,ä¸‹å°¿è·¯ç—‡çŠ¶,æ³Œå°¿å¤–ç§‘[reference:236]
-NSS,Nephron-Sparing Surgery,ä¿ç•™è‚¾å•ä½æ‰‹æœ¯,æ³Œå°¿å¤–ç§‘[reference:237]
-OAB,Overactive Bladder,è†€èƒ±è¿‡åº¦æ´»åŠ¨ç—‡,æ³Œå°¿å¤–ç§‘[reference:238]
-PCNL,Percutaneous Nephrolithotomy,ç»çš®è‚¾é•œå–çŸ³æœ¯,æ³Œå°¿å¤–ç§‘[reference:239]
-PSA,Prostate-Specific Antigen,å‰åˆ—è…ºç‰¹å¼‚æ€§æŠ—åŸ,æ³Œå°¿å¤–ç§‘[reference:240]
-PSAD,Prostate-Specific Antigen Density,å‰åˆ—è…ºç‰¹å¼‚æ€§æŠ—åŸå¯†åº¦,æ³Œå°¿å¤–ç§‘[reference:241]
-Qmax,Maximum Urinary Flow Rate,æœ€å¤§å°¿æµç‡,æ³Œå°¿å¤–ç§‘[reference:242]
-QOL,Quality of Life,ç”Ÿæ´»è´¨é‡,æ³Œå°¿å¤–ç§‘[reference:243]
-RCC,Renal Cell Carcinoma,è‚¾ç»†èƒç™Œ,æ³Œå°¿å¤–ç§‘
-SUI,Stress Urinary Incontinence,å‹åŠ›æ€§å°¿å¤±ç¦,æ³Œå°¿å¤–ç§‘[reference:244]
-TUR,Transurethral Resection,ç»å°¿é“åˆ‡é™¤æœ¯,æ³Œå°¿å¤–ç§‘[reference:245]
-TURP,Transurethral Resection of Prostate,ç»å°¿é“å‰åˆ—è…ºåˆ‡é™¤æœ¯,æ³Œå°¿å¤–ç§‘[reference:246]
-UPJ,Ureteropelvic Junction,è‚¾ç›‚è¾“å°¿ç®¡è¿æ¥å¤„,æ³Œå°¿å¤–ç§‘[reference:247]
-5-HT,5-Hydroxytryptamine,5-ç¾Ÿè‰²èƒº,ç²¾ç¥ç—…å­¦[reference:248]
-ADHD,Attention-Deficit/Hyperactivity Disorder,æ³¨æ„ç¼ºé™·å¤šåŠ¨éšœç¢,ç²¾ç¥ç—…å­¦[reference:249]
-BPRS,Brief Psychiatric Rating Scale,ç®€æ˜ç²¾ç¥ç—…è¯„å®šé‡è¡¨,ç²¾ç¥ç—…å­¦
-CGI,Clinical Global Impression,ä¸´åºŠç–—æ•ˆæ€»è¯„é‡è¡¨,ç²¾ç¥ç—…å­¦[reference:250]
-DSM-5,Diagnostic and Statistical Manual of Mental Disorders 5th Edition,ç¾å›½ç²¾ç¥éšœç¢è¯Šæ–­ä¸ç»Ÿè®¡æ‰‹å†Œç¬¬5ç‰ˆ,ç²¾ç¥ç—…å­¦[reference:251]
-ECT,Electroconvulsive Therapy,ç”µä¼‘å…‹æ²»ç–—,ç²¾ç¥ç—…å­¦[reference:252]
-fMRI,Functional Magnetic Resonance Imaging,åŠŸèƒ½ç£å…±æŒ¯æˆåƒ,ç²¾ç¥ç—…å­¦[reference:253]
-GAD,Generalized Anxiety Disorder,å¹¿æ³›æ€§ç„¦è™‘éšœç¢,ç²¾ç¥ç—…å­¦
-HAMA,Hamilton Anxiety Rating Scale,æ±‰å¯†å°”é¡¿ç„¦è™‘é‡è¡¨,ç²¾ç¥ç—…å­¦[reference:254]
-HAMD,Hamilton Depression Rating Scale,æ±‰å¯†å°”é¡¿æŠ‘éƒé‡è¡¨,ç²¾ç¥ç—…å­¦[reference:255]
-ICD-10,International Classification of Diseases 10th Revision,å›½é™…ç–¾ç—…åˆ†ç±»ç¬¬10ç‰ˆ,ç²¾ç¥ç—…å­¦[reference:256]
-MCI,Mild Cognitive Impairment,è½»åº¦è®¤çŸ¥åŠŸèƒ½éšœç¢,ç²¾ç¥ç—…å­¦[reference:257]
-MECT,Modified Electroconvulsive Therapy,æ”¹è‰¯ç”µä¼‘å…‹æ²»ç–—,ç²¾ç¥ç—…å­¦
-MINI,Mini-International Neuropsychiatric Interview,ç®€æ˜å›½é™…ç¥ç»ç²¾ç¥è®¿è°ˆ,ç²¾ç¥ç—…å­¦[reference:258]
-MMSE,Mini-Mental State Examination,ç®€æ˜ç²¾ç¥çŠ¶æ€æ£€æŸ¥,ç²¾ç¥ç—…å­¦[reference:259]
-MRI,Magnetic Resonance Imaging,ç£å…±æŒ¯æˆåƒ,ç²¾ç¥ç—…å­¦[reference:260]
-OCD,Obsessive-Compulsive Disorder,å¼ºè¿«éšœç¢,ç²¾ç¥ç—…å­¦
-PANSS,Positive and Negative Syndrome Scale,é˜³æ€§å’Œé˜´æ€§ç—‡çŠ¶é‡è¡¨,ç²¾ç¥ç—…å­¦[reference:261]
-PTSD,Post-Traumatic Stress Disorder,åˆ›ä¼¤ååº”æ¿€éšœç¢,ç²¾ç¥ç—…å­¦[reference:262]
-SNRI,Serotonin-Norepinephrine Reuptake Inhibitor,5-ç¾Ÿè‰²èƒºå’Œå»ç”²è‚¾ä¸Šè…ºç´ å†æ‘„å–æŠ‘åˆ¶å‰‚,ç²¾ç¥ç—…å­¦[reference:263]
-SSRI,Selective Serotonin Reuptake Inhibitor,é€‰æ‹©æ€§5-ç¾Ÿè‰²èƒºå†æ‘„å–æŠ‘åˆ¶å‰‚,ç²¾ç¥ç—…å­¦[reference:264]
-TCA,Tricyclic Antidepressant,ä¸‰ç¯ç±»æŠ—æŠ‘éƒè¯,ç²¾ç¥ç—…å­¦[reference:265]
-WCST,Wisconsin Card Sorting Test,å¨æ–¯åº·æ˜Ÿå¡ç‰‡åˆ†ç±»æµ‹éªŒ,ç²¾ç¥ç—…å­¦[reference:266]
-Y-BOCS,Yale-Brown Obsessive Compulsive Scale,è€¶é²-å¸ƒæœ—å¼ºè¿«ç—‡çŠ¶é‡è¡¨,ç²¾ç¥ç—…å­¦[reference:267]
-BI-RADS,Breast Imaging Reporting and Data System,ä¹³è…ºå½±åƒæŠ¥å‘Šå’Œæ•°æ®ç³»ç»Ÿ,å½±åƒåŒ»å­¦[reference:268]
-CDFI,Color Doppler Flow Imaging,å½©è‰²å¤šæ™®å‹’è¡€æµæˆåƒ,å½±åƒåŒ»å­¦[reference:269]
-CR,Computed Radiography,è®¡ç®—æœºXçº¿æ‘„å½±,å½±åƒåŒ»å­¦
-CT,Computed Tomography,è®¡ç®—æœºæ–­å±‚æˆåƒ,å½±åƒåŒ»å­¦[reference:270]
-CTA,CT Angiography,CTè¡€ç®¡é€ å½±,å½±åƒåŒ»å­¦[reference:271]
-DSA,Digital Subtraction Angiography,æ•°å­—å‡å½±è¡€ç®¡é€ å½±,å½±åƒåŒ»å­¦[reference:272]
-DWI,Diffusion-Weighted Imaging,å¼¥æ•£åŠ æƒæˆåƒ,å½±åƒåŒ»å­¦[reference:273]
-FDG,Fluorodeoxyglucose,æ°Ÿè„±æ°§è‘¡è„ç³–,å½±åƒåŒ»å­¦[reference:274]
-FLAIR,Fluid-Attenuated Inversion Recovery,æ¶²ä½“è¡°å‡åè½¬æ¢å¤,å½±åƒåŒ»å­¦
-HRCT,High-Resolution CT,é«˜åˆ†è¾¨ç‡CT,å½±åƒåŒ»å­¦[reference:275]
-MIP,Maximum Intensity Projection,æœ€å¤§å¯†åº¦æŠ•å½±,å½±åƒåŒ»å­¦
-MPR,Multiplanar Reformation,å¤šå¹³é¢é‡å»º,å½±åƒåŒ»å­¦
-MR,Magnetic Resonance,ç£å…±æŒ¯,å½±åƒåŒ»å­¦
-MRA,MR Angiography,ç£å…±æŒ¯è¡€ç®¡é€ å½±,å½±åƒåŒ»å­¦[reference:276]
-MRI,Magnetic Resonance Imaging,ç£å…±æŒ¯æˆåƒ,å½±åƒåŒ»å­¦[reference:277]
-MSCT,Multi-Slice CT,å¤šå±‚èºæ—‹CT,å½±åƒåŒ»å­¦[reference:278]
-PET,Positron Emission Tomography,æ­£ç”µå­å‘å°„æ–­å±‚æ˜¾åƒ,å½±åƒåŒ»å­¦[reference:279]
-PET/CT,Positron Emission Tomography/Computed Tomography,æ­£ç”µå­å‘å°„æ–­å±‚æ˜¾åƒ/Xçº¿è®¡ç®—æœºä½“å±‚æˆåƒ,å½±åƒåŒ»å­¦
-PACS,Picture Archiving and Communication System,åŒ»å­¦å½±åƒå­˜æ¡£ä¸é€šä¿¡ç³»ç»Ÿ,å½±åƒåŒ»å­¦
-SPECT,Single-Photon Emission Computed Tomography,å•å…‰å­å‘å°„è®¡ç®—æœºæ–­å±‚æ˜¾åƒ,å½±åƒåŒ»å­¦
-TI-RADS,Thyroid Imaging Reporting and Data System,ç”²çŠ¶è…ºå½±åƒæŠ¥å‘Šå’Œæ•°æ®ç³»ç»Ÿ,å½±åƒåŒ»å­¦[reference:280]
-TOF,Time of Flight,æ—¶é—´é£è·ƒæ³•,å½±åƒåŒ»å­¦[reference:281]
-US,Ultrasound,è¶…å£°,å½±åƒåŒ»å­¦
-VRT,Volume Rendering Technique,å®¹ç§¯å†ç°æŠ€æœ¯,å½±åƒåŒ»å­¦ECHO,Echocardiography,è¶…å£°å¿ƒåŠ¨å›¾,å¿ƒè¡€ç®¡å†…ç§‘
-PCWP,Pulmonary Capillary Wedge Pressure,è‚ºæ¯›ç»†è¡€ç®¡æ¥”å‹,å¿ƒè¡€ç®¡å†…ç§‘
-BB,Beta Blocker,Î²å—ä½“é˜»æ»å‰‚,å¿ƒè¡€ç®¡å†…ç§‘
-NO,Nitric Oxide,ä¸€æ°§åŒ–æ°®,å¿ƒè¡€ç®¡å†…ç§‘
-NT-proBNP,N-terminal pro-Brain Natriuretic Peptide,Næœ«ç«¯è„‘é’ è‚½å‰ä½“,å¿ƒè¡€ç®¡å†…ç§‘
-TC,Total Cholesterol,æ€»èƒ†å›ºé†‡,å¿ƒè¡€ç®¡å†…ç§‘
-hs-CRP,High-sensitivity C-reactive Protein,é«˜æ•Cååº”è›‹ç™½,å¿ƒè¡€ç®¡å†…ç§‘
-CAG,Coronary Angiography,å† çŠ¶åŠ¨è„‰é€ å½±,å¿ƒè¡€ç®¡å†…ç§‘
-IVUS,Intravascular Ultrasound,è¡€ç®¡å†…è¶…å£°,å¿ƒè¡€ç®¡å†…ç§‘
-FFR,Fractional Flow Reserve,è¡€æµå‚¨å¤‡åˆ†æ•°,å¿ƒè¡€ç®¡å†…ç§‘
-DC,Direct Current,ç›´æµç”µ,å¿ƒè¡€ç®¡å†…ç§‘
-ICD,Implantable Cardioverter-Defibrillator,æ¤å…¥å¼å¿ƒå¾‹è½¬å¤é™¤é¢¤å™¨,å¿ƒè¡€ç®¡å†…ç§‘
-PM,Pacemaker,èµ·æå™¨,å¿ƒè¡€ç®¡å†…ç§‘
-CRT,Cardiac Resynchronization Therapy,å¿ƒè„å†åŒæ­¥åŒ–æ²»ç–—,å¿ƒè¡€ç®¡å†…ç§‘
-AVB,Atrioventricular Block,æˆ¿å®¤ä¼ å¯¼é˜»æ»,å¿ƒè¡€ç®¡å†…ç§‘
-LBBB,Left Bundle Branch Block,å·¦æŸæ”¯ä¼ å¯¼é˜»æ»,å¿ƒè¡€ç®¡å†…ç§‘
-RBBB,Right Bundle Branch Block,å³æŸæ”¯ä¼ å¯¼é˜»æ»,å¿ƒè¡€ç®¡å†…ç§‘
-WPW,Wolff-Parkinson-White Syndrome,æ²ƒå°”å¤«-å¸•é‡‘æ£®-æ€€ç‰¹ç»¼åˆå¾,å¿ƒè¡€ç®¡å†…ç§‘
-SVT,Supraventricular Tachycardia,å®¤ä¸Šæ€§å¿ƒåŠ¨è¿‡é€Ÿ,å¿ƒè¡€ç®¡å†…ç§‘
-PAD,Peripheral Artery Disease,å¤–å‘¨åŠ¨è„‰ç–¾ç—…,å¿ƒè¡€ç®¡å†…ç§‘
-PEF,Peak Expiratory Flow,å‘¼æ°”å³°æµé€Ÿ,å‘¼å¸å†…ç§‘
-DLCO,Diffusing Capacity of the Lung for Carbon Monoxide,è‚ºä¸€æ°§åŒ–ç¢³å¼¥æ•£é‡,å‘¼å¸å†…ç§‘
-TLC,Total Lung Capacity,è‚ºæ€»é‡,å‘¼å¸å†…ç§‘
-RV,Residual Volume,æ®‹æ°”é‡,å‘¼å¸å†…ç§‘
-VC,Vital Capacity,è‚ºæ´»é‡,å‘¼å¸å†…ç§‘
-MVV,Maximal Voluntary Ventilation,æœ€å¤§è‡ªä¸»é€šæ°”é‡,å‘¼å¸å†…ç§‘
-FiO2,Fraction of Inspired Oxygen,å¸å…¥æ°§æµ“åº¦,å‘¼å¸å†…ç§‘
-CPAP,Continuous Positive Airway Pressure,æŒç»­æ°”é“æ­£å‹é€šæ°”,å‘¼å¸å†…ç§‘
-IPAP,Inspiratory Positive Airway Pressure,å¸æ°”ç›¸æ°”é“æ­£å‹,å‘¼å¸å†…ç§‘
-EPAP,Expiratory Positive Airway Pressure,å‘¼æ°”ç›¸æ°”é“æ­£å‹,å‘¼å¸å†…ç§‘
-ABG,Arterial Blood Gas,åŠ¨è„‰è¡€æ°”åˆ†æ,å‘¼å¸å†…ç§‘
-V/Q,Ventilation/Perfusion Scan,é€šæ°”/çŒæ³¨æ‰«æ,å‘¼å¸å†…ç§‘
-TBLB,Transbronchial Lung Biopsy,ç»æ”¯æ°”ç®¡è‚ºæ´»æ£€,å‘¼å¸å†…ç§‘
-EBUS,Endobronchial Ultrasound,æ”¯æ°”ç®¡å†…è¶…å£°,å‘¼å¸å†…ç§‘
-TBNA,Transbronchial Needle Aspiration,ç»æ”¯æ°”ç®¡é’ˆå¸æ´»æ£€,å‘¼å¸å†…ç§‘
-6MWT,Six-Minute Walk Test,6åˆ†é’Ÿæ­¥è¡Œè¯•éªŒ,å‘¼å¸å†…ç§‘
-AHI,Apnea-Hypopnea Index,å‘¼å¸æš‚åœä½é€šæ°”æŒ‡æ•°,å‘¼å¸å†…ç§‘
-ICS,Inhaled Corticosteroid,å¸å…¥æ€§ç³–çš®è´¨æ¿€ç´ ,å‘¼å¸å†…ç§‘
-LABA,Long-Acting Beta Agonist,é•¿æ•ˆÎ²2å—ä½“æ¿€åŠ¨å‰‚,å‘¼å¸å†…ç§‘
-SABA,Short-Acting Beta Agonist,çŸ­æ•ˆÎ²2å—ä½“æ¿€åŠ¨å‰‚,å‘¼å¸å†…ç§‘
-LAMA,Long-Acting Muscarinic Antagonist,é•¿æ•ˆæŠ—èƒ†ç¢±èƒ½è¯ç‰©,å‘¼å¸å†…ç§‘
-SAMA,Short-Acting Muscarinic Antagonist,çŸ­æ•ˆæŠ—èƒ†ç¢±èƒ½è¯ç‰©,å‘¼å¸å†…ç§‘
-MTB,Mycobacterium Tuberculosis,ç»“æ ¸åˆ†ææ†èŒ,å‘¼å¸å†…ç§‘
-MDR-TB,Multidrug-Resistant Tuberculosis,è€å¤šè¯ç»“æ ¸ç—…,å‘¼å¸å†…ç§‘
-XDR-TB,Extensively Drug-Resistant Tuberculosis,å¹¿æ³›è€è¯ç»“æ ¸ç—…,å‘¼å¸å†…ç§‘
-PH,Pulmonary Hypertension,è‚ºåŠ¨è„‰é«˜å‹,å‘¼å¸å†…ç§‘
-PAH,Pulmonary Arterial Hypertension,åŠ¨è„‰æ€§è‚ºåŠ¨è„‰é«˜å‹,å‘¼å¸å†…ç§‘
-UIP,Usual Interstitial Pneumonia,å¯»å¸¸å‹é—´è´¨æ€§è‚ºç‚,å‘¼å¸å†…ç§‘
-NSIP,Nonspecific Interstitial Pneumonia,éç‰¹å¼‚æ€§é—´è´¨æ€§è‚ºç‚,å‘¼å¸å†…ç§‘
-COP,Cryptogenic Organizing Pneumonia,éšæºæ€§æœºåŒ–æ€§è‚ºç‚,å‘¼å¸å†…ç§‘
-ABPA,Allergic Bronchopulmonary Aspergillosis,å˜åº”æ€§æ”¯æ°”ç®¡è‚ºæ›²éœ‰ç—…,å‘¼å¸å†…ç§‘
-PSC,Primary Sclerosing Cholangitis,åŸå‘æ€§ç¡¬åŒ–æ€§èƒ†ç®¡ç‚,æ¶ˆåŒ–å†…ç§‘
-AC,Acute Cholangitis,æ€¥æ€§èƒ†ç®¡ç‚,æ¶ˆåŒ–å†…ç§‘
-AP,Acute Pancreatitis,æ€¥æ€§èƒ°è…ºç‚,æ¶ˆåŒ–å†…ç§‘
-FAP,Family Adenomatous Polyposis,å®¶æ—æ€§è…ºç˜¤æ€§æ¯è‚‰ç—…,æ¶ˆåŒ–å†…ç§‘
-HNPCC,Hereditary Nonpolyposis Colorectal Cancer,é—ä¼ æ€§éæ¯è‚‰ç—…æ€§ç»“ç›´è‚ ç™Œ,æ¶ˆåŒ–å†…ç§‘
-MEN1,Multiple Endocrine Neoplasia Type 1,å¤šå‘æ€§å†…åˆ†æ³Œè…ºç˜¤ç—…1å‹,æ¶ˆåŒ–å†…ç§‘
-VIP,Vasoactive Intestinal Peptide,è¡€ç®¡æ´»æ€§è‚ è‚½,æ¶ˆåŒ–å†…ç§‘
-SST,Somatostatin,ç”Ÿé•¿æŠ‘ç´ ,æ¶ˆåŒ–å†…ç§‘
-PPI,Proton Pump Inhibitor,è´¨å­æ³µæŠ‘åˆ¶å‰‚,æ¶ˆåŒ–å†…ç§‘
-H2RA,Histamine-2 Receptor Antagonist,H2å—ä½“æ‹®æŠ—å‰‚,æ¶ˆåŒ–å†…ç§‘
-5-ASA,5-Aminosalicylic Acid,5-æ°¨åŸºæ°´æ¨é…¸,æ¶ˆåŒ–å†…ç§‘
-AZA,Azathioprine,ç¡«å”‘å˜Œå‘¤,æ¶ˆåŒ–å†…ç§‘
-6-MP,6-Mercaptopurine,6-å·¯åŸºå˜Œå‘¤,æ¶ˆåŒ–å†…ç§‘
-MTX,Methotrexate,ç”²æ°¨è¶å‘¤,æ¶ˆåŒ–å†…ç§‘
-HEV,Hepatitis E Virus,æˆŠå‹è‚ç‚ç—…æ¯’,æ¶ˆåŒ–å†…ç§‘
-HDV,Hepatitis D Virus,ä¸å‹è‚ç‚ç—…æ¯’,æ¶ˆåŒ–å†…ç§‘
-HGV,Hepatitis G Virus,åºšå‹è‚ç‚ç—…æ¯’,æ¶ˆåŒ–å†…ç§‘
-CMV,Cytomegalovirus,å·¨ç»†èƒç—…æ¯’,æ¶ˆåŒ–å†…ç§‘
-EBV,Epstein-Barr Virus,EBç—…æ¯’,æ¶ˆåŒ–å†…ç§‘
-HP,Helicobacter Pylori,å¹½é—¨èºæ†èŒ,æ¶ˆåŒ–å†…ç§‘
-GGT,Gamma-Glutamyl Transferase,Î³-è°·æ°¨é…°è½¬ç§»é…¶,æ¶ˆåŒ–å†…ç§‘
-ALP,Alkaline Phosphatase,ç¢±æ€§ç£·é…¸é…¶,æ¶ˆåŒ–å†…ç§‘
-TBil,Total Bilirubin,æ€»èƒ†çº¢ç´ ,æ¶ˆåŒ–å†…ç§‘
-DBil,Direct Bilirubin,ç›´æ¥èƒ†çº¢ç´ ,æ¶ˆåŒ–å†…ç§‘
-IBil,Indirect Bilirubin,é—´æ¥èƒ†çº¢ç´ ,æ¶ˆåŒ–å†…ç§‘
-MG,Myasthenia Gravis,é‡ç—‡è‚Œæ— åŠ›,ç¥ç»å†…ç§‘
-CIDP,Chronic Inflammatory Demyelinating Polyneuropathy,æ…¢æ€§ç‚æ€§è„±é«“é˜æ€§å¤šå‘æ€§ç¥ç»ç—…,ç¥ç»å†…ç§‘
-PSP,Progressive Supranuclear Palsy,è¿›è¡Œæ€§æ ¸ä¸Šæ€§éº»ç—¹,ç¥ç»å†…ç§‘
-MSA,Mutiple System Atrophy,å¤šç³»ç»Ÿèç¼©,ç¥ç»å†…ç§‘
-CBD,Corticobasal Degeneration,çš®è´¨åŸºåº•èŠ‚å˜æ€§,ç¥ç»å†…ç§‘
-DLB,Dementia with Lewy Bodies,è·¯æ˜“ä½“ç—´å‘†,ç¥ç»å†…ç§‘
-FTD,Frontotemporal Dementia,é¢é¢å¶ç—´å‘†,ç¥ç»å†…ç§‘
-CMT,Charcot-Marie-Tooth Disease,å¤ç§‘-é©¬é‡Œ-å›¾æ–¯ç—…,ç¥ç»å†…ç§‘
-DMD,Duchenne Muscular Dystrophy,æœæ°è‚Œè¥å…»ä¸è‰¯,ç¥ç»å†…ç§‘
-SMA,Spinal Muscular Atrophy,è„Šé«“æ€§è‚Œèç¼©ç—‡,ç¥ç»å†…ç§‘
-NMO,Neuromyelitis Optica,è§†ç¥ç»è„Šé«“ç‚,ç¥ç»å†…ç§‘
-MOG,Myelin Oligodendrocyte Glycoprotein,é«“é˜å°‘çªèƒ¶è´¨ç»†èƒç³–è›‹ç™½,ç¥ç»å†…ç§‘
-ADEM,Acute Disseminated Encephalomyelitis,æ€¥æ€§æ’­æ•£æ€§è„‘è„Šé«“ç‚,ç¥ç»å†…ç§‘
-CJD,Creutzfeldt-Jakob Disease,å…‹é›…ç—…,ç¥ç»å†…ç§‘
-WFS,Wolfram Syndrome,æ²ƒå°”å¤«å‹’å§†ç»¼åˆå¾,ç¥ç»å†…ç§‘
-SCA,Spinocerebellar Ataxia,è„Šé«“å°è„‘æ€§å…±æµå¤±è°ƒ,ç¥ç»å†…ç§‘
-FA,Friedreich's Ataxia,å¼—é‡Œå¾·èµ–å¸Œå…±æµå¤±è°ƒ,ç¥ç»å†…ç§‘
-PN,Peripheral Neuropathy,å‘¨å›´ç¥ç»ç—…,ç¥ç»å†…ç§‘
-RLS,Restless Legs Syndrome,ä¸å®è…¿ç»¼åˆå¾,ç¥ç»å†…ç§‘
-NPH,Normal Pressure Hydrocephalus,æ­£å¸¸å‹åŠ›è„‘ç§¯æ°´,ç¥ç»å†…ç§‘
-IIH,Idiopathic Intracranial Hypertension,ç‰¹å‘æ€§é¢…å†…å‹å¢é«˜,ç¥ç»å†…ç§‘
-CVST,Cerebral Venous Sinus Thrombosis,è„‘é™è„‰çª¦è¡€æ “å½¢æˆ,ç¥ç»å†…ç§‘
-MELAS,Mitochondrial Encephalopathy Lactic Acidosis and Stroke-like Episodes,çº¿ç²’ä½“è„‘è‚Œç—…ä¼´ä¹³é…¸é…¸ä¸­æ¯’å’Œå’ä¸­æ ·å‘ä½œ,ç¥ç»å†…ç§‘
-CADASIL,Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarcts and Leukoencephalopathy,ä¼´çš®è´¨ä¸‹æ¢—æ­»å’Œç™½è´¨è„‘ç—…çš„å¸¸æŸ“è‰²ä½“æ˜¾æ€§é—ä¼ æ€§è„‘åŠ¨è„‰ç—…,ç¥ç»å†…ç§‘
-PRES,Posterior Reversible Encephalopathy Syndrome,å¯é€†æ€§åéƒ¨è„‘ç—…ç»¼åˆå¾,ç¥ç»å†…ç§‘
-CNSL,Central Nervous System Lymphoma,ä¸­æ¢ç¥ç»ç³»ç»Ÿæ·‹å·´ç˜¤,ç¥ç»å†…ç§‘
-PNET,Primitive Neuroectodermal Tumor,åŸå§‹ç¥ç»å¤–èƒšå±‚è‚¿ç˜¤,ç¥ç»å†…ç§‘
-GBM,Glioblastoma Multiforme,å¤šå½¢æ€§èƒ¶è´¨æ¯ç»†èƒç˜¤,ç¥ç»å†…ç§‘
-LGG,Low-Grade Glioma,ä½çº§åˆ«èƒ¶è´¨ç˜¤,ç¥ç»å†…ç§‘
-MEP,Motor Evoked Potential,è¿åŠ¨è¯±å‘ç”µä½,ç¥ç»å†…ç§‘
-SSEP,Somatosensory Evoked Potential,ä½“æ„Ÿè¯±å‘ç”µä½,ç¥ç»å†…ç§‘
-BAEP,Brainstem Auditory Evoked Potential,è„‘å¹²å¬è§‰è¯±å‘ç”µä½,ç¥ç»å†…ç§‘
-NCV,Nerve Conduction Velocity,ç¥ç»ä¼ å¯¼é€Ÿåº¦,ç¥ç»å†…ç§‘
-MEG,Magnetoencephalography,è„‘ç£å›¾,ç¥ç»å†…ç§‘
-ACTH,Adrenocorticotropic Hormone,ä¿ƒè‚¾ä¸Šè…ºçš®è´¨æ¿€ç´ ,å†…åˆ†æ³Œç§‘
-ADH,Antidiuretic Hormone,æŠ—åˆ©å°¿æ¿€ç´ ,å†…åˆ†æ³Œç§‘
-T3,Triiodothyronine,ä¸‰ç¢˜ç”²çŠ¶è…ºåŸæ°¨é…¸,å†…åˆ†æ³Œç§‘
-T4,Thyroxine,ç”²çŠ¶è…ºç´ ,å†…åˆ†æ³Œç§‘
-FT3,Free Triiodothyronine,æ¸¸ç¦»ä¸‰ç¢˜ç”²çŠ¶è…ºåŸæ°¨é…¸,å†…åˆ†æ³Œç§‘
-FT4,Free Thyroxine,æ¸¸ç¦»ç”²çŠ¶è…ºç´ ,å†…åˆ†æ³Œç§‘
-PTH,Parathyroid Hormone,ç”²çŠ¶æ—è…ºæ¿€ç´ ,å†…åˆ†æ³Œç§‘
-LH,Luteinizing Hormone,é»„ä½“ç”Ÿæˆç´ ,å†…åˆ†æ³Œç§‘
-FSH,Follicle-stimulating Hormone,åµæ³¡åˆºæ¿€ç´ ,å†…åˆ†æ³Œç§‘
-E2,Estradiol,é›ŒäºŒé†‡,å†…åˆ†æ³Œç§‘
-P,Progesterone,å­•é…®,å†…åˆ†æ³Œç§‘
-T,Testosterone,ç¾é…®,å†…åˆ†æ³Œç§‘
-DHEA-S,Dehydroepiandrosterone Sulfate,ç¡«é…¸è„±æ°¢è¡¨é›„é…®,å†…åˆ†æ³Œç§‘
-Cortisol,Cortisol,çš®è´¨é†‡,å†…åˆ†æ³Œç§‘
-Aldo,Aldosterone,é†›å›ºé…®,å†…åˆ†æ³Œç§‘
-Renin,Renin,è‚¾ç´ ,å†…åˆ†æ³Œç§‘
-HHS,Hyperosmolar Hyperglycemic State,é«˜æ¸—æ€§é«˜è¡€ç³–çŠ¶æ€,å†…åˆ†æ³Œç§‘
-OGTT,Oral Glucose Tolerance Test,å£æœè‘¡è„ç³–è€é‡è¯•éªŒ,å†…åˆ†æ³Œç§‘
-IR,Insulin Resistance,èƒ°å²›ç´ æŠµæŠ—,å†…åˆ†æ³Œç§‘
-MODY,Maturity-onset Diabetes of the Young,é’å°‘å¹´å‘ç—…çš„æˆå¹´å‹ç³–å°¿ç—…,å†…åˆ†æ³Œç§‘
-MEN2,Multiple Endocrine Neoplasia Type 2,å¤šå‘æ€§å†…åˆ†æ³Œè…ºç˜¤ç—…2å‹,å†…åˆ†æ³Œç§‘
-SIADH,Syndrome of Inappropriate Antidiuretic Hormone Secretion,æŠ—åˆ©å°¿æ¿€ç´ åˆ†æ³Œä¸å½“ç»¼åˆå¾,å†…åˆ†æ³Œç§‘
-DI,Diabetes Insipidus,å°¿å´©ç—‡,å†…åˆ†æ³Œç§‘
-Cushing,Cushing Syndrome,åº“æ¬£ç»¼åˆå¾,å†…åˆ†æ³Œç§‘
-Addison,Addison Disease,è‰¾è¿ªç”Ÿç—…,å†…åˆ†æ³Œç§‘
-Pheo,Pheochromocytoma,å—œé“¬ç»†èƒç˜¤,å†…åˆ†æ³Œç§‘
-HyperPTH,Hyperparathyroidism,ç”²çŠ¶æ—è…ºåŠŸèƒ½äº¢è¿›ç—‡,å†…åˆ†æ³Œç§‘
-HypoPTH,Hypoparathyroidism,ç”²çŠ¶æ—è…ºåŠŸèƒ½å‡é€€ç—‡,å†…åˆ†æ³Œç§‘
-HyperT,Hyperthyroidism,ç”²çŠ¶è…ºåŠŸèƒ½äº¢è¿›ç—‡,å†…åˆ†æ³Œç§‘
-HypoT,Hypothyroidism,ç”²çŠ¶è…ºåŠŸèƒ½å‡é€€ç—‡,å†…åˆ†æ³Œç§‘
-GD,Graves Disease,æ ¼é›·å¤«æ–¯ç—…,å†…åˆ†æ³Œç§‘
-HT,Hashimoto Thyroiditis,æ¡¥æœ¬ç”²çŠ¶è…ºç‚,å†…åˆ†æ³Œç§‘
-NG,Neuroglycopenia,ç¥ç»ä½è¡€ç³–ç—‡,å†…åˆ†æ³Œç§‘
-CRH,Corticotropin Releasing Hormone,ä¿ƒè‚¾ä¸Šè…ºçš®è´¨æ¿€ç´ é‡Šæ”¾æ¿€ç´ ,å†…åˆ†æ³Œç§‘
-TRH,Thyrotropin Releasing Hormone,ä¿ƒç”²çŠ¶è…ºæ¿€ç´ é‡Šæ”¾æ¿€ç´ ,å†…åˆ†æ³Œç§‘
-GnRH,Gonadotropin Releasing Hormone,ä¿ƒæ€§è…ºæ¿€ç´ é‡Šæ”¾æ¿€ç´ ,å†…åˆ†æ³Œç§‘
-UA,Uric Acid,å°¿é…¸,è‚¾è„å†…ç§‘
-K+,Potassium,é’¾,è‚¾è„å†…ç§‘
-Na+,Sodium,é’ ,è‚¾è„å†…ç§‘
-Ca,Calcium,é’™,è‚¾è„å†…ç§‘
-HCO3-,Bicarbonate,ç¢³é…¸æ°¢æ ¹,è‚¾è„å†…ç§‘
-Alb,Albumin,ç™½è›‹ç™½,è‚¾è„å†…ç§‘
-UP,Urine Protein,å°¿è›‹ç™½,è‚¾è„å†…ç§‘
-CRRT,Continuous Renal Replacement Therapy,è¿ç»­æ€§è‚¾è„æ›¿ä»£æ²»ç–—,è‚¾è„å†…ç§‘
-HDF,Hemodiafiltration,è¡€æ¶²é€ææ»¤è¿‡,è‚¾è„å†…ç§‘
-UF,Ultrafiltration,è¶…æ»¤,è‚¾è„å†…ç§‘
-AVF,Arteriovenous Fistula,åŠ¨é™è„‰å†…ç˜˜,è‚¾è„å†…ç§‘
-AVG,Arteriovenous Graft,åŠ¨é™è„‰ç§»æ¤ç‰©,è‚¾è„å†…ç§‘
-CVC,Central Venous Catheter,ä¸­å¿ƒé™è„‰å¯¼ç®¡,è‚¾è„å†…ç§‘
-RRT,Renal Replacement Therapy,è‚¾è„æ›¿ä»£æ²»ç–—,è‚¾è„å†…ç§‘
-MN,Membranous Nephropathy,è†œæ€§è‚¾ç—…,è‚¾è„å†…ç§‘
-FSGS,Focal Segmental Glomerulosclerosis,å±€ç¶èŠ‚æ®µæ€§è‚¾å°çƒç¡¬åŒ–,è‚¾è„å†…ç§‘
-IgAN,IgA Nephropathy,IgAè‚¾ç—…,è‚¾è„å†…ç§‘
-MPGN,Membranoproliferative Glomerulonephritis,è†œå¢ç”Ÿæ€§è‚¾å°çƒè‚¾ç‚,è‚¾è„å†…ç§‘
-ATN,Acute Tubular Necrosis,æ€¥æ€§è‚¾å°ç®¡åæ­»,è‚¾è„å†…ç§‘
-TTP,Thrombotic Thrombocytopenic Purpura,è¡€æ “æ€§è¡€å°æ¿å‡å°‘æ€§ç´«ç™œ,è‚¾è„å†…ç§‘
-DN,Diabetic Nephropathy,ç³–å°¿ç—…è‚¾ç—…,è‚¾è„å†…ç§‘
-CKD-MBD,Chronic Kidney Disease-Mineral and Bone Disorder,æ…¢æ€§è‚¾è„ç—…-çŸ¿ç‰©è´¨å’Œéª¨å¼‚å¸¸,è‚¾è„å†…ç§‘
-MDS,Myelodysplastic Syndrome,éª¨é«“å¢ç”Ÿå¼‚å¸¸ç»¼åˆå¾,è¡€æ¶²ç§‘
-MPN,Myeloproliferative Neoplasm,éª¨é«“å¢æ®–æ€§è‚¿ç˜¤,è¡€æ¶²ç§‘
-DLBCL,Diffuse Large B-cell Lymphoma,å¼¥æ¼«å¤§Bç»†èƒæ·‹å·´ç˜¤,è¡€æ¶²ç§‘
-FL,Follicular Lymphoma,æ»¤æ³¡æ€§æ·‹å·´ç˜¤,è¡€æ¶²ç§‘
-MCL,Mantle Cell Lymphoma,å¥—ç»†èƒæ·‹å·´ç˜¤,è¡€æ¶²ç§‘
-ALCL,Anaplastic Large Cell Lymphoma,é—´å˜æ€§å¤§ç»†èƒæ·‹å·´ç˜¤,è¡€æ¶²ç§‘
-ALL-L1,Acute Lymphoblastic Leukemia L1,æ€¥æ€§æ·‹å·´ç»†èƒç™½è¡€ç—…L1å‹,è¡€æ¶²ç§‘
-APL,Acute Promyelocytic Leukemia,æ€¥æ€§æ—©å¹¼ç²’ç»†èƒç™½è¡€ç—…,è¡€æ¶²ç§‘
-HSCT,Hematopoietic Stem Cell Transplantation,é€ è¡€å¹²ç»†èƒç§»æ¤,è¡€æ¶²ç§‘
-GVHD,Graft-versus-Host Disease,ç§»æ¤ç‰©æŠ—å®¿ä¸»ç—…,è¡€æ¶²ç§‘
-EFS,Event-Free Survival,æ— äº‹ä»¶ç”Ÿå­˜æœŸ,è¡€æ¶²ç§‘
-MRD,Minimal Residual Disease,å¾®å°æ®‹ç•™ç—…,è¡€æ¶²ç§‘
-BM,Bone Marrow,éª¨é«“,è¡€æ¶²ç§‘
-BMA,Bone Marrow Aspiration,éª¨é«“ç©¿åˆº,è¡€æ¶²ç§‘
-BMB,Bone Marrow Biopsy,éª¨é«“æ´»æ£€,è¡€æ¶²ç§‘
-PB,Peripheral Blood,å¤–å‘¨è¡€,è¡€æ¶²ç§‘
-PBSC,Peripheral Blood Stem Cell,å¤–å‘¨è¡€å¹²ç»†èƒ,è¡€æ¶²ç§‘
-ANC,Absolute Neutrophil Count,ç»å¯¹ä¸­æ€§ç²’ç»†èƒè®¡æ•°,è¡€æ¶²ç§‘
-RDW,Red Cell Distribution Width,çº¢ç»†èƒåˆ†å¸ƒå®½åº¦,è¡€æ¶²ç§‘
-FIB,Fibrinogen,çº¤ç»´è›‹ç™½åŸ,è¡€æ¶²ç§‘
-ITP,Immune Thrombocytopenia,å…ç–«æ€§è¡€å°æ¿å‡å°‘ç—‡,è¡€æ¶²ç§‘
-PNH,Paroxysmal Nocturnal Hemoglobinuria,é˜µå‘æ€§ç¡çœ æ€§è¡€çº¢è›‹ç™½å°¿ç—‡,è¡€æ¶²ç§‘
-THAL,Thalassemia,åœ°ä¸­æµ·è´«è¡€,è¡€æ¶²ç§‘
-VTE,Venous Thromboembolism,é™è„‰è¡€æ “æ “å¡ç—‡,è¡€æ¶²ç§‘
-ALK,Anaplastic Lymphoma Kinase,é—´å˜æ€§æ·‹å·´ç˜¤æ¿€é…¶,è‚¿ç˜¤å†…ç§‘
-PD-1,Programmed Cell Death Protein 1,ç¨‹åºæ€§æ­»äº¡å—ä½“1,è‚¿ç˜¤å†…ç§‘
-PD-L1,Programmed Death-Ligand 1,ç¨‹åºæ€§æ­»äº¡é…ä½“1,è‚¿ç˜¤å†…ç§‘
-CTLA-4,Cytotoxic T-Lymphocyte Associated Protein 4,ç»†èƒæ¯’æ€§Tæ·‹å·´ç»†èƒç›¸å…³è›‹ç™½4,è‚¿ç˜¤å†…ç§‘
-ICI,Immune Checkpoint Inhibitor,å…ç–«æ£€æŸ¥ç‚¹æŠ‘åˆ¶å‰‚,è‚¿ç˜¤å†…ç§‘
-SD,Stable Disease,ç–¾ç—…ç¨³å®š,è‚¿ç˜¤å†…ç§‘
-DCR,Disease Control Rate,ç–¾ç—…æ§åˆ¶ç‡,è‚¿ç˜¤å†…ç§‘
-RECIST,Response Evaluation Criteria in Solid Tumors,å®ä½“ç˜¤ç–—æ•ˆè¯„ä»·æ ‡å‡†,è‚¿ç˜¤å†…ç§‘
-ECOG,Eastern Cooperative Oncology Group,ä¸œéƒ¨è‚¿ç˜¤åä½œç»„,è‚¿ç˜¤å†…ç§‘
-PS,Performance Status,ä½“èƒ½çŠ¶æ€è¯„åˆ†,è‚¿ç˜¤å†…ç§‘
-DLT,Dose-Limiting Toxicity,å‰‚é‡é™åˆ¶æ€§æ¯’æ€§,è‚¿ç˜¤å†…ç§‘
-MTD,Maximum Tolerated Dose,æœ€å¤§è€å—å‰‚é‡,è‚¿ç˜¤å†…ç§‘
-RP2D,Recommended Phase 2 Dose,æ¨èIIæœŸå‰‚é‡,è‚¿ç˜¤å†…ç§‘
-LDH,Lactate Dehydrogenase,ä¹³é…¸è„±æ°¢é…¶,è‚¿ç˜¤å†…ç§‘
-TNM,Tumor Node Metastasis,è‚¿ç˜¤æ·‹å·´ç»“è½¬ç§»åˆ†æœŸ,è‚¿ç˜¤å†…ç§‘
-AJCC,American Joint Committee on Cancer,ç¾å›½ç™Œç—‡è”åˆå§”å‘˜ä¼š,è‚¿ç˜¤å†…ç§‘
-NCCN,National Comprehensive Cancer Network,ç¾å›½å›½å®¶ç»¼åˆç™Œç—‡ç½‘ç»œ,è‚¿ç˜¤å†…ç§‘
-ESMO,European Society for Medical Oncology,æ¬§æ´²è‚¿ç˜¤å†…ç§‘å­¦ä¼š,è‚¿ç˜¤å†…ç§‘
-ASCO,American Society of Clinical Oncology,ç¾å›½ä¸´åºŠè‚¿ç˜¤å­¦ä¼š,è‚¿ç˜¤å†…ç§‘
-CSCO,Chinese Society of Clinical Oncology,ä¸­å›½ä¸´åºŠè‚¿ç˜¤å­¦ä¼š,è‚¿ç˜¤å†…ç§‘
-GCP,Good Clinical Practice,è¯ç‰©ä¸´åºŠè¯•éªŒè´¨é‡ç®¡ç†è§„èŒƒ,è‚¿ç˜¤å†…ç§‘
-IRB,Institutional Review Board,æœºæ„å®¡æŸ¥å§”å‘˜ä¼š,è‚¿ç˜¤å†…ç§‘
-IIT,Investigator-Initiated Trial,ç ”ç©¶è€…å‘èµ·è¯•éªŒ,è‚¿ç˜¤å†…ç§‘
-IND,Investigational New Drug,ç ”ç©¶æ€§æ–°è¯,è‚¿ç˜¤å†…ç§‘
-NDA,New Drug Application,æ–°è¯ç”³è¯·,è‚¿ç˜¤å†…ç§‘
-BLA,Biologics License Application,ç”Ÿç‰©åˆ¶å“è®¸å¯ç”³è¯·,è‚¿ç˜¤å†…ç§‘
-CRO,Contract Research Organization,åˆåŒç ”ç©¶ç»„ç»‡,è‚¿ç˜¤å†…ç§‘
-FFPE,Formalin-Fixed Paraffin-Embedded,ç¦å°”é©¬æ—å›ºå®šçŸ³èœ¡åŒ…åŸ‹,è‚¿ç˜¤å†…ç§‘
-NGS,Next-Generation Sequencing,ä¸‹ä¸€ä»£æµ‹åº,è‚¿ç˜¤å†…ç§‘
-ctDNA,Circulating Tumor DNA,å¾ªç¯è‚¿ç˜¤DNA,è‚¿ç˜¤å†…ç§‘
-CTC,Circulating Tumor Cell,å¾ªç¯è‚¿ç˜¤ç»†èƒ,è‚¿ç˜¤å†…ç§‘
-TMB,Tumor Mutational Burden,è‚¿ç˜¤çªå˜è´Ÿè·,è‚¿ç˜¤å†…ç§‘
-MSI,Microssatellite Instability,å¾®å«æ˜Ÿä¸ç¨³å®šæ€§,è‚¿ç˜¤å†…ç§‘
-CRKP,Carbapenem-resistant Klebsiella pneumoniae,ç¢³é’éœ‰çƒ¯è€è¯è‚ºç‚å…‹é›·ä¼¯èŒ,æ„ŸæŸ“ç§‘
-CLABSI,Central Line-associated Bloodstream Infection,ä¸­å¿ƒé™è„‰å¯¼ç®¡ç›¸å…³è¡€æµæ„ŸæŸ“,æ„ŸæŸ“ç§‘
-CAUTI,Catheter-associated Urinary Tract Infection,å¯¼ç®¡ç›¸å…³å°¿è·¯æ„ŸæŸ“,æ„ŸæŸ“ç§‘
-HCAP,Healthcare-associated Pneumonia,åŒ»ç–—ä¿å¥ç›¸å…³æ€§è‚ºç‚,æ„ŸæŸ“ç§‘
-ELISA,Enzyme-linked Immunosorbent Assay,é…¶è”å…ç–«å¸é™„è¯•éªŒ,æ„ŸæŸ“ç§‘
-HBsAg,Hepatitis B Surface Antigen,ä¹™å‹è‚ç‚è¡¨é¢æŠ—åŸ,æ„ŸæŸ“ç§‘
-HBeAg,Hepatitis B e Antigen,ä¹™å‹è‚ç‚eæŠ—åŸ,æ„ŸæŸ“ç§‘
-Anti-HBs,Antibody to Hepatitis B Surface Antigen,ä¹™å‹è‚ç‚è¡¨é¢æŠ—ä½“,æ„ŸæŸ“ç§‘
-Anti-HBc,Antibody to Hepatitis B Core Antigen,ä¹™å‹è‚ç‚æ ¸å¿ƒæŠ—ä½“,æ„ŸæŸ“ç§‘
-Anti-HCV,Antibody to Hepatitis C Virus,ä¸™å‹è‚ç‚æŠ—ä½“,æ„ŸæŸ“ç§‘
-HCV RNA,Hepatitis C Virus Ribonucleic Acid,ä¸™å‹è‚ç‚ç—…æ¯’æ ¸ç³–æ ¸é…¸,æ„ŸæŸ“ç§‘
-HBV DNA,Hepatitis B Virus Deoxyribonucleic Acid,ä¹™å‹è‚ç‚ç—…æ¯’è„±æ°§æ ¸ç³–æ ¸é…¸,æ„ŸæŸ“ç§‘
-HIV RNA,HIV Ribonucleic Acid,äººç±»å…ç–«ç¼ºé™·ç—…æ¯’æ ¸ç³–æ ¸é…¸,æ„ŸæŸ“ç§‘
-CD4,Cluster of Differentiation 4,åˆ†åŒ–ç°‡4,æ„ŸæŸ“ç§‘
-VL,Viral Load,ç—…æ¯’è½½é‡,æ„ŸæŸ“ç§‘
-ART,Antiretroviral Therapy,æŠ—é€†è½¬å½•ç—…æ¯’æ²»ç–—,æ„ŸæŸ“ç§‘
-DAA,Direct-acting Antiviral,ç›´æ¥æŠ—ç—…æ¯’è¯ç‰©,æ„ŸæŸ“ç§‘
-PEP,Post-exposure Prophylaxis,æš´éœ²åé¢„é˜²,æ„ŸæŸ“ç§‘
-PrEP,Pre-exposure Prophylaxis,æš´éœ²å‰é¢„é˜²,æ„ŸæŸ“ç§‘
-STI,Sexually Transmitted Infection,æ€§ä¼ æ’­æ„ŸæŸ“,æ„ŸæŸ“ç§‘
-IV,Intravenous,é™è„‰å†…,æ€¥è¯ŠåŒ»å­¦
-IO,Intraosseous,éª¨å†…,æ€¥è¯ŠåŒ»å­¦
-LMA,Laryngeal Mask Airway,å–‰ç½©æ°”é“,æ€¥è¯ŠåŒ»å­¦
-SIRS,Systemic Inflammatory Response Syndrome,å…¨èº«ç‚ç—‡ååº”ç»¼åˆå¾,æ€¥è¯ŠåŒ»å­¦
-TBI,Traumatic Brain Injury,åˆ›ä¼¤æ€§è„‘æŸä¼¤,æ€¥è¯ŠåŒ»å­¦
-TEE,Transesophageal Echocardiography,ç»é£Ÿç®¡è¶…å£°å¿ƒåŠ¨å›¾,æ€¥è¯ŠåŒ»å­¦
-ALI,Acute Lung Injury,æ€¥æ€§è‚ºæŸä¼¤,æ€¥è¯ŠåŒ»å­¦
-ATLS,Advanced Trauma Life Support,é«˜çº§åˆ›ä¼¤ç”Ÿå‘½æ”¯æŒ,æ€¥è¯ŠåŒ»å­¦
-AVPU,Alert Voice Pain Unresponsive,è­¦è§‰-å£°éŸ³-ç–¼ç—›-æ— ååº”,æ€¥è¯ŠåŒ»å­¦
-EMS,Emergency Medical Services,æ€¥æ•‘åŒ»ç–—æœåŠ¡,æ€¥è¯ŠåŒ»å­¦
-ETT,Endotracheal Tube,æ°”ç®¡å†…å¯¼ç®¡,æ€¥è¯ŠåŒ»å­¦
-FDP,Fibrin Degradation Product,çº¤ç»´è›‹ç™½é™è§£äº§ç‰©,æ€¥è¯ŠåŒ»å­¦
-HIT,Heparin-induced Thrombocytopenia,è‚ç´ è¯±å¯¼çš„è¡€å°æ¿å‡å°‘ç—‡,æ€¥è¯ŠåŒ»å­¦
-IVC,Inferior Vena Cava,ä¸‹è…”é™è„‰,æ€¥è¯ŠåŒ»å­¦
-LFT,Liver Function Test,è‚åŠŸèƒ½è¯•éªŒ,æ€¥è¯ŠåŒ»å­¦
-MTP,Massive Transfusion Protocol,å¤§é‡è¾“è¡€æ–¹æ¡ˆ,æ€¥è¯ŠåŒ»å­¦
-PA,Posteroanterior,åå‰ä½,æ€¥è¯ŠåŒ»å­¦
-POCUS,Point-of-care Ultrasound,åºŠæ—è¶…å£°,æ€¥è¯ŠåŒ»å­¦
-TEG,Thromboelastography,è¡€æ “å¼¹åŠ›å›¾,æ€¥è¯ŠåŒ»å­¦
-CO,Cardiac Output,å¿ƒè¾“å‡ºé‡,éº»é†‰ç§‘
-SV,Stroke Volume,æ¯æè¾“å‡ºé‡,éº»é†‰ç§‘
-SVR,Systemic Vascular Resistance,å…¨èº«è¡€ç®¡é˜»åŠ›,éº»é†‰ç§‘
-PVR,Pulmonary Vascular Resistance,è‚ºè¡€ç®¡é˜»åŠ›,éº»é†‰ç§‘
-BE,Base Excess,ç¢±å‰©ä½™,éº»é†‰ç§‘
-IM,Intramuscular,è‚Œå†…,éº»é†‰ç§‘
-SC,Subcutaneous,çš®ä¸‹,éº»é†‰ç§‘
-PCA,Patient-Controlled Analgesia,æ‚£è€…è‡ªæ§é•‡ç—›,éº»é†‰ç§‘
-TIVA,Total Intravenous Anesthesia,å…¨å‡­é™è„‰éº»é†‰,éº»é†‰ç§‘
-TEA,Thoracic Epidural Anesthesia,èƒ¸æ®µç¡¬è†œå¤–éº»é†‰,éº»é†‰ç§‘
-RA,Regional Anesthesia,åŒºåŸŸéº»é†‰,éº»é†‰ç§‘
-LA,Local Anesthesia,å±€éƒ¨éº»é†‰,éº»é†‰ç§‘
-NMB,Neuromuscular Blockade,ç¥ç»è‚Œè‚‰é˜»æ»,éº»é†‰ç§‘
-NMBA,Neuromuscular Blocking Agent,ç¥ç»è‚Œè‚‰é˜»æ»è¯,éº»é†‰ç§‘
-PONV,Postoperative Nausea and Vomiting,æœ¯åæ¶å¿ƒå‘•å,éº»é†‰ç§‘
-MAL,Mallampati Classification,é©¬å…°å¸•è’‚åˆ†çº§,éº»é†‰ç§‘
-DL,Difficult Laryngoscopy,å›°éš¾å–‰é•œæ˜¾éœ²,éº»é†‰ç§‘
-DAS,Difficult Airway Society,å›°éš¾æ°”é“å­¦ä¼š,éº»é†‰ç§‘
-PSV,Pressure Support Ventilation,å‹åŠ›æ”¯æŒé€šæ°”,éº»é†‰ç§‘
-PCV,Pressure-Controlled Ventilation,å‹åŠ›æ§åˆ¶é€šæ°”,éº»é†‰ç§‘
-VCV,Volume-Controlled Ventilation,å®¹é‡æ§åˆ¶é€šæ°”,éº»é†‰ç§‘
-SIMV,Synchronized Intermittent Mandatory Ventilation,åŒæ­¥é—´æ­‡æŒ‡ä»¤é€šæ°”,éº»é†‰ç§‘
-IPPV,Intermittent Positive Pressure Ventilation,é—´æ­‡æ­£å‹é€šæ°”,éº»é†‰ç§‘
-HFOV,High-Frequency Oscillatory Ventilation,é«˜é¢‘æŒ¯è¡é€šæ°”,éº»é†‰ç§‘
-TTE,Transthoracic Echocardiography,ç»èƒ¸è¶…å£°å¿ƒåŠ¨å›¾,éº»é†‰ç§‘
-HPV,Human Papillomavirus,äººä¹³å¤´ç˜¤ç—…æ¯’,å¦‡äº§ç§‘
-HRT,Hormone Replacement Therapy,æ¿€ç´ æ›¿ä»£ç–—æ³•,å¦‡äº§ç§‘
-HSG,Hysterosalpingography,å­å®«è¾“åµç®¡é€ å½±æœ¯,å¦‡äº§ç§‘
-IVF,In Vitro Fertilization,ä½“å¤–å—ç²¾,å¦‡äº§ç§‘
-LMP,Last Menstrual Period,æœ«æ¬¡æœˆç»,å¦‡äº§ç§‘
-OCP,Oral Contraceptive Pill,å£æœé¿å­•è¯,å¦‡äº§ç§‘
-PID,Pelvic Inflammatory Disease,ç›†è…”ç‚æ€§ç–¾ç—…,å¦‡äº§ç§‘
-PPROM,Preterm Premature Rupture of Membranes,æœªè¶³æœˆèƒè†œæ—©ç ´,å¦‡äº§ç§‘
-RDS,Respiratory Distress Syndrome,å‘¼å¸çª˜è¿«ç»¼åˆå¾,å¦‡äº§ç§‘
-TOLAC,Trial of Labor After Cesarean,å‰–å®«äº§åè¯•äº§,å¦‡äº§ç§‘
-TVUS,Transvaginal Ultrasound,ç»é˜´é“è¶…å£°,å¦‡äº§ç§‘
-VBAC,Vaginal Birth After Cesarean,å‰–å®«äº§åé˜´é“åˆ†å¨©,å¦‡äº§ç§‘
-VIN,Vulvar Intraepithelial Neoplasia,å¤–é˜´ä¸Šçš®å†…ç˜¤å˜,å¦‡äº§ç§‘
-WHO,World Health Organization,ä¸–ç•Œå«ç”Ÿç»„ç»‡,å¦‡äº§ç§‘
-ASD,Atrial Septal Defect,æˆ¿é—´éš”ç¼ºæŸ,å„¿ç§‘
-IVH,Intraventricular Hemorrhage,è„‘å®¤å†…å‡ºè¡€,å„¿ç§‘
-PVL,Periventricular Leukomalacia,è„‘å®¤å‘¨å›´ç™½è´¨è½¯åŒ–,å„¿ç§‘
-ROP,Retinopathy of Prematurity,æ—©äº§å„¿è§†ç½‘è†œç—…,å„¿ç§‘
-MAS,Meconium Aspiration Syndrome,èƒç²ªå¸å…¥ç»¼åˆå¾,å„¿ç§‘
-TTN,Transient Tachypnea of the Newborn,æ–°ç”Ÿå„¿æš‚æ—¶æ€§å‘¼å¸å¢å¿«,å„¿ç§‘
-PKU,Phenylketonuria,è‹¯ä¸™é…®å°¿ç—‡,å„¿ç§‘
-CF,Cystic Fibrosis,å›Šæ€§çº¤ç»´åŒ–,å„¿ç§‘
-Kawasaki,Kawasaki Disease,å·å´ç—…,å„¿ç§‘
-HSP,Henoch-SchÃ¶nlein Purpura,è¿‡æ•æ€§ç´«ç™œ,å„¿ç§‘
-JIA,Juvenile Idiopathic Arthritis,å¹¼å¹´ç‰¹å‘æ€§å…³èŠ‚ç‚,å„¿ç§‘
-KD,Kawasaki Disease,å·å´ç—…,å„¿ç§‘
-IDM,Infant of Diabetic Mother,ç³–å°¿ç—…æ¯äº²å©´å„¿,å„¿ç§‘
-VLBW,Very Low Birth Weight,æä½å‡ºç”Ÿä½“é‡,å„¿ç§‘
-ELBW,Extremely Low Birth Weight,è¶…ä½å‡ºç”Ÿä½“é‡,å„¿ç§‘
-LGA,Large for Gestational Age,å¤§äºèƒé¾„å„¿,å„¿ç§‘
-HLHS,Hypoplastic Left Heart Syndrome,å·¦å¿ƒå‘è‚²ä¸å…¨ç»¼åˆå¾,å„¿ç§‘
-TAPVR,Total Anomalous Pulmonary Venous Return,å®Œå…¨æ€§è‚ºé™è„‰å¼‚ä½å¼•æµ,å„¿ç§‘
-DORV,Double Outlet Right Ventricle,å³å¿ƒå®¤åŒå‡ºå£,å„¿ç§‘
-AS,Aortic Stenosis,ä¸»åŠ¨è„‰ç“£ç‹­çª„,å„¿ç§‘
-CoA,Coarctation of the Aorta,ä¸»åŠ¨è„‰ç¼©çª„,å„¿ç§‘
-VZV,Varicella-Zoster Virus,æ°´ç—˜-å¸¦çŠ¶ç–±ç–¹ç—…æ¯’,å„¿ç§‘
-HHV-6,Human Herpesvirus 6,äººç–±ç–¹ç—…æ¯’6å‹,å„¿ç§‘
-VA,visual acuity,è§†åŠ›,çœ¼ç§‘
-NPDR,non-proliferative diabetic retinopathy,éå¢æ®–æ€§ç³–å°¿ç—…è§†ç½‘è†œç—…å˜,çœ¼ç§‘
-CNV,choroidal neovascularization,è„‰ç»œè†œæ–°ç”Ÿè¡€ç®¡,çœ¼ç§‘
-CSC,central serous chorioretinopathy,ä¸­å¿ƒæ€§æµ†æ¶²æ€§è„‰ç»œè†œè§†ç½‘è†œç—…å˜,çœ¼ç§‘
-RD,retinal detachment,è§†ç½‘è†œè„±ç¦»,çœ¼ç§‘
-RRD,rhegmatogenous retinal detachment,å­”æºæ€§è§†ç½‘è†œè„±ç¦»,çœ¼ç§‘
-TRD,tractional retinal detachment,ç‰µæ‹‰æ€§è§†ç½‘è†œè„±ç¦»,çœ¼ç§‘
-MH,macular hole,é»„æ–‘è£‚å­”,çœ¼ç§‘
-RVO,retinal vein occlusion,è§†ç½‘è†œé™è„‰é˜»å¡,çœ¼ç§‘
-CRVO,central retinal vein occlusion,è§†ç½‘è†œä¸­å¤®é™è„‰é˜»å¡,çœ¼ç§‘
-BRVO,branch retinal vein occlusion,è§†ç½‘è†œåˆ†æ”¯é™è„‰é˜»å¡,çœ¼ç§‘
-CRAO,central retinal artery occlusion,è§†ç½‘è†œä¸­å¤®åŠ¨è„‰é˜»å¡,çœ¼ç§‘
-BRAO,branch retinal artery occlusion,è§†ç½‘è†œåˆ†æ”¯åŠ¨è„‰é˜»å¡,çœ¼ç§‘
-POAG,primary open-angle glaucoma,åŸå‘æ€§å¼€è§’å‹é’å…‰çœ¼,çœ¼ç§‘
-PACG,primary angle-closure glaucoma,åŸå‘æ€§é—­è§’å‹é’å…‰çœ¼,çœ¼ç§‘
-NTG,normal-tension glaucoma,æ­£å¸¸çœ¼å‹æ€§é’å…‰çœ¼,çœ¼ç§‘
-OHT,ocular hypertension,é«˜çœ¼å‹ç—‡,çœ¼ç§‘
-K,keratometry,è§’è†œæ›²ç‡æµ‹é‡,çœ¼ç§‘
-PKP,penetrating keratoplasty,ç©¿é€æ€§è§’è†œç§»æ¤æœ¯,çœ¼ç§‘
-DALK,deep anterior lamellar keratoplasty,æ·±æ¿å±‚è§’è†œç§»æ¤æœ¯,çœ¼ç§‘
-EK,endothelial keratoplasty,å†…çš®è§’è†œç§»æ¤æœ¯,çœ¼ç§‘
-DSEK,Descemet stripping endothelial keratoplasty,åå¼¹åŠ›å±‚å‰¥ç¦»å†…çš®è§’è†œç§»æ¤æœ¯,çœ¼ç§‘
-DMEK,Descemet membrane endothelial keratoplasty,åå¼¹åŠ›å±‚è†œå†…çš®è§’è†œç§»æ¤æœ¯,çœ¼ç§‘
-CXL,collagen cross-linking,è§’è†œèƒ¶åŸäº¤è”æœ¯,çœ¼ç§‘
-KC,keratoconus,åœ†é”¥è§’è†œ,çœ¼ç§‘
-PCO,posterior capsule opacification,åå‘æ€§ç™½å†…éšœ,çœ¼ç§‘
-PCIOL,posterior chamber intraocular lens,åæˆ¿å‹äººå·¥æ™¶çŠ¶ä½“,çœ¼ç§‘
-ACIOL,anterior chamber intraocular lens,å‰æˆ¿å‹äººå·¥æ™¶çŠ¶ä½“,çœ¼ç§‘
-PPV,pars plana vitrectomy,ç»ç’ƒä½“åˆ‡å‰²æœ¯,çœ¼ç§‘
-SB,scleral buckle,å·©è†œæ‰£å¸¦æœ¯,çœ¼ç§‘
-SLT,selective laser trabeculoplasty,é€‰æ‹©æ€§æ¿€å…‰å°æ¢æˆå½¢æœ¯,çœ¼ç§‘
-YAG,neodymium-doped yttrium aluminum garnet laser,é’‡é“çŸ³æ¦´çŸ³æ¿€å…‰,çœ¼ç§‘
-SMILE,small incision lenticule extraction,å°åˆ‡å£é€é•œå–å‡ºæœ¯,çœ¼ç§‘
-CHL,Conductive Hearing Loss,ä¼ å¯¼æ€§å¬åŠ›æŸå¤±,è€³é¼»å–‰ç§‘
-ET,Eustachian Tube,å’½é¼“ç®¡,è€³é¼»å–‰ç§‘
-IAC,Internal Auditory Canal,å†…è€³é“,è€³é¼»å–‰ç§‘
-CN,Cranial Nerve,è„‘ç¥ç»,è€³é¼»å–‰ç§‘
-VNG,Videonystagmography,è§†é¢‘çœ¼éœ‡å›¾,è€³é¼»å–‰ç§‘
-ENG,Electronystagmography,çœ¼éœ‡ç”µå›¾,è€³é¼»å–‰ç§‘
-ECochG,Electrocochleography,è€³èœ—ç”µå›¾,è€³é¼»å–‰ç§‘
-OAE,Otoacoustic Emissions,è€³å£°å‘å°„,è€³é¼»å–‰ç§‘
-DPOAE,Distortion Product Otoacoustic Emissions,ç•¸å˜äº§ç‰©è€³å£°å‘å°„,è€³é¼»å–‰ç§‘
-TEOAE,Transient Evoked Otoacoustic Emissions,ç¬æ€è¯±å‘è€³å£°å‘å°„,è€³é¼»å–‰ç§‘
-ASSR,Auditory Steady-State Response,å¬è§‰ç¨³æ€ååº”,è€³é¼»å–‰ç§‘
-PTA,Pure Tone Audiometry,çº¯éŸ³æµ‹å¬,è€³é¼»å–‰ç§‘
-SDS,Speech Discrimination Score,è¨€è¯­è¯†åˆ«ç‡,è€³é¼»å–‰ç§‘
-SISI,Short Increment Sensitivity Index,çŸ­å¢é‡æ•æ„ŸæŒ‡æ•°,è€³é¼»å–‰ç§‘
-TTS,Temporary Threshold Shift,æš‚æ—¶æ€§é˜ˆç§»,è€³é¼»å–‰ç§‘
-PTS,Permanent Threshold Shift,æ°¸ä¹…æ€§é˜ˆç§»,è€³é¼»å–‰ç§‘
-NIHL,Noise-Induced Hearing Loss,å™ªå£°æ€§å¬åŠ›æŸå¤±,è€³é¼»å–‰ç§‘
-MD,Meniere's Disease,æ¢…å°¼åŸƒç—…,è€³é¼»å–‰ç§‘
-SCC,Semicircular Canal,åŠè§„ç®¡,è€³é¼»å–‰ç§‘
-VEMP,Vestibular Evoked Myogenic Potential,å‰åº­è¯±å‘è‚Œæºæ€§ç”µä½,è€³é¼»å–‰ç§‘
-cVEMP,Cervical Vestibular Evoked Myogenic Potential,é¢ˆå‰åº­è¯±å‘è‚Œæºæ€§ç”µä½,è€³é¼»å–‰ç§‘
-oVEMP,Ocular Vestibular Evoked Myogenic Potential,çœ¼å‰åº­è¯±å‘è‚Œæºæ€§ç”µä½,è€³é¼»å–‰ç§‘
-FN,Facial Nerve,é¢ç¥ç»,è€³é¼»å–‰ç§‘
-NAR,Non-Allergic Rhinitis,éå˜åº”æ€§é¼»ç‚,è€³é¼»å–‰ç§‘
-NP,Nasal Polyp,é¼»æ¯è‚‰,è€³é¼»å–‰ç§‘
-VCD,Vocal Cord Dysfunction,å£°å¸¦åŠŸèƒ½éšœç¢,è€³é¼»å–‰ç§‘
-BOT,Base of Tongue,èˆŒæ ¹,è€³é¼»å–‰ç§‘
-NPC,Nasopharyngeal Carcinoma,é¼»å’½ç™Œ,è€³é¼»å–‰ç§‘
-LSCC,Laryngeal Squamous Cell Carcinoma,å–‰é³çŠ¶ç»†èƒç™Œ,è€³é¼»å–‰ç§‘
-AK,Actinic Keratosis,å…‰åŒ–æ€§è§’åŒ–ç—…,çš®è‚¤ç§‘
-ANA,Antinuclear Antibody,æŠ—æ ¸æŠ—ä½“,çš®è‚¤ç§‘
-APC,Antigen Presenting Cell,æŠ—åŸå‘ˆé€’ç»†èƒ,çš®è‚¤ç§‘
-BCC,Basal Cell Carcinoma,åŸºåº•ç»†èƒç™Œ,çš®è‚¤ç§‘
-BCG,Bacillus Calmette-GuÃ©rin,å¡ä»‹è‹—,çš®è‚¤ç§‘
-CTCL,Cutaneous T-cell Lymphoma,çš®è‚¤Tç»†èƒæ·‹å·´ç˜¤,çš®è‚¤ç§‘
-DIF,Direct Immunofluorescence,ç›´æ¥å…ç–«è§å…‰,çš®è‚¤ç§‘
-DLE,Discoid Lupus Erythematosus,ç›˜çŠ¶çº¢æ–‘ç‹¼ç–®,çš®è‚¤ç§‘
-EM,Erythema Multiforme,å¤šå½¢çº¢æ–‘,çš®è‚¤ç§‘
-EN,Erythema Nodosum,ç»“èŠ‚æ€§çº¢æ–‘,çš®è‚¤ç§‘
-FB,Foreign Body,å¼‚ç‰©,çš®è‚¤ç§‘
-FDE,Fixed Drug Eruption,å›ºå®šæ€§è¯ç–¹,çš®è‚¤ç§‘
-HAART,Highly Active Antiretroviral Therapy,é«˜æ•ˆæŠ—é€†è½¬å½•ç—…æ¯’æ²»ç–—,çš®è‚¤ç§‘
-H&E,Hematoxylin and Eosin,è‹æœ¨ç²¾-ä¼Šçº¢,çš®è‚¤ç§‘
-HLA,Human Leukocyte Antigen,äººç±»ç™½ç»†èƒæŠ—åŸ,çš®è‚¤ç§‘
-IFN,Interferon,å¹²æ‰°ç´ ,çš®è‚¤ç§‘
-IgA,Immunoglobulin A,å…ç–«çƒè›‹ç™½A,çš®è‚¤ç§‘
-IgE,Immunoglobulin E,å…ç–«çƒè›‹ç™½E,çš®è‚¤ç§‘
-IgG,Immunoglobulin G,å…ç–«çƒè›‹ç™½G,çš®è‚¤ç§‘
-IPL,Intense Pulsed Light,å¼ºè„‰å†²å…‰,çš®è‚¤ç§‘
-KS,Kaposi Sarcoma,å¡æ³¢è¥¿è‚‰ç˜¤,çš®è‚¤ç§‘
-LE,Lupus Erythematosus,çº¢æ–‘ç‹¼ç–®,çš®è‚¤ç§‘
-LP,Lichen Planus,æ‰å¹³è‹”è—“,çš®è‚¤ç§‘
-LS,Lichen Sclerosus,ç¡¬åŒ–æ€§è‹”è—“,çš®è‚¤ç§‘
-MF,Mycosis Fungoides,è•ˆæ ·è‚‰èŠ½è‚¿,çš®è‚¤ç§‘
-LCL,Lateral Collateral Ligament,å¤–ä¾§å‰¯éŸ§å¸¦,éª¨ç§‘
-IMN,Intramedullary Nail,é«“å†…é’‰,éª¨ç§‘
-DHS,Dynamic Hip Screw,åŠ¨åŠ›é«‹èºé’‰,éª¨ç§‘
-X-ray,Radiograph,Xçº¿ç‰‡,éª¨ç§‘
-DXA,Dual-energy X-ray Absorptiometry,åŒèƒ½Xçº¿å¸æ”¶æµ‹å®šæ³•,éª¨ç§‘
-NRS,Numeric Rating Scale,æ•°å­—è¯„åˆ†é‡è¡¨,éª¨ç§‘
-FRAX,Fracture Risk Assessment Tool,éª¨æŠ˜é£é™©è¯„ä¼°å·¥å…·,éª¨ç§‘
-OTA,Orthopaedic Trauma Association,éª¨ç§‘åˆ›ä¼¤åä¼š,éª¨ç§‘
-AAOS,American Academy of Orthopaedic Surgeons,ç¾å›½éª¨ç§‘åŒ»å¸ˆå­¦ä¼š,éª¨ç§‘
-LCP,Locking Compression Plate,é”å®šåŠ å‹æ¥éª¨æ¿,éª¨ç§‘
-PFNA,Proximal Femoral Nail Antirotation,è‚¡éª¨è¿‘ç«¯é˜²æ—‹é«“å†…é’‰,éª¨ç§‘
-THR,Total Hip Replacement,å…¨é«‹å…³èŠ‚ç½®æ¢,éª¨ç§‘
-TKR,Total Knee Replacement,å…¨è†å…³èŠ‚ç½®æ¢,éª¨ç§‘
-UKA,Unicompartmental Knee Arthroplasty,å•é«è†å…³èŠ‚ç½®æ¢æœ¯,éª¨ç§‘
-HTO,High Tibial Osteotomy,èƒ«éª¨é«˜ä½æˆªéª¨æœ¯,éª¨ç§‘
-ACDF,Anterior Cervical Discectomy and Fusion,é¢ˆæ¤å‰è·¯æ¤é—´ç›˜åˆ‡é™¤èåˆæœ¯,éª¨ç§‘
-PLIF,Posterior Lumbar Interbody Fusion,åè·¯è…°æ¤æ¤é—´èåˆæœ¯,éª¨ç§‘
-TLIF,Transforaminal Lumbar Interbody Fusion,ç»æ¤é—´å­”è…°æ¤æ¤é—´èåˆæœ¯,éª¨ç§‘
-LLIF,Lateral Lumbar Interbody Fusion,ä¾§è·¯è…°æ¤æ¤é—´èåˆæœ¯,éª¨ç§‘
-SIJ,Sacroiliac Joint,éª¶é«‚å…³èŠ‚,éª¨ç§‘
-SCFE,Slipped Capital Femoral Epiphysis,è‚¡éª¨å¤´éª¨éªºæ»‘è„±,éª¨ç§‘
-CTEV,Congenital Talipes Equinovarus,å…ˆå¤©æ€§é©¬è¹„å†…ç¿»è¶³,éª¨ç§‘
-PJI,Periprosthetic Joint Infection,å‡ä½“å‘¨å›´å…³èŠ‚æ„ŸæŸ“,éª¨ç§‘
-PRP,Platelet-Rich Plasma,å¯Œè¡€å°æ¿è¡€æµ†,éª¨ç§‘
-TURBT,Transurethral Resection of Bladder Tumor,ç»å°¿é“è†€èƒ±è‚¿ç˜¤åˆ‡é™¤æœ¯,æ³Œå°¿å¤–ç§‘
-URS,Ureteroscopy,è¾“å°¿ç®¡é•œæ£€æŸ¥æœ¯,æ³Œå°¿å¤–ç§‘
-RIRS,Retrograde Intrarenal Surgery,é€†è¡Œè‚¾å†…æ‰‹æœ¯,æ³Œå°¿å¤–ç§‘
-DRE,Digital Rectal Examination,ç›´è‚ æŒ‡æ£€,æ³Œå°¿å¤–ç§‘
-TRUS,Transrectal Ultrasound,ç»ç›´è‚ è¶…å£°,æ³Œå°¿å¤–ç§‘
-BCa,Bladder Cancer,è†€èƒ±ç™Œ,æ³Œå°¿å¤–ç§‘
-UTUC,Upper Tract Urothelial Carcinoma,ä¸Šå°¿è·¯å°¿è·¯ä¸Šçš®ç™Œ,æ³Œå°¿å¤–ç§‘
-NMIBC,Non-Muscle Invasive Bladder Cancer,éè‚Œå±‚æµ¸æ¶¦æ€§è†€èƒ±ç™Œ,æ³Œå°¿å¤–ç§‘
-MIBC,Muscle Invasive Bladder Cancer,è‚Œå±‚æµ¸æ¶¦æ€§è†€èƒ±ç™Œ,æ³Œå°¿å¤–ç§‘
-CRPC,Castration-Resistant Prostate Cancer,å»åŠ¿æŠµæŠ—æ€§å‰åˆ—è…ºç™Œ,æ³Œå°¿å¤–ç§‘
-ADT,Androgen Deprivation Therapy,é›„æ¿€ç´ å‰¥å¤ºæ²»ç–—,æ³Œå°¿å¤–ç§‘
-RP,Radical Prostatectomy,æ ¹æ²»æ€§å‰åˆ—è…ºåˆ‡é™¤æœ¯,æ³Œå°¿å¤–ç§‘
-RC,Radical Cystectomy,æ ¹æ²»æ€§è†€èƒ±åˆ‡é™¤æœ¯,æ³Œå°¿å¤–ç§‘
-RN,Radical Nephrectomy,æ ¹æ²»æ€§è‚¾åˆ‡é™¤æœ¯,æ³Œå°¿å¤–ç§‘
-LND,Lymph Node Dissection,æ·‹å·´ç»“æ¸…æ‰«æœ¯,æ³Œå°¿å¤–ç§‘
-IC,Interstitial Cystitis,é—´è´¨æ€§è†€èƒ±ç‚,æ³Œå°¿å¤–ç§‘
-LUTD,Lower Urinary Tract Dysfunction,ä¸‹å°¿è·¯åŠŸèƒ½éšœç¢,æ³Œå°¿å¤–ç§‘
-VUR,Vesicoureteral Reflux,è†€èƒ±è¾“å°¿ç®¡åæµ,æ³Œå°¿å¤–ç§‘
-UPJO,Ureteropelvic Junction Obstruction,è‚¾ç›‚è¾“å°¿ç®¡è¿æ¥éƒ¨æ¢—é˜»,æ³Œå°¿å¤–ç§‘
-PUV,Posterior Urethral Valves,åå°¿é“ç“£è†œ,æ³Œå°¿å¤–ç§‘
-HSPN,Henoch-SchÃ¶nlein Purpura Nephritis,è¿‡æ•æ€§ç´«ç™œè‚¾ç‚,æ³Œå°¿å¤–ç§‘
-NS,Nephrotic Syndrome,è‚¾ç—…ç»¼åˆå¾,æ³Œå°¿å¤–ç§‘
-RTA,Renal Tubular Acidosis,è‚¾å°ç®¡é…¸ä¸­æ¯’,æ³Œå°¿å¤–ç§‘
-UTI-R,Recurrent Urinary Tract Infection,å¤å‘æ€§å°¿è·¯æ„ŸæŸ“,æ³Œå°¿å¤–ç§‘
-CBT,Cognitive Behavioral Therapy,è®¤çŸ¥è¡Œä¸ºæ²»ç–—,ç²¾ç¥ç—…å­¦
-MAOI,Monoamine Oxidase Inhibitor,å•èƒºæ°§åŒ–é…¶æŠ‘åˆ¶å‰‚,ç²¾ç¥ç—…å­¦
-MDD,Major Depressive Disorder,é‡æ€§æŠ‘éƒéšœç¢,ç²¾ç¥ç—…å­¦
-BD,Bipolar Disorder,åŒç›¸éšœç¢,ç²¾ç¥ç—…å­¦
-SZ,Schizophrenia,ç²¾ç¥åˆ†è£‚ç—‡,ç²¾ç¥ç—…å­¦
-SAD,Social Anxiety Disorder,ç¤¾äº¤ç„¦è™‘éšœç¢,ç²¾ç¥ç—…å­¦
-CBT-I,Cognitive Behavioral Therapy for Insomnia,å¤±çœ è®¤çŸ¥è¡Œä¸ºæ²»ç–—,ç²¾ç¥ç—…å­¦
-DBT,Dialectical Behavior Therapy,è¾©è¯è¡Œä¸ºæ²»ç–—,ç²¾ç¥ç—…å­¦
-TMS,Transcranial Magnetic Stimulation,ç»é¢…ç£åˆºæ¿€,ç²¾ç¥ç—…å­¦
-VNS,Vagus Nerve Stimulation,è¿·èµ°ç¥ç»åˆºæ¿€,ç²¾ç¥ç—…å­¦
-DBS,Deep Brain Stimulation,è„‘æ·±éƒ¨ç”µåˆºæ¿€,ç²¾ç¥ç—…å­¦
-NMS,Neuroleptic Malignant Syndrome,æŠ—ç²¾ç¥ç—…è¯æ¶æ€§ç»¼åˆå¾,ç²¾ç¥ç—…å­¦
-EPS,Extrapyramidal Symptoms,é”¥ä½“å¤–ç³»ç—‡çŠ¶,ç²¾ç¥ç—…å­¦
-TD,Tardive Dyskinesia,è¿Ÿå‘æ€§è¿åŠ¨éšœç¢,ç²¾ç¥ç—…å­¦
-SI,Suicidal Ideation,è‡ªæ€æ„å¿µ,ç²¾ç¥ç—…å­¦
-SA,Suicide Attempt,è‡ªæ€æœªé‚,ç²¾ç¥ç—…å­¦
-NSSI,Nonsuicidal Self-Injury,éè‡ªæ€æ€§è‡ªä¼¤,ç²¾ç¥ç—…å­¦
-SUD,Substance Use Disorder,ç‰©è´¨ä½¿ç”¨éšœç¢,ç²¾ç¥ç—…å­¦
-AUD,Alcohol Use Disorder,é…’ç²¾ä½¿ç”¨éšœç¢,ç²¾ç¥ç—…å­¦
-ODD,Oppositional Defiant Disorder,å¯¹ç«‹è¿æŠ—éšœç¢,ç²¾ç¥ç—…å­¦
-PANDAS,Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal Infections,é“¾çƒèŒæ„ŸæŸ“ç›¸å…³å„¿ç«¥è‡ªèº«å…ç–«æ€§ç¥ç»ç²¾ç¥éšœç¢,ç²¾ç¥ç—…å­¦
-CAPD,Central Auditory Processing Disorder,ä¸­æ¢å¬è§‰å¤„ç†éšœç¢,ç²¾ç¥ç—…å­¦
-SPD,Sensory Processing Disorder,æ„Ÿè§‰å¤„ç†éšœç¢,ç²¾ç¥ç—…å­¦
-RDoC,Research Domain Criteria,ç ”ç©¶é¢†åŸŸæ ‡å‡†,ç²¾ç¥ç—…å­¦
-MRV,Magnetic Resonance Venography,ç£å…±æŒ¯é™è„‰æˆåƒ,å½±åƒåŒ»å­¦
-CTP,Computed Tomography Perfusion,è®¡ç®—æœºæ–­å±‚çŒæ³¨æˆåƒ,å½±åƒåŒ»å­¦
-MRP,Magnetic Resonance Perfusion,ç£å…±æŒ¯çŒæ³¨æˆåƒ,å½±åƒåŒ»å­¦
-ADC,Apparent Diffusion Coefficient,è¡¨è§‚å¼¥æ•£ç³»æ•°,å½±åƒåŒ»å­¦
-SWI,Susceptibility Weighted Imaging,ç£æ•æ„ŸåŠ æƒæˆåƒ,å½±åƒåŒ»å­¦
-MRS,Magnetic Resonance Spectroscopy,ç£å…±æŒ¯æ³¢è°±æˆåƒ,å½±åƒåŒ»å­¦
-BOLD,Blood Oxygen Level Dependent,è¡€æ°§æ°´å¹³ä¾èµ–æˆåƒ,å½±åƒåŒ»å­¦
-PWI,Perfusion Weighted Imaging,çŒæ³¨åŠ æƒæˆåƒ,å½±åƒåŒ»å­¦
-ASL,Arterial Spin Labeling,åŠ¨è„‰è‡ªæ—‹æ ‡è®°,å½±åƒåŒ»å­¦
-IVIM,Intravoxel Incoherent Motion,ä½“ç´ å†…ä¸ç›¸å¹²è¿åŠ¨,å½±åƒåŒ»å­¦
-DCE-MRI,Dynamic Contrast Enhanced MRI,åŠ¨æ€å¯¹æ¯”å¢å¼ºç£å…±æŒ¯æˆåƒ,å½±åƒåŒ»å­¦
-SSD,Shaded Surface Display,è¡¨é¢é®ç›–æ˜¾ç¤º,å½±åƒåŒ»å­¦
-HU,Hounsfield Unit,äº¨æ°å•ä½,å½±åƒåŒ»å­¦
-ROI,Region of Interest,æ„Ÿå…´è¶£åŒº,å½±åƒåŒ»å­¦
-VOI,Volume of Interest,æ„Ÿå…´è¶£å®¹ç§¯,å½±åƒåŒ»å­¦
-SNR,Signal to Noise Ratio,ä¿¡å™ªæ¯”,å½±åƒåŒ»å­¦
-CNR,Contrast to Noise Ratio,å¯¹æ¯”å™ªå£°æ¯”,å½±åƒåŒ»å­¦
-TE,Echo Time,å›æ³¢æ—¶é—´,å½±åƒåŒ»å­¦
-TR,Repetition Time,é‡å¤æ—¶é—´,å½±åƒåŒ»å­¦
-TI,Inversion Time,åè½¬æ—¶é—´,å½±åƒåŒ»å­¦
-NEX,Number of Excitations,æ¿€åŠ±æ¬¡æ•°,å½±åƒåŒ»å­¦
-ETL,Echo Train Length,å›æ³¢é“¾é•¿åº¦,å½±åƒåŒ»å­¦
-EPI,Echo Planar Imaging,å¹³é¢å›æ³¢æˆåƒ,å½±åƒåŒ»å­¦
-GRE,Gradient Echo,æ¢¯åº¦å›æ³¢,å½±åƒåŒ»å­¦
-SE,Spin Echo,è‡ªæ—‹å›æ³¢,å½±åƒåŒ»å­¦
-STIR,Short Tau Inversion Recovery,çŸ­æ—¶åè½¬æ¢å¤åºåˆ—,å½±åƒåŒ»å­¦
-T1WI,T1 Weighted Imaging,T1åŠ æƒæˆåƒ,å½±åƒåŒ»å­¦
-T2WI,T2 Weighted Imaging,T2åŠ æƒæˆåƒ,å½±åƒåŒ»å­¦
-PDWI,Proton Density Weighted Imaging,è´¨å­å¯†åº¦åŠ æƒæˆåƒ,å½±åƒåŒ»å­¦
-CE-MRA,Contrast Enhanced MRA,å¯¹æ¯”å¢å¼ºç£å…±æŒ¯è¡€ç®¡æˆåƒ,å½±åƒåŒ»å­¦
-TOF-MRA,Time of Flight MRA,æ—¶é—´é£è·ƒæ³•ç£å…±æŒ¯è¡€ç®¡æˆåƒ,å½±åƒåŒ»å­¦
-PC-MRA,Phase Contrast MRA,ç›¸ä½å¯¹æ¯”ç£å…±æŒ¯è¡€ç®¡æˆåƒ,å½±åƒåŒ»å­¦
-CVD,Cerebrovascular Disease,è„‘è¡€ç®¡ç–¾ç—…,ç—…ç†å­¦
-IPMN,Intraductal Papillary Mucinous Neoplasm,å¯¼ç®¡å†…ä¹³å¤´çŠ¶é»æ¶²æ€§è‚¿ç˜¤,ç—…ç†å­¦
-NET,Neuroendocrine Tumor,ç¥ç»å†…åˆ†æ³Œè‚¿ç˜¤,ç—…ç†å­¦
-CC,Cholangiocarcinoma,èƒ†ç®¡ç™Œ,ç—…ç†å­¦
-TCC,Transitional Cell Carcinoma,ç§»è¡Œç»†èƒç™Œ,ç—…ç†å­¦
-MCC,Merkel Cell Carcinoma,æ¢…å…‹å°”ç»†èƒç™Œ,ç—…ç†å­¦
-MALT,Mucosa-Associated Lymphoid Tissue,é»è†œç›¸å…³æ·‹å·´ç»„ç»‡,ç—…ç†å­¦
-PV,Polycythemia Vera,çœŸæ€§çº¢ç»†èƒå¢å¤šç—‡,ç—…ç†å­¦
-PMF,Primary Myelofibrosis,åŸå‘æ€§éª¨é«“çº¤ç»´åŒ–,ç—…ç†å­¦
-LCH,Langerhans Cell Histiocytosis,æœ—æ ¼æ±‰æ–¯ç»†èƒç»„ç»‡ç»†èƒå¢ç”Ÿç—‡,ç—…ç†å­¦
-GCA,Giant Cell Arteritis,å·¨ç»†èƒåŠ¨è„‰ç‚,ç—…ç†å­¦
-NSAID,Nonsteroidal Anti-Inflammatory Drug,éç”¾ä½“æŠ—ç‚è¯,è¯ç†å­¦
-DMARD,Disease-Modifying Antirheumatic Drug,æ”¹å–„ç—…æƒ…æŠ—é£æ¹¿è¯,è¯ç†å­¦
-CYP,Cytochrome P450,ç»†èƒè‰²ç´ P450,è¯ç†å­¦
-AUC,Area Under the Curve,æ›²çº¿ä¸‹é¢ç§¯,è¯ç†å­¦
-Cmax,Maximum Concentration,å³°æµ“åº¦,è¯ç†å­¦
-Tmax,Time to Maximum Concentration,è¾¾å³°æ—¶é—´,è¯ç†å­¦
-t1/2,Half-Life,åŠè¡°æœŸ,è¯ç†å­¦
-Vd,Volume of Distribution,è¡¨è§‚åˆ†å¸ƒå®¹ç§¯,è¯ç†å­¦
-CL,Clearance,æ¸…é™¤ç‡,è¯ç†å­¦
-MIC,Minimum Inhibitory Concentration,æœ€ä½æŠ‘èŒæµ“åº¦,è¯ç†å­¦
-MBC,Minimum Bactericidal Concentration,æœ€ä½æ€èŒæµ“åº¦,è¯ç†å­¦
-PK,Pharmacokinetics,è¯ä»£åŠ¨åŠ›å­¦,è¯ç†å­¦
-ADME,Absorption Distribution Metabolism Excretion,å¸æ”¶åˆ†å¸ƒä»£è°¢æ’æ³„,è¯ç†å­¦
-IC50,Half Maximal Inhibitory Concentration,åŠæ•°æŠ‘åˆ¶æµ“åº¦,è¯ç†å­¦
-EC50,Half Maximal Effective Concentration,åŠæ•°æœ‰æ•ˆæµ“åº¦,è¯ç†å­¦
-ED50,Median Effective Dose,åŠæ•°æœ‰æ•ˆå‰‚é‡,è¯ç†å­¦
-LD50,Median Lethal Dose,åŠæ•°è‡´æ­»å‰‚é‡,è¯ç†å­¦
-BBB,Blood-Brain Barrier,è¡€è„‘å±éšœ,è¯ç†å­¦
-ANS,Autonomic Nervous System,è‡ªä¸»ç¥ç»ç³»ç»Ÿ,è¯ç†å­¦
-GPCR,G Protein-Coupled Receptor,Gè›‹ç™½å¶è”å—ä½“,è¯ç†å­¦
-RTK,Receptor Tyrosine Kinase,å—ä½“é…ªæ°¨é…¸æ¿€é…¶,è¯ç†å­¦
-cAMP,Cyclic Adenosine Monophosphate,ç¯ç£·é…¸è…ºè‹·,è¯ç†å­¦
-ATP,Adenosine Triphosphate,ä¸‰ç£·é…¸è…ºè‹·,è¯ç†å­¦
-ADP,Adenosine Diphosphate,äºŒç£·é…¸è…ºè‹·,è¯ç†å­¦
-NADPH,Nicotinamide Adenine Dinucleotide Phosphate,çƒŸé…°èƒºè…ºå˜Œå‘¤äºŒæ ¸è‹·é…¸ç£·é…¸,è¯ç†å­¦
-COX,Cyclooxygenase,ç¯æ°§åˆé…¶,è¯ç†å­¦
-LOX,Lipoxygenase,è„‚æ°§åˆé…¶,è¯ç†å­¦
-MHC,Major Histocompatibility Complex,ä¸»è¦ç»„ç»‡ç›¸å®¹æ€§å¤åˆä½“,å…ç–«å­¦
-TCR,T Cell Receptor,Tç»†èƒå—ä½“,å…ç–«å­¦
-BCR,B Cell Receptor,Bç»†èƒå—ä½“,å…ç–«å­¦
-NK,Natural Killer Cell,è‡ªç„¶æ€ä¼¤ç»†èƒ,å…ç–«å­¦
-Th,T Helper Cell,è¾…åŠ©æ€§Tç»†èƒ,å…ç–«å­¦
-Treg,Regulatory T Cell,è°ƒèŠ‚æ€§Tç»†èƒ,å…ç–«å­¦
-Ig,Immunoglobulin,å…ç–«çƒè›‹ç™½,å…ç–«å­¦
-IgM,Immunoglobulin M,å…ç–«çƒè›‹ç™½M,å…ç–«å­¦
-IgD,Immunoglobulin D,å…ç–«çƒè›‹ç™½D,å…ç–«å­¦
-C3,Complement Component 3,è¡¥ä½“æˆåˆ†3,å…ç–«å­¦
-C4,Complement Component 4,è¡¥ä½“æˆåˆ†4,å…ç–«å­¦
-GM-CSF,Granulocyte-Macrophage Colony-Stimulating Factor,ç²’ç»†èƒ-å·¨å™¬ç»†èƒé›†è½åˆºæ¿€å› å­,å…ç–«å­¦
-G-CSF,Granulocyte Colony-Stimulating Factor,ç²’ç»†èƒé›†è½åˆºæ¿€å› å­,å…ç–«å­¦
-MCP,Monocyte Chemoattractant Protein,å•æ ¸ç»†èƒè¶‹åŒ–è›‹ç™½,å…ç–«å­¦
-RANTES,Regulated on Activation Normal T Cell Expressed and Secreted,æ´»åŒ–æ­£å¸¸Tç»†èƒè¡¨è¾¾å’Œåˆ†æ³Œè°ƒèŠ‚å› å­,å…ç–«å­¦
-LPS,Lipopolysaccharide,è„‚å¤šç³–,å…ç–«å­¦
-PAMP,Pathogen-Associated Molecular Pattern,ç—…åŸä½“ç›¸å…³åˆ†å­æ¨¡å¼,å…ç–«å­¦
-PRR,Pattern Recognition Receptor,æ¨¡å¼è¯†åˆ«å—ä½“,å…ç–«å­¦
-TLR,Toll-Like Receptor,Tollæ ·å—ä½“,å…ç–«å­¦
-NLR,NOD-Like Receptor,NODæ ·å—ä½“,å…ç–«å­¦
-RLR,RIG-I-Like Receptor,RIG-Iæ ·å—ä½“,å…ç–«å­¦
-CLR,C-Type Lectin Receptor,Cå‹å‡é›†ç´ å—ä½“,å…ç–«å­¦
-Fc,Fragment Crystallizable,å¯ç»“æ™¶ç‰‡æ®µ,å…ç–«å­¦
-Fab,Fragment Antigen Binding,æŠ—åŸç»“åˆç‰‡æ®µ,å…ç–«å­¦
-scFv,Single-Chain Variable Fragment,å•é“¾å¯å˜åŒºç‰‡æ®µ,å…ç–«å­¦
-CAR,Chimeric Antigen Receptor,åµŒåˆæŠ—åŸå—ä½“,å…ç–«å­¦
-CTL,Cytotoxic T Lymphocyte,ç»†èƒæ¯’æ€§Tæ·‹å·´ç»†èƒ,å…ç–«å­¦
-ADCC,Antibody-Dependent Cell-Mediated Cytotoxicity,æŠ—ä½“ä¾èµ–æ€§ç»†èƒä»‹å¯¼çš„ç»†èƒæ¯’æ€§,å…ç–«å­¦
-ELISPOT,Enzyme-Linked Immunospot Assay,é…¶è”å…ç–«æ–‘ç‚¹æ£€æµ‹,å…ç–«å­¦
-FACS,Fluorescence-Activated Cell Sorting,è§å…‰æ¿€æ´»ç»†èƒåˆ†é€‰,å…ç–«å­¦
-MFI,Mean Fluorescence Intensity,å¹³å‡è§å…‰å¼ºåº¦,å…ç–«å­¦
-PBMC,Peripheral Blood Mononuclear Cell,å¤–å‘¨è¡€å•ä¸ªæ ¸ç»†èƒ,å…ç–«å­¦
-TIL,Tumor-Infiltrating Lymphocyte,è‚¿ç˜¤æµ¸æ¶¦æ·‹å·´ç»†èƒ,å…ç–«å­¦
-GVL,Graft-Versus-Leukemia,ç§»æ¤ç‰©æŠ—ç™½è¡€ç—…,å…ç–«å­¦
-DNA,Deoxyribonucleic Acid,è„±æ°§æ ¸ç³–æ ¸é…¸,é—ä¼ å­¦
-RNA,Ribonucleic Acid,æ ¸ç³–æ ¸é…¸,é—ä¼ å­¦
-SNP,Single Nucleotide Polymorphism,å•æ ¸è‹·é…¸å¤šæ€æ€§,é—ä¼ å­¦
-GWAS,Genome-Wide Association Study,å…¨åŸºå› ç»„å…³è”ç ”ç©¶,é—ä¼ å­¦
-WES,Whole Exome Sequencing,å…¨å¤–æ˜¾å­ç»„æµ‹åº,é—ä¼ å­¦
-WGS,Whole Genome Sequencing,å…¨åŸºå› ç»„æµ‹åº,é—ä¼ å­¦
-Sanger,Sanger Sequencing,æ¡‘æ ¼æµ‹åº,é—ä¼ å­¦
-CGH,Comparative Genomic Hybridization,æ¯”è¾ƒåŸºå› ç»„æ‚äº¤,é—ä¼ å­¦
-MLPA,Multiplex Ligation-Dependent Probe Amplification,å¤šé‡è¿æ¥ä¾èµ–æ¢é’ˆæ‰©å¢,é—ä¼ å­¦
-STR,Short Tandem Repeat,çŸ­ä¸²è”é‡å¤åºåˆ—,é—ä¼ å­¦
-VNTR,Variable Number Tandem Repeat,å¯å˜æ•°ç›®ä¸²è”é‡å¤åºåˆ—,é—ä¼ å­¦
-LOH,Loss of Heterozygosity,æ‚åˆæ€§ç¼ºå¤±,é—ä¼ å­¦
-UPD,Uniparental Disomy,å•äº²äºŒä½“æ€§,é—ä¼ å­¦
-XL,X-Linked,Xè¿é”,é—ä¼ å­¦
-MT,Mitochondrial,çº¿ç²’ä½“,é—ä¼ å­¦
-MIM,Mendelian Inheritance in Man,äººç±»å­Ÿå¾·å°”é—ä¼ ,é—ä¼ å­¦
-OMIM,Online Mendelian Inheritance in Man,åœ¨çº¿äººç±»å­Ÿå¾·å°”é—ä¼ ,é—ä¼ å­¦
-HGVS,Human Genome Variation Society,äººç±»åŸºå› ç»„å˜å¼‚å­¦ä¼š,é—ä¼ å­¦
-ACMG,American College of Medical Genetics and Genomics,ç¾å›½åŒ»å­¦é—ä¼ å­¦ä¸åŸºå› ç»„å­¦å­¦ä¼š,é—ä¼ å­¦
-VUS,Variant of Uncertain Significance,æ„ä¹‰ä¸æ˜ç¡®å˜å¼‚,é—ä¼ å­¦
-PVS,Pathogenic Variant Strong,å¼ºè‡´ç—…æ€§å˜å¼‚,é—ä¼ å­¦
-BA,Biallelic,åŒç­‰ä½åŸºå› ,é—ä¼ å­¦
-HE,Heterozygous,æ‚åˆå­,é—ä¼ å­¦
-HO,Homozygous,çº¯åˆå­,é—ä¼ å­¦
-HTZ,Heterozygote,æ‚åˆå­,é—ä¼ å­¦
-HMZ,Homozygote,çº¯åˆå­,é—ä¼ å­¦
-DEL,Deletion,ç¼ºå¤±,é—ä¼ å­¦
-DUP,Duplication,é‡å¤,é—ä¼ å­¦
-INS,Insertion,æ’å…¥,é—ä¼ å­¦
-INV,Inversion,å€’ä½,é—ä¼ å­¦
-TRN,Translocation,æ˜“ä½,é—ä¼ å­¦
-MUT,Mutation,çªå˜,é—ä¼ å­¦
-WT,Wild Type,é‡ç”Ÿå‹,é—ä¼ å­¦
-PED,Pedigree,ç³»è°±,é—ä¼ å­¦
-PRO,Proband,å…ˆè¯è€…,é—ä¼ å­¦
-SIB,Sibling,åŒèƒ,é—ä¼ å­¦
-MZ,Monozygotic,å•åµæ€§,é—ä¼ å­¦
-DZ,Dizygotic,åŒåµæ€§,é—ä¼ å­¦
-HWE,Hardy-Weinberg Equilibrium,å“ˆè¿ª-æ¸©ä¼¯æ ¼å¹³è¡¡,é—ä¼ å­¦
-RT-PCR,Reverse Transcription Polymerase Chain Reaction,é€†è½¬å½•èšåˆé…¶é“¾ååº”,åˆ†å­ç”Ÿç‰©å­¦
-qPCR,Quantitative Polymerase Chain Reaction,å®šé‡èšåˆé…¶é“¾ååº”,åˆ†å­ç”Ÿç‰©å­¦
-mRNA,Messenger RNA,ä¿¡ä½¿æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-tRNA,Transfer RNA,è½¬ç§»æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-rRNA,Ribosomal RNA,æ ¸ç³–ä½“æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-cDNA,Complementary DNA,äº’è¡¥è„±æ°§æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-siRNA,Small Interfering RNA,å°å¹²æ‰°æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-miRNA,MicroRNA,å¾®å°æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-shRNA,Short Hairpin RNA,çŸ­å‘å¤¹æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-lncRNA,Long Non-coding RNA,é•¿é“¾éç¼–ç æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-CRISPR,Clustered Regularly Interspaced Short Palindromic Repeats,æˆç°‡è§„å¾‹é—´éš”çŸ­å›æ–‡é‡å¤åºåˆ—,åˆ†å­ç”Ÿç‰©å­¦
-Cas9,CRISPR-associated protein 9,CRISPRç›¸å…³è›‹ç™½9,åˆ†å­ç”Ÿç‰©å­¦
-sgRNA,Single Guide RNA,å•é“¾å¼•å¯¼æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-RFLP,Restriction Fragment Length Polymorphism,é™åˆ¶æ€§ç‰‡æ®µé•¿åº¦å¤šæ€æ€§,åˆ†å­ç”Ÿç‰©å­¦
-RNA-seq,RNA Sequencing,æ ¸ç³–æ ¸é…¸æµ‹åº,åˆ†å­ç”Ÿç‰©å­¦
-ChIP-seq,Chromatin Immunoprecipitation Sequencing,æŸ“è‰²è´¨å…ç–«æ²‰æ·€æµ‹åº,åˆ†å­ç”Ÿç‰©å­¦
-ISH,In Situ Hybridization,åŸä½æ‚äº¤,åˆ†å­ç”Ÿç‰©å­¦
-WB,Western Blot,è›‹ç™½è´¨å°è¿¹æ³•,åˆ†å­ç”Ÿç‰©å­¦
-EMSA,Electrophoretic Mobility Shift Assay,ç”µæ³³è¿ç§»ç‡å˜åŠ¨åˆ†æ,åˆ†å­ç”Ÿç‰©å­¦
-IP,Immunoprecipitation,å…ç–«æ²‰æ·€,åˆ†å­ç”Ÿç‰©å­¦
-Co-IP,Co-Immunoprecipitation,å…ç–«å…±æ²‰æ·€,åˆ†å­ç”Ÿç‰©å­¦
-PAGE,Polyacrylamide Gel Electrophoresis,èšä¸™çƒ¯é…°èƒºå‡èƒ¶ç”µæ³³,åˆ†å­ç”Ÿç‰©å­¦
-SDS-PAGE,Sodium Dodecyl Sulfate Polyacrylamide Gel Electrophoresis,åäºŒçƒ·åŸºç¡«é…¸é’ èšä¸™çƒ¯é…°èƒºå‡èƒ¶ç”µæ³³,åˆ†å­ç”Ÿç‰©å­¦
-PFGE,Pulsed-Field Gel Electrophoresis,è„‰å†²åœºå‡èƒ¶ç”µæ³³,åˆ†å­ç”Ÿç‰©å­¦
-TUNEL,Terminal Deoxynucleotidyl Transferase dUTP Nick End Labeling,æœ«ç«¯è„±æ°§æ ¸è‹·é…¸è½¬ç§»é…¶dUTPç¼ºå£æœ«ç«¯æ ‡è®°,åˆ†å­ç”Ÿç‰©å­¦
-RACE,Rapid Amplification of cDNA Ends,cDNAæœ«ç«¯å¿«é€Ÿæ‰©å¢,åˆ†å­ç”Ÿç‰©å­¦
-ORF,Open Reading Frame,å¼€æ”¾é˜…è¯»æ¡†,åˆ†å­ç”Ÿç‰©å­¦
-UTR,Untranslated Region,éç¿»è¯‘åŒº,åˆ†å­ç”Ÿç‰©å­¦
-TSS,Transcription Start Site,è½¬å½•èµ·å§‹ä½ç‚¹,åˆ†å­ç”Ÿç‰©å­¦
-TF,Transcription Factor,è½¬å½•å› å­,åˆ†å­ç”Ÿç‰©å­¦
-TAD,Topologically Associating Domain,æ‹“æ‰‘å…³è”ç»“æ„åŸŸ,åˆ†å­ç”Ÿç‰©å­¦
-circRNA,Circular RNA,ç¯çŠ¶æ ¸ç³–æ ¸é…¸,åˆ†å­ç”Ÿç‰©å­¦
-Ago,Argonaute,Argonauteè›‹ç™½,åˆ†å­ç”Ÿç‰©å­¦
-RISC,RNA-Induced Silencing Complex,RNAè¯±å¯¼æ²‰é»˜å¤åˆä½“,åˆ†å­ç”Ÿç‰©å­¦
-Dicer,Dicer,åˆ‡å‰²é…¶,åˆ†å­ç”Ÿç‰©å­¦
-Pol,Polymerase,èšåˆé…¶,åˆ†å­ç”Ÿç‰©å­¦
-RT,Reverse Transcriptase,é€†è½¬å½•é…¶,åˆ†å­ç”Ÿç‰©å­¦
-AAA,Abdominal Aortic Aneurysm,è…¹ä¸»åŠ¨è„‰ç˜¤,è§£å‰–å­¦
-ACA,Anterior Cerebral Artery,å¤§è„‘å‰åŠ¨è„‰,è§£å‰–å­¦
-AICD,Automatic Implantable Cardioverter-Defibrillator,è‡ªåŠ¨æ¤å…¥å¼å¿ƒå¾‹è½¬å¤é™¤é¢¤å™¨,è§£å‰–å­¦
-ABP,Arterial Blood Pressure,åŠ¨è„‰è¡€å‹,ç”Ÿç†å­¦
-TV,Tidal Volume,æ½®æ°”é‡,ç”Ÿç†å­¦
-FRC,Functional Residual Capacity,åŠŸèƒ½æ®‹æ°”é‡,ç”Ÿç†å­¦
-RBF,Renal Blood Flow,è‚¾è¡€æµé‡,ç”Ÿç†å­¦
-FF,Filtration Fraction,æ»¤è¿‡åˆ†æ•°,ç”Ÿç†å­¦
-UO,Urine Output,å°¿é‡,ç”Ÿç†å­¦
-BMR,Basal Metabolic Rate,åŸºç¡€ä»£è°¢ç‡,ç”Ÿç†å­¦
-OT,Oxytocin,å‚¬äº§ç´ ,ç”Ÿç†å­¦
-NE,Norepinephrine,å»ç”²è‚¾ä¸Šè…ºç´ ,ç”Ÿç†å­¦
-ACh,Acetylcholine,ä¹™é…°èƒ†ç¢±,ç”Ÿç†å­¦
-DA,Dopamine,å¤šå·´èƒº,ç”Ÿç†å­¦
-GABA,Gamma-Aminobutyric Acid,Î³-æ°¨åŸºä¸é…¸,ç”Ÿç†å­¦
-EPSP,Excitatory Postsynaptic Potential,å…´å¥‹æ€§çªè§¦åç”µä½,ç”Ÿç†å­¦
-IPSP,Inhibitory Postsynaptic Potential,æŠ‘åˆ¶æ€§çªè§¦åç”µä½,ç”Ÿç†å­¦
-RMP,Resting Membrane Potential,é™æ¯è†œç”µä½,ç”Ÿç†å­¦
-NADH,Nicotinamide Adenine Dinucleotide (Reduced),è¿˜åŸå‹çƒŸé…°èƒºè…ºå˜Œå‘¤äºŒæ ¸è‹·é…¸,ç”Ÿç‰©åŒ–å­¦
-FAD,Flavin Adenine Dinucleotide,é»„ç´ è…ºå˜Œå‘¤äºŒæ ¸è‹·é…¸,ç”Ÿç‰©åŒ–å­¦
-GTP,Guanosine Triphosphate,ä¸‰ç£·é…¸é¸Ÿè‹·,ç”Ÿç‰©åŒ–å­¦
-UTP,Uridine Triphosphate,ä¸‰ç£·é…¸å°¿è‹·,ç”Ÿç‰©åŒ–å­¦
-HPLC,High-Performance Liquid Chromatography,é«˜æ•ˆæ¶²ç›¸è‰²è°±æ³•,ç”Ÿç‰©åŒ–å­¦
-NMR,Nuclear Magnetic Resonance,æ ¸ç£å…±æŒ¯,ç”Ÿç‰©åŒ–å­¦
-CHIP,Chromatin Immunoprecipitation,æŸ“è‰²è´¨å…ç–«æ²‰æ·€,ç”Ÿç‰©åŒ–å­¦
-RIA,Radioimmunoassay,æ”¾å°„å…ç–«åˆ†æ,ç”Ÿç‰©åŒ–å­¦
-CK,Creatine Kinase,è‚Œé…¸æ¿€é…¶,ç”Ÿç‰©åŒ–å­¦
-CFU,Colony-forming Unit,èŒè½å½¢æˆå•ä½,å¾®ç”Ÿç‰©å­¦
-MLST,Multilocus Sequence Typing,å¤šä½ç‚¹åºåˆ—åˆ†å‹,å¾®ç”Ÿç‰©å­¦
-LTA,Lipoteichoic Acid,è„‚ç£·å£é…¸,å¾®ç”Ÿç‰©å­¦
-TEM,Transmission Electron Microscopy,é€å°„ç”µå­æ˜¾å¾®é•œ,å¾®ç”Ÿç‰©å­¦
-SEM,Scanning Electron Microscopy,æ‰«æç”µå­æ˜¾å¾®é•œ,å¾®ç”Ÿç‰©å­¦
-BHI,Brain Heart Infusion,è„‘å¿ƒæµ¸æ¶²,å¾®ç”Ÿç‰©å­¦
-TSB,Tryptic Soy Broth,èƒ°è›‹ç™½èƒ¨å¤§è±†è‚‰æ±¤,å¾®ç”Ÿç‰©å­¦
-MHA,Mueller-Hinton Agar,ç©†å‹’-æ¬£é¡¿ç¼è„‚,å¾®ç”Ÿç‰©å­¦
-EUCAST,European Committee on Antimicrobial Susceptibility Testing,æ¬§æ´²æŠ—èŒè¯ç‰©æ•æ„Ÿæ€§è¯•éªŒå§”å‘˜ä¼š,å¾®ç”Ÿç‰©å­¦
-NTM,Nontuberculous Mycobacteria,éç»“æ ¸åˆ†ææ†èŒ,å¾®ç”Ÿç‰©å­¦
-SPA,Staphylococcal Protein A,è‘¡è„çƒèŒè›‹ç™½A,å¾®ç”Ÿç‰©å­¦
-TSST-1,Toxic Shock Syndrome Toxin 1,ä¸­æ¯’æ€§ä¼‘å…‹ç»¼åˆå¾æ¯’ç´ 1,å¾®ç”Ÿç‰©å­¦
-ETEC,Enterotoxigenic Escherichia coli,äº§è‚ æ¯’ç´ æ€§å¤§è‚ åŸƒå¸ŒèŒ,å¾®ç”Ÿç‰©å­¦
-EPEC,Enteropathogenic Escherichia coli,è‚ è‡´ç—…æ€§å¤§è‚ åŸƒå¸ŒèŒ,å¾®ç”Ÿç‰©å­¦
-EHEC,Enterohemorrhagic Escherichia coli,è‚ å‡ºè¡€æ€§å¤§è‚ åŸƒå¸ŒèŒ,å¾®ç”Ÿç‰©å­¦
-EIEC,Enteroinvasive Escherichia coli,è‚ ä¾µè¢­æ€§å¤§è‚ åŸƒå¸ŒèŒ,å¾®ç”Ÿç‰©å­¦
-EAEC,Enteroaggregative Escherichia coli,è‚ èšé›†æ€§å¤§è‚ åŸƒå¸ŒèŒ,å¾®ç”Ÿç‰©å­¦
-MRSE,Methicillin-resistant Staphylococcus epidermidis,è€ç”²æ°§è¥¿æ—è¡¨çš®è‘¡è„çƒèŒ,å¾®ç”Ÿç‰©å­¦
-VISA,Vancomycin-intermediate Staphylococcus aureus,ä¸‡å¤éœ‰ç´ ä¸­ä»‹é‡‘é»„è‰²è‘¡è„çƒèŒ,å¾®ç”Ÿç‰©å­¦
-VRSA,Vancomycin-resistant Staphylococcus aureus,è€ä¸‡å¤éœ‰ç´ é‡‘é»„è‰²è‘¡è„çƒèŒ,å¾®ç”Ÿç‰©å­¦
-CRAB,Carbapenem-resistant Acinetobacter baumannii,è€ç¢³é’éœ‰çƒ¯é²æ›¼ä¸åŠ¨æ†èŒ,å¾®ç”Ÿç‰©å­¦
-COVID-19,Coronavirus Disease 2019,æ–°å‹å† çŠ¶ç—…æ¯’ç—…,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-SARS-CoV-2,Severe Acute Respiratory Syndrome Coronavirus 2,ä¸¥é‡æ€¥æ€§å‘¼å¸ç»¼åˆå¾å† çŠ¶ç—…æ¯’2å‹,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-R0,Basic Reproduction Number,åŸºæœ¬å†ç”Ÿæ•°,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-NPV,Negative Predictive Value,é˜´æ€§é¢„æµ‹å€¼,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-ROC,Receiver Operating Characteristic,å—è¯•è€…å·¥ä½œç‰¹å¾,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-VE,Vaccine Effectiveness,ç–«è‹—æ•ˆæœ,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-ID,Infectious Disease,ä¼ æŸ“ç—…,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-AMR,Antimicrobial Resistance,æŠ—èŒè¯ç‰©è€è¯æ€§,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-NCD,Non-Communicable Disease,éä¼ æŸ“æ€§ç–¾ç—…,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-SES,Socioeconomic Status,ç¤¾ä¼šç»æµåœ°ä½,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-DALY,Disability-Adjusted Life Year,ä¼¤æ®‹è°ƒæ•´ç”Ÿå‘½å¹´,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-QALY,Quality-Adjusted Life Year,è´¨é‡è°ƒæ•´ç”Ÿå‘½å¹´,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-YLL,Years of Life Lost,å¯¿å‘½æŸå¤±å¹´,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-YLD,Years Lived with Disability,ä¼¤æ®‹å¯¿å‘½å¹´,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-CFR,Case Fatality Rate,ç—…æ­»ç‡,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-SIR,Standardized Incidence Ratio,æ ‡å‡†åŒ–å‘ç—…æ¯”,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
-SMR,Standardized Mortality Ratio,æ ‡å‡†åŒ–æ­»äº¡æ¯”,å…¬å…±å«ç”Ÿä¸æµè¡Œç—…å­¦
+ËõĞ´,Ó¢ÎÄÈ«³Æ,ÖĞÎÄÒëÃû,Ñ§¿Æ,,,
+STEMI,ST-segment Elevation Myocardial Infarction,ST¶ÎÌ§¸ßĞÍĞÄ¼¡¹£ËÀ,ĞÄÑª¹Ü,,,
+NSTEMI,Non-ST-segment Elevation Myocardial Infarction,·ÇST¶ÎÌ§¸ßĞÍĞÄ¼¡¹£ËÀ,ĞÄÑª¹Ü,,,
+PCI,Percutaneous Coronary Intervention,¾­Æ¤¹Ú×´¶¯Âö½éÈëÖÎÁÆ,ĞÄÑª¹Ü,,,
+CABG,Coronary Artery Bypass Grafting,¹Ú×´¶¯ÂöÅÔÂ·ÒÆÖ²Êõ,ĞÄÑª¹Ü,,,
+ACS,Acute Coronary Syndrome,¼±ĞÔ¹ÚÂö×ÛºÏÕ÷,ĞÄÑª¹Ü,,,
+HF,Heart Failure,ĞÄÁ¦Ë¥½ß,ĞÄÑª¹Ü,,,
+CHF,Congestive Heart Failure,³äÑªĞÔĞÄÁ¦Ë¥½ß,ĞÄÑª¹Ü,,,
+AF,Atrial Fibrillation,ĞÄ·¿²ü¶¯,ĞÄÑª¹Ü,,,
+VT,Ventricular Tachycardia,ÊÒĞÔĞÄ¶¯¹ıËÙ,ĞÄÑª¹Ü,,,
+VF,Ventricular Fibrillation,ĞÄÊÒ²ü¶¯,ĞÄÑª¹Ü,,,
+LVEF,Left Ventricular Ejection Fraction,×óĞÄÊÒÉäÑª·ÖÊı,ĞÄÑª¹Ü,,,
+CAD,Coronary Artery Disease,¹Ú×´¶¯Âö¼²²¡,ĞÄÑª¹Ü,,,
+HTN,Hypertension,¸ßÑªÑ¹,ĞÄÑª¹Ü,,,
+SBP,Systolic Blood Pressure,ÊÕËõÑ¹,ĞÄÑª¹Ü,,,
+DBP,Diastolic Blood Pressure,ÊæÕÅÑ¹,ĞÄÑª¹Ü,,,
+CCB,Calcium Channel Blocker,¸ÆÍ¨µÀ×èÖÍ¼Á,ĞÄÑª¹Ü,,,
+ACEI,Angiotensin-Converting Enzyme Inhibitor,Ñª¹Ü½ôÕÅËØ×ª»¯Ã¸ÒÖÖÆ¼Á,ĞÄÑª¹Ü,,,
+ARB,Angiotensin Receptor Blocker,Ñª¹Ü½ôÕÅËØÊÜÌå×èÖÍ¼Á,ĞÄÑª¹Ü,,,
+MI,Myocardial Infarction,ĞÄ¼¡¹£ËÀ,ĞÄÑª¹Ü,,,
+MACE,Major Adverse Cardiovascular Events,Ö÷Òª²»Á¼ĞÄÑª¹ÜÊÂ¼ş,ĞÄÑª¹Ü,,,
+COPD,Chronic Obstructive Pulmonary Disease,ÂıĞÔ×èÈûĞÔ·Î¼²²¡,ºôÎü,,,
+ARDS,Acute Respiratory Distress Syndrome,¼±ĞÔºôÎü¾½ÆÈ×ÛºÏÕ÷,ºôÎü,,,
+PE,Pulmonary Embolism,·ÎË¨Èû,ºôÎü,,,
+OSA,Obstructive Sleep Apnea,×èÈûĞÔË¯ÃßºôÎüÔİÍ£,ºôÎü,,,
+FEV1,Forced Expiratory Volume in 1 second,µÚ1ÃëÓÃÁ¦ºôÆøÈİ»ı,ºôÎü,,,
+FVC,Forced Vital Capacity,ÓÃÁ¦·Î»îÁ¿,ºôÎü,,,
+CVA,Cerebrovascular Accident,ÄÔÑª¹ÜÒâÍâ£¨ÄÔ×äÖĞ£©,Éñ¾­,,,
+TIA,Transient Ischemic Attack,¶ÌÔİĞÔÄÔÈ±Ñª·¢×÷,Éñ¾­,,,
+AD,Alzheimer's Disease,°¢¶û´Äº£Ä¬²¡,Éñ¾­,,,
+PD,Parkinson's Disease,ÅÁ½ğÉ­²¡,Éñ¾­,,,
+MS,Multiple Sclerosis,¶à·¢ĞÔÓ²»¯,Éñ¾­,,,
+EEG,Electroencephalogram,ÄÔµçÍ¼,Éñ¾­,,,
+MRI,Magnetic Resonance Imaging,´Å¹²Õñ³ÉÏñ,Ó°Ïñ¼ì²é,,,
+CT,Computed Tomography,¼ÆËã»ú¶Ï²ãÉ¨Ãè,Ó°Ïñ¼ì²é,,,
+PET,Positron Emission Tomography,Õıµç×Ó·¢Éä¶Ï²ãÉ¨Ãè,Ó°Ïñ¼ì²é,,,
+US,Ultrasound,³¬Éù¼ì²é,Ó°Ïñ¼ì²é,,,
+DM,Diabetes Mellitus,ÌÇÄò²¡,ÄÚ·ÖÃÚ´úĞ»,,,
+T1DM,Type 1 Diabetes Mellitus,1ĞÍÌÇÄò²¡,ÄÚ·ÖÃÚ´úĞ»,,,
+T2DM,Type 2 Diabetes Mellitus,2ĞÍÌÇÄò²¡,ÄÚ·ÖÃÚ´úĞ»,,,
+HbA1c,Glycated Hemoglobin,ÌÇ»¯Ñªºìµ°°×,ÄÚ·ÖÃÚ´úĞ»,,,
+TSH,Thyroid-Stimulating Hormone,´Ù¼××´ÏÙ¼¤ËØ,ÄÚ·ÖÃÚ´úĞ»,,,
+DKA,Diabetic Ketoacidosis,ÌÇÄò²¡ÍªÖ¢ËáÖĞ¶¾,ÄÚ·ÖÃÚ´úĞ»,,,
+PCOS,Polycystic Ovary Syndrome,¶àÄÒÂÑ³²×ÛºÏÕ÷,ÄÚ·ÖÃÚ´úĞ»,,,
+NSCLC,Non-Small Cell Lung Cancer,·ÇĞ¡Ï¸°û·Î°©,Ö×Áö,,,
+SCLC,Small Cell Lung Cancer,Ğ¡Ï¸°û·Î°©,Ö×Áö,,,
+CRC,Colorectal Cancer,½áÖ±³¦°©,Ö×Áö,,,
+HCC,Hepatocellular Carcinoma,¸ÎÏ¸°û°©,Ö×Áö,,,
+ALL,Acute Lymphoblastic Leukemia,¼±ĞÔÁÜ°ÍÏ¸°û°×Ñª²¡,Ö×Áö,,,
+AML,Acute Myeloid Leukemia,¼±ĞÔËèÏµ°×Ñª²¡,Ö×Áö,,,
+CML,Chronic Myeloid Leukemia,ÂıĞÔËèÏµ°×Ñª²¡,Ö×Áö,,,
+CR,Complete Response,ÍêÈ«»º½â,Ö×Áö,,,
+PR,Partial Response,²¿·Ö»º½â,Ö×Áö,,,
+OS,Overall Survival,×ÜÉú´æÆÚ,Ö×Áö,,,
+PFS,Progression-Free Survival,ÎŞ½øÕ¹Éú´æÆÚ,Ö×Áö,,,
+DFS,Disease-Free Survival,ÎŞ²¡Éú´æÆÚ,Ö×Áö,,,
+ORR,Objective Response Rate,¿Í¹Û»º½âÂÊ,Ö×Áö,,,
+UTI,Urinary Tract Infection,ÃÚÄòÏµ¸ĞÈ¾,¸ĞÈ¾,,,
+CAP,Community-Acquired Pneumonia,ÉçÇø»ñµÃĞÔ·ÎÑ×,¸ĞÈ¾,,,
+HAP,Hospital-Acquired Pneumonia,Ò½Ôº»ñµÃĞÔ·ÎÑ×,¸ĞÈ¾,,,
+TB,Tuberculosis,½áºË²¡,¸ĞÈ¾,,,
+HIV,Human Immunodeficiency Virus,ÈËÀàÃâÒßÈ±Ïİ²¡¶¾,¸ĞÈ¾,,,
+AIDS,Acquired Immunodeficiency Syndrome,»ñµÃĞÔÃâÒßÈ±Ïİ×ÛºÏÕ÷,¸ĞÈ¾,,,
+HBV,Hepatitis B Virus,ÒÒĞÍ¸ÎÑ×²¡¶¾,¸ĞÈ¾,,,
+HCV,Hepatitis C Virus,±ûĞÍ¸ÎÑ×²¡¶¾,¸ĞÈ¾,,,
+MRSA,Methicillin-Resistant Staphylococcus Aureus,ÄÍ¼×ÑõÎ÷ÁÖ½ğ»ÆÉ«ÆÏÌÑÇò¾ú,¸ĞÈ¾,,,
+GERD,Gastroesophageal Reflux Disease,Î¸Ê³¹Ü·´Á÷²¡,Ïû»¯,,,
+IBD,Inflammatory Bowel Disease,Ñ×Ö¢ĞÔ³¦²¡,Ïû»¯,,,
+UC,Ulcerative Colitis,À£ÑñĞÔ½á³¦Ñ×,Ïû»¯,,,
+CD,Crohn's Disease,¿ËÂŞ¶÷²¡,Ïû»¯,,,
+IBS,Irritable Bowel Syndrome,³¦Ò×¼¤×ÛºÏÕ÷,Ïû»¯,,,
+NAFLD,Non-Alcoholic Fatty Liver Disease,·Ç¾Æ¾«ĞÔÖ¬·¾ĞÔ¸Î²¡,Ïû»¯,,,
+PUD,Peptic Ulcer Disease,Ïû»¯ĞÔÀ£Ññ,Ïû»¯,,,
+CKD,Chronic Kidney Disease,ÂıĞÔÉöÔà²¡,Éö²¡,,,
+ESRD,End-Stage Renal Disease,ÖÕÄ©ÆÚÉö²¡,Éö²¡,,,
+AKI,Acute Kidney Injury,¼±ĞÔÉöËğÉË,Éö²¡,,,
+GFR,Glomerular Filtration Rate,ÉöĞ¡ÇòÂË¹ıÂÊ,Éö²¡,,,
+RBC,Red Blood Cell,ºìÏ¸°û,ÑªÒº/¼ìÑé,,,
+WBC,White Blood Cell,°×Ï¸°û,ÑªÒº/¼ìÑé,,,
+PLT,Platelet,ÑªĞ¡°å,ÑªÒº/¼ìÑé,,,
+Hb,Hemoglobin,Ñªºìµ°°×,ÑªÒº/¼ìÑé,,,
+Hct,Hematocrit,ÑªÏ¸°û±ÈÈİ,ÑªÒº/¼ìÑé,,,
+PT,Prothrombin Time,ÄıÑªÃ¸Ô­Ê±¼ä,ÑªÒº/¼ìÑé,,,
+APTT,Activated Partial Thromboplastin Time,»î»¯²¿·ÖÄıÑª»îÃ¸Ê±¼ä,ÑªÒº/¼ìÑé,,,
+INR,International Normalized Ratio,¹ú¼Ê±ê×¼»¯±ÈÖµ,ÑªÒº/¼ìÑé,,,
+DVT,Deep Vein Thrombosis,Éî¾²ÂöÑªË¨,ÑªÒº/¼ìÑé,,,
+RCT,Randomized Controlled Trial,Ëæ»ú¶ÔÕÕÊÔÑé,ÁÙ´²ÑĞ¾¿,,,
+OR,Odds Ratio,±ÈÖµ±È,ÁÙ´²ÑĞ¾¿,,,
+RR,Risk Ratio,·çÏÕ±È,ÁÙ´²ÑĞ¾¿,,,
+HR,Hazard Ratio,·çÏÕ±È,ÁÙ´²ÑĞ¾¿,,,
+CI,Confidence Interval,ÖÃĞÅÇø¼ä,ÁÙ´²ÑĞ¾¿,,,
+AE,Adverse Event,²»Á¼ÊÂ¼ş,ÁÙ´²ÑĞ¾¿,,,
+SAE,Serious Adverse Event,ÑÏÖØ²»Á¼ÊÂ¼ş,ÁÙ´²ÑĞ¾¿,,,
+ITT,Intention-to-Treat,ÒâÏòĞÔÖÎÁÆ·ÖÎö,ÁÙ´²ÑĞ¾¿,,,
+PP,Per-Protocol,·ûºÏ·½°¸¼¯·ÖÎö,ÁÙ´²ÑĞ¾¿,,,
+q.d.,quaque die (once daily),Ã¿ÈÕÒ»´Î,¸øÒ©·½Ê½,,,
+b.i.d.,bis in die (twice daily),Ã¿ÈÕÁ½´Î,¸øÒ©·½Ê½,,,
+t.i.d.,ter in die (three times daily),Ã¿ÈÕÈı´Î,¸øÒ©·½Ê½,,,
+p.r.n.,pro re nata (as needed),±ØÒªÊ±,¸øÒ©·½Ê½,,,
+NPO,nil per os (nothing by mouth),½ûÊ³,¸øÒ©·½Ê½,,,
+STAT,statim (immediately),Á¢¼´,¸øÒ©·½Ê½,,,
+SOB,Shortness of Breath,Æø´Ù,ÁÙ´²Ö¢×´,,,
+CP,Chest Pain,ĞØÍ´,ÁÙ´²Ö¢×´,,,
+LOC,Loss of Consciousness,ÒâÊ¶É¥Ê§,ÁÙ´²Ö¢×´,,,
+ROS,Review of Systems,ÏµÍ³»Ø¹Ë,²¡Àú,,,
+HPI,History of Present Illness,ÏÖ²¡Ê·,²¡Àú,,,
+PMH,Past Medical History,¼ÈÍùÊ·,²¡Àú,,,
+ËõĞ´,Ó¢ÎÄÈ«³Æ,ÖĞÎÄÒëÃû,Ñ§¿Æ,,,
+AMI,Acute Myocardial Infarction,¼±ĞÔĞÄ¼¡¹£ËÀ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+BNP,Brain Natriuretic Peptide,ÄÔÄÆëÄ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CRP,C-Reactive Protein,C·´Ó¦µ°°×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CTnI,Cardiac Troponin I,ĞÄ¼¡¼¡¸Æµ°°×I,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ECG,Electrocardiogram,ĞÄµçÍ¼,ĞÄÑª¹ÜÄÚ¿Æ,,,
+EF,Ejection Fraction,ÉäÑª·ÖÊı,ĞÄÑª¹ÜÄÚ¿Æ,,,
+IABP,Intra-Aortic Balloon Pump,Ö÷¶¯ÂöÄÚÇòÄÒ·´²«,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LDL,Low-Density Lipoprotein,µÍÃÜ¶ÈÖ¬µ°°×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+NYHA,New York Heart Association,Å¦Ô¼ĞÄÔàĞ­»á,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ARF,Acute Respiratory Failure,¼±ĞÔºôÎüË¥½ß,ºôÎüÄÚ¿Æ,,,
+BAL,Bronchoalveolar Lavage,Ö§Æø¹Ü·ÎÅİ¹àÏ´,ºôÎüÄÚ¿Æ,,,
+BALF,Bronchoalveolar Lavage Fluid,Ö§Æø¹Ü·ÎÅİ¹àÏ´Òº,ºôÎüÄÚ¿Æ[reference:0],,,
+BIPAP,Bilevel Positive Airway Pressure,Ë«Ë®Æ½ÆøµÀÕıÑ¹Í¨Æø,ºôÎüÄÚ¿Æ,,,
+CTPA,CT Pulmonary Angiography,CT·Î¶¯ÂöÔìÓ°,ºôÎüÄÚ¿Æ,,,
+IPF,Idiopathic Pulmonary Fibrosis,ÌØ·¢ĞÔ·ÎÏËÎ¬»¯,ºôÎüÄÚ¿Æ[reference:3],,,
+LTOT,Long-Term Oxygen Therapy,³¤ÆÚÑõÁÆ,ºôÎüÄÚ¿Æ,,,
+MV,Mechanical Ventilation,»úĞµÍ¨Æø,ºôÎüÄÚ¿Æ,,,
+NIV,Non-Invasive Ventilation,ÎŞ´´Í¨Æø,ºôÎüÄÚ¿Æ,,,
+PAP,Pulmonary Arterial Pressure,·Î¶¯ÂöÑ¹,ºôÎüÄÚ¿Æ,,,
+PEEP,Positive End-Expiratory Pressure,ºôÆøÄ©ÕıÑ¹,ºôÎüÄÚ¿Æ,,,
+PFT,Pulmonary Function Test,·Î¹¦ÄÜ¼ì²é,ºôÎüÄÚ¿Æ,,,
+SaO2,Oxygen Saturation,ÑªÑõ±¥ºÍ¶È,ºôÎüÄÚ¿Æ,,,
+SpO2,Pulse Oximetry Oxygen Saturation,Âö²«ÑªÑõ±¥ºÍ¶È,ºôÎüÄÚ¿Æ,,,
+VAP,Ventilator-Associated Pneumonia,ºôÎü»úÏà¹ØĞÔ·ÎÑ×,ºôÎüÄÚ¿Æ[reference:5],,,
+ALT,Alanine Aminotransferase,±û°±Ëá°±»ù×ªÒÆÃ¸,Ïû»¯ÄÚ¿Æ[reference:6],,,
+AST,Aspartate Aminotransferase,Ìì¶¬°±Ëá°±»ù×ªÒÆÃ¸,Ïû»¯ÄÚ¿Æ[reference:7],,,
+CA19-9,Carbohydrate Antigen 19-9,ÌÇÀà¿¹Ô­19-9,Ïû»¯ÄÚ¿Æ[reference:8],,,
+CEA,Carcinoembryonic Antigen,°©Åß¿¹Ô­,Ïû»¯ÄÚ¿Æ,,,
+EGD,Esophagogastroduodenoscopy,Ê³¹ÜÎ¸Ê®¶şÖ¸³¦¾µ¼ì²é,Ïû»¯ÄÚ¿Æ[reference:9],,,
+ERCP,Endoscopic Retrograde Cholangiopancreatography,ÄÚ¾µÄæĞĞÒÈµ¨¹ÜÔìÓ°,Ïû»¯ÄÚ¿Æ[reference:10],,,
+EUS,Endoscopic Ultrasound,³¬ÉùÄÚ¾µ¼ì²é,Ïû»¯ÄÚ¿Æ[reference:11],,,
+GI,Gastrointestinal,Î¸³¦µÀµÄ,Ïû»¯ÄÚ¿Æ[reference:12],,,
+LC,Liver Cirrhosis,¸ÎÓ²»¯,Ïû»¯ÄÚ¿Æ,,,
+NASH,Nonalcoholic Steatohepatitis,·Ç¾Æ¾«ĞÔÖ¬·¾ĞÔ¸ÎÑ×,Ïû»¯ÄÚ¿Æ,,,
+PBC,Primary Biliary Cholangitis,Ô­·¢ĞÔµ¨Ö­ĞÔµ¨¹ÜÑ×,Ïû»¯ÄÚ¿Æ,,,
+ADHD,Attention-Deficit/Hyperactivity Disorder,×¢ÒâÈ±Ïİ¶à¶¯ÕÏ°­,Éñ¾­ÄÚ¿Æ[reference:16],,,
+AIDP,Acute Inflammatory Demyelinating Polyneuropathy,¼±ĞÔÑ×Ö¢ĞÔÍÑËèÇÊĞÔ¶à·¢ĞÔÉñ¾­²¡,Éñ¾­ÄÚ¿Æ,,,
+ALS,Amyotrophic Lateral Sclerosis,¼¡Î®Ëõ²àË÷Ó²»¯,Éñ¾­ÄÚ¿Æ,,,
+CAA,Cerebral Amyloid Angiopathy,ÄÔµí·ÛÑùÑª¹Ü²¡,Éñ¾­ÄÚ¿Æ,,,
+CNS,Central Nervous System,ÖĞÊàÉñ¾­ÏµÍ³,Éñ¾­ÄÚ¿Æ[reference:19],,,
+CSF,Cerebrospinal Fluid,ÄÔ¼¹Òº,Éñ¾­ÄÚ¿Æ[reference:20],,,
+CVT,Cerebral Venous Thrombosis,Â­ÄÚ¾²ÂöÏµÍ³ÑªË¨ĞÎ³É,Éñ¾­ÄÚ¿Æ,,,
+GBS,Guillain-Barr¨¦ Syndrome,¼ªÀ¼-°ÍÀ××ÛºÏÕ÷,Éñ¾­ÄÚ¿Æ,,,
+ICH,Intracerebral Hemorrhage,ÄÔ³öÑª,Éñ¾­ÄÚ¿Æ,,,
+MCI,Mild Cognitive Impairment,Çá¶ÈÈÏÖª¹¦ÄÜÕÏ°­,Éñ¾­ÄÚ¿Æ[reference:24],,,
+SAH,Subarachnoid Hemorrhage,ÖëÍøÄ¤ÏÂÇ»³öÑª,Éñ¾­ÄÚ¿Æ,,,
+SCD,Subacute Combined Degeneration of Spinal Cord,ÑÇ¼±ĞÔÁªºÏ±äĞÔ,Éñ¾­ÄÚ¿Æ,,,
+SSRI,Selective Serotonin Reuptake Inhibitor,Ñ¡ÔñĞÔ5-ôÇÉ«°·ÔÙÉãÈ¡ÒÖÖÆ¼Á,Éñ¾­ÄÚ¿Æ[reference:28],,,
+TGA,Transient Global Amnesia,¶ÌÔİĞÔÈ«ÃæÒÅÍüÖ¢,Éñ¾­ÄÚ¿Æ,,,
+DPP-4,Dipeptidyl Peptidase-4,¶şëÄ»ùëÄÃ¸-4,ÄÚ·ÖÃÚ¿Æ[reference:32],,,
+FPG,Fasting Plasma Glucose,¿Õ¸¹ÑªÌÇ,ÄÚ·ÖÃÚ¿Æ[reference:33],,,
+GDM,Gestational Diabetes Mellitus,ÈÑÉïÆÚÌÇÄò²¡,ÄÚ·ÖÃÚ¿Æ[reference:34],,,
+GH,Growth Hormone,Éú³¤¼¤ËØ,ÄÚ·ÖÃÚ¿Æ,,,
+GHRH,Growth Hormone-Releasing Hormone,Éú³¤¼¤ËØÊÍ·Å¼¤ËØ,ÄÚ·ÖÃÚ¿Æ,,,
+GLP-1,Glucagon-Like Peptide-1,ÒÈ¸ßÌÇËØÑùëÄ-1,ÄÚ·ÖÃÚ¿Æ[reference:37],,,
+HDL,High-Density Lipoprotein,¸ßÃÜ¶ÈÖ¬µ°°×,ÄÚ·ÖÃÚ¿Æ,,,
+HPA,Hypothalamic-Pituitary-Adrenal Axis,ÏÂÇğÄÔ-´¹Ìå-ÉöÉÏÏÙÖá,ÄÚ·ÖÃÚ¿Æ[reference:40],,,
+IGF-1,Insulin-Like Growth Factor-1,ÒÈµºËØÑùÉú³¤Òò×Ó-1,ÄÚ·ÖÃÚ¿Æ[reference:41],,,
+IGT,Impaired Glucose Tolerance,ÌÇÄÍÁ¿ÊÜËğ,ÄÚ·ÖÃÚ¿Æ[reference:42],,,
+PO,Per Os (Oral),¿Ú·ş,ÄÚ·ÖÃÚ¿Æ[reference:45],,,
+PPG,Postprandial Glucose,²ÍºóÑªÌÇ,ÄÚ·ÖÃÚ¿Æ[reference:46],,,
+PRL,Prolactin,´ßÈéËØ,ÄÚ·ÖÃÚ¿Æ,,,
+RAAS,Renin-Angiotensin-Aldosterone System,ÉöËØ-Ñª¹Ü½ôÕÅËØ-È©¹ÌÍªÏµÍ³,ÄÚ·ÖÃÚ¿Æ,,,
+SGLT2,Sodium-Glucose Cotransporter 2,ÄÆ-ÆÏÌÑÌÇĞ­Í¬×ªÔËµ°°×2,ÄÚ·ÖÃÚ¿Æ,,,
+TG,Triglyceride,¸ÊÓÍÈıõ¥,ÄÚ·ÖÃÚ¿Æ,,,
+ACR,Albumin-to-Creatinine Ratio,°×µ°°×/¼¡ôû±ÈÖµ,ÉöÔàÄÚ¿Æ,,,
+ADPKD,Autosomal Dominant Polycystic Kidney Disease,³£È¾É«ÌåÏÔĞÔÒÅ´«ĞÔ¶àÄÒÉö²¡,ÉöÔàÄÚ¿Æ[reference:54],,,
+ANCA,Anti-Neutrophil Cytoplasmic Antibody,¿¹ÖĞĞÔÁ£Ï¸°û°û½¬¿¹Ìå,ÉöÔàÄÚ¿Æ[reference:55],,,
+BUN,Blood Urea Nitrogen,ÑªÄòËØµª,ÉöÔàÄÚ¿Æ[reference:57],,,
+eGFR,Estimated Glomerular Filtration Rate,¹ÀËãÉöĞ¡ÇòÂË¹ıÂÊ,ÉöÔàÄÚ¿Æ,,,
+GN,Glomerulonephritis,ÉöĞ¡ÇòÉöÑ×,ÉöÔàÄÚ¿Æ,,,
+HD,Hemodialysis,ÑªÒºÍ¸Îö,ÉöÔàÄÚ¿Æ,,,
+HUS,Hemolytic Uremic Syndrome,ÈÜÑªÄò¶¾×ÛºÏÕ÷,ÉöÔàÄÚ¿Æ,,,
+KUB,Kidney-Ureter-Bladder,Éö-ÊäÄò¹Ü-°òë×(Æ½Æ¬),ÉöÔàÄÚ¿Æ[reference:65],,,
+SCr,Serum Creatinine,ÑªÇå¼¡ôû,ÉöÔàÄÚ¿Æ[reference:68],,,
+TIN,Tubulointerstitial Nephritis,ÉöĞ¡¹Ü¼äÖÊĞÔÉöÑ×,ÉöÔàÄÚ¿Æ,,,
+UACR,Urine Albumin-to-Creatinine Ratio,Äò°×µ°°×/¼¡ôû±ÈÖµ,ÉöÔàÄÚ¿Æ,,,
+AFP,Alpha-Fetoprotein,¼×Ì¥µ°°×,ÑªÒº¿Æ[reference:72],,,
+CBC,Complete Blood Count,È«ÑªÏ¸°û¼ÆÊı,ÑªÒº¿Æ[reference:74],,,
+CLL,Chronic Lymphocytic Leukemia,ÂıĞÔÁÜ°ÍÏ¸°û°×Ñª²¡,ÑªÒº¿Æ,,,
+DIC,Disseminated Intravascular Coagulation,ÃÖÉ¢ĞÔÑª¹ÜÄÚÄıÑª,ÑªÒº¿Æ[reference:75],,,
+ESR,Erythrocyte Sedimentation Rate,ºìÏ¸°û³Á½µÂÊ,ÑªÒº¿Æ[reference:76],,,
+HL,Hodgkin's Lymphoma,»ôÆæ½ğÁÜ°ÍÁö,ÑªÒº¿Æ[reference:79],,,
+HSC,Hematopoietic Stem Cell,ÔìÑª¸ÉÏ¸°û,ÑªÒº¿Æ[reference:80],,,
+MCH,Mean Corpuscular Hemoglobin,Æ½¾ùºìÏ¸°ûÑªºìµ°°×Á¿,ÑªÒº¿Æ[reference:82],,,
+MCHC,Mean Corpuscular Hemoglobin Concentration,Æ½¾ùºìÏ¸°ûÑªºìµ°°×Å¨¶È,ÑªÒº¿Æ[reference:83],,,
+MCV,Mean Corpuscular Volume,Æ½¾ùºìÏ¸°ûÌå»ı,ÑªÒº¿Æ[reference:84],,,
+NHL,Non-Hodgkin's Lymphoma,·Ç»ôÆæ½ğÁÜ°ÍÁö,ÑªÒº¿Æ,,,
+PTT,Partial Thromboplastin Time,²¿·ÖÄıÑª»îÃ¸Ê±¼ä,ÑªÒº¿Æ[reference:87],,,
+5-FU,5-Fluorouracil,5-·úÄòà×à¤,Ö×ÁöÄÚ¿Æ[reference:90],,,
+CA125,Carbohydrate Antigen 125,ÌÇÀà¿¹Ô­125,Ö×ÁöÄÚ¿Æ[reference:92],,,
+CTCAE,Common Terminology Criteria for Adverse Events,²»Á¼·´Ó¦³£¼ûÊõÓï±ê×¼,Ö×ÁöÄÚ¿Æ[reference:96],,,
+FISH,Fluorescence In Situ Hybridization,Ó«¹âÔ­Î»ÔÓ½»,Ö×ÁöÄÚ¿Æ[reference:98],,,
+GIST,Gastrointestinal Stromal Tumor,Î¸³¦µÀ¼äÖÊÁö,Ö×ÁöÄÚ¿Æ[reference:99],,,
+HER2,Human Epidermal Growth Factor Receptor 2,ÈË±íÆ¤Éú³¤Òò×ÓÊÜÌå2,Ö×ÁöÄÚ¿Æ[reference:100],,,
+IHC,Immunohistochemistry,ÃâÒß×éÖ¯»¯Ñ§,Ö×ÁöÄÚ¿Æ[reference:101],,,
+MMP,Matrix Metalloproteinase,»ùÖÊ½ğÊôµ°°×Ã¸,Ö×ÁöÄÚ¿Æ[reference:102],,,
+PCR,Polymerase Chain Reaction,¾ÛºÏÃ¸Á´·´Ó¦,Ö×ÁöÄÚ¿Æ[reference:104],,,
+TKI,Tyrosine Kinase Inhibitor,ÀÒ°±Ëá¼¤Ã¸ÒÖÖÆ¼Á,Ö×ÁöÄÚ¿Æ[reference:106],,,
+TNF,Tumor Necrosis Factor,Ö×Áö»µËÀÒò×Ó,Ö×ÁöÄÚ¿Æ[reference:107],,,
+VEGF,Vascular Endothelial Growth Factor,Ñª¹ÜÄÚÆ¤Éú³¤Òò×Ó,Ö×ÁöÄÚ¿Æ[reference:108],,,
+APACHE II,Acute Physiology and Chronic Health Evaluation II,¼±ĞÔÉúÀíÑ§ÓëÂıĞÔ½¡¿µ×´¿öÆÀ·ÖÏµÍ³¢ò,¸ĞÈ¾¿Æ[reference:111],,,
+BMI,Body Mass Index,ÌåÖÊÖ¸Êı,¸ĞÈ¾¿Æ[reference:114],,,
+BP,Blood Pressure,ÑªÑ¹,¸ĞÈ¾¿Æ[reference:115],,,
+CDC,Centers for Disease Control and Prevention,¼²²¡¿ØÖÆÓëÔ¤·ÀÖĞĞÄ,¸ĞÈ¾¿Æ[reference:117],,,
+CLSI,Clinical and Laboratory Standards Institute,ÃÀ¹úÁÙ´²ºÍÊµÑéÊÒ±ê×¼»¯Ğ­»á,¸ĞÈ¾¿Æ[reference:118],,,
+CRE,Carbapenem-Resistant Enterobacteriaceae,Ì¼ÇàÃ¹Ï©ÀàÄÍÒ©³¦¸Ë¾ú¿ÆÏ¸¾ú,¸ĞÈ¾¿Æ[reference:119],,,
+ESBL,Extended-Spectrum Beta-Lactamase,³¬¹ãÆ×¦Â-ÄÚõ£°·Ã¸,¸ĞÈ¾¿Æ[reference:122],,,
+HAI,Healthcare-Associated Infection,Ò½ÁÆ±£½¡Ïà¹Ø¸ĞÈ¾,¸ĞÈ¾¿Æ[reference:123],,,
+ICU,Intensive Care Unit,ÖØÖ¢¼à»¤²¡·¿,¸ĞÈ¾¿Æ[reference:127],,,
+PCT,Procalcitonin,½µ¸ÆËØÔ­,¸ĞÈ¾¿Æ[reference:130],,,
+SSI,Surgical Site Infection,ÊÖÊõ²¿Î»¸ĞÈ¾,¸ĞÈ¾¿Æ[reference:131],,,
+VRE,Vancomycin-Resistant Enterococcus,Íò¹ÅÃ¹ËØÄÍÒ©³¦Çò¾ú,¸ĞÈ¾¿Æ[reference:133],,,
+ABC,Airway-Breathing-Circulation,ÆøµÀ-ºôÎü-Ñ­»·,¼±ÕïÒ½Ñ§,,,
+ACLS,Advanced Cardiac Life Support,¸ß¼¶ĞÄÑª¹ÜÉúÃüÖ§³Ö,¼±ÕïÒ½Ñ§,,,
+BLS,Basic Life Support,»ù´¡ÉúÃüÖ§³Ö,¼±ÕïÒ½Ñ§,,,
+CPR,Cardiopulmonary Resuscitation,ĞÄ·Î¸´ËÕ,¼±ÕïÒ½Ñ§[reference:135],,,
+ER,Emergency Room,¼±ÕïÊÒ,¼±ÕïÒ½Ñ§[reference:137],,,
+FAST,Focused Assessment with Sonography for Trauma,´´ÉË³¬ÉùÖØµãÆÀ¹À,¼±ÕïÒ½Ñ§,,,
+GCS,Glasgow Coma Scale,¸ñÀ­Ë¹¸ç»èÃÔÆÀ·Ö,¼±ÕïÒ½Ñ§,,,
+MAP,Mean Arterial Pressure,Æ½¾ù¶¯ÂöÑ¹,¼±ÕïÒ½Ñ§,,,
+ROSC,Return of Spontaneous Circulation,×ÔÖ÷Ñ­»·»Ö¸´,¼±ÕïÒ½Ñ§,,,
+SOFA,Sequential Organ Failure Assessment,Ğò¹áÆ÷¹ÙË¥½ßÆÀ¹À,¼±ÕïÒ½Ñ§[reference:142],,,
+ASA,American Society of Anesthesiologists,ÃÀ¹úÂé×íÒ½Ê¦Ğ­»á,Âé×í¿Æ[reference:143],,,
+BIS,Bispectral Index,ÄÔµçË«ÆµÖ¸Êı,Âé×í¿Æ,,,
+CVP,Central Venous Pressure,ÖĞĞÄ¾²ÂöÑ¹,Âé×í¿Æ[reference:145],,,
+ETCO2,End-Tidal Carbon Dioxide,ºôÆøÄ©¶şÑõ»¯Ì¼·ÖÑ¹,Âé×í¿Æ,,,
+ICP,Intracranial Pressure,Â­ÄÚÑ¹,Âé×í¿Æ,,,
+MAC,Minimum Alveolar Concentration,×îµÍ·ÎÅİÓĞĞ§Å¨¶È,Âé×í¿Æ,,,
+NIBP,Non-Invasive Blood Pressure,ÎŞ´´ÑªÑ¹,Âé×í¿Æ[reference:149],,,
+NMDA,N-Methyl-D-Aspartate,N-¼×»ù-D-Ìì¶¬°±Ëá,Âé×í¿Æ[reference:150],,,
+PaCO2,Arterial Carbon Dioxide Tension,¶¯ÂöÑª¶şÑõ»¯Ì¼·ÖÑ¹,Âé×í¿Æ[reference:151],,,
+PaO2,Arterial Oxygen Tension,¶¯ÂöÑªÑõ·ÖÑ¹,Âé×í¿Æ[reference:152],,,
+PACU,Post-Anesthesia Care Unit,Âé×íºó¼à»¤ÊÒ,Âé×í¿Æ[reference:153],,,
+PETCO2,End-Tidal Carbon Dioxide Tension,ºôÆøÄ©¶şÑõ»¯Ì¼·ÖÑ¹,Âé×í¿Æ[reference:154],,,
+TCI,Target-Controlled Infusion,°Ğ¿ØÊä×¢,Âé×í¿Æ[reference:158],,,
+TOF,Train-of-Four,ËÄ¸ö³É´®´Ì¼¤,Âé×í¿Æ,,,
+VAS,Visual Analog Scale,ÊÓ¾õÄ£ÄâÆÀ·Ö·¨,Âé×í¿Æ[reference:159],,,
+ACOG,American College of Obstetricians and Gynecologists,ÃÀ¹ú¸¾²ú¿ÆÑ§Ôº,¸¾²ú¿Æ,,,
+AFI,Amniotic Fluid Index,ÑòË®Ö¸Êı,¸¾²ú¿Æ,,,
+AGA,Appropriate for Gestational Age,ÊÊÓÚÌ¥Áä,¸¾²ú¿Æ,,,
+AROM,Artificial Rupture of Membranes,ÈË¹¤ÆÆÄ¤,¸¾²ú¿Æ,,,
+BPD,Biparietal Diameter,Ë«¶¥¾¶,¸¾²ú¿Æ,,,
+BPP,Biophysical Profile,ÉúÎïÎïÀíÆÀ·Ö,¸¾²ú¿Æ,,,
+CPD,Cephalopelvic Disproportion,Í·Åè²»³Æ,¸¾²ú¿Æ,,,
+C/S,Cesarean Section,ÆÊ¹¬²úÊõ,¸¾²ú¿Æ,,,
+D&C,Dilation and Curettage,¹Î¹¬Êõ,¸¾²ú¿Æ[reference:170],,,
+EBL,Estimated Blood Loss,¹À¼ÆÊ§ÑªÁ¿,¸¾²ú¿Æ,,,
+EDC,Estimated Date of Confinement,Ô¤²úÆÚ,¸¾²ú¿Æ,,,
+EFW,Estimated Fetal Weight,¹À¼ÆÌ¥¶ùÌåÖØ,¸¾²ú¿Æ,,,
+FHR,Fetal Heart Rate,Ì¥ĞÄÂÊ,¸¾²ú¿Æ,,,
+FHT,Fetal Heart Tones,Ì¥ĞÄÒô,¸¾²ú¿Æ,,,
+FM,Fetal Movement,Ì¥¶¯,¸¾²ú¿Æ,,,
+GA,Gestational Age,ÔĞÁä,¸¾²ú¿Æ,,,
+HC,Head Circumference,Í·Î§,¸¾²ú¿Æ,,,
+hCG,Human Chorionic Gonadotropin,ÈËÈŞÃ«Ä¤´ÙĞÔÏÙ¼¤ËØ,¸¾²ú¿Æ,,,
+IUGR,Intrauterine Growth Restriction,¹¬ÄÚÉú³¤ÊÜÏŞ,¸¾²ú¿Æ,,,
+IUD,Intrauterine Device,¹¬ÄÚ½ÚÓıÆ÷,¸¾²ú¿Æ,,,
+NST,Non-Stress Test,ÎŞÓ¦¼¤ÊÔÑé,¸¾²ú¿Æ,,,
+PROM,Premature Rupture of Membranes,Ì¥Ä¤ÔçÆÆ,¸¾²ú¿Æ,,,
+AGE,Acute Gastroenteritis,¼±ĞÔÎ¸³¦Ñ×,¶ù¿Æ[reference:185],,,
+CHD,Congenital Heart Disease,ÏÈÌìĞÔĞÄÔà²¡,¶ù¿Æ,,,
+G6PD,Glucose-6-Phosphate Dehydrogenase,ÆÏÌÑÌÇ-6-Á×ËáÍÑÇâÃ¸,¶ù¿Æ[reference:187],,,
+HFMD,Hand-Foot-and-Mouth Disease,ÊÖ×ã¿Ú²¡,¶ù¿Æ,,,
+HIE,Hypoxic-Ischemic Encephalopathy,È±ÑõÈ±ÑªĞÔÄÔ²¡,¶ù¿Æ,,,
+IVIG,Intravenous Immunoglobulin,¾²Âö×¢ÉäÃâÒßÇòµ°°×,¶ù¿Æ,,,
+LBW,Low Birth Weight,µÍ³öÉúÌåÖØ,¶ù¿Æ,,,
+NEC,Necrotizing Enterocolitis,»µËÀĞÔĞ¡³¦½á³¦Ñ×,¶ù¿Æ,,,
+NGT,Nasogastric Tube,±ÇÎ¸¹Ü,¶ù¿Æ,,,
+NICU,Neonatal Intensive Care Unit,ĞÂÉú¶ùÖØÖ¢¼à»¤²¡·¿,¶ù¿Æ,,,
+PDA,Patent Ductus Arteriosus,¶¯Âöµ¼¹ÜÎ´±Õ,¶ù¿Æ,,,
+PICU,Pediatric Intensive Care Unit,¶ù¿ÆÖØÖ¢¼à»¤²¡·¿,¶ù¿Æ,,,
+PND,Parenteral Nutrition,³¦ÍâÓªÑø,¶ù¿Æ,,,
+RSV,Respiratory Syncytial Virus,ºôÎüµÀºÏ°û²¡¶¾,¶ù¿Æ,,,
+SGA,Small for Gestational Age,Ğ¡ÓÚÌ¥Áä,¶ù¿Æ,,,
+SIDS,Sudden Infant Death Syndrome,Ó¤¶ùâ§ËÀ×ÛºÏÕ÷,¶ù¿Æ[reference:190],,,
+VSD,Ventricular Septal Defect,ÊÒ¼ä¸ôÈ±Ëğ,¶ù¿Æ,,,
+AMD,Age-Related Macular Degeneration,ÄêÁäÏà¹ØĞÔ»Æ°ß±äĞÔ,ÑÛ¿Æ[reference:191],,,
+BCVA,Best Corrected Visual Acuity,×î¼Ñ½ÃÕıÊÓÁ¦,ÑÛ¿Æ,,,
+CCT,Central Corneal Thickness,ÖĞÑë½ÇÄ¤ºñ¶È,ÑÛ¿Æ,,,
+CDFI,Color Doppler Flow Imaging,²ÊÉ«¶àÆÕÀÕÑªÁ÷³ÉÏñ,ÑÛ¿Æ[reference:192],,,
+DME,Diabetic Macular Edema,ÌÇÄò²¡ĞÔ»Æ°ßË®Ö×,ÑÛ¿Æ,,,
+DR,Diabetic Retinopathy,ÌÇÄò²¡ÊÓÍøÄ¤²¡±ä,ÑÛ¿Æ,,,
+ERM,Epiretinal Membrane,ÊÓÍøÄ¤Ç°Ä¤,ÑÛ¿Æ,,,
+ERG,Electroretinogram,ÊÓÍøÄ¤µçÍ¼,ÑÛ¿Æ,,,
+FFA,Fluorescein Fundus Angiography,Ó«¹âËØÑÛµ×Ñª¹ÜÔìÓ°,ÑÛ¿Æ,,,
+FOV,Vitreous Opacity,²£Á§Ìå»ì×Ç,ÑÛ¿Æ,,,
+IOL,Intraocular Lens,ÈË¹¤¾§×´Ìå,ÑÛ¿Æ[reference:194],,,
+IOP,Intraocular Pressure,ÑÛÄÚÑ¹,ÑÛ¿Æ,,,
+LASIK,Laser-Assisted In Situ Keratomileusis,×¼·Ö×Ó¼¤¹âÔ­Î»½ÇÄ¤Ä¥ÏâÊõ,ÑÛ¿Æ,,,
+OCT,Optical Coherence Tomography,¹âÑ§Ïà¸É¶Ï²ãÉ¨Ãè,ÑÛ¿Æ[reference:195],,,
+OD,Oculus Dexter,ÓÒÑÛ,ÑÛ¿Æ[reference:196],,,
+OU,Oculus Unitas,Ë«ÑÛ,ÑÛ¿Æ[reference:198],,,
+PDR,Proliferative Diabetic Retinopathy,ÔöÖ³ĞÔÌÇÄò²¡ÊÓÍøÄ¤²¡±ä,ÑÛ¿Æ,,,
+PRK,Photorefractive Keratectomy,Çü¹âĞÔ½ÇÄ¤ÇĞÏ÷Êõ,ÑÛ¿Æ,,,
+RAPD,Relative Afferent Pupillary Defect,Ïà¶ÔĞÔ´«ÈëĞÔÍ«¿×È±Ïİ,ÑÛ¿Æ,,,
+RNFL,Retinal Nerve Fiber Layer,ÊÓÍøÄ¤Éñ¾­ÏËÎ¬²ã,ÑÛ¿Æ,,,
+VEP,Visual Evoked Potential,ÊÓ¾õÓÕ·¢µçÎ»,ÑÛ¿Æ,,,
+ENT,Ear-Nose-Throat,¶ú±Çºí¿Æ,¶ú±Çºí¿Æ[reference:199],,,
+ABR,Auditory Brainstem Response,ÌıĞÔÄÔ¸É·´Ó¦,¶ú±Çºí¿Æ[reference:200],,,
+AOM,Acute Otitis Media,¼±ĞÔÖĞ¶úÑ×,¶ú±Çºí¿Æ,,,
+AR,Allergic Rhinitis,±äÓ¦ĞÔ±ÇÑ×,¶ú±Çºí¿Æ,,,
+BPPV,Benign Paroxysmal Positional Vertigo,Á¼ĞÔÕó·¢ĞÔÎ»ÖÃĞÔÑ£ÔÎ,¶ú±Çºí¿Æ,,,
+CRS,Chronic Rhinosinusitis,ÂıĞÔ±Çñ¼Ñ×,¶ú±Çºí¿Æ[reference:202],,,
+CSA,Central Sleep Apnea,ÖĞÊàĞÔË¯ÃßºôÎüÔİÍ£,¶ú±Çºí¿Æ[reference:203],,,
+EAC,External Auditory Canal,Íâ¶úµÀ,¶ú±Çºí¿Æ,,,
+ETD,Eustachian Tube Dysfunction,ÑÊ¹Ä¹Ü¹¦ÄÜÕÏ°­,¶ú±Çºí¿Æ,,,
+FESS,Functional Endoscopic Sinus Surgery,¹¦ÄÜĞÔÄÚ¾µ±Çñ¼ÊÖÊõ,¶ú±Çºí¿Æ,,,
+LPR,Laryngopharyngeal Reflux,ºíÑÊ·´Á÷,¶ú±Çºí¿Æ,,,
+ME,Middle Ear,ÖĞ¶ú,¶ú±Çºí¿Æ,,,
+NSD,Nasal Septal Deviation,±ÇÖĞ¸ôÆ«Çú,¶ú±Çºí¿Æ[reference:204],,,
+OME,Otitis Media with Effusion,·ÖÃÚĞÔÖĞ¶úÑ×,¶ú±Çºí¿Æ,,,
+SNHL,Sensorineural Hearing Loss,¸ĞÒôÉñ¾­ĞÔÌıÁ¦ËğÊ§,¶ú±Çºí¿Æ[reference:206],,,
+TM,Tympanic Membrane,¹ÄÄ¤,¶ú±Çºí¿Æ,,,
+TMD,Temporomandibular Disorder,ò¨ÏÂò¢¹Ø½ÚÎÉÂÒ,¶ú±Çºí¿Æ,,,
+TNA,Transnasal Approach,¾­±ÇÈëÂ·,¶ú±Çºí¿Æ,,,
+VR,Vestibular Rehabilitation,Ç°Í¥¿µ¸´,¶ú±Çºí¿Æ,,,
+BSA,Body Surface Area,Ìå±íÃæ»ı,Æ¤·ô¿Æ[reference:207],,,
+CKC,Cryosurgery,Àä¶³ÊÖÊõ,Æ¤·ô¿Æ,,,
+COC,Combined Oral Contraceptive,¸´·½¿Ú·ş±ÜÔĞÒ©,Æ¤·ô¿Æ[reference:208],,,
+DDAVP,Desmopressin,È¥°±¼ÓÑ¹ËØ,Æ¤·ô¿Æ,,,
+DMSO,Dimethyl Sulfoxide,¶ş¼×»ùÑÇí¿,Æ¤·ô¿Æ[reference:209],,,
+GAG,Glucosaminoglycan,°±»ùÆÏ¾ÛÌÇ,Æ¤·ô¿Æ,,,
+HSV,Herpes Simplex Virus,µ¥´¿ğåÕî²¡¶¾,Æ¤·ô¿Æ,,,
+IL,Interleukin,°×Ï¸°û½éËØ,Æ¤·ô¿Æ[reference:211],,,
+KO,Koilocyte,ÍÚ¿ÕÏ¸°û,Æ¤·ô¿Æ,,,
+MM,Malignant Melanoma,¶ñĞÔºÚÉ«ËØÁö,Æ¤·ô¿Æ,,,
+NSAIDs,Non-Steroidal Anti-Inflammatory Drugs,·ÇçŞÌå¿¹Ñ×Ò©,Æ¤·ô¿Æ,,,
+PASI,Psoriasis Area and Severity Index,ÒøĞ¼²¡Ãæ»ıºÍÑÏÖØ³Ì¶ÈÖ¸Êı,Æ¤·ô¿Æ[reference:213],,,
+PDT,Photodynamic Therapy,¹â¶¯Á¦ÁÆ·¨,Æ¤·ô¿Æ,,,
+PUVA,Psoralen Ultraviolet A,²¹¹ÇÖ¬ËØ³¤²¨×ÏÍâÏß,Æ¤·ô¿Æ,,,
+RAST,Radioallergosorbent Test,·ÅÉä±äÓ¦Ô­Îü¸½ÊÔÑé,Æ¤·ô¿Æ,,,
+RPR,Rapid Plasma Reagin,¿ìËÙÑª½¬·´Ó¦ËØ,Æ¤·ô¿Æ,,,
+SCORAD,Scoring Atopic Dermatitis,ÌØÓ¦ĞÔÆ¤Ñ×ÆÀ·Ö,Æ¤·ô¿Æ[reference:214],,,
+SLE,Systemic Lupus Erythematosus,ÏµÍ³ĞÔºì°ßÀÇ´¯,Æ¤·ô¿Æ[reference:215],,,
+STD,Sexually Transmitted Disease,ĞÔ´«²¥¼²²¡,Æ¤·ô¿Æ,,,
+TEN,Toxic Epidermal Necrolysis,ÖĞ¶¾ĞÔ±íÆ¤»µËÀËÉ½âÖ¢,Æ¤·ô¿Æ,,,
+UVA,Ultraviolet A,³¤²¨×ÏÍâÏß,Æ¤·ô¿Æ[reference:216],,,
+UVB,Ultraviolet B,ÖĞ²¨×ÏÍâÏß,Æ¤·ô¿Æ,,,
+VDRL,Venereal Disease Research Laboratory,ĞÔ²¡ÑĞ¾¿ÊµÑéÊÒ(ÊÔÑé),Æ¤·ô¿Æ,,,
+ACL,Anterior Cruciate Ligament,Ç°½»²æÈÍ´ø,¹Ç¿Æ[reference:217],,,
+AO,Arbeitsgemeinschaft f¨¹r Osteosynthesefragen,¹ú¼ÊÄÚ¹Ì¶¨ÑĞ¾¿Ñ§»á,¹Ç¿Æ[reference:218],,,
+AVN,Avascular Necrosis,È±ÑªĞÔ»µËÀ,¹Ç¿Æ[reference:219],,,
+BMD,Bone Mineral Density,¹ÇÃÜ¶È,¹Ç¿Æ,,,
+BMP,Bone Morphogenetic Protein,¹ÇĞÎÌ¬·¢Éúµ°°×,¹Ç¿Æ[reference:220],,,
+DDH,Developmental Dysplasia of the Hip,·¢ÓıĞÔ÷Å¹Ø½Ú·¢Óı²»Á¼,¹Ç¿Æ[reference:221],,,
+EMG,Electromyography,¼¡µçÍ¼,¹Ç¿Æ,,,
+FNF,Femoral Neck Fracture,¹É¹Ç¾±¹ÇÕÛ,¹Ç¿Æ[reference:223],,,
+HA,Harris Hip Score,Harris÷Å¹Ø½ÚÆÀ·Ö,¹Ç¿Æ,,,
+IVD,Intervertebral Disc,×µ¼äÅÌ,¹Ç¿Æ[reference:224],,,
+KOA,Knee Osteoarthritis,Ï¥¹Ø½Ú¹Ç¹Ø½ÚÑ×,¹Ç¿Æ,,,
+LBP,Low Back Pain,ÏÂ±³Í´,¹Ç¿Æ[reference:225],,,
+OA,Osteoarthritis,¹Ç¹Ø½ÚÑ×,¹Ç¿Æ,,,
+ORIF,Open Reduction and Internal Fixation,ÇĞ¿ª¸´Î»ÄÚ¹Ì¶¨,¹Ç¿Æ,,,
+PCL,Posterior Cruciate Ligament,ºó½»²æÈÍ´ø,¹Ç¿Æ,,,
+PMMA,Polymethyl Methacrylate,¾Û¼×»ù±ûÏ©Ëá¼×õ¥,¹Ç¿Æ,,,
+ROM,Range of Motion,»î¶¯·¶Î§,¹Ç¿Æ,,,
+THA,Total Hip Arthroplasty,È«÷Å¹Ø½ÚÖÃ»»Êõ,¹Ç¿Æ,,,
+TKA,Total Knee Arthroplasty,È«Ï¥¹Ø½ÚÖÃ»»Êõ,¹Ç¿Æ,,,
+AUA,American Urological Association,ÃÀ¹úÃÚÄòÍâ¿ÆÑ§»á,ÃÚÄòÍâ¿Æ[reference:228],,,
+BOO,Bladder Outlet Obstruction,°òë×³ö¿Ú¹£×è,ÃÚÄòÍâ¿Æ[reference:229],,,
+BPH,Benign Prostatic Hyperplasia,Á¼ĞÔÇ°ÁĞÏÙÔöÉú,ÃÚÄòÍâ¿Æ[reference:230],,,
+CIS,Carcinoma In Situ,Ô­Î»°©,ÃÚÄòÍâ¿Æ,,,
+ED,Erectile Dysfunction,²ªÆğ¹¦ÄÜÕÏ°­,ÃÚÄòÍâ¿Æ[reference:231],,,
+ESWL,Extracorporeal Shock Wave Lithotripsy,ÌåÍâ³å»÷²¨ËéÊ¯Êõ,ÃÚÄòÍâ¿Æ[reference:232],,,
+GCT,Germ Cell Tumor,ÉúÖ³Ï¸°ûÖ×Áö,ÃÚÄòÍâ¿Æ,,,
+IPSS,International Prostate Symptom Score,¹ú¼ÊÇ°ÁĞÏÙÖ¢×´ÆÀ·Ö,ÃÚÄòÍâ¿Æ[reference:233],,,
+IVU,Intravenous Urography,¾²ÂöÄòÂ·ÔìÓ°,ÃÚÄòÍâ¿Æ[reference:234],,,
+LUTS,Lower Urinary Tract Symptoms,ÏÂÄòÂ·Ö¢×´,ÃÚÄòÍâ¿Æ[reference:236],,,
+NSS,Nephron-Sparing Surgery,±£ÁôÉöµ¥Î»ÊÖÊõ,ÃÚÄòÍâ¿Æ[reference:237],,,
+OAB,Overactive Bladder,°òë×¹ı¶È»î¶¯Ö¢,ÃÚÄòÍâ¿Æ[reference:238],,,
+PCNL,Percutaneous Nephrolithotomy,¾­Æ¤Éö¾µÈ¡Ê¯Êõ,ÃÚÄòÍâ¿Æ[reference:239],,,
+PSA,Prostate-Specific Antigen,Ç°ÁĞÏÙÌØÒìĞÔ¿¹Ô­,ÃÚÄòÍâ¿Æ[reference:240],,,
+PSAD,Prostate-Specific Antigen Density,Ç°ÁĞÏÙÌØÒìĞÔ¿¹Ô­ÃÜ¶È,ÃÚÄòÍâ¿Æ[reference:241],,,
+Qmax,Maximum Urinary Flow Rate,×î´óÄòÁ÷ÂÊ,ÃÚÄòÍâ¿Æ[reference:242],,,
+QOL,Quality of Life,Éú»îÖÊÁ¿,ÃÚÄòÍâ¿Æ[reference:243],,,
+RCC,Renal Cell Carcinoma,ÉöÏ¸°û°©,ÃÚÄòÍâ¿Æ,,,
+SUI,Stress Urinary Incontinence,Ñ¹Á¦ĞÔÄòÊ§½û,ÃÚÄòÍâ¿Æ[reference:244],,,
+TUR,Transurethral Resection,¾­ÄòµÀÇĞ³ıÊõ,ÃÚÄòÍâ¿Æ[reference:245],,,
+TURP,Transurethral Resection of Prostate,¾­ÄòµÀÇ°ÁĞÏÙÇĞ³ıÊõ,ÃÚÄòÍâ¿Æ[reference:246],,,
+UPJ,Ureteropelvic Junction,ÉöÓÛÊäÄò¹ÜÁ¬½Ó´¦,ÃÚÄòÍâ¿Æ[reference:247],,,
+5-HT,5-Hydroxytryptamine,5-ôÇÉ«°·,¾«Éñ²¡Ñ§[reference:248],,,
+BPRS,Brief Psychiatric Rating Scale,¼òÃ÷¾«Éñ²¡ÆÀ¶¨Á¿±í,¾«Éñ²¡Ñ§,,,
+CGI,Clinical Global Impression,ÁÙ´²ÁÆĞ§×ÜÆÀÁ¿±í,¾«Éñ²¡Ñ§[reference:250],,,
+DSM-5,Diagnostic and Statistical Manual of Mental Disorders 5th Edition,ÃÀ¹ú¾«ÉñÕÏ°­Õï¶ÏÓëÍ³¼ÆÊÖ²áµÚ5°æ,¾«Éñ²¡Ñ§[reference:251],,,
+ECT,Electroconvulsive Therapy,µçĞİ¿ËÖÎÁÆ,¾«Éñ²¡Ñ§[reference:252],,,
+fMRI,Functional Magnetic Resonance Imaging,¹¦ÄÜ´Å¹²Õñ³ÉÏñ,¾«Éñ²¡Ñ§[reference:253],,,
+GAD,Generalized Anxiety Disorder,¹ã·ºĞÔ½¹ÂÇÕÏ°­,¾«Éñ²¡Ñ§,,,
+HAMA,Hamilton Anxiety Rating Scale,ººÃÜ¶û¶Ù½¹ÂÇÁ¿±í,¾«Éñ²¡Ñ§[reference:254],,,
+HAMD,Hamilton Depression Rating Scale,ººÃÜ¶û¶ÙÒÖÓôÁ¿±í,¾«Éñ²¡Ñ§[reference:255],,,
+ICD-10,International Classification of Diseases 10th Revision,¹ú¼Ê¼²²¡·ÖÀàµÚ10°æ,¾«Éñ²¡Ñ§[reference:256],,,
+MECT,Modified Electroconvulsive Therapy,¸ÄÁ¼µçĞİ¿ËÖÎÁÆ,¾«Éñ²¡Ñ§,,,
+MINI,Mini-International Neuropsychiatric Interview,¼òÃ÷¹ú¼ÊÉñ¾­¾«Éñ·ÃÌ¸,¾«Éñ²¡Ñ§[reference:258],,,
+MMSE,Mini-Mental State Examination,¼òÃ÷¾«Éñ×´Ì¬¼ì²é,¾«Éñ²¡Ñ§[reference:259],,,
+OCD,Obsessive-Compulsive Disorder,Ç¿ÆÈÕÏ°­,¾«Éñ²¡Ñ§,,,
+PANSS,Positive and Negative Syndrome Scale,ÑôĞÔºÍÒõĞÔÖ¢×´Á¿±í,¾«Éñ²¡Ñ§[reference:261],,,
+PTSD,Post-Traumatic Stress Disorder,´´ÉËºóÓ¦¼¤ÕÏ°­,¾«Éñ²¡Ñ§[reference:262],,,
+SNRI,Serotonin-Norepinephrine Reuptake Inhibitor,5-ôÇÉ«°·ºÍÈ¥¼×ÉöÉÏÏÙËØÔÙÉãÈ¡ÒÖÖÆ¼Á,¾«Éñ²¡Ñ§[reference:263],,,
+TCA,Tricyclic Antidepressant,Èı»·Àà¿¹ÒÖÓôÒ©,¾«Éñ²¡Ñ§[reference:265],,,
+WCST,Wisconsin Card Sorting Test,ÍşË¹¿µĞÇ¿¨Æ¬·ÖÀà²âÑé,¾«Éñ²¡Ñ§[reference:266],,,
+Y-BOCS,Yale-Brown Obsessive Compulsive Scale,Ò®Â³-²¼ÀÊÇ¿ÆÈÖ¢×´Á¿±í,¾«Éñ²¡Ñ§[reference:267],,,
+BI-RADS,Breast Imaging Reporting and Data System,ÈéÏÙÓ°Ïñ±¨¸æºÍÊı¾İÏµÍ³,Ó°ÏñÒ½Ñ§[reference:268],,,
+CTA,CT Angiography,CTÑª¹ÜÔìÓ°,Ó°ÏñÒ½Ñ§[reference:271],,,
+DSA,Digital Subtraction Angiography,Êı×Ö¼õÓ°Ñª¹ÜÔìÓ°,Ó°ÏñÒ½Ñ§[reference:272],,,
+DWI,Diffusion-Weighted Imaging,ÃÖÉ¢¼ÓÈ¨³ÉÏñ,Ó°ÏñÒ½Ñ§[reference:273],,,
+FDG,Fluorodeoxyglucose,·úÍÑÑõÆÏÌÑÌÇ,Ó°ÏñÒ½Ñ§[reference:274],,,
+FLAIR,Fluid-Attenuated Inversion Recovery,ÒºÌåË¥¼õ·´×ª»Ö¸´,Ó°ÏñÒ½Ñ§,,,
+HRCT,High-Resolution CT,¸ß·Ö±æÂÊCT,Ó°ÏñÒ½Ñ§[reference:275],,,
+MIP,Maximum Intensity Projection,×î´óÃÜ¶ÈÍ¶Ó°,Ó°ÏñÒ½Ñ§,,,
+MPR,Multiplanar Reformation,¶àÆ½ÃæÖØ½¨,Ó°ÏñÒ½Ñ§,,,
+MR,Magnetic Resonance,´Å¹²Õñ,Ó°ÏñÒ½Ñ§,,,
+MRA,MR Angiography,´Å¹²ÕñÑª¹ÜÔìÓ°,Ó°ÏñÒ½Ñ§[reference:276],,,
+MSCT,Multi-Slice CT,¶à²ãÂİĞıCT,Ó°ÏñÒ½Ñ§[reference:278],,,
+PET/CT,Positron Emission Tomography/Computed Tomography,Õıµç×Ó·¢Éä¶Ï²ãÏÔÏñ/XÏß¼ÆËã»úÌå²ã³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+PACS,Picture Archiving and Communication System,Ò½Ñ§Ó°Ïñ´æµµÓëÍ¨ĞÅÏµÍ³,Ó°ÏñÒ½Ñ§,,,
+SPECT,Single-Photon Emission Computed Tomography,µ¥¹â×Ó·¢Éä¼ÆËã»ú¶Ï²ãÏÔÏñ,Ó°ÏñÒ½Ñ§,,,
+TI-RADS,Thyroid Imaging Reporting and Data System,¼××´ÏÙÓ°Ïñ±¨¸æºÍÊı¾İÏµÍ³,Ó°ÏñÒ½Ñ§[reference:280],,,
+VRT,Volume Rendering Technique,Èİ»ıÔÙÏÖ¼¼Êõ,Ó°ÏñÒ½Ñ§ECHO,Echocardiography,³¬ÉùĞÄ¶¯Í¼,ĞÄÑª¹ÜÄÚ¿Æ
+PCWP,Pulmonary Capillary Wedge Pressure,·ÎÃ«Ï¸Ñª¹ÜĞ¨Ñ¹,ĞÄÑª¹ÜÄÚ¿Æ,,,
+BB,Beta Blocker,¦ÂÊÜÌå×èÖÍ¼Á,ĞÄÑª¹ÜÄÚ¿Æ,,,
+NO,Nitric Oxide,Ò»Ñõ»¯µª,ĞÄÑª¹ÜÄÚ¿Æ,,,
+NT-proBNP,N-terminal pro-Brain Natriuretic Peptide,NÄ©¶ËÄÔÄÆëÄÇ°Ìå,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TC,Total Cholesterol,×Üµ¨¹Ì´¼,ĞÄÑª¹ÜÄÚ¿Æ,,,
+hs-CRP,High-sensitivity C-reactive Protein,¸ßÃôC·´Ó¦µ°°×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CAG,Coronary Angiography,¹Ú×´¶¯ÂöÔìÓ°,ĞÄÑª¹ÜÄÚ¿Æ,,,
+IVUS,Intravascular Ultrasound,Ñª¹ÜÄÚ³¬Éù,ĞÄÑª¹ÜÄÚ¿Æ,,,
+FFR,Fractional Flow Reserve,ÑªÁ÷´¢±¸·ÖÊı,ĞÄÑª¹ÜÄÚ¿Æ,,,
+DC,Direct Current,Ö±Á÷µç,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ICD,Implantable Cardioverter-Defibrillator,Ö²ÈëÊ½ĞÄÂÉ×ª¸´³ı²üÆ÷,ĞÄÑª¹ÜÄÚ¿Æ,,,
+PM,Pacemaker,Æğ²«Æ÷,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CRT,Cardiac Resynchronization Therapy,ĞÄÔàÔÙÍ¬²½»¯ÖÎÁÆ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+AVB,Atrioventricular Block,·¿ÊÒ´«µ¼×èÖÍ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LBBB,Left Bundle Branch Block,×óÊøÖ§´«µ¼×èÖÍ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+RBBB,Right Bundle Branch Block,ÓÒÊøÖ§´«µ¼×èÖÍ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+WPW,Wolff-Parkinson-White Syndrome,ÎÖ¶û·ò-ÅÁ½ğÉ­-»³ÌØ×ÛºÏÕ÷,ĞÄÑª¹ÜÄÚ¿Æ,,,
+SVT,Supraventricular Tachycardia,ÊÒÉÏĞÔĞÄ¶¯¹ıËÙ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+PAD,Peripheral Artery Disease,ÍâÖÜ¶¯Âö¼²²¡,ĞÄÑª¹ÜÄÚ¿Æ,,,
+PEF,Peak Expiratory Flow,ºôÆø·åÁ÷ËÙ,ºôÎüÄÚ¿Æ,,,
+DLCO,Diffusing Capacity of the Lung for Carbon Monoxide,·ÎÒ»Ñõ»¯Ì¼ÃÖÉ¢Á¿,ºôÎüÄÚ¿Æ,,,
+TLC,Total Lung Capacity,·Î×ÜÁ¿,ºôÎüÄÚ¿Æ,,,
+RV,Residual Volume,²ĞÆøÁ¿,ºôÎüÄÚ¿Æ,,,
+VC,Vital Capacity,·Î»îÁ¿,ºôÎüÄÚ¿Æ,,,
+MVV,Maximal Voluntary Ventilation,×î´ó×ÔÖ÷Í¨ÆøÁ¿,ºôÎüÄÚ¿Æ,,,
+FiO2,Fraction of Inspired Oxygen,ÎüÈëÑõÅ¨¶È,ºôÎüÄÚ¿Æ,,,
+CPAP,Continuous Positive Airway Pressure,³ÖĞøÆøµÀÕıÑ¹Í¨Æø,ºôÎüÄÚ¿Æ,,,
+IPAP,Inspiratory Positive Airway Pressure,ÎüÆøÏàÆøµÀÕıÑ¹,ºôÎüÄÚ¿Æ,,,
+EPAP,Expiratory Positive Airway Pressure,ºôÆøÏàÆøµÀÕıÑ¹,ºôÎüÄÚ¿Æ,,,
+ABG,Arterial Blood Gas,¶¯ÂöÑªÆø·ÖÎö,ºôÎüÄÚ¿Æ,,,
+V/Q,Ventilation/Perfusion Scan,Í¨Æø/¹à×¢É¨Ãè,ºôÎüÄÚ¿Æ,,,
+TBLB,Transbronchial Lung Biopsy,¾­Ö§Æø¹Ü·Î»î¼ì,ºôÎüÄÚ¿Æ,,,
+EBUS,Endobronchial Ultrasound,Ö§Æø¹ÜÄÚ³¬Éù,ºôÎüÄÚ¿Æ,,,
+TBNA,Transbronchial Needle Aspiration,¾­Ö§Æø¹ÜÕëÎü»î¼ì,ºôÎüÄÚ¿Æ,,,
+6MWT,Six-Minute Walk Test,6·ÖÖÓ²½ĞĞÊÔÑé,ºôÎüÄÚ¿Æ,,,
+AHI,Apnea-Hypopnea Index,ºôÎüÔİÍ£µÍÍ¨ÆøÖ¸Êı,ºôÎüÄÚ¿Æ,,,
+ICS,Inhaled Corticosteroid,ÎüÈëĞÔÌÇÆ¤ÖÊ¼¤ËØ,ºôÎüÄÚ¿Æ,,,
+LABA,Long-Acting Beta Agonist,³¤Ğ§¦Â2ÊÜÌå¼¤¶¯¼Á,ºôÎüÄÚ¿Æ,,,
+SABA,Short-Acting Beta Agonist,¶ÌĞ§¦Â2ÊÜÌå¼¤¶¯¼Á,ºôÎüÄÚ¿Æ,,,
+LAMA,Long-Acting Muscarinic Antagonist,³¤Ğ§¿¹µ¨¼îÄÜÒ©Îï,ºôÎüÄÚ¿Æ,,,
+SAMA,Short-Acting Muscarinic Antagonist,¶ÌĞ§¿¹µ¨¼îÄÜÒ©Îï,ºôÎüÄÚ¿Æ,,,
+MTB,Mycobacterium Tuberculosis,½áºË·ÖÖ¦¸Ë¾ú,ºôÎüÄÚ¿Æ,,,
+MDR-TB,Multidrug-Resistant Tuberculosis,ÄÍ¶àÒ©½áºË²¡,ºôÎüÄÚ¿Æ,,,
+XDR-TB,Extensively Drug-Resistant Tuberculosis,¹ã·ºÄÍÒ©½áºË²¡,ºôÎüÄÚ¿Æ,,,
+PH,Pulmonary Hypertension,·Î¶¯Âö¸ßÑ¹,ºôÎüÄÚ¿Æ,,,
+PAH,Pulmonary Arterial Hypertension,¶¯ÂöĞÔ·Î¶¯Âö¸ßÑ¹,ºôÎüÄÚ¿Æ,,,
+UIP,Usual Interstitial Pneumonia,Ñ°³£ĞÍ¼äÖÊĞÔ·ÎÑ×,ºôÎüÄÚ¿Æ,,,
+NSIP,Nonspecific Interstitial Pneumonia,·ÇÌØÒìĞÔ¼äÖÊĞÔ·ÎÑ×,ºôÎüÄÚ¿Æ,,,
+COP,Cryptogenic Organizing Pneumonia,ÒşÔ´ĞÔ»ú»¯ĞÔ·ÎÑ×,ºôÎüÄÚ¿Æ,,,
+ABPA,Allergic Bronchopulmonary Aspergillosis,±äÓ¦ĞÔÖ§Æø¹Ü·ÎÇúÃ¹²¡,ºôÎüÄÚ¿Æ,,,
+PSC,Primary Sclerosing Cholangitis,Ô­·¢ĞÔÓ²»¯ĞÔµ¨¹ÜÑ×,Ïû»¯ÄÚ¿Æ,,,
+AC,Acute Cholangitis,¼±ĞÔµ¨¹ÜÑ×,Ïû»¯ÄÚ¿Æ,,,
+AP,Acute Pancreatitis,¼±ĞÔÒÈÏÙÑ×,Ïû»¯ÄÚ¿Æ,,,
+FAP,Family Adenomatous Polyposis,¼Ò×åĞÔÏÙÁöĞÔÏ¢Èâ²¡,Ïû»¯ÄÚ¿Æ,,,
+HNPCC,Hereditary Nonpolyposis Colorectal Cancer,ÒÅ´«ĞÔ·ÇÏ¢Èâ²¡ĞÔ½áÖ±³¦°©,Ïû»¯ÄÚ¿Æ,,,
+MEN1,Multiple Endocrine Neoplasia Type 1,¶à·¢ĞÔÄÚ·ÖÃÚÏÙÁö²¡1ĞÍ,Ïû»¯ÄÚ¿Æ,,,
+VIP,Vasoactive Intestinal Peptide,Ñª¹Ü»îĞÔ³¦ëÄ,Ïû»¯ÄÚ¿Æ,,,
+SST,Somatostatin,Éú³¤ÒÖËØ,Ïû»¯ÄÚ¿Æ,,,
+PPI,Proton Pump Inhibitor,ÖÊ×Ó±ÃÒÖÖÆ¼Á,Ïû»¯ÄÚ¿Æ,,,
+H2RA,Histamine-2 Receptor Antagonist,H2ÊÜÌåŞ×¿¹¼Á,Ïû»¯ÄÚ¿Æ,,,
+5-ASA,5-Aminosalicylic Acid,5-°±»ùË®ÑîËá,Ïû»¯ÄÚ¿Æ,,,
+AZA,Azathioprine,ÁòßòàÑßÊ,Ïû»¯ÄÚ¿Æ,,,
+6-MP,6-Mercaptopurine,6-ÛÏ»ùàÑßÊ,Ïû»¯ÄÚ¿Æ,,,
+MTX,Methotrexate,¼×°±µûßÊ,Ïû»¯ÄÚ¿Æ,,,
+HEV,Hepatitis E Virus,ÎìĞÍ¸ÎÑ×²¡¶¾,Ïû»¯ÄÚ¿Æ,,,
+HDV,Hepatitis D Virus,¶¡ĞÍ¸ÎÑ×²¡¶¾,Ïû»¯ÄÚ¿Æ,,,
+HGV,Hepatitis G Virus,¸ıĞÍ¸ÎÑ×²¡¶¾,Ïû»¯ÄÚ¿Æ,,,
+CMV,Cytomegalovirus,¾ŞÏ¸°û²¡¶¾,Ïû»¯ÄÚ¿Æ,,,
+EBV,Epstein-Barr Virus,EB²¡¶¾,Ïû»¯ÄÚ¿Æ,,,
+HP,Helicobacter Pylori,ÓÄÃÅÂİ¸Ë¾ú,Ïû»¯ÄÚ¿Æ,,,
+GGT,Gamma-Glutamyl Transferase,¦Ã-¹È°±õ£×ªÒÆÃ¸,Ïû»¯ÄÚ¿Æ,,,
+ALP,Alkaline Phosphatase,¼îĞÔÁ×ËáÃ¸,Ïû»¯ÄÚ¿Æ,,,
+TBil,Total Bilirubin,×Üµ¨ºìËØ,Ïû»¯ÄÚ¿Æ,,,
+DBil,Direct Bilirubin,Ö±½Óµ¨ºìËØ,Ïû»¯ÄÚ¿Æ,,,
+IBil,Indirect Bilirubin,¼ä½Óµ¨ºìËØ,Ïû»¯ÄÚ¿Æ,,,
+MG,Myasthenia Gravis,ÖØÖ¢¼¡ÎŞÁ¦,Éñ¾­ÄÚ¿Æ,,,
+CIDP,Chronic Inflammatory Demyelinating Polyneuropathy,ÂıĞÔÑ×ĞÔÍÑËèÇÊĞÔ¶à·¢ĞÔÉñ¾­²¡,Éñ¾­ÄÚ¿Æ,,,
+PSP,Progressive Supranuclear Palsy,½øĞĞĞÔºËÉÏĞÔÂé±Ô,Éñ¾­ÄÚ¿Æ,,,
+MSA,Mutiple System Atrophy,¶àÏµÍ³Î®Ëõ,Éñ¾­ÄÚ¿Æ,,,
+CBD,Corticobasal Degeneration,Æ¤ÖÊ»ùµ×½Ú±äĞÔ,Éñ¾­ÄÚ¿Æ,,,
+DLB,Dementia with Lewy Bodies,Â·Ò×Ìå³Õ´ô,Éñ¾­ÄÚ¿Æ,,,
+FTD,Frontotemporal Dementia,¶îò¨Ò¶³Õ´ô,Éñ¾­ÄÚ¿Æ,,,
+CMT,Charcot-Marie-Tooth Disease,ÏÄ¿Æ-ÂíÀï-Í¼Ë¹²¡,Éñ¾­ÄÚ¿Æ,,,
+DMD,Duchenne Muscular Dystrophy,¶ÅÊÏ¼¡ÓªÑø²»Á¼,Éñ¾­ÄÚ¿Æ,,,
+SMA,Spinal Muscular Atrophy,¼¹ËèĞÔ¼¡Î®ËõÖ¢,Éñ¾­ÄÚ¿Æ,,,
+NMO,Neuromyelitis Optica,ÊÓÉñ¾­¼¹ËèÑ×,Éñ¾­ÄÚ¿Æ,,,
+MOG,Myelin Oligodendrocyte Glycoprotein,ËèÇÊÉÙÍ»½ºÖÊÏ¸°ûÌÇµ°°×,Éñ¾­ÄÚ¿Æ,,,
+ADEM,Acute Disseminated Encephalomyelitis,¼±ĞÔ²¥É¢ĞÔÄÔ¼¹ËèÑ×,Éñ¾­ÄÚ¿Æ,,,
+CJD,Creutzfeldt-Jakob Disease,¿ËÑÅ²¡,Éñ¾­ÄÚ¿Æ,,,
+WFS,Wolfram Syndrome,ÎÖ¶û·òÀÕÄ·×ÛºÏÕ÷,Éñ¾­ÄÚ¿Æ,,,
+SCA,Spinocerebellar Ataxia,¼¹ËèĞ¡ÄÔĞÔ¹²¼ÃÊ§µ÷,Éñ¾­ÄÚ¿Æ,,,
+FA,Friedreich's Ataxia,¸¥ÀïµÂÀµÏ£¹²¼ÃÊ§µ÷,Éñ¾­ÄÚ¿Æ,,,
+PN,Peripheral Neuropathy,ÖÜÎ§Éñ¾­²¡,Éñ¾­ÄÚ¿Æ,,,
+RLS,Restless Legs Syndrome,²»ÄşÍÈ×ÛºÏÕ÷,Éñ¾­ÄÚ¿Æ,,,
+NPH,Normal Pressure Hydrocephalus,Õı³£Ñ¹Á¦ÄÔ»ıË®,Éñ¾­ÄÚ¿Æ,,,
+IIH,Idiopathic Intracranial Hypertension,ÌØ·¢ĞÔÂ­ÄÚÑ¹Ôö¸ß,Éñ¾­ÄÚ¿Æ,,,
+CVST,Cerebral Venous Sinus Thrombosis,ÄÔ¾²Âöñ¼ÑªË¨ĞÎ³É,Éñ¾­ÄÚ¿Æ,,,
+MELAS,Mitochondrial Encephalopathy Lactic Acidosis and Stroke-like Episodes,ÏßÁ£ÌåÄÔ¼¡²¡°éÈéËáËáÖĞ¶¾ºÍ×äÖĞÑù·¢×÷,Éñ¾­ÄÚ¿Æ,,,
+CADASIL,Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarcts and Leukoencephalopathy,°éÆ¤ÖÊÏÂ¹£ËÀºÍ°×ÖÊÄÔ²¡µÄ³£È¾É«ÌåÏÔĞÔÒÅ´«ĞÔÄÔ¶¯Âö²¡,Éñ¾­ÄÚ¿Æ,,,
+PRES,Posterior Reversible Encephalopathy Syndrome,¿ÉÄæĞÔºó²¿ÄÔ²¡×ÛºÏÕ÷,Éñ¾­ÄÚ¿Æ,,,
+CNSL,Central Nervous System Lymphoma,ÖĞÊàÉñ¾­ÏµÍ³ÁÜ°ÍÁö,Éñ¾­ÄÚ¿Æ,,,
+PNET,Primitive Neuroectodermal Tumor,Ô­Ê¼Éñ¾­ÍâÅß²ãÖ×Áö,Éñ¾­ÄÚ¿Æ,,,
+GBM,Glioblastoma Multiforme,¶àĞÎĞÔ½ºÖÊÄ¸Ï¸°ûÁö,Éñ¾­ÄÚ¿Æ,,,
+LGG,Low-Grade Glioma,µÍ¼¶±ğ½ºÖÊÁö,Éñ¾­ÄÚ¿Æ,,,
+MEP,Motor Evoked Potential,ÔË¶¯ÓÕ·¢µçÎ»,Éñ¾­ÄÚ¿Æ,,,
+SSEP,Somatosensory Evoked Potential,Ìå¸ĞÓÕ·¢µçÎ»,Éñ¾­ÄÚ¿Æ,,,
+BAEP,Brainstem Auditory Evoked Potential,ÄÔ¸ÉÌı¾õÓÕ·¢µçÎ»,Éñ¾­ÄÚ¿Æ,,,
+NCV,Nerve Conduction Velocity,Éñ¾­´«µ¼ËÙ¶È,Éñ¾­ÄÚ¿Æ,,,
+MEG,Magnetoencephalography,ÄÔ´ÅÍ¼,Éñ¾­ÄÚ¿Æ,,,
+ACTH,Adrenocorticotropic Hormone,´ÙÉöÉÏÏÙÆ¤ÖÊ¼¤ËØ,ÄÚ·ÖÃÚ¿Æ,,,
+ADH,Antidiuretic Hormone,¿¹ÀûÄò¼¤ËØ,ÄÚ·ÖÃÚ¿Æ,,,
+T3,Triiodothyronine,Èıµâ¼××´ÏÙÔ­°±Ëá,ÄÚ·ÖÃÚ¿Æ,,,
+T4,Thyroxine,¼××´ÏÙËØ,ÄÚ·ÖÃÚ¿Æ,,,
+FT3,Free Triiodothyronine,ÓÎÀëÈıµâ¼××´ÏÙÔ­°±Ëá,ÄÚ·ÖÃÚ¿Æ,,,
+FT4,Free Thyroxine,ÓÎÀë¼××´ÏÙËØ,ÄÚ·ÖÃÚ¿Æ,,,
+PTH,Parathyroid Hormone,¼××´ÅÔÏÙ¼¤ËØ,ÄÚ·ÖÃÚ¿Æ,,,
+LH,Luteinizing Hormone,»ÆÌåÉú³ÉËØ,ÄÚ·ÖÃÚ¿Æ,,,
+FSH,Follicle-stimulating Hormone,ÂÑÅİ´Ì¼¤ËØ,ÄÚ·ÖÃÚ¿Æ,,,
+E2,Estradiol,´Æ¶ş´¼,ÄÚ·ÖÃÚ¿Æ,,,
+P,Progesterone,ÔĞÍª,ÄÚ·ÖÃÚ¿Æ,,,
+T,Testosterone,ØºÍª,ÄÚ·ÖÃÚ¿Æ,,,
+DHEA-S,Dehydroepiandrosterone Sulfate,ÁòËáÍÑÇâ±íĞÛÍª,ÄÚ·ÖÃÚ¿Æ,,,
+Cortisol,Cortisol,Æ¤ÖÊ´¼,ÄÚ·ÖÃÚ¿Æ,,,
+Aldo,Aldosterone,È©¹ÌÍª,ÄÚ·ÖÃÚ¿Æ,,,
+Renin,Renin,ÉöËØ,ÄÚ·ÖÃÚ¿Æ,,,
+HHS,Hyperosmolar Hyperglycemic State,¸ßÉøĞÔ¸ßÑªÌÇ×´Ì¬,ÄÚ·ÖÃÚ¿Æ,,,
+OGTT,Oral Glucose Tolerance Test,¿Ú·şÆÏÌÑÌÇÄÍÁ¿ÊÔÑé,ÄÚ·ÖÃÚ¿Æ,,,
+IR,Insulin Resistance,ÒÈµºËØµÖ¿¹,ÄÚ·ÖÃÚ¿Æ,,,
+MODY,Maturity-onset Diabetes of the Young,ÇàÉÙÄê·¢²¡µÄ³ÉÄêĞÍÌÇÄò²¡,ÄÚ·ÖÃÚ¿Æ,,,
+MEN2,Multiple Endocrine Neoplasia Type 2,¶à·¢ĞÔÄÚ·ÖÃÚÏÙÁö²¡2ĞÍ,ÄÚ·ÖÃÚ¿Æ,,,
+SIADH,Syndrome of Inappropriate Antidiuretic Hormone Secretion,¿¹ÀûÄò¼¤ËØ·ÖÃÚ²»µ±×ÛºÏÕ÷,ÄÚ·ÖÃÚ¿Æ,,,
+DI,Diabetes Insipidus,Äò±ÀÖ¢,ÄÚ·ÖÃÚ¿Æ,,,
+Cushing,Cushing Syndrome,¿âĞÀ×ÛºÏÕ÷,ÄÚ·ÖÃÚ¿Æ,,,
+Addison,Addison Disease,°¬µÏÉú²¡,ÄÚ·ÖÃÚ¿Æ,,,
+Pheo,Pheochromocytoma,ÊÈ¸õÏ¸°ûÁö,ÄÚ·ÖÃÚ¿Æ,,,
+HyperPTH,Hyperparathyroidism,¼××´ÅÔÏÙ¹¦ÄÜ¿º½øÖ¢,ÄÚ·ÖÃÚ¿Æ,,,
+HypoPTH,Hypoparathyroidism,¼××´ÅÔÏÙ¹¦ÄÜ¼õÍËÖ¢,ÄÚ·ÖÃÚ¿Æ,,,
+HyperT,Hyperthyroidism,¼××´ÏÙ¹¦ÄÜ¿º½øÖ¢,ÄÚ·ÖÃÚ¿Æ,,,
+HypoT,Hypothyroidism,¼××´ÏÙ¹¦ÄÜ¼õÍËÖ¢,ÄÚ·ÖÃÚ¿Æ,,,
+GD,Graves Disease,¸ñÀ×·òË¹²¡,ÄÚ·ÖÃÚ¿Æ,,,
+HT,Hashimoto Thyroiditis,ÇÅ±¾¼××´ÏÙÑ×,ÄÚ·ÖÃÚ¿Æ,,,
+NG,Neuroglycopenia,Éñ¾­µÍÑªÌÇÖ¢,ÄÚ·ÖÃÚ¿Æ,,,
+CRH,Corticotropin Releasing Hormone,´ÙÉöÉÏÏÙÆ¤ÖÊ¼¤ËØÊÍ·Å¼¤ËØ,ÄÚ·ÖÃÚ¿Æ,,,
+TRH,Thyrotropin Releasing Hormone,´Ù¼××´ÏÙ¼¤ËØÊÍ·Å¼¤ËØ,ÄÚ·ÖÃÚ¿Æ,,,
+GnRH,Gonadotropin Releasing Hormone,´ÙĞÔÏÙ¼¤ËØÊÍ·Å¼¤ËØ,ÄÚ·ÖÃÚ¿Æ,,,
+UA,Uric Acid,ÄòËá,ÉöÔàÄÚ¿Æ,,,
+K+,Potassium,¼Ø,ÉöÔàÄÚ¿Æ,,,
+Na+,Sodium,ÄÆ,ÉöÔàÄÚ¿Æ,,,
+Ca,Calcium,¸Æ,ÉöÔàÄÚ¿Æ,,,
+HCO3-,Bicarbonate,Ì¼ËáÇâ¸ù,ÉöÔàÄÚ¿Æ,,,
+Alb,Albumin,°×µ°°×,ÉöÔàÄÚ¿Æ,,,
+UP,Urine Protein,Äòµ°°×,ÉöÔàÄÚ¿Æ,,,
+CRRT,Continuous Renal Replacement Therapy,Á¬ĞøĞÔÉöÔàÌæ´úÖÎÁÆ,ÉöÔàÄÚ¿Æ,,,
+HDF,Hemodiafiltration,ÑªÒºÍ¸ÎöÂË¹ı,ÉöÔàÄÚ¿Æ,,,
+UF,Ultrafiltration,³¬ÂË,ÉöÔàÄÚ¿Æ,,,
+AVF,Arteriovenous Fistula,¶¯¾²ÂöÄÚğü,ÉöÔàÄÚ¿Æ,,,
+AVG,Arteriovenous Graft,¶¯¾²ÂöÒÆÖ²Îï,ÉöÔàÄÚ¿Æ,,,
+CVC,Central Venous Catheter,ÖĞĞÄ¾²Âöµ¼¹Ü,ÉöÔàÄÚ¿Æ,,,
+RRT,Renal Replacement Therapy,ÉöÔàÌæ´úÖÎÁÆ,ÉöÔàÄÚ¿Æ,,,
+MN,Membranous Nephropathy,Ä¤ĞÔÉö²¡,ÉöÔàÄÚ¿Æ,,,
+FSGS,Focal Segmental Glomerulosclerosis,¾ÖÔî½Ú¶ÎĞÔÉöĞ¡ÇòÓ²»¯,ÉöÔàÄÚ¿Æ,,,
+IgAN,IgA Nephropathy,IgAÉö²¡,ÉöÔàÄÚ¿Æ,,,
+MPGN,Membranoproliferative Glomerulonephritis,Ä¤ÔöÉúĞÔÉöĞ¡ÇòÉöÑ×,ÉöÔàÄÚ¿Æ,,,
+ATN,Acute Tubular Necrosis,¼±ĞÔÉöĞ¡¹Ü»µËÀ,ÉöÔàÄÚ¿Æ,,,
+TTP,Thrombotic Thrombocytopenic Purpura,ÑªË¨ĞÔÑªĞ¡°å¼õÉÙĞÔ×Ïñ°,ÉöÔàÄÚ¿Æ,,,
+DN,Diabetic Nephropathy,ÌÇÄò²¡Éö²¡,ÉöÔàÄÚ¿Æ,,,
+CKD-MBD,Chronic Kidney Disease-Mineral and Bone Disorder,ÂıĞÔÉöÔà²¡-¿óÎïÖÊºÍ¹ÇÒì³£,ÉöÔàÄÚ¿Æ,,,
+MDS,Myelodysplastic Syndrome,¹ÇËèÔöÉúÒì³£×ÛºÏÕ÷,ÑªÒº¿Æ,,,
+MPN,Myeloproliferative Neoplasm,¹ÇËèÔöÖ³ĞÔÖ×Áö,ÑªÒº¿Æ,,,
+DLBCL,Diffuse Large B-cell Lymphoma,ÃÖÂş´óBÏ¸°ûÁÜ°ÍÁö,ÑªÒº¿Æ,,,
+FL,Follicular Lymphoma,ÂËÅİĞÔÁÜ°ÍÁö,ÑªÒº¿Æ,,,
+MCL,Mantle Cell Lymphoma,Ì×Ï¸°ûÁÜ°ÍÁö,ÑªÒº¿Æ,,,
+ALCL,Anaplastic Large Cell Lymphoma,¼ä±äĞÔ´óÏ¸°ûÁÜ°ÍÁö,ÑªÒº¿Æ,,,
+ALL-L1,Acute Lymphoblastic Leukemia L1,¼±ĞÔÁÜ°ÍÏ¸°û°×Ñª²¡L1ĞÍ,ÑªÒº¿Æ,,,
+APL,Acute Promyelocytic Leukemia,¼±ĞÔÔçÓ×Á£Ï¸°û°×Ñª²¡,ÑªÒº¿Æ,,,
+HSCT,Hematopoietic Stem Cell Transplantation,ÔìÑª¸ÉÏ¸°ûÒÆÖ²,ÑªÒº¿Æ,,,
+GVHD,Graft-versus-Host Disease,ÒÆÖ²Îï¿¹ËŞÖ÷²¡,ÑªÒº¿Æ,,,
+EFS,Event-Free Survival,ÎŞÊÂ¼şÉú´æÆÚ,ÑªÒº¿Æ,,,
+MRD,Minimal Residual Disease,Î¢Ğ¡²ĞÁô²¡,ÑªÒº¿Æ,,,
+BM,Bone Marrow,¹ÇËè,ÑªÒº¿Æ,,,
+BMA,Bone Marrow Aspiration,¹ÇËè´©´Ì,ÑªÒº¿Æ,,,
+BMB,Bone Marrow Biopsy,¹ÇËè»î¼ì,ÑªÒº¿Æ,,,
+PB,Peripheral Blood,ÍâÖÜÑª,ÑªÒº¿Æ,,,
+PBSC,Peripheral Blood Stem Cell,ÍâÖÜÑª¸ÉÏ¸°û,ÑªÒº¿Æ,,,
+ANC,Absolute Neutrophil Count,¾ø¶ÔÖĞĞÔÁ£Ï¸°û¼ÆÊı,ÑªÒº¿Æ,,,
+RDW,Red Cell Distribution Width,ºìÏ¸°û·Ö²¼¿í¶È,ÑªÒº¿Æ,,,
+FIB,Fibrinogen,ÏËÎ¬µ°°×Ô­,ÑªÒº¿Æ,,,
+ITP,Immune Thrombocytopenia,ÃâÒßĞÔÑªĞ¡°å¼õÉÙÖ¢,ÑªÒº¿Æ,,,
+PNH,Paroxysmal Nocturnal Hemoglobinuria,Õó·¢ĞÔË¯ÃßĞÔÑªºìµ°°×ÄòÖ¢,ÑªÒº¿Æ,,,
+THAL,Thalassemia,µØÖĞº£Æ¶Ñª,ÑªÒº¿Æ,,,
+VTE,Venous Thromboembolism,¾²ÂöÑªË¨Ë¨ÈûÖ¢,ÑªÒº¿Æ,,,
+ALK,Anaplastic Lymphoma Kinase,¼ä±äĞÔÁÜ°ÍÁö¼¤Ã¸,Ö×ÁöÄÚ¿Æ,,,
+PD-1,Programmed Cell Death Protein 1,³ÌĞòĞÔËÀÍöÊÜÌå1,Ö×ÁöÄÚ¿Æ,,,
+PD-L1,Programmed Death-Ligand 1,³ÌĞòĞÔËÀÍöÅäÌå1,Ö×ÁöÄÚ¿Æ,,,
+CTLA-4,Cytotoxic T-Lymphocyte Associated Protein 4,Ï¸°û¶¾ĞÔTÁÜ°ÍÏ¸°ûÏà¹Øµ°°×4,Ö×ÁöÄÚ¿Æ,,,
+ICI,Immune Checkpoint Inhibitor,ÃâÒß¼ì²éµãÒÖÖÆ¼Á,Ö×ÁöÄÚ¿Æ,,,
+SD,Stable Disease,¼²²¡ÎÈ¶¨,Ö×ÁöÄÚ¿Æ,,,
+DCR,Disease Control Rate,¼²²¡¿ØÖÆÂÊ,Ö×ÁöÄÚ¿Æ,,,
+RECIST,Response Evaluation Criteria in Solid Tumors,ÊµÌåÁöÁÆĞ§ÆÀ¼Û±ê×¼,Ö×ÁöÄÚ¿Æ,,,
+ECOG,Eastern Cooperative Oncology Group,¶«²¿Ö×ÁöĞ­×÷×é,Ö×ÁöÄÚ¿Æ,,,
+PS,Performance Status,ÌåÄÜ×´Ì¬ÆÀ·Ö,Ö×ÁöÄÚ¿Æ,,,
+DLT,Dose-Limiting Toxicity,¼ÁÁ¿ÏŞÖÆĞÔ¶¾ĞÔ,Ö×ÁöÄÚ¿Æ,,,
+MTD,Maximum Tolerated Dose,×î´óÄÍÊÜ¼ÁÁ¿,Ö×ÁöÄÚ¿Æ,,,
+RP2D,Recommended Phase 2 Dose,ÍÆ¼öIIÆÚ¼ÁÁ¿,Ö×ÁöÄÚ¿Æ,,,
+LDH,Lactate Dehydrogenase,ÈéËáÍÑÇâÃ¸,Ö×ÁöÄÚ¿Æ,,,
+TNM,Tumor Node Metastasis,Ö×ÁöÁÜ°Í½á×ªÒÆ·ÖÆÚ,Ö×ÁöÄÚ¿Æ,,,
+AJCC,American Joint Committee on Cancer,ÃÀ¹ú°©Ö¢ÁªºÏÎ¯Ô±»á,Ö×ÁöÄÚ¿Æ,,,
+NCCN,National Comprehensive Cancer Network,ÃÀ¹ú¹ú¼Ò×ÛºÏ°©Ö¢ÍøÂç,Ö×ÁöÄÚ¿Æ,,,
+ESMO,European Society for Medical Oncology,Å·ÖŞÖ×ÁöÄÚ¿ÆÑ§»á,Ö×ÁöÄÚ¿Æ,,,
+ASCO,American Society of Clinical Oncology,ÃÀ¹úÁÙ´²Ö×ÁöÑ§»á,Ö×ÁöÄÚ¿Æ,,,
+CSCO,Chinese Society of Clinical Oncology,ÖĞ¹úÁÙ´²Ö×ÁöÑ§»á,Ö×ÁöÄÚ¿Æ,,,
+GCP,Good Clinical Practice,Ò©ÎïÁÙ´²ÊÔÑéÖÊÁ¿¹ÜÀí¹æ·¶,Ö×ÁöÄÚ¿Æ,,,
+IRB,Institutional Review Board,»ú¹¹Éó²éÎ¯Ô±»á,Ö×ÁöÄÚ¿Æ,,,
+IIT,Investigator-Initiated Trial,ÑĞ¾¿Õß·¢ÆğÊÔÑé,Ö×ÁöÄÚ¿Æ,,,
+IND,Investigational New Drug,ÑĞ¾¿ĞÔĞÂÒ©,Ö×ÁöÄÚ¿Æ,,,
+NDA,New Drug Application,ĞÂÒ©ÉêÇë,Ö×ÁöÄÚ¿Æ,,,
+BLA,Biologics License Application,ÉúÎïÖÆÆ·Ğí¿ÉÉêÇë,Ö×ÁöÄÚ¿Æ,,,
+CRO,Contract Research Organization,ºÏÍ¬ÑĞ¾¿×éÖ¯,Ö×ÁöÄÚ¿Æ,,,
+FFPE,Formalin-Fixed Paraffin-Embedded,¸£¶ûÂíÁÖ¹Ì¶¨Ê¯À¯°üÂñ,Ö×ÁöÄÚ¿Æ,,,
+NGS,Next-Generation Sequencing,ÏÂÒ»´ú²âĞò,Ö×ÁöÄÚ¿Æ,,,
+ctDNA,Circulating Tumor DNA,Ñ­»·Ö×ÁöDNA,Ö×ÁöÄÚ¿Æ,,,
+CTC,Circulating Tumor Cell,Ñ­»·Ö×ÁöÏ¸°û,Ö×ÁöÄÚ¿Æ,,,
+TMB,Tumor Mutational Burden,Ö×ÁöÍ»±ä¸ººÉ,Ö×ÁöÄÚ¿Æ,,,
+MSI,Microssatellite Instability,Î¢ÎÀĞÇ²»ÎÈ¶¨ĞÔ,Ö×ÁöÄÚ¿Æ,,,
+CRKP,Carbapenem-resistant Klebsiella pneumoniae,Ì¼ÇàÃ¹Ï©ÄÍÒ©·ÎÑ×¿ËÀ×²®¾ú,¸ĞÈ¾¿Æ,,,
+CLABSI,Central Line-associated Bloodstream Infection,ÖĞĞÄ¾²Âöµ¼¹ÜÏà¹ØÑªÁ÷¸ĞÈ¾,¸ĞÈ¾¿Æ,,,
+CAUTI,Catheter-associated Urinary Tract Infection,µ¼¹ÜÏà¹ØÄòÂ·¸ĞÈ¾,¸ĞÈ¾¿Æ,,,
+HCAP,Healthcare-associated Pneumonia,Ò½ÁÆ±£½¡Ïà¹ØĞÔ·ÎÑ×,¸ĞÈ¾¿Æ,,,
+ELISA,Enzyme-linked Immunosorbent Assay,Ã¸ÁªÃâÒßÎü¸½ÊÔÑé,¸ĞÈ¾¿Æ,,,
+HBsAg,Hepatitis B Surface Antigen,ÒÒĞÍ¸ÎÑ×±íÃæ¿¹Ô­,¸ĞÈ¾¿Æ,,,
+HBeAg,Hepatitis B e Antigen,ÒÒĞÍ¸ÎÑ×e¿¹Ô­,¸ĞÈ¾¿Æ,,,
+Anti-HBs,Antibody to Hepatitis B Surface Antigen,ÒÒĞÍ¸ÎÑ×±íÃæ¿¹Ìå,¸ĞÈ¾¿Æ,,,
+Anti-HBc,Antibody to Hepatitis B Core Antigen,ÒÒĞÍ¸ÎÑ×ºËĞÄ¿¹Ìå,¸ĞÈ¾¿Æ,,,
+Anti-HCV,Antibody to Hepatitis C Virus,±ûĞÍ¸ÎÑ×¿¹Ìå,¸ĞÈ¾¿Æ,,,
+HCV RNA,Hepatitis C Virus Ribonucleic Acid,±ûĞÍ¸ÎÑ×²¡¶¾ºËÌÇºËËá,¸ĞÈ¾¿Æ,,,
+HBV DNA,Hepatitis B Virus Deoxyribonucleic Acid,ÒÒĞÍ¸ÎÑ×²¡¶¾ÍÑÑõºËÌÇºËËá,¸ĞÈ¾¿Æ,,,
+HIV RNA,HIV Ribonucleic Acid,ÈËÀàÃâÒßÈ±Ïİ²¡¶¾ºËÌÇºËËá,¸ĞÈ¾¿Æ,,,
+CD4,Cluster of Differentiation 4,·Ö»¯´Ø4,¸ĞÈ¾¿Æ,,,
+VL,Viral Load,²¡¶¾ÔØÁ¿,¸ĞÈ¾¿Æ,,,
+ART,Antiretroviral Therapy,¿¹Äæ×ªÂ¼²¡¶¾ÖÎÁÆ,¸ĞÈ¾¿Æ,,,
+DAA,Direct-acting Antiviral,Ö±½Ó¿¹²¡¶¾Ò©Îï,¸ĞÈ¾¿Æ,,,
+PEP,Post-exposure Prophylaxis,±©Â¶ºóÔ¤·À,¸ĞÈ¾¿Æ,,,
+PrEP,Pre-exposure Prophylaxis,±©Â¶Ç°Ô¤·À,¸ĞÈ¾¿Æ,,,
+STI,Sexually Transmitted Infection,ĞÔ´«²¥¸ĞÈ¾,¸ĞÈ¾¿Æ,,,
+IV,Intravenous,¾²ÂöÄÚ,¼±ÕïÒ½Ñ§,,,
+IO,Intraosseous,¹ÇÄÚ,¼±ÕïÒ½Ñ§,,,
+LMA,Laryngeal Mask Airway,ºíÕÖÆøµÀ,¼±ÕïÒ½Ñ§,,,
+SIRS,Systemic Inflammatory Response Syndrome,È«ÉíÑ×Ö¢·´Ó¦×ÛºÏÕ÷,¼±ÕïÒ½Ñ§,,,
+TBI,Traumatic Brain Injury,´´ÉËĞÔÄÔËğÉË,¼±ÕïÒ½Ñ§,,,
+TEE,Transesophageal Echocardiography,¾­Ê³¹Ü³¬ÉùĞÄ¶¯Í¼,¼±ÕïÒ½Ñ§,,,
+ALI,Acute Lung Injury,¼±ĞÔ·ÎËğÉË,¼±ÕïÒ½Ñ§,,,
+ATLS,Advanced Trauma Life Support,¸ß¼¶´´ÉËÉúÃüÖ§³Ö,¼±ÕïÒ½Ñ§,,,
+AVPU,Alert Voice Pain Unresponsive,¾¯¾õ-ÉùÒô-ÌÛÍ´-ÎŞ·´Ó¦,¼±ÕïÒ½Ñ§,,,
+EMS,Emergency Medical Services,¼±¾ÈÒ½ÁÆ·şÎñ,¼±ÕïÒ½Ñ§,,,
+ETT,Endotracheal Tube,Æø¹ÜÄÚµ¼¹Ü,¼±ÕïÒ½Ñ§,,,
+FDP,Fibrin Degradation Product,ÏËÎ¬µ°°×½µ½â²úÎï,¼±ÕïÒ½Ñ§,,,
+HIT,Heparin-induced Thrombocytopenia,¸ÎËØÓÕµ¼µÄÑªĞ¡°å¼õÉÙÖ¢,¼±ÕïÒ½Ñ§,,,
+IVC,Inferior Vena Cava,ÏÂÇ»¾²Âö,¼±ÕïÒ½Ñ§,,,
+LFT,Liver Function Test,¸Î¹¦ÄÜÊÔÑé,¼±ÕïÒ½Ñ§,,,
+MTP,Massive Transfusion Protocol,´óÁ¿ÊäÑª·½°¸,¼±ÕïÒ½Ñ§,,,
+PA,Posteroanterior,ºóÇ°Î»,¼±ÕïÒ½Ñ§,,,
+POCUS,Point-of-care Ultrasound,´²ÅÔ³¬Éù,¼±ÕïÒ½Ñ§,,,
+TEG,Thromboelastography,ÑªË¨µ¯Á¦Í¼,¼±ÕïÒ½Ñ§,,,
+CO,Cardiac Output,ĞÄÊä³öÁ¿,Âé×í¿Æ,,,
+SV,Stroke Volume,Ã¿²«Êä³öÁ¿,Âé×í¿Æ,,,
+SVR,Systemic Vascular Resistance,È«ÉíÑª¹Ü×èÁ¦,Âé×í¿Æ,,,
+PVR,Pulmonary Vascular Resistance,·ÎÑª¹Ü×èÁ¦,Âé×í¿Æ,,,
+BE,Base Excess,¼îÊ£Óà,Âé×í¿Æ,,,
+IM,Intramuscular,¼¡ÄÚ,Âé×í¿Æ,,,
+SC,Subcutaneous,Æ¤ÏÂ,Âé×í¿Æ,,,
+PCA,Patient-Controlled Analgesia,»¼Õß×Ô¿ØÕòÍ´,Âé×í¿Æ,,,
+TIVA,Total Intravenous Anesthesia,È«Æ¾¾²ÂöÂé×í,Âé×í¿Æ,,,
+TEA,Thoracic Epidural Anesthesia,ĞØ¶ÎÓ²Ä¤ÍâÂé×í,Âé×í¿Æ,,,
+RA,Regional Anesthesia,ÇøÓòÂé×í,Âé×í¿Æ,,,
+LA,Local Anesthesia,¾Ö²¿Âé×í,Âé×í¿Æ,,,
+NMB,Neuromuscular Blockade,Éñ¾­¼¡Èâ×èÖÍ,Âé×í¿Æ,,,
+NMBA,Neuromuscular Blocking Agent,Éñ¾­¼¡Èâ×èÖÍÒ©,Âé×í¿Æ,,,
+PONV,Postoperative Nausea and Vomiting,Êõºó¶ñĞÄÅ»ÍÂ,Âé×í¿Æ,,,
+MAL,Mallampati Classification,ÂíÀ¼ÅÁµÙ·Ö¼¶,Âé×í¿Æ,,,
+DL,Difficult Laryngoscopy,À§ÄÑºí¾µÏÔÂ¶,Âé×í¿Æ,,,
+DAS,Difficult Airway Society,À§ÄÑÆøµÀÑ§»á,Âé×í¿Æ,,,
+PSV,Pressure Support Ventilation,Ñ¹Á¦Ö§³ÖÍ¨Æø,Âé×í¿Æ,,,
+PCV,Pressure-Controlled Ventilation,Ñ¹Á¦¿ØÖÆÍ¨Æø,Âé×í¿Æ,,,
+VCV,Volume-Controlled Ventilation,ÈİÁ¿¿ØÖÆÍ¨Æø,Âé×í¿Æ,,,
+SIMV,Synchronized Intermittent Mandatory Ventilation,Í¬²½¼äĞªÖ¸ÁîÍ¨Æø,Âé×í¿Æ,,,
+IPPV,Intermittent Positive Pressure Ventilation,¼äĞªÕıÑ¹Í¨Æø,Âé×í¿Æ,,,
+HFOV,High-Frequency Oscillatory Ventilation,¸ßÆµÕñµ´Í¨Æø,Âé×í¿Æ,,,
+TTE,Transthoracic Echocardiography,¾­ĞØ³¬ÉùĞÄ¶¯Í¼,Âé×í¿Æ,,,
+HPV,Human Papillomavirus,ÈËÈéÍ·Áö²¡¶¾,¸¾²ú¿Æ,,,
+HRT,Hormone Replacement Therapy,¼¤ËØÌæ´úÁÆ·¨,¸¾²ú¿Æ,,,
+HSG,Hysterosalpingography,×Ó¹¬ÊäÂÑ¹ÜÔìÓ°Êõ,¸¾²ú¿Æ,,,
+IVF,In Vitro Fertilization,ÌåÍâÊÜ¾«,¸¾²ú¿Æ,,,
+LMP,Last Menstrual Period,Ä©´ÎÔÂ¾­,¸¾²ú¿Æ,,,
+OCP,Oral Contraceptive Pill,¿Ú·ş±ÜÔĞÒ©,¸¾²ú¿Æ,,,
+PID,Pelvic Inflammatory Disease,ÅèÇ»Ñ×ĞÔ¼²²¡,¸¾²ú¿Æ,,,
+PPROM,Preterm Premature Rupture of Membranes,Î´×ãÔÂÌ¥Ä¤ÔçÆÆ,¸¾²ú¿Æ,,,
+RDS,Respiratory Distress Syndrome,ºôÎü¾½ÆÈ×ÛºÏÕ÷,¸¾²ú¿Æ,,,
+TOLAC,Trial of Labor After Cesarean,ÆÊ¹¬²úºóÊÔ²ú,¸¾²ú¿Æ,,,
+TVUS,Transvaginal Ultrasound,¾­ÒõµÀ³¬Éù,¸¾²ú¿Æ,,,
+VBAC,Vaginal Birth After Cesarean,ÆÊ¹¬²úºóÒõµÀ·ÖÃä,¸¾²ú¿Æ,,,
+VIN,Vulvar Intraepithelial Neoplasia,ÍâÒõÉÏÆ¤ÄÚÁö±ä,¸¾²ú¿Æ,,,
+WHO,World Health Organization,ÊÀ½çÎÀÉú×éÖ¯,¸¾²ú¿Æ,,,
+ASD,Atrial Septal Defect,·¿¼ä¸ôÈ±Ëğ,¶ù¿Æ,,,
+IVH,Intraventricular Hemorrhage,ÄÔÊÒÄÚ³öÑª,¶ù¿Æ,,,
+PVL,Periventricular Leukomalacia,ÄÔÊÒÖÜÎ§°×ÖÊÈí»¯,¶ù¿Æ,,,
+ROP,Retinopathy of Prematurity,Ôç²ú¶ùÊÓÍøÄ¤²¡,¶ù¿Æ,,,
+MAS,Meconium Aspiration Syndrome,Ì¥·àÎüÈë×ÛºÏÕ÷,¶ù¿Æ,,,
+TTN,Transient Tachypnea of the Newborn,ĞÂÉú¶ùÔİÊ±ĞÔºôÎüÔö¿ì,¶ù¿Æ,,,
+PKU,Phenylketonuria,±½±ûÍªÄòÖ¢,¶ù¿Æ,,,
+CF,Cystic Fibrosis,ÄÒĞÔÏËÎ¬»¯,¶ù¿Æ,,,
+Kawasaki,Kawasaki Disease,´¨Æé²¡,¶ù¿Æ,,,
+HSP,Henoch-Sch?nlein Purpura,¹ıÃôĞÔ×Ïñ°,¶ù¿Æ,,,
+JIA,Juvenile Idiopathic Arthritis,Ó×ÄêÌØ·¢ĞÔ¹Ø½ÚÑ×,¶ù¿Æ,,,
+KD,Kawasaki Disease,´¨Æé²¡,¶ù¿Æ,,,
+IDM,Infant of Diabetic Mother,ÌÇÄò²¡Ä¸Ç×Ó¤¶ù,¶ù¿Æ,,,
+VLBW,Very Low Birth Weight,¼«µÍ³öÉúÌåÖØ,¶ù¿Æ,,,
+ELBW,Extremely Low Birth Weight,³¬µÍ³öÉúÌåÖØ,¶ù¿Æ,,,
+LGA,Large for Gestational Age,´óÓÚÌ¥Áä¶ù,¶ù¿Æ,,,
+HLHS,Hypoplastic Left Heart Syndrome,×óĞÄ·¢Óı²»È«×ÛºÏÕ÷,¶ù¿Æ,,,
+TAPVR,Total Anomalous Pulmonary Venous Return,ÍêÈ«ĞÔ·Î¾²ÂöÒìÎ»ÒıÁ÷,¶ù¿Æ,,,
+DORV,Double Outlet Right Ventricle,ÓÒĞÄÊÒË«³ö¿Ú,¶ù¿Æ,,,
+AS,Aortic Stenosis,Ö÷¶¯Âö°êÏÁÕ­,¶ù¿Æ,,,
+CoA,Coarctation of the Aorta,Ö÷¶¯ÂöËõÕ­,¶ù¿Æ,,,
+VZV,Varicella-Zoster Virus,Ë®¶»-´ø×´ğåÕî²¡¶¾,¶ù¿Æ,,,
+HHV-6,Human Herpesvirus 6,ÈËğåÕî²¡¶¾6ĞÍ,¶ù¿Æ,,,
+VA,visual acuity,ÊÓÁ¦,ÑÛ¿Æ,,,
+NPDR,non-proliferative diabetic retinopathy,·ÇÔöÖ³ĞÔÌÇÄò²¡ÊÓÍøÄ¤²¡±ä,ÑÛ¿Æ,,,
+CNV,choroidal neovascularization,ÂöÂçÄ¤ĞÂÉúÑª¹Ü,ÑÛ¿Æ,,,
+CSC,central serous chorioretinopathy,ÖĞĞÄĞÔ½¬ÒºĞÔÂöÂçÄ¤ÊÓÍøÄ¤²¡±ä,ÑÛ¿Æ,,,
+RD,retinal detachment,ÊÓÍøÄ¤ÍÑÀë,ÑÛ¿Æ,,,
+RRD,rhegmatogenous retinal detachment,¿×Ô´ĞÔÊÓÍøÄ¤ÍÑÀë,ÑÛ¿Æ,,,
+TRD,tractional retinal detachment,Ç£À­ĞÔÊÓÍøÄ¤ÍÑÀë,ÑÛ¿Æ,,,
+MH,macular hole,»Æ°ßÁÑ¿×,ÑÛ¿Æ,,,
+RVO,retinal vein occlusion,ÊÓÍøÄ¤¾²Âö×èÈû,ÑÛ¿Æ,,,
+CRVO,central retinal vein occlusion,ÊÓÍøÄ¤ÖĞÑë¾²Âö×èÈû,ÑÛ¿Æ,,,
+BRVO,branch retinal vein occlusion,ÊÓÍøÄ¤·ÖÖ§¾²Âö×èÈû,ÑÛ¿Æ,,,
+CRAO,central retinal artery occlusion,ÊÓÍøÄ¤ÖĞÑë¶¯Âö×èÈû,ÑÛ¿Æ,,,
+BRAO,branch retinal artery occlusion,ÊÓÍøÄ¤·ÖÖ§¶¯Âö×èÈû,ÑÛ¿Æ,,,
+POAG,primary open-angle glaucoma,Ô­·¢ĞÔ¿ª½ÇĞÍÇà¹âÑÛ,ÑÛ¿Æ,,,
+PACG,primary angle-closure glaucoma,Ô­·¢ĞÔ±Õ½ÇĞÍÇà¹âÑÛ,ÑÛ¿Æ,,,
+NTG,normal-tension glaucoma,Õı³£ÑÛÑ¹ĞÔÇà¹âÑÛ,ÑÛ¿Æ,,,
+OHT,ocular hypertension,¸ßÑÛÑ¹Ö¢,ÑÛ¿Æ,,,
+K,keratometry,½ÇÄ¤ÇúÂÊ²âÁ¿,ÑÛ¿Æ,,,
+PKP,penetrating keratoplasty,´©Í¸ĞÔ½ÇÄ¤ÒÆÖ²Êõ,ÑÛ¿Æ,,,
+DALK,deep anterior lamellar keratoplasty,Éî°å²ã½ÇÄ¤ÒÆÖ²Êõ,ÑÛ¿Æ,,,
+EK,endothelial keratoplasty,ÄÚÆ¤½ÇÄ¤ÒÆÖ²Êõ,ÑÛ¿Æ,,,
+DSEK,Descemet stripping endothelial keratoplasty,ºóµ¯Á¦²ã°şÀëÄÚÆ¤½ÇÄ¤ÒÆÖ²Êõ,ÑÛ¿Æ,,,
+DMEK,Descemet membrane endothelial keratoplasty,ºóµ¯Á¦²ãÄ¤ÄÚÆ¤½ÇÄ¤ÒÆÖ²Êõ,ÑÛ¿Æ,,,
+CXL,collagen cross-linking,½ÇÄ¤½ºÔ­½»ÁªÊõ,ÑÛ¿Æ,,,
+KC,keratoconus,Ô²×¶½ÇÄ¤,ÑÛ¿Æ,,,
+PCO,posterior capsule opacification,ºó·¢ĞÔ°×ÄÚÕÏ,ÑÛ¿Æ,,,
+PCIOL,posterior chamber intraocular lens,ºó·¿ĞÍÈË¹¤¾§×´Ìå,ÑÛ¿Æ,,,
+ACIOL,anterior chamber intraocular lens,Ç°·¿ĞÍÈË¹¤¾§×´Ìå,ÑÛ¿Æ,,,
+PPV,pars plana vitrectomy,²£Á§ÌåÇĞ¸îÊõ,ÑÛ¿Æ,,,
+SB,scleral buckle,¹®Ä¤¿Û´øÊõ,ÑÛ¿Æ,,,
+SLT,selective laser trabeculoplasty,Ñ¡ÔñĞÔ¼¤¹âĞ¡Áº³ÉĞÎÊõ,ÑÛ¿Æ,,,
+YAG,neodymium-doped yttrium aluminum garnet laser,îÆÂÁÊ¯ÁñÊ¯¼¤¹â,ÑÛ¿Æ,,,
+SMILE,small incision lenticule extraction,Ğ¡ÇĞ¿ÚÍ¸¾µÈ¡³öÊõ,ÑÛ¿Æ,,,
+CHL,Conductive Hearing Loss,´«µ¼ĞÔÌıÁ¦ËğÊ§,¶ú±Çºí¿Æ,,,
+ET,Eustachian Tube,ÑÊ¹Ä¹Ü,¶ú±Çºí¿Æ,,,
+IAC,Internal Auditory Canal,ÄÚ¶úµÀ,¶ú±Çºí¿Æ,,,
+CN,Cranial Nerve,ÄÔÉñ¾­,¶ú±Çºí¿Æ,,,
+VNG,Videonystagmography,ÊÓÆµÑÛÕğÍ¼,¶ú±Çºí¿Æ,,,
+ENG,Electronystagmography,ÑÛÕğµçÍ¼,¶ú±Çºí¿Æ,,,
+ECochG,Electrocochleography,¶úÎÏµçÍ¼,¶ú±Çºí¿Æ,,,
+OAE,Otoacoustic Emissions,¶úÉù·¢Éä,¶ú±Çºí¿Æ,,,
+DPOAE,Distortion Product Otoacoustic Emissions,»û±ä²úÎï¶úÉù·¢Éä,¶ú±Çºí¿Æ,,,
+TEOAE,Transient Evoked Otoacoustic Emissions,Ë²Ì¬ÓÕ·¢¶úÉù·¢Éä,¶ú±Çºí¿Æ,,,
+ASSR,Auditory Steady-State Response,Ìı¾õÎÈÌ¬·´Ó¦,¶ú±Çºí¿Æ,,,
+PTA,Pure Tone Audiometry,´¿Òô²âÌı,¶ú±Çºí¿Æ,,,
+SDS,Speech Discrimination Score,ÑÔÓïÊ¶±ğÂÊ,¶ú±Çºí¿Æ,,,
+SISI,Short Increment Sensitivity Index,¶ÌÔöÁ¿Ãô¸ĞÖ¸Êı,¶ú±Çºí¿Æ,,,
+TTS,Temporary Threshold Shift,ÔİÊ±ĞÔãĞÒÆ,¶ú±Çºí¿Æ,,,
+PTS,Permanent Threshold Shift,ÓÀ¾ÃĞÔãĞÒÆ,¶ú±Çºí¿Æ,,,
+NIHL,Noise-Induced Hearing Loss,ÔëÉùĞÔÌıÁ¦ËğÊ§,¶ú±Çºí¿Æ,,,
+MD,Meniere's Disease,Ã·Äá°£²¡,¶ú±Çºí¿Æ,,,
+SCC,Semicircular Canal,°ë¹æ¹Ü,¶ú±Çºí¿Æ,,,
+VEMP,Vestibular Evoked Myogenic Potential,Ç°Í¥ÓÕ·¢¼¡Ô´ĞÔµçÎ»,¶ú±Çºí¿Æ,,,
+cVEMP,Cervical Vestibular Evoked Myogenic Potential,¾±Ç°Í¥ÓÕ·¢¼¡Ô´ĞÔµçÎ»,¶ú±Çºí¿Æ,,,
+oVEMP,Ocular Vestibular Evoked Myogenic Potential,ÑÛÇ°Í¥ÓÕ·¢¼¡Ô´ĞÔµçÎ»,¶ú±Çºí¿Æ,,,
+FN,Facial Nerve,ÃæÉñ¾­,¶ú±Çºí¿Æ,,,
+NAR,Non-Allergic Rhinitis,·Ç±äÓ¦ĞÔ±ÇÑ×,¶ú±Çºí¿Æ,,,
+NP,Nasal Polyp,±ÇÏ¢Èâ,¶ú±Çºí¿Æ,,,
+VCD,Vocal Cord Dysfunction,Éù´ø¹¦ÄÜÕÏ°­,¶ú±Çºí¿Æ,,,
+BOT,Base of Tongue,Éà¸ù,¶ú±Çºí¿Æ,,,
+NPC,Nasopharyngeal Carcinoma,±ÇÑÊ°©,¶ú±Çºí¿Æ,,,
+LSCC,Laryngeal Squamous Cell Carcinoma,ºíÁÛ×´Ï¸°û°©,¶ú±Çºí¿Æ,,,
+AK,Actinic Keratosis,¹â»¯ĞÔ½Ç»¯²¡,Æ¤·ô¿Æ,,,
+ANA,Antinuclear Antibody,¿¹ºË¿¹Ìå,Æ¤·ô¿Æ,,,
+APC,Antigen Presenting Cell,¿¹Ô­³ÊµİÏ¸°û,Æ¤·ô¿Æ,,,
+BCC,Basal Cell Carcinoma,»ùµ×Ï¸°û°©,Æ¤·ô¿Æ,,,
+BCG,Bacillus Calmette-Gu¨¦rin,¿¨½éÃç,Æ¤·ô¿Æ,,,
+CTCL,Cutaneous T-cell Lymphoma,Æ¤·ôTÏ¸°ûÁÜ°ÍÁö,Æ¤·ô¿Æ,,,
+DIF,Direct Immunofluorescence,Ö±½ÓÃâÒßÓ«¹â,Æ¤·ô¿Æ,,,
+DLE,Discoid Lupus Erythematosus,ÅÌ×´ºì°ßÀÇ´¯,Æ¤·ô¿Æ,,,
+EM,Erythema Multiforme,¶àĞÎºì°ß,Æ¤·ô¿Æ,,,
+EN,Erythema Nodosum,½á½ÚĞÔºì°ß,Æ¤·ô¿Æ,,,
+FB,Foreign Body,ÒìÎï,Æ¤·ô¿Æ,,,
+FDE,Fixed Drug Eruption,¹Ì¶¨ĞÔÒ©Õî,Æ¤·ô¿Æ,,,
+HAART,Highly Active Antiretroviral Therapy,¸ßĞ§¿¹Äæ×ªÂ¼²¡¶¾ÖÎÁÆ,Æ¤·ô¿Æ,,,
+H&E,Hematoxylin and Eosin,ËÕÄ¾¾«-ÒÁºì,Æ¤·ô¿Æ,,,
+HLA,Human Leukocyte Antigen,ÈËÀà°×Ï¸°û¿¹Ô­,Æ¤·ô¿Æ,,,
+IFN,Interferon,¸ÉÈÅËØ,Æ¤·ô¿Æ,,,
+IgA,Immunoglobulin A,ÃâÒßÇòµ°°×A,Æ¤·ô¿Æ,,,
+IgE,Immunoglobulin E,ÃâÒßÇòµ°°×E,Æ¤·ô¿Æ,,,
+IgG,Immunoglobulin G,ÃâÒßÇòµ°°×G,Æ¤·ô¿Æ,,,
+IPL,Intense Pulsed Light,Ç¿Âö³å¹â,Æ¤·ô¿Æ,,,
+KS,Kaposi Sarcoma,¿¨²¨Î÷ÈâÁö,Æ¤·ô¿Æ,,,
+LE,Lupus Erythematosus,ºì°ßÀÇ´¯,Æ¤·ô¿Æ,,,
+LP,Lichen Planus,±âÆ½Ì¦Şº,Æ¤·ô¿Æ,,,
+LS,Lichen Sclerosus,Ó²»¯ĞÔÌ¦Şº,Æ¤·ô¿Æ,,,
+MF,Mycosis Fungoides,Ş¦ÑùÈâÑ¿Ö×,Æ¤·ô¿Æ,,,
+LCL,Lateral Collateral Ligament,Íâ²à¸±ÈÍ´ø,¹Ç¿Æ,,,
+IMN,Intramedullary Nail,ËèÄÚ¶¤,¹Ç¿Æ,,,
+DHS,Dynamic Hip Screw,¶¯Á¦÷ÅÂİ¶¤,¹Ç¿Æ,,,
+X-ray,Radiograph,XÏßÆ¬,¹Ç¿Æ,,,
+DXA,Dual-energy X-ray Absorptiometry,Ë«ÄÜXÏßÎüÊÕ²â¶¨·¨,¹Ç¿Æ,,,
+NRS,Numeric Rating Scale,Êı×ÖÆÀ·ÖÁ¿±í,¹Ç¿Æ,,,
+FRAX,Fracture Risk Assessment Tool,¹ÇÕÛ·çÏÕÆÀ¹À¹¤¾ß,¹Ç¿Æ,,,
+OTA,Orthopaedic Trauma Association,¹Ç¿Æ´´ÉËĞ­»á,¹Ç¿Æ,,,
+AAOS,American Academy of Orthopaedic Surgeons,ÃÀ¹ú¹Ç¿ÆÒ½Ê¦Ñ§»á,¹Ç¿Æ,,,
+LCP,Locking Compression Plate,Ëø¶¨¼ÓÑ¹½Ó¹Ç°å,¹Ç¿Æ,,,
+PFNA,Proximal Femoral Nail Antirotation,¹É¹Ç½ü¶Ë·ÀĞıËèÄÚ¶¤,¹Ç¿Æ,,,
+THR,Total Hip Replacement,È«÷Å¹Ø½ÚÖÃ»»,¹Ç¿Æ,,,
+TKR,Total Knee Replacement,È«Ï¥¹Ø½ÚÖÃ»»,¹Ç¿Æ,,,
+UKA,Unicompartmental Knee Arthroplasty,µ¥÷ÁÏ¥¹Ø½ÚÖÃ»»Êõ,¹Ç¿Æ,,,
+HTO,High Tibial Osteotomy,ëÖ¹Ç¸ßÎ»½Ø¹ÇÊõ,¹Ç¿Æ,,,
+ACDF,Anterior Cervical Discectomy and Fusion,¾±×µÇ°Â·×µ¼äÅÌÇĞ³ıÈÚºÏÊõ,¹Ç¿Æ,,,
+PLIF,Posterior Lumbar Interbody Fusion,ºóÂ·Ñü×µ×µ¼äÈÚºÏÊõ,¹Ç¿Æ,,,
+TLIF,Transforaminal Lumbar Interbody Fusion,¾­×µ¼ä¿×Ñü×µ×µ¼äÈÚºÏÊõ,¹Ç¿Æ,,,
+LLIF,Lateral Lumbar Interbody Fusion,²àÂ·Ñü×µ×µ¼äÈÚºÏÊõ,¹Ç¿Æ,,,
+SIJ,Sacroiliac Joint,÷¾÷Ä¹Ø½Ú,¹Ç¿Æ,,,
+SCFE,Slipped Capital Femoral Epiphysis,¹É¹ÇÍ·¹Ç÷¿»¬ÍÑ,¹Ç¿Æ,,,
+CTEV,Congenital Talipes Equinovarus,ÏÈÌìĞÔÂíÌãÄÚ·­×ã,¹Ç¿Æ,,,
+PJI,Periprosthetic Joint Infection,¼ÙÌåÖÜÎ§¹Ø½Ú¸ĞÈ¾,¹Ç¿Æ,,,
+PRP,Platelet-Rich Plasma,¸»ÑªĞ¡°åÑª½¬,¹Ç¿Æ,,,
+TURBT,Transurethral Resection of Bladder Tumor,¾­ÄòµÀ°òë×Ö×ÁöÇĞ³ıÊõ,ÃÚÄòÍâ¿Æ,,,
+URS,Ureteroscopy,ÊäÄò¹Ü¾µ¼ì²éÊõ,ÃÚÄòÍâ¿Æ,,,
+RIRS,Retrograde Intrarenal Surgery,ÄæĞĞÉöÄÚÊÖÊõ,ÃÚÄòÍâ¿Æ,,,
+DRE,Digital Rectal Examination,Ö±³¦Ö¸¼ì,ÃÚÄòÍâ¿Æ,,,
+TRUS,Transrectal Ultrasound,¾­Ö±³¦³¬Éù,ÃÚÄòÍâ¿Æ,,,
+BCa,Bladder Cancer,°òë×°©,ÃÚÄòÍâ¿Æ,,,
+UTUC,Upper Tract Urothelial Carcinoma,ÉÏÄòÂ·ÄòÂ·ÉÏÆ¤°©,ÃÚÄòÍâ¿Æ,,,
+NMIBC,Non-Muscle Invasive Bladder Cancer,·Ç¼¡²ã½şÈóĞÔ°òë×°©,ÃÚÄòÍâ¿Æ,,,
+MIBC,Muscle Invasive Bladder Cancer,¼¡²ã½şÈóĞÔ°òë×°©,ÃÚÄòÍâ¿Æ,,,
+CRPC,Castration-Resistant Prostate Cancer,È¥ÊÆµÖ¿¹ĞÔÇ°ÁĞÏÙ°©,ÃÚÄòÍâ¿Æ,,,
+ADT,Androgen Deprivation Therapy,ĞÛ¼¤ËØ°ş¶áÖÎÁÆ,ÃÚÄòÍâ¿Æ,,,
+RP,Radical Prostatectomy,¸ùÖÎĞÔÇ°ÁĞÏÙÇĞ³ıÊõ,ÃÚÄòÍâ¿Æ,,,
+RC,Radical Cystectomy,¸ùÖÎĞÔ°òë×ÇĞ³ıÊõ,ÃÚÄòÍâ¿Æ,,,
+RN,Radical Nephrectomy,¸ùÖÎĞÔÉöÇĞ³ıÊõ,ÃÚÄòÍâ¿Æ,,,
+LND,Lymph Node Dissection,ÁÜ°Í½áÇåÉ¨Êõ,ÃÚÄòÍâ¿Æ,,,
+IC,Interstitial Cystitis,¼äÖÊĞÔ°òë×Ñ×,ÃÚÄòÍâ¿Æ,,,
+LUTD,Lower Urinary Tract Dysfunction,ÏÂÄòÂ·¹¦ÄÜÕÏ°­,ÃÚÄòÍâ¿Æ,,,
+VUR,Vesicoureteral Reflux,°òë×ÊäÄò¹Ü·´Á÷,ÃÚÄòÍâ¿Æ,,,
+UPJO,Ureteropelvic Junction Obstruction,ÉöÓÛÊäÄò¹ÜÁ¬½Ó²¿¹£×è,ÃÚÄòÍâ¿Æ,,,
+PUV,Posterior Urethral Valves,ºóÄòµÀ°êÄ¤,ÃÚÄòÍâ¿Æ,,,
+HSPN,Henoch-Sch?nlein Purpura Nephritis,¹ıÃôĞÔ×Ïñ°ÉöÑ×,ÃÚÄòÍâ¿Æ,,,
+NS,Nephrotic Syndrome,Éö²¡×ÛºÏÕ÷,ÃÚÄòÍâ¿Æ,,,
+RTA,Renal Tubular Acidosis,ÉöĞ¡¹ÜËáÖĞ¶¾,ÃÚÄòÍâ¿Æ,,,
+UTI-R,Recurrent Urinary Tract Infection,¸´·¢ĞÔÄòÂ·¸ĞÈ¾,ÃÚÄòÍâ¿Æ,,,
+CBT,Cognitive Behavioral Therapy,ÈÏÖªĞĞÎªÖÎÁÆ,¾«Éñ²¡Ñ§,,,
+MAOI,Monoamine Oxidase Inhibitor,µ¥°·Ñõ»¯Ã¸ÒÖÖÆ¼Á,¾«Éñ²¡Ñ§,,,
+MDD,Major Depressive Disorder,ÖØĞÔÒÖÓôÕÏ°­,¾«Éñ²¡Ñ§,,,
+BD,Bipolar Disorder,Ë«ÏàÕÏ°­,¾«Éñ²¡Ñ§,,,
+SZ,Schizophrenia,¾«Éñ·ÖÁÑÖ¢,¾«Éñ²¡Ñ§,,,
+SAD,Social Anxiety Disorder,Éç½»½¹ÂÇÕÏ°­,¾«Éñ²¡Ñ§,,,
+CBT-I,Cognitive Behavioral Therapy for Insomnia,Ê§ÃßÈÏÖªĞĞÎªÖÎÁÆ,¾«Éñ²¡Ñ§,,,
+DBT,Dialectical Behavior Therapy,±çÖ¤ĞĞÎªÖÎÁÆ,¾«Éñ²¡Ñ§,,,
+TMS,Transcranial Magnetic Stimulation,¾­Â­´Å´Ì¼¤,¾«Éñ²¡Ñ§,,,
+VNS,Vagus Nerve Stimulation,ÃÔ×ßÉñ¾­´Ì¼¤,¾«Éñ²¡Ñ§,,,
+DBS,Deep Brain Stimulation,ÄÔÉî²¿µç´Ì¼¤,¾«Éñ²¡Ñ§,,,
+NMS,Neuroleptic Malignant Syndrome,¿¹¾«Éñ²¡Ò©¶ñĞÔ×ÛºÏÕ÷,¾«Éñ²¡Ñ§,,,
+EPS,Extrapyramidal Symptoms,×¶ÌåÍâÏµÖ¢×´,¾«Éñ²¡Ñ§,,,
+TD,Tardive Dyskinesia,³Ù·¢ĞÔÔË¶¯ÕÏ°­,¾«Éñ²¡Ñ§,,,
+SI,Suicidal Ideation,×ÔÉ±ÒâÄî,¾«Éñ²¡Ñ§,,,
+SA,Suicide Attempt,×ÔÉ±Î´Ëì,¾«Éñ²¡Ñ§,,,
+NSSI,Nonsuicidal Self-Injury,·Ç×ÔÉ±ĞÔ×ÔÉË,¾«Éñ²¡Ñ§,,,
+SUD,Substance Use Disorder,ÎïÖÊÊ¹ÓÃÕÏ°­,¾«Éñ²¡Ñ§,,,
+AUD,Alcohol Use Disorder,¾Æ¾«Ê¹ÓÃÕÏ°­,¾«Éñ²¡Ñ§,,,
+ODD,Oppositional Defiant Disorder,¶ÔÁ¢Î¥¿¹ÕÏ°­,¾«Éñ²¡Ñ§,,,
+PANDAS,Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal Infections,Á´Çò¾ú¸ĞÈ¾Ïà¹Ø¶ùÍ¯×ÔÉíÃâÒßĞÔÉñ¾­¾«ÉñÕÏ°­,¾«Éñ²¡Ñ§,,,
+CAPD,Central Auditory Processing Disorder,ÖĞÊàÌı¾õ´¦ÀíÕÏ°­,¾«Éñ²¡Ñ§,,,
+SPD,Sensory Processing Disorder,¸Ğ¾õ´¦ÀíÕÏ°­,¾«Éñ²¡Ñ§,,,
+RDoC,Research Domain Criteria,ÑĞ¾¿ÁìÓò±ê×¼,¾«Éñ²¡Ñ§,,,
+MRV,Magnetic Resonance Venography,´Å¹²Õñ¾²Âö³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+CTP,Computed Tomography Perfusion,¼ÆËã»ú¶Ï²ã¹à×¢³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+MRP,Magnetic Resonance Perfusion,´Å¹²Õñ¹à×¢³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+ADC,Apparent Diffusion Coefficient,±í¹ÛÃÖÉ¢ÏµÊı,Ó°ÏñÒ½Ñ§,,,
+SWI,Susceptibility Weighted Imaging,´ÅÃô¸Ğ¼ÓÈ¨³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+MRS,Magnetic Resonance Spectroscopy,´Å¹²Õñ²¨Æ×³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+BOLD,Blood Oxygen Level Dependent,ÑªÑõË®Æ½ÒÀÀµ³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+PWI,Perfusion Weighted Imaging,¹à×¢¼ÓÈ¨³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+ASL,Arterial Spin Labeling,¶¯Âö×ÔĞı±ê¼Ç,Ó°ÏñÒ½Ñ§,,,
+IVIM,Intravoxel Incoherent Motion,ÌåËØÄÚ²»Ïà¸ÉÔË¶¯,Ó°ÏñÒ½Ñ§,,,
+DCE-MRI,Dynamic Contrast Enhanced MRI,¶¯Ì¬¶Ô±ÈÔöÇ¿´Å¹²Õñ³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+SSD,Shaded Surface Display,±íÃæÕÚ¸ÇÏÔÊ¾,Ó°ÏñÒ½Ñ§,,,
+HU,Hounsfield Unit,ºàÊÏµ¥Î»,Ó°ÏñÒ½Ñ§,,,
+ROI,Region of Interest,¸ĞĞËÈ¤Çø,Ó°ÏñÒ½Ñ§,,,
+VOI,Volume of Interest,¸ĞĞËÈ¤Èİ»ı,Ó°ÏñÒ½Ñ§,,,
+SNR,Signal to Noise Ratio,ĞÅÔë±È,Ó°ÏñÒ½Ñ§,,,
+CNR,Contrast to Noise Ratio,¶Ô±ÈÔëÉù±È,Ó°ÏñÒ½Ñ§,,,
+TE,Echo Time,»Ø²¨Ê±¼ä,Ó°ÏñÒ½Ñ§,,,
+TR,Repetition Time,ÖØ¸´Ê±¼ä,Ó°ÏñÒ½Ñ§,,,
+TI,Inversion Time,·´×ªÊ±¼ä,Ó°ÏñÒ½Ñ§,,,
+NEX,Number of Excitations,¼¤Àø´ÎÊı,Ó°ÏñÒ½Ñ§,,,
+ETL,Echo Train Length,»Ø²¨Á´³¤¶È,Ó°ÏñÒ½Ñ§,,,
+EPI,Echo Planar Imaging,Æ½Ãæ»Ø²¨³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+GRE,Gradient Echo,Ìİ¶È»Ø²¨,Ó°ÏñÒ½Ñ§,,,
+SE,Spin Echo,×ÔĞı»Ø²¨,Ó°ÏñÒ½Ñ§,,,
+STIR,Short Tau Inversion Recovery,¶ÌÊ±·´×ª»Ö¸´ĞòÁĞ,Ó°ÏñÒ½Ñ§,,,
+T1WI,T1 Weighted Imaging,T1¼ÓÈ¨³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+T2WI,T2 Weighted Imaging,T2¼ÓÈ¨³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+PDWI,Proton Density Weighted Imaging,ÖÊ×ÓÃÜ¶È¼ÓÈ¨³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+CE-MRA,Contrast Enhanced MRA,¶Ô±ÈÔöÇ¿´Å¹²ÕñÑª¹Ü³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+TOF-MRA,Time of Flight MRA,Ê±¼ä·ÉÔ¾·¨´Å¹²ÕñÑª¹Ü³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+PC-MRA,Phase Contrast MRA,ÏàÎ»¶Ô±È´Å¹²ÕñÑª¹Ü³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+CVD,Cerebrovascular Disease,ÄÔÑª¹Ü¼²²¡,²¡ÀíÑ§,,,
+IPMN,Intraductal Papillary Mucinous Neoplasm,µ¼¹ÜÄÚÈéÍ·×´ğ¤ÒºĞÔÖ×Áö,²¡ÀíÑ§,,,
+NET,Neuroendocrine Tumor,Éñ¾­ÄÚ·ÖÃÚÖ×Áö,²¡ÀíÑ§,,,
+CC,Cholangiocarcinoma,µ¨¹Ü°©,²¡ÀíÑ§,,,
+TCC,Transitional Cell Carcinoma,ÒÆĞĞÏ¸°û°©,²¡ÀíÑ§,,,
+MCC,Merkel Cell Carcinoma,Ã·¿Ë¶ûÏ¸°û°©,²¡ÀíÑ§,,,
+MALT,Mucosa-Associated Lymphoid Tissue,ğ¤Ä¤Ïà¹ØÁÜ°Í×éÖ¯,²¡ÀíÑ§,,,
+PV,Polycythemia Vera,ÕæĞÔºìÏ¸°ûÔö¶àÖ¢,²¡ÀíÑ§,,,
+PMF,Primary Myelofibrosis,Ô­·¢ĞÔ¹ÇËèÏËÎ¬»¯,²¡ÀíÑ§,,,
+LCH,Langerhans Cell Histiocytosis,ÀÊ¸ñººË¹Ï¸°û×éÖ¯Ï¸°ûÔöÉúÖ¢,²¡ÀíÑ§,,,
+GCA,Giant Cell Arteritis,¾ŞÏ¸°û¶¯ÂöÑ×,²¡ÀíÑ§,,,
+NSAID,Nonsteroidal Anti-Inflammatory Drug,·ÇçŞÌå¿¹Ñ×Ò©,Ò©ÀíÑ§,,,
+DMARD,Disease-Modifying Antirheumatic Drug,¸ÄÉÆ²¡Çé¿¹·çÊªÒ©,Ò©ÀíÑ§,,,
+CYP,Cytochrome P450,Ï¸°ûÉ«ËØP450,Ò©ÀíÑ§,,,
+AUC,Area Under the Curve,ÇúÏßÏÂÃæ»ı,Ò©ÀíÑ§,,,
+Cmax,Maximum Concentration,·åÅ¨¶È,Ò©ÀíÑ§,,,
+Tmax,Time to Maximum Concentration,´ï·åÊ±¼ä,Ò©ÀíÑ§,,,
+t1/2,Half-Life,°ëË¥ÆÚ,Ò©ÀíÑ§,,,
+Vd,Volume of Distribution,±í¹Û·Ö²¼Èİ»ı,Ò©ÀíÑ§,,,
+CL,Clearance,Çå³ıÂÊ,Ò©ÀíÑ§,,,
+MIC,Minimum Inhibitory Concentration,×îµÍÒÖ¾úÅ¨¶È,Ò©ÀíÑ§,,,
+MBC,Minimum Bactericidal Concentration,×îµÍÉ±¾úÅ¨¶È,Ò©ÀíÑ§,,,
+PK,Pharmacokinetics,Ò©´ú¶¯Á¦Ñ§,Ò©ÀíÑ§,,,
+ADME,Absorption Distribution Metabolism Excretion,ÎüÊÕ·Ö²¼´úĞ»ÅÅĞ¹,Ò©ÀíÑ§,,,
+IC50,Half Maximal Inhibitory Concentration,°ëÊıÒÖÖÆÅ¨¶È,Ò©ÀíÑ§,,,
+EC50,Half Maximal Effective Concentration,°ëÊıÓĞĞ§Å¨¶È,Ò©ÀíÑ§,,,
+ED50,Median Effective Dose,°ëÊıÓĞĞ§¼ÁÁ¿,Ò©ÀíÑ§,,,
+LD50,Median Lethal Dose,°ëÊıÖÂËÀ¼ÁÁ¿,Ò©ÀíÑ§,,,
+BBB,Blood-Brain Barrier,ÑªÄÔÆÁÕÏ,Ò©ÀíÑ§,,,
+ANS,Autonomic Nervous System,×ÔÖ÷Éñ¾­ÏµÍ³,Ò©ÀíÑ§,,,
+GPCR,G Protein-Coupled Receptor,Gµ°°×Å¼ÁªÊÜÌå,Ò©ÀíÑ§,,,
+RTK,Receptor Tyrosine Kinase,ÊÜÌåÀÒ°±Ëá¼¤Ã¸,Ò©ÀíÑ§,,,
+cAMP,Cyclic Adenosine Monophosphate,»·Á×ËáÏÙÜÕ,Ò©ÀíÑ§,,,
+ATP,Adenosine Triphosphate,ÈıÁ×ËáÏÙÜÕ,Ò©ÀíÑ§,,,
+ADP,Adenosine Diphosphate,¶şÁ×ËáÏÙÜÕ,Ò©ÀíÑ§,,,
+NADPH,Nicotinamide Adenine Dinucleotide Phosphate,ÑÌõ£°·ÏÙàÑßÊ¶şºËÜÕËáÁ×Ëá,Ò©ÀíÑ§,,,
+COX,Cyclooxygenase,»·ÑõºÏÃ¸,Ò©ÀíÑ§,,,
+LOX,Lipoxygenase,Ö¬ÑõºÏÃ¸,Ò©ÀíÑ§,,,
+MHC,Major Histocompatibility Complex,Ö÷Òª×éÖ¯ÏàÈİĞÔ¸´ºÏÌå,ÃâÒßÑ§,,,
+TCR,T Cell Receptor,TÏ¸°ûÊÜÌå,ÃâÒßÑ§,,,
+BCR,B Cell Receptor,BÏ¸°ûÊÜÌå,ÃâÒßÑ§,,,
+NK,Natural Killer Cell,×ÔÈ»É±ÉËÏ¸°û,ÃâÒßÑ§,,,
+Th,T Helper Cell,¸¨ÖúĞÔTÏ¸°û,ÃâÒßÑ§,,,
+Treg,Regulatory T Cell,µ÷½ÚĞÔTÏ¸°û,ÃâÒßÑ§,,,
+Ig,Immunoglobulin,ÃâÒßÇòµ°°×,ÃâÒßÑ§,,,
+IgM,Immunoglobulin M,ÃâÒßÇòµ°°×M,ÃâÒßÑ§,,,
+IgD,Immunoglobulin D,ÃâÒßÇòµ°°×D,ÃâÒßÑ§,,,
+C3,Complement Component 3,²¹Ìå³É·Ö3,ÃâÒßÑ§,,,
+C4,Complement Component 4,²¹Ìå³É·Ö4,ÃâÒßÑ§,,,
+GM-CSF,Granulocyte-Macrophage Colony-Stimulating Factor,Á£Ï¸°û-¾ŞÊÉÏ¸°û¼¯Âä´Ì¼¤Òò×Ó,ÃâÒßÑ§,,,
+G-CSF,Granulocyte Colony-Stimulating Factor,Á£Ï¸°û¼¯Âä´Ì¼¤Òò×Ó,ÃâÒßÑ§,,,
+MCP,Monocyte Chemoattractant Protein,µ¥ºËÏ¸°ûÇ÷»¯µ°°×,ÃâÒßÑ§,,,
+RANTES,Regulated on Activation Normal T Cell Expressed and Secreted,»î»¯Õı³£TÏ¸°û±í´ïºÍ·ÖÃÚµ÷½ÚÒò×Ó,ÃâÒßÑ§,,,
+LPS,Lipopolysaccharide,Ö¬¶àÌÇ,ÃâÒßÑ§,,,
+PAMP,Pathogen-Associated Molecular Pattern,²¡Ô­ÌåÏà¹Ø·Ö×ÓÄ£Ê½,ÃâÒßÑ§,,,
+PRR,Pattern Recognition Receptor,Ä£Ê½Ê¶±ğÊÜÌå,ÃâÒßÑ§,,,
+TLR,Toll-Like Receptor,TollÑùÊÜÌå,ÃâÒßÑ§,,,
+NLR,NOD-Like Receptor,NODÑùÊÜÌå,ÃâÒßÑ§,,,
+RLR,RIG-I-Like Receptor,RIG-IÑùÊÜÌå,ÃâÒßÑ§,,,
+CLR,C-Type Lectin Receptor,CĞÍÄı¼¯ËØÊÜÌå,ÃâÒßÑ§,,,
+Fc,Fragment Crystallizable,¿É½á¾§Æ¬¶Î,ÃâÒßÑ§,,,
+Fab,Fragment Antigen Binding,¿¹Ô­½áºÏÆ¬¶Î,ÃâÒßÑ§,,,
+scFv,Single-Chain Variable Fragment,µ¥Á´¿É±äÇøÆ¬¶Î,ÃâÒßÑ§,,,
+CAR,Chimeric Antigen Receptor,Ç¶ºÏ¿¹Ô­ÊÜÌå,ÃâÒßÑ§,,,
+CTL,Cytotoxic T Lymphocyte,Ï¸°û¶¾ĞÔTÁÜ°ÍÏ¸°û,ÃâÒßÑ§,,,
+ADCC,Antibody-Dependent Cell-Mediated Cytotoxicity,¿¹ÌåÒÀÀµĞÔÏ¸°û½éµ¼µÄÏ¸°û¶¾ĞÔ,ÃâÒßÑ§,,,
+ELISPOT,Enzyme-Linked Immunospot Assay,Ã¸ÁªÃâÒß°ßµã¼ì²â,ÃâÒßÑ§,,,
+FACS,Fluorescence-Activated Cell Sorting,Ó«¹â¼¤»îÏ¸°û·ÖÑ¡,ÃâÒßÑ§,,,
+MFI,Mean Fluorescence Intensity,Æ½¾ùÓ«¹âÇ¿¶È,ÃâÒßÑ§,,,
+PBMC,Peripheral Blood Mononuclear Cell,ÍâÖÜÑªµ¥¸öºËÏ¸°û,ÃâÒßÑ§,,,
+TIL,Tumor-Infiltrating Lymphocyte,Ö×Áö½şÈóÁÜ°ÍÏ¸°û,ÃâÒßÑ§,,,
+GVL,Graft-Versus-Leukemia,ÒÆÖ²Îï¿¹°×Ñª²¡,ÃâÒßÑ§,,,
+DNA,Deoxyribonucleic Acid,ÍÑÑõºËÌÇºËËá,ÒÅ´«Ñ§,,,
+RNA,Ribonucleic Acid,ºËÌÇºËËá,ÒÅ´«Ñ§,,,
+SNP,Single Nucleotide Polymorphism,µ¥ºËÜÕËá¶àÌ¬ĞÔ,ÒÅ´«Ñ§,,,
+GWAS,Genome-Wide Association Study,È«»ùÒò×é¹ØÁªÑĞ¾¿,ÒÅ´«Ñ§,,,
+WES,Whole Exome Sequencing,È«ÍâÏÔ×Ó×é²âĞò,ÒÅ´«Ñ§,,,
+WGS,Whole Genome Sequencing,È«»ùÒò×é²âĞò,ÒÅ´«Ñ§,,,
+Sanger,Sanger Sequencing,É£¸ñ²âĞò,ÒÅ´«Ñ§,,,
+CGH,Comparative Genomic Hybridization,±È½Ï»ùÒò×éÔÓ½»,ÒÅ´«Ñ§,,,
+MLPA,Multiplex Ligation-Dependent Probe Amplification,¶àÖØÁ¬½ÓÒÀÀµÌ½ÕëÀ©Ôö,ÒÅ´«Ñ§,,,
+STR,Short Tandem Repeat,¶Ì´®ÁªÖØ¸´ĞòÁĞ,ÒÅ´«Ñ§,,,
+VNTR,Variable Number Tandem Repeat,¿É±äÊıÄ¿´®ÁªÖØ¸´ĞòÁĞ,ÒÅ´«Ñ§,,,
+LOH,Loss of Heterozygosity,ÔÓºÏĞÔÈ±Ê§,ÒÅ´«Ñ§,,,
+UPD,Uniparental Disomy,µ¥Ç×¶şÌåĞÔ,ÒÅ´«Ñ§,,,
+XL,X-Linked,XÁ¬Ëø,ÒÅ´«Ñ§,,,
+MT,Mitochondrial,ÏßÁ£Ìå,ÒÅ´«Ñ§,,,
+MIM,Mendelian Inheritance in Man,ÈËÀàÃÏµÂ¶ûÒÅ´«,ÒÅ´«Ñ§,,,
+OMIM,Online Mendelian Inheritance in Man,ÔÚÏßÈËÀàÃÏµÂ¶ûÒÅ´«,ÒÅ´«Ñ§,,,
+HGVS,Human Genome Variation Society,ÈËÀà»ùÒò×é±äÒìÑ§»á,ÒÅ´«Ñ§,,,
+ACMG,American College of Medical Genetics and Genomics,ÃÀ¹úÒ½Ñ§ÒÅ´«Ñ§Óë»ùÒò×éÑ§Ñ§»á,ÒÅ´«Ñ§,,,
+VUS,Variant of Uncertain Significance,ÒâÒå²»Ã÷È·±äÒì,ÒÅ´«Ñ§,,,
+PVS,Pathogenic Variant Strong,Ç¿ÖÂ²¡ĞÔ±äÒì,ÒÅ´«Ñ§,,,
+BA,Biallelic,Ë«µÈÎ»»ùÒò,ÒÅ´«Ñ§,,,
+HE,Heterozygous,ÔÓºÏ×Ó,ÒÅ´«Ñ§,,,
+HO,Homozygous,´¿ºÏ×Ó,ÒÅ´«Ñ§,,,
+HTZ,Heterozygote,ÔÓºÏ×Ó,ÒÅ´«Ñ§,,,
+HMZ,Homozygote,´¿ºÏ×Ó,ÒÅ´«Ñ§,,,
+DEL,Deletion,È±Ê§,ÒÅ´«Ñ§,,,
+DUP,Duplication,ÖØ¸´,ÒÅ´«Ñ§,,,
+INS,Insertion,²åÈë,ÒÅ´«Ñ§,,,
+INV,Inversion,µ¹Î»,ÒÅ´«Ñ§,,,
+TRN,Translocation,Ò×Î»,ÒÅ´«Ñ§,,,
+MUT,Mutation,Í»±ä,ÒÅ´«Ñ§,,,
+WT,Wild Type,Ò°ÉúĞÍ,ÒÅ´«Ñ§,,,
+PED,Pedigree,ÏµÆ×,ÒÅ´«Ñ§,,,
+PRO,Proband,ÏÈÖ¤Õß,ÒÅ´«Ñ§,,,
+SIB,Sibling,Í¬°û,ÒÅ´«Ñ§,,,
+MZ,Monozygotic,µ¥ÂÑĞÔ,ÒÅ´«Ñ§,,,
+DZ,Dizygotic,Ë«ÂÑĞÔ,ÒÅ´«Ñ§,,,
+HWE,Hardy-Weinberg Equilibrium,¹şµÏ-ÎÂ²®¸ñÆ½ºâ,ÒÅ´«Ñ§,,,
+RT-PCR,Reverse Transcription Polymerase Chain Reaction,Äæ×ªÂ¼¾ÛºÏÃ¸Á´·´Ó¦,·Ö×ÓÉúÎïÑ§,,,
+qPCR,Quantitative Polymerase Chain Reaction,¶¨Á¿¾ÛºÏÃ¸Á´·´Ó¦,·Ö×ÓÉúÎïÑ§,,,
+mRNA,Messenger RNA,ĞÅÊ¹ºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+tRNA,Transfer RNA,×ªÒÆºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+rRNA,Ribosomal RNA,ºËÌÇÌåºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+cDNA,Complementary DNA,»¥²¹ÍÑÑõºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+siRNA,Small Interfering RNA,Ğ¡¸ÉÈÅºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+miRNA,MicroRNA,Î¢Ğ¡ºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+shRNA,Short Hairpin RNA,¶Ì·¢¼ĞºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+lncRNA,Long Non-coding RNA,³¤Á´·Ç±àÂëºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+CRISPR,Clustered Regularly Interspaced Short Palindromic Repeats,³É´Ø¹æÂÉ¼ä¸ô¶Ì»ØÎÄÖØ¸´ĞòÁĞ,·Ö×ÓÉúÎïÑ§,,,
+Cas9,CRISPR-associated protein 9,CRISPRÏà¹Øµ°°×9,·Ö×ÓÉúÎïÑ§,,,
+sgRNA,Single Guide RNA,µ¥Á´Òıµ¼ºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+RFLP,Restriction Fragment Length Polymorphism,ÏŞÖÆĞÔÆ¬¶Î³¤¶È¶àÌ¬ĞÔ,·Ö×ÓÉúÎïÑ§,,,
+RNA-seq,RNA Sequencing,ºËÌÇºËËá²âĞò,·Ö×ÓÉúÎïÑ§,,,
+ChIP-seq,Chromatin Immunoprecipitation Sequencing,È¾É«ÖÊÃâÒß³Áµí²âĞò,·Ö×ÓÉúÎïÑ§,,,
+ISH,In Situ Hybridization,Ô­Î»ÔÓ½»,·Ö×ÓÉúÎïÑ§,,,
+WB,Western Blot,µ°°×ÖÊÓ¡¼£·¨,·Ö×ÓÉúÎïÑ§,,,
+EMSA,Electrophoretic Mobility Shift Assay,µçÓ¾Ç¨ÒÆÂÊ±ä¶¯·ÖÎö,·Ö×ÓÉúÎïÑ§,,,
+IP,Immunoprecipitation,ÃâÒß³Áµí,·Ö×ÓÉúÎïÑ§,,,
+Co-IP,Co-Immunoprecipitation,ÃâÒß¹²³Áµí,·Ö×ÓÉúÎïÑ§,,,
+PAGE,Polyacrylamide Gel Electrophoresis,¾Û±ûÏ©õ£°·Äı½ºµçÓ¾,·Ö×ÓÉúÎïÑ§,,,
+SDS-PAGE,Sodium Dodecyl Sulfate Polyacrylamide Gel Electrophoresis,Ê®¶şÍé»ùÁòËáÄÆ¾Û±ûÏ©õ£°·Äı½ºµçÓ¾,·Ö×ÓÉúÎïÑ§,,,
+PFGE,Pulsed-Field Gel Electrophoresis,Âö³å³¡Äı½ºµçÓ¾,·Ö×ÓÉúÎïÑ§,,,
+TUNEL,Terminal Deoxynucleotidyl Transferase dUTP Nick End Labeling,Ä©¶ËÍÑÑõºËÜÕËá×ªÒÆÃ¸dUTPÈ±¿ÚÄ©¶Ë±ê¼Ç,·Ö×ÓÉúÎïÑ§,,,
+RACE,Rapid Amplification of cDNA Ends,cDNAÄ©¶Ë¿ìËÙÀ©Ôö,·Ö×ÓÉúÎïÑ§,,,
+ORF,Open Reading Frame,¿ª·ÅÔÄ¶Á¿ò,·Ö×ÓÉúÎïÑ§,,,
+UTR,Untranslated Region,·Ç·­ÒëÇø,·Ö×ÓÉúÎïÑ§,,,
+TSS,Transcription Start Site,×ªÂ¼ÆğÊ¼Î»µã,·Ö×ÓÉúÎïÑ§,,,
+TF,Transcription Factor,×ªÂ¼Òò×Ó,·Ö×ÓÉúÎïÑ§,,,
+TAD,Topologically Associating Domain,ÍØÆË¹ØÁª½á¹¹Óò,·Ö×ÓÉúÎïÑ§,,,
+circRNA,Circular RNA,»·×´ºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+Ago,Argonaute,Argonauteµ°°×,·Ö×ÓÉúÎïÑ§,,,
+RISC,RNA-Induced Silencing Complex,RNAÓÕµ¼³ÁÄ¬¸´ºÏÌå,·Ö×ÓÉúÎïÑ§,,,
+Dicer,Dicer,ÇĞ¸îÃ¸,·Ö×ÓÉúÎïÑ§,,,
+Pol,Polymerase,¾ÛºÏÃ¸,·Ö×ÓÉúÎïÑ§,,,
+RT,Reverse Transcriptase,Äæ×ªÂ¼Ã¸,·Ö×ÓÉúÎïÑ§,,,
+AAA,Abdominal Aortic Aneurysm,¸¹Ö÷¶¯ÂöÁö,½âÆÊÑ§,,,
+ACA,Anterior Cerebral Artery,´óÄÔÇ°¶¯Âö,½âÆÊÑ§,,,
+AICD,Automatic Implantable Cardioverter-Defibrillator,×Ô¶¯Ö²ÈëÊ½ĞÄÂÉ×ª¸´³ı²üÆ÷,½âÆÊÑ§,,,
+ABP,Arterial Blood Pressure,¶¯ÂöÑªÑ¹,ÉúÀíÑ§,,,
+TV,Tidal Volume,³±ÆøÁ¿,ÉúÀíÑ§,,,
+FRC,Functional Residual Capacity,¹¦ÄÜ²ĞÆøÁ¿,ÉúÀíÑ§,,,
+RBF,Renal Blood Flow,ÉöÑªÁ÷Á¿,ÉúÀíÑ§,,,
+FF,Filtration Fraction,ÂË¹ı·ÖÊı,ÉúÀíÑ§,,,
+UO,Urine Output,ÄòÁ¿,ÉúÀíÑ§,,,
+BMR,Basal Metabolic Rate,»ù´¡´úĞ»ÂÊ,ÉúÀíÑ§,,,
+OT,Oxytocin,´ß²úËØ,ÉúÀíÑ§,,,
+NE,Norepinephrine,È¥¼×ÉöÉÏÏÙËØ,ÉúÀíÑ§,,,
+ACh,Acetylcholine,ÒÒõ£µ¨¼î,ÉúÀíÑ§,,,
+DA,Dopamine,¶à°Í°·,ÉúÀíÑ§,,,
+GABA,Gamma-Aminobutyric Acid,¦Ã-°±»ù¶¡Ëá,ÉúÀíÑ§,,,
+EPSP,Excitatory Postsynaptic Potential,ĞË·ÜĞÔÍ»´¥ºóµçÎ»,ÉúÀíÑ§,,,
+IPSP,Inhibitory Postsynaptic Potential,ÒÖÖÆĞÔÍ»´¥ºóµçÎ»,ÉúÀíÑ§,,,
+RMP,Resting Membrane Potential,¾²Ï¢Ä¤µçÎ»,ÉúÀíÑ§,,,
+NADH,Nicotinamide Adenine Dinucleotide (Reduced),»¹Ô­ĞÍÑÌõ£°·ÏÙàÑßÊ¶şºËÜÕËá,ÉúÎï»¯Ñ§,,,
+FAD,Flavin Adenine Dinucleotide,»ÆËØÏÙàÑßÊ¶şºËÜÕËá,ÉúÎï»¯Ñ§,,,
+GTP,Guanosine Triphosphate,ÈıÁ×ËáÄñÜÕ,ÉúÎï»¯Ñ§,,,
+UTP,Uridine Triphosphate,ÈıÁ×ËáÄòÜÕ,ÉúÎï»¯Ñ§,,,
+HPLC,High-Performance Liquid Chromatography,¸ßĞ§ÒºÏàÉ«Æ×·¨,ÉúÎï»¯Ñ§,,,
+NMR,Nuclear Magnetic Resonance,ºË´Å¹²Õñ,ÉúÎï»¯Ñ§,,,
+CHIP,Chromatin Immunoprecipitation,È¾É«ÖÊÃâÒß³Áµí,ÉúÎï»¯Ñ§,,,
+RIA,Radioimmunoassay,·ÅÉäÃâÒß·ÖÎö,ÉúÎï»¯Ñ§,,,
+CK,Creatine Kinase,¼¡Ëá¼¤Ã¸,ÉúÎï»¯Ñ§,,,
+CFU,Colony-forming Unit,¾úÂäĞÎ³Éµ¥Î»,Î¢ÉúÎïÑ§,,,
+MLST,Multilocus Sequence Typing,¶àÎ»µãĞòÁĞ·ÖĞÍ,Î¢ÉúÎïÑ§,,,
+LTA,Lipoteichoic Acid,Ö¬Á×±ÚËá,Î¢ÉúÎïÑ§,,,
+TEM,Transmission Electron Microscopy,Í¸Éäµç×ÓÏÔÎ¢¾µ,Î¢ÉúÎïÑ§,,,
+SEM,Scanning Electron Microscopy,É¨Ãèµç×ÓÏÔÎ¢¾µ,Î¢ÉúÎïÑ§,,,
+BHI,Brain Heart Infusion,ÄÔĞÄ½şÒº,Î¢ÉúÎïÑ§,,,
+TSB,Tryptic Soy Broth,ÒÈµ°°×ëË´ó¶¹ÈâÌÀ,Î¢ÉúÎïÑ§,,,
+MHA,Mueller-Hinton Agar,ÄÂÀÕ-ĞÀ¶ÙÇíÖ¬,Î¢ÉúÎïÑ§,,,
+EUCAST,European Committee on Antimicrobial Susceptibility Testing,Å·ÖŞ¿¹¾úÒ©ÎïÃô¸ĞĞÔÊÔÑéÎ¯Ô±»á,Î¢ÉúÎïÑ§,,,
+NTM,Nontuberculous Mycobacteria,·Ç½áºË·ÖÖ¦¸Ë¾ú,Î¢ÉúÎïÑ§,,,
+SPA,Staphylococcal Protein A,ÆÏÌÑÇò¾úµ°°×A,Î¢ÉúÎïÑ§,,,
+TSST-1,Toxic Shock Syndrome Toxin 1,ÖĞ¶¾ĞÔĞİ¿Ë×ÛºÏÕ÷¶¾ËØ1,Î¢ÉúÎïÑ§,,,
+ETEC,Enterotoxigenic Escherichia coli,²ú³¦¶¾ËØĞÔ´ó³¦°£Ï£¾ú,Î¢ÉúÎïÑ§,,,
+EPEC,Enteropathogenic Escherichia coli,³¦ÖÂ²¡ĞÔ´ó³¦°£Ï£¾ú,Î¢ÉúÎïÑ§,,,
+EHEC,Enterohemorrhagic Escherichia coli,³¦³öÑªĞÔ´ó³¦°£Ï£¾ú,Î¢ÉúÎïÑ§,,,
+EIEC,Enteroinvasive Escherichia coli,³¦ÇÖÏ®ĞÔ´ó³¦°£Ï£¾ú,Î¢ÉúÎïÑ§,,,
+EAEC,Enteroaggregative Escherichia coli,³¦¾Û¼¯ĞÔ´ó³¦°£Ï£¾ú,Î¢ÉúÎïÑ§,,,
+MRSE,Methicillin-resistant Staphylococcus epidermidis,ÄÍ¼×ÑõÎ÷ÁÖ±íÆ¤ÆÏÌÑÇò¾ú,Î¢ÉúÎïÑ§,,,
+VISA,Vancomycin-intermediate Staphylococcus aureus,Íò¹ÅÃ¹ËØÖĞ½é½ğ»ÆÉ«ÆÏÌÑÇò¾ú,Î¢ÉúÎïÑ§,,,
+VRSA,Vancomycin-resistant Staphylococcus aureus,ÄÍÍò¹ÅÃ¹ËØ½ğ»ÆÉ«ÆÏÌÑÇò¾ú,Î¢ÉúÎïÑ§,,,
+CRAB,Carbapenem-resistant Acinetobacter baumannii,ÄÍÌ¼ÇàÃ¹Ï©±«Âü²»¶¯¸Ë¾ú,Î¢ÉúÎïÑ§,,,
+COVID-19,Coronavirus Disease 2019,ĞÂĞÍ¹Ú×´²¡¶¾²¡,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+SARS-CoV-2,Severe Acute Respiratory Syndrome Coronavirus 2,ÑÏÖØ¼±ĞÔºôÎü×ÛºÏÕ÷¹Ú×´²¡¶¾2ĞÍ,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+R0,Basic Reproduction Number,»ù±¾ÔÙÉúÊı,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+NPV,Negative Predictive Value,ÒõĞÔÔ¤²âÖµ,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+ROC,Receiver Operating Characteristic,ÊÜÊÔÕß¹¤×÷ÌØÕ÷,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+VE,Vaccine Effectiveness,ÒßÃçĞ§¹û,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+ID,Infectious Disease,´«È¾²¡,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+AMR,Antimicrobial Resistance,¿¹¾úÒ©ÎïÄÍÒ©ĞÔ,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+NCD,Non-Communicable Disease,·Ç´«È¾ĞÔ¼²²¡,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+SES,Socioeconomic Status,Éç»á¾­¼ÃµØÎ»,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+DALY,Disability-Adjusted Life Year,ÉË²Ğµ÷ÕûÉúÃüÄê,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+QALY,Quality-Adjusted Life Year,ÖÊÁ¿µ÷ÕûÉúÃüÄê,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+YLL,Years of Life Lost,ÊÙÃüËğÊ§Äê,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+YLD,Years Lived with Disability,ÉË²ĞÊÙÃüÄê,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+CFR,Case Fatality Rate,²¡ËÀÂÊ,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+SIR,Standardized Incidence Ratio,±ê×¼»¯·¢²¡±È,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+SMR,Standardized Mortality Ratio,±ê×¼»¯ËÀÍö±È,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+ECHO,Echocardiography,³¬ÉùĞÄ¶¯Í¼,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CCTA,Coronary Computed Tomography Angiography,¹Ú×´¶¯ÂöCTÑª¹Ü³ÉÏñ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CMR,Cardiovascular Magnetic Resonance,ĞÄÑª¹Ü´Å¹²Õñ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LMWH,Low Molecular Weight Heparin,µÍ·Ö×Ó¸ÎËØ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+NOAC,Novel Oral Anticoagulant,ĞÂĞÍ¿Ú·ş¿¹ÄıÒ©,ĞÄÑª¹ÜÄÚ¿Æ,,,
+DOAC,Direct Oral Anticoagulant,Ö±½Ó¿Ú·ş¿¹ÄıÒ©,ĞÄÑª¹ÜÄÚ¿Æ,,,
+SGLT2i,Sodium-Glucose Cotransporter-2 Inhibitor,ÄÆ-ÆÏÌÑÌÇ¹²×ªÔËµ°°×2ÒÖÖÆ¼Á,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ARNI,Angiotensin Receptor-Neprilysin Inhibitor,Ñª¹Ü½ôÕÅËØÊÜÌå-ÄÔ·ÈëÄÃ¸ÒÖÖÆ¼Á,ĞÄÑª¹ÜÄÚ¿Æ,,,
+HCM,Hypertrophic Cardiomyopathy,·ÊºñĞÍĞÄ¼¡²¡,ĞÄÑª¹ÜÄÚ¿Æ,,,
+DCM,Dilated Cardiomyopathy,À©ÕÅĞÍĞÄ¼¡²¡,ĞÄÑª¹ÜÄÚ¿Æ,,,
+RCM,Restrictive Cardiomyopathy,ÏŞÖÆĞÍĞÄ¼¡²¡,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ARVC,Arrhythmogenic Right Ventricular Cardiomyopathy,ÖÂĞÄÂÉÊ§³£ĞÔÓÒĞÄÊÒĞÄ¼¡²¡,ĞÄÑª¹ÜÄÚ¿Æ,,,
+IE,Infective Endocarditis,¸ĞÈ¾ĞÔĞÄÄÚÄ¤Ñ×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TAVI,Transcatheter Aortic Valve Implantation,¾­µ¼¹ÜÖ÷¶¯Âö°êÖ²ÈëÊõ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TMVR,Transcatheter Mitral Valve Repair,¾­µ¼¹Ü¶ş¼â°êĞŞ¸´Êõ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+PFO,Patent Foramen Ovale,ÂÑÔ²¿×Î´±Õ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LQTS,Long QT Syndrome,³¤QT×ÛºÏÕ÷,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Brugada,Brugada Syndrome,²¼Â³¼Ó´ï×ÛºÏÕ÷,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CPVT,Catecholaminergic Polymorphic Ventricular Tachycardia,¶ù²è·Ó°·Ãô¸ĞĞÔ¶àĞÎĞÔÊÒĞÔĞÄ¶¯¹ıËÙ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+RFA,Radiofrequency Ablation,ÉäÆµÏûÈÚÊõ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LAD,Left Anterior Descending Artery,×óÇ°½µÖ§,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LCX,Left Circumflex Artery,×óĞıÖ§,ĞÄÑª¹ÜÄÚ¿Æ,,,
+RCA,Right Coronary Artery,ÓÒ¹Ú×´¶¯Âö,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LM,Left Main Coronary Artery,×óÖ÷¸É,ĞÄÑª¹ÜÄÚ¿Æ,,,
+DES,Drug-Eluting Stent,Ò©ÎïÏ´ÍÑÖ§¼Ü,ĞÄÑª¹ÜÄÚ¿Æ,,,
+BMS,Bare Metal Stent,Âã½ğÊôÖ§¼Ü,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ECMO,Extracorporeal Membrane Oxygenation,ÌåÍâÄ¤·ÎÑõºÏ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LVAD,Left Ventricular Assist Device,×óĞÄÊÒ¸¨Öú×°ÖÃ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+RVAD,Right Ventricular Assist Device,ÓÒĞÄÊÒ¸¨Öú×°ÖÃ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+BiVAD,Biventricular Assist Device,Ë«ĞÄÊÒ¸¨Öú×°ÖÃ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Troponin,Troponin,¼¡¸Æµ°°×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CK-MB,Creatine Kinase-MB,¼¡Ëá¼¤Ã¸Í¬¹¤Ã¸MB,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LDL-C,Low-density Lipoprotein Cholesterol,µÍÃÜ¶ÈÖ¬µ°°×µ¨¹Ì´¼,ĞÄÑª¹ÜÄÚ¿Æ,,,
+HDL-C,High-density Lipoprotein Cholesterol,¸ßÃÜ¶ÈÖ¬µ°°×µ¨¹Ì´¼,ĞÄÑª¹ÜÄÚ¿Æ,,,
+HMGCR,HMG-CoA Reductase,ôÇ¼×»ùÎì¶şõ£¸¨Ã¸A»¹Ô­Ã¸,ĞÄÑª¹ÜÄÚ¿Æ,,,
+PCSK9,Proprotein Convertase Subtilisin/Kexin Type 9,Ç°µ°°××ª»¯Ã¸¿İ²İÈÜ¾úËØ9,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CYP2C19,Cytochrome P450 2C19,Ï¸°ûÉ«ËØP450 2C19,ĞÄÑª¹ÜÄÚ¿Æ,,,
+VKA,Vitamin K Antagonist,Î¬ÉúËØKŞ×¿¹¼Á,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TT,Thrombin Time,ÄıÑªÃ¸Ê±¼ä,ĞÄÑª¹ÜÄÚ¿Æ,,,
+D-Dimer,D-Dimer,D-¶ş¾ÛÌå,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Hgb,Hemoglobin,Ñªºìµ°°×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Ca2+,Calcium,¸ÆÀë×Ó,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Mg2+,Magnesium,Ã¾Àë×Ó,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Cl-,Chloride,ÂÈÀë×Ó,ĞÄÑª¹ÜÄÚ¿Æ,,,
+MYO,Myoglobin,¼¡ºìµ°°×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+FBG,Fasting Blood Glucose,¿Õ¸¹ÑªÌÇ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+AngII,Angiotensin II,Ñª¹Ü½ôÕÅËØII,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ANP,Atrial Natriuretic Peptide,ĞÄ·¿ÄÆÄòëÄ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ET-1,Endothelin-1,ÄÚÆ¤ËØ-1,ĞÄÑª¹ÜÄÚ¿Æ,,,
+PGI2,Prostacyclin,Ç°ÁĞ»·ËØ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TXA2,Thromboxane A2,ÑªË¨ËØA2,ĞÄÑª¹ÜÄÚ¿Æ,,,
+PAI-1,Plasminogen Activator Inhibitor-1,ÏËÈÜÃ¸Ô­¼¤»îÎïÒÖÖÆ¼Á-1,ĞÄÑª¹ÜÄÚ¿Æ,,,
+tPA,Tissue Plasminogen Activator,×éÖ¯ĞÍÏËÈÜÃ¸Ô­¼¤»îÎï,ĞÄÑª¹ÜÄÚ¿Æ,,,
+vWF,Von Willebrand Factor,Ñª¹ÜĞÔÑªÓÑ²¡Òò×Ó,ĞÄÑª¹ÜÄÚ¿Æ,,,
+cGMP,Cyclic Guanosine Monophosphate,»·Á×ËáÄñÜÕ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+KATP,ATP-sensitive Potassium Channel,ATPÃô¸ĞĞÔ¼ØÍ¨µÀ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+SERCA,Sarco/Endoplasmic Reticulum Ca2+-ATPase,¼¡½¬Íø¸ÆATPÃ¸,ĞÄÑª¹ÜÄÚ¿Æ,,,
+RyR,Ryanodine Receptor,À¼Äá¼îÊÜÌå,ĞÄÑª¹ÜÄÚ¿Æ,,,
+IP3R,Inositol Trisphosphate Receptor,ÈıÁ×Ëá¼¡´¼ÊÜÌå,ĞÄÑª¹ÜÄÚ¿Æ,,,
+NCX,Sodium-Calcium Exchanger,ÄÆ¸Æ½»»»Ìå,ĞÄÑª¹ÜÄÚ¿Æ,,,
+MLC,Myosin Light Chain,¼¡Çòµ°°×ÇáÁ´,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TnI,Troponin I,¼¡¸Æµ°°×I,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TnT,Troponin T,¼¡¸Æµ°°×T,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TnC,Troponin C,¼¡¸Æµ°°×C,ĞÄÑª¹ÜÄÚ¿Æ,,,
+¦Á-MHC,Alpha Myosin Heavy Chain,¦Á¼¡Çòµ°°×ÖØÁ´,ĞÄÑª¹ÜÄÚ¿Æ,,,
+¦Â-MHC,Beta Myosin Heavy Chain,¦Â¼¡Çòµ°°×ÖØÁ´,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ANF,Atrial Natriuretic Factor,ĞÄ·¿ÀûÄÆÒò×Ó,ĞÄÑª¹ÜÄÚ¿Æ,,,
+BNF,Brain Natriuretic Factor,ÄÔÀûÄÆÒò×Ó,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CNP,C-type Natriuretic Peptide,CĞÍÀûÄÆëÄ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+NPR,Natriuretic Peptide Receptor,ÀûÄÆëÄÊÜÌå,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ACE,Angiotensin-Converting Enzyme,Ñª¹Ü½ôÕÅËØ×ª»»Ã¸,ĞÄÑª¹ÜÄÚ¿Æ,,,
+NEP,Neprilysin,ÄÔ·ÈëÄÃ¸,ĞÄÑª¹ÜÄÚ¿Æ,,,
+SNS,Sympathetic Nervous System,½»¸ĞÉñ¾­ÏµÍ³,ĞÄÑª¹ÜÄÚ¿Æ,,,
+PNS,Parasympathetic Nervous System,¸±½»¸ĞÉñ¾­ÏµÍ³,ĞÄÑª¹ÜÄÚ¿Æ,,,
+HRV,Heart Rate Variability,ĞÄÂÊ±äÒìĞÔ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+BPV,Blood Pressure Variability,ÑªÑ¹±äÒìĞÔ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ABPM,Ambulatory Blood Pressure Monitoring,¶¯Ì¬ÑªÑ¹¼à²â,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Holter,Holter Monitoring,¶¯Ì¬ĞÄµçÍ¼¼à²â,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CPET,Cardiopulmonary Exercise Testing,ĞÄ·ÎÔË¶¯ÊÔÑé,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CCS,Canadian Cardiovascular Society,¼ÓÄÃ´óĞÄÑª¹ÜÑ§»á,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TIMI,Thrombolysis In Myocardial Infarction,ĞÄ¼¡¹£ËÀÈÜË¨ÖÎÁÆ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+GRACE,Global Registry of Acute Coronary Events,È«Çò¼±ĞÔ¹ÚÂöÊÂ¼ş×¢²á,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CRUSADE,Can Rapid Risk Stratification of Unstable Angina Patients Suppress Adverse Outcomes with Early Implementation of the ACC/AHA Guidelines,²»ÎÈ¶¨ĞÍĞÄ½ÊÍ´»¼Õß¿ìËÙÎ£ÏÕ·Ö²ãÒÔÔçÆÚÊµÊ©ACC/AHAÖ¸ÄÏÒÖÖÆ²»Á¼½á¾Ö,ĞÄÑª¹ÜÄÚ¿Æ,,,
+HEART,History,ECG,"Age, Risk factors, Troponin,²¡Ê·¡¢ĞÄµçÍ¼¡¢ÄêÁä¡¢Î£ÏÕÒòËØ¡¢¼¡¸Æµ°°×,ĞÄÑª¹ÜÄÚ¿Æ",,,
+CHADS2,Congestive heart failure,Hypertension,"Age ¡İ75, Diabetes mellitus, Stroke/TIA,³äÑªĞÔĞÄÁ¦Ë¥½ß¡¢¸ßÑªÑ¹¡¢ÄêÁä¡İ75Ëê¡¢ÌÇÄò²¡¡¢×äÖĞ/¶ÌÔİĞÔÄÔÈ±Ñª·¢×÷,ĞÄÑª¹ÜÄÚ¿Æ",,,
+CHA2DS2-VASc,Congestive heart failure,Hypertension,"Age ¡İ75, Diabetes mellitus, Stroke/TIA, Vascular disease, Age 65-74, Sex category,³äÑªĞÔĞÄÁ¦Ë¥½ß¡¢¸ßÑªÑ¹¡¢ÄêÁä¡İ75Ëê¡¢ÌÇÄò²¡¡¢×äÖĞ/¶ÌÔİĞÔÄÔÈ±Ñª·¢×÷¡¢Ñª¹Ü¼²²¡¡¢ÄêÁä65-74Ëê¡¢ĞÔ±ğ,ĞÄÑª¹ÜÄÚ¿Æ",,,
+HAS-BLED,Hypertension,Abnormal renal/liver function,"Stroke, Bleeding history, Labile INR, Elderly, Drugs/alcohol,¸ßÑªÑ¹¡¢Éö¹¦ÄÜ/¸Î¹¦ÄÜÒì³£¡¢×äÖĞ¡¢³öÑªÊ·¡¢INR²»ÎÈ¶¨¡¢ÀÏÄê¡¢Ò©Îï/¾Æ¾«,ĞÄÑª¹ÜÄÚ¿Æ",,,
+MACCE,Major Adverse Cardiac and Cerebrovascular Events,Ö÷Òª²»Á¼ĞÄÄÔÑª¹ÜÊÂ¼ş,ĞÄÑª¹ÜÄÚ¿Æ,,,
+TVR,Target Vessel Revascularization,°ĞÑª¹ÜÑªÔËÖØ½¨,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ISR,In-Stent Restenosis,Ö§¼ÜÄÚÔÙÏÁÕ­,ĞÄÑª¹ÜÄÚ¿Æ,,,
+ST,Stent Thrombosis,Ö§¼ÜÄÚÑªË¨ĞÎ³É,ĞÄÑª¹ÜÄÚ¿Æ,,,
+MVD,Multivessel Disease,¶àÖ§Ñª¹Ü²¡±ä,ĞÄÑª¹ÜÄÚ¿Æ,,,
+LMS,Left Main Stem,×óÖ÷¸É²¡±ä,ĞÄÑª¹ÜÄÚ¿Æ,,,
+CTO,Chronic Total Occlusion,ÂıĞÔÍêÈ«±ÕÈû,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Bifurcation,Bifurcation Lesion,·Ö²æ²¡±ä,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Ostial,Ostial Lesion,¿ª¿Ú²¡±ä,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Diffuse,Diffuse Disease,ÃÖÂşĞÔ²¡±ä,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Calcified,Calcified Lesion,¸Æ»¯²¡±ä,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Thrombus,Thrombus,ÑªË¨,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Dissection,Dissection,¼Ğ²ã,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Perforation,Perforation,´©¿×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+No-Reflow,No-Reflow Phenomenon,ÎŞ¸´Á÷ÏÖÏó,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Slow-Flow,Slow-Flow Phenomenon,ÂıÑªÁ÷ÏÖÏó,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Coronary Spasm,Coronary Artery Spasm,¹Ú×´¶¯Âö¾·ÂÎ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Myocardial Bridge,Myocardial Bridge,ĞÄ¼¡ÇÅ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Coronary Fistula,Coronary Artery Fistula,¹Ú×´¶¯Âöğü,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Aneurysm,Aneurysm,¶¯ÂöÁö,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Pseudoaneurysm,Pseudoaneurysm,¼ÙĞÔ¶¯ÂöÁö,ĞÄÑª¹ÜÄÚ¿Æ,,,
+AV Fistula,Arteriovenous Fistula,¶¯¾²Âöğü,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Hematoma,Hematoma,ÑªÖ×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Bleeding,Bleeding,³öÑª,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Stroke,Stroke,×äÖĞ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Renal Failure,Renal Failure,ÉöË¥½ß,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Contrast Nephropathy,Contrast-Induced Nephropathy,¶Ô±È¼ÁÉö²¡,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Allergy,Allergic Reaction,¹ıÃô·´Ó¦,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Anaphylaxis,Anaphylaxis,¹ıÃôĞÔĞİ¿Ë,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Vasovagal,Vasovagal Reaction,Ñª¹ÜÃÔ×ßÉñ¾­·´Ó¦,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Hypotension,Hypotension,µÍÑªÑ¹,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Hypertension,Hypertension,¸ßÑªÑ¹,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Bradycardia,Bradycardia,ĞÄ¶¯¹ı»º,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Tachycardia,Tachycardia,ĞÄ¶¯¹ıËÙ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Arrhythmia,Arrhythmia,ĞÄÂÉÊ§³£,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Palpitation,Palpitation,ĞÄ¼Â,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Syncope,Syncope,ÔÎØÊ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Presyncope,Presyncope,ÏÈÕ×ÔÎØÊ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Dizziness,Dizziness,Í·ÔÎ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Dyspnea,Dyspnea,ºôÎüÀ§ÄÑ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Orthopnea,Orthopnea,¶Ë×øºôÎü,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Edema,Edema,Ë®Ö×,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Ascites,Ascites,¸¹Ë®,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Hepatomegaly,Hepatomegaly,¸Î´ó,ĞÄÑª¹ÜÄÚ¿Æ,,,
+JVD,Jugular Venous Distension,¾±¾²ÂöÅ­ÕÅ,ĞÄÑª¹ÜÄÚ¿Æ,,,
+HJR,Hepatojugular Reflux,¸Î¾±¾²Âö·´Á÷,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Rales,Rales,Êª†ªÒô,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Wheezing,Wheezing,ÏøÃùÒô,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Crackles,Crackles,±¬ÁÑÒô,ĞÄÑª¹ÜÄÚ¿Æ,,,
+Murmur,Heart Murmur,ĞÄÔàÔÓÒô,,,,
+AECOPD,Acute Exacerbation of Chronic Obstructive Pulmonary Disease,ÂıĞÔ×èÈûĞÔ·Î¼²²¡¼±ĞÔ¼ÓÖØ,ºôÎüÄÚ¿Æ,,,
+ILD,Interstitial Lung Disease,¼äÖÊĞÔ·Î¼²²¡,ºôÎüÄÚ¿Æ,,,
+BO,Bronchiolitis Obliterans,±ÕÈûĞÔÏ¸Ö§Æø¹ÜÑ×,ºôÎüÄÚ¿Æ,,,
+BOS,Bronchiolitis Obliterans Syndrome,±ÕÈûĞÔÏ¸Ö§Æø¹ÜÑ××ÛºÏÕ÷,ºôÎüÄÚ¿Æ,,,
+LAM,Lymphangioleiomyomatosis,ÁÜ°Í¹ÜÆ½»¬¼¡Áö²¡,ºôÎüÄÚ¿Æ,,,
+CTEPH,Chronic Thromboembolic Pulmonary Hypertension,ÂıĞÔÑªË¨Ë¨ÈûĞÔ·Î¶¯Âö¸ßÑ¹,ºôÎüÄÚ¿Æ,,,
+EBUS-TBNA,Endobronchial Ultrasound-Guided Transbronchial Needle Aspiration,³¬ÉùÖ§Æø¹Ü¾µÒıµ¼ÏÂ¾­Ö§Æø¹ÜÕëÎü»î¼ì,ºôÎüÄÚ¿Æ,,,
+HAV,Hepatitis A Virus,¼×ĞÍ¸ÎÑ×²¡¶¾,Ïû»¯ÄÚ¿Æ,,,
+MRCP,Magnetic Resonance Cholangiopancreatography,´Å¹²ÕñÒÈµ¨¹Ü³ÉÏñ,Ïû»¯ÄÚ¿Æ,,,
+H.pylori,Helicobacter pylori,ÓÄÃÅÂİ¸Ë¾ú,Ïû»¯ÄÚ¿Æ,,,
+HRS,Hepatorenal Syndrome,¸ÎÉö×ÛºÏÕ÷,Ïû»¯ÄÚ¿Æ,,,
+EV,Esophageal Varices,Ê³¹Ü¾²ÂöÇúÕÅ,Ïû»¯ÄÚ¿Æ,,,
+GV,Gastric Varices,Î¸¾²ÂöÇúÕÅ,Ïû»¯ÄÚ¿Æ,,,
+TIPS,Transjugular Intrahepatic Portosystemic Shunt,¾­¾±¾²Âö¸ÎÄÚÃÅÌå·ÖÁ÷Êõ,Ïû»¯ÄÚ¿Æ,,,
+LT,Liver Transplantation,¸ÎÒÆÖ²,Ïû»¯ÄÚ¿Æ,,,
+AMY,Amylase,µí·ÛÃ¸,Ïû»¯ÄÚ¿Æ,,,
+SEP,Somatosensory Evoked Potential,Ìå¸ĞÓÕ·¢µçÎ»,Éñ¾­ÄÚ¿Æ,,,
+TCD,Transcranial Doppler,¾­Â­¶àÆÕÀÕ³¬Éù,Éñ¾­ÄÚ¿Æ,,,
+NCS,Nerve Conduction Study,Éñ¾­´«µ¼ÑĞ¾¿,Éñ¾­ÄÚ¿Æ,,,
+CPP,Cerebral Perfusion Pressure,ÄÔ¹à×¢Ñ¹,Éñ¾­ÄÚ¿Æ,,,
+NIHSS,National Institutes of Health Stroke Scale,ÃÀ¹ú¹úÁ¢ÎÀÉúÑĞ¾¿Ôº×äÖĞÁ¿±í,Éñ¾­ÄÚ¿Æ,,,
+MoCA,Montreal Cognitive Assessment,ÃÉÌØÀû¶ûÈÏÖªÆÀ¹À,Éñ¾­ÄÚ¿Æ,,,
+UPDRS,Unified Parkinson's Disease Rating Scale,Í³Ò»ÅÁ½ğÉ­²¡ÆÀ¶¨Á¿±í,Éñ¾­ÄÚ¿Æ,,,
+EDSS,Expanded Disability Status Scale,À©Õ¹²Ğ¼²×´Ì¬Á¿±í,Éñ¾­ÄÚ¿Æ,,,
+AED,Antiepileptic Drug,¿¹ñ²ğïÒ©Îï,Éñ¾­ÄÚ¿Æ,,,
+AMPAR,Alpha-Amino-3-Hydroxy-5-Methyl-4-Isoxazolepropionic Acid Receptor,¦Á-°±»ù-3-ôÇ»ù-5-¼×»ù-4-Òì‡fßò±ûËáÊÜÌå,Éñ¾­ÄÚ¿Æ,,,
+CORT,Cortisol,Æ¤ÖÊ´¼,ÄÚ·ÖÃÚ¿Æ,,,
+ALD,Aldosterone,È©¹ÌÍª,ÄÚ·ÖÃÚ¿Æ,,,
+REN,Renin,ÉöËØ,ÄÚ·ÖÃÚ¿Æ,,,
+GIP,Gastric Inhibitory Polypeptide,ÒÖÎ¸ëÄ,ÄÚ·ÖÃÚ¿Æ,,,
+GCG,Glucagon,ÒÈ¸ßÑªÌÇËØ,ÄÚ·ÖÃÚ¿Æ,,,
+CGM,Continuous Glucose Monitoring,³ÖĞøÆÏÌÑÌÇ¼à²â,ÄÚ·ÖÃÚ¿Æ,,,
+CSII,Continuous Subcutaneous Insulin Infusion,³ÖĞøÆ¤ÏÂÒÈµºËØÊä×¢,ÄÚ·ÖÃÚ¿Æ,,,
+MEN,Multiple Endocrine Neoplasia,¶à·¢ĞÔÄÚ·ÖÃÚÏÙÁö²¡,ÄÚ·ÖÃÚ¿Æ,,,
+CAH,Congenital Adrenal Hyperplasia,ÏÈÌìĞÔÉöÉÏÏÙÆ¤ÖÊÔöÉúÖ¢,ÄÚ·ÖÃÚ¿Æ,,,
+GO,Graves Ophthalmopathy,¸ñÀ×·òË¹ÑÛ²¡,ÄÚ·ÖÃÚ¿Æ,,,
+UPCR,Urine Protein-to-Creatinine Ratio,Äòµ°°×¼¡ôû±È,ÉöÔàÄÚ¿Æ,,,
+MCD,Minimal Change Disease,Î¢Ğ¡²¡±äÉö²¡,ÉöÔàÄÚ¿Æ,,,
+RPGN,Rapidly Progressive Glomerulonephritis,¼±½øĞÔÉöĞ¡ÇòÉöÑ×,ÉöÔàÄÚ¿Æ,,,
+LN,Lupus Nephritis,ÀÇ´¯ĞÔÉöÑ×,ÉöÔàÄÚ¿Æ,,,
+PKD,Polycystic Kidney Disease,¶àÄÒÉö²¡,ÉöÔàÄÚ¿Æ,,,
+ARPKD,Autosomal Recessive Polycystic Kidney Disease,³£È¾É«ÌåÒşĞÔ¶àÄÒÉö²¡,ÉöÔàÄÚ¿Æ,,,
+RVT,Renal Vein Thrombosis,Éö¾²ÂöÑªË¨,ÉöÔàÄÚ¿Æ,,,
+RAS,Renal Artery Stenosis,Éö¶¯ÂöÏÁÕ­,ÉöÔàÄÚ¿Æ,,,
+CNI,Calcineurin Inhibitor,¸Æµ÷Éñ¾­Á×ËáÃ¸ÒÖÖÆ¼Á,ÉöÔàÄÚ¿Æ,,,
+MMF,Mycophenolate Mofetil,ÂğÌæÂó¿¼·Óõ¥,ÉöÔàÄÚ¿Æ,,,
+Tac,Tacrolimus,Ëû¿ËÄªË¾,ÉöÔàÄÚ¿Æ,,,
+SLL,Small Lymphocytic Lymphoma,Ğ¡ÁÜ°ÍÏ¸°ûÁÜ°ÍÁö,ÑªÒº¿Æ,,,
+WM,Waldenstr?m Macroglobulinemia,»ªÊÏ¾ŞÇòµ°°×ÑªÖ¢,ÑªÒº¿Æ,,,
+AA,Aplastic Anemia,ÔÙÉúÕÏ°­ĞÔÆ¶Ñª,ÑªÒº¿Æ,,,
+HS,Hereditary Spherocytosis,ÒÅ´«ĞÔÇòĞÎºìÏ¸°ûÔö¶àÖ¢,ÑªÒº¿Æ,,,
+VWD,Von Willebrand Disease,Ñª¹ÜĞÔÑªÓÑ²¡,ÑªÒº¿Æ,,,
+FVIII,Factor VIII,ÄıÑªÒò×Ó¢ø,ÑªÒº¿Æ,,,
+FIX,Factor IX,ÄıÑªÒò×Ó¢ù,ÑªÒº¿Æ,,,
+BMT,Bone Marrow Transplantation,¹ÇËèÒÆÖ²,ÑªÒº¿Æ,,,
+ATM,Ataxia Telangiectasia Mutated,¹²¼ÃÊ§µ÷Ã«Ï¸Ñª¹ÜÀ©ÕÅÍ»±ä»ùÒò,Ö×ÁöÄÚ¿Æ,,,
+BRAF,B-Raf Proto-Oncogene,B-RafÔ­°©»ùÒò,Ö×ÁöÄÚ¿Æ,,,
+BRCA1,Breast Cancer Susceptibility Gene 1,ÈéÏÙ°©Ò×¸Ğ»ùÒò1,Ö×ÁöÄÚ¿Æ,,,
+BRCA2,Breast Cancer Susceptibility Gene 2,ÈéÏÙ°©Ò×¸Ğ»ùÒò2,Ö×ÁöÄÚ¿Æ,,,
+CIN,Chromosomal Instability,È¾É«Ìå²»ÎÈ¶¨ĞÔ,Ö×ÁöÄÚ¿Æ,,,
+DOR,Duration of Response,»º½â³ÖĞøÊ±¼ä,Ö×ÁöÄÚ¿Æ,,,
+EML4-ALK,Echinoderm Microtubule-Associated Protein-Like 4-ALK,¼¬Æ¤¶¯ÎïÎ¢¹ÜÏà¹Øµ°°×Ñù4-ALKÈÚºÏ»ùÒò,Ö×ÁöÄÚ¿Æ,,,
+IDH,Isocitrate Dehydrogenase,ÒìÄûÃÊËáÍÑÇâÃ¸,Ö×ÁöÄÚ¿Æ,,,
+KRAS,Kirsten Rat Sarcoma Viral Oncogene Homolog,Kirsten´óÊóÈâÁö²¡¶¾°©»ùÒòÍ¬Ô´Îï,Ö×ÁöÄÚ¿Æ,,,
+LHRH,Luteinizing Hormone-Releasing Hormone,´Ù»ÆÌåÉú³ÉËØÊÍ·Å¼¤ËØ,Ö×ÁöÄÚ¿Æ,,,
+MDM2,Murine Double Minute 2,ÊóË«Î¢Ìå2,Ö×ÁöÄÚ¿Æ,,,
+MDR,Multidrug Resistance,¶àÒ©ÄÍÒ©,Ö×ÁöÄÚ¿Æ,,,
+PTEN,Phosphatase and Tensin Homolog,Á×ËáÃ¸ºÍÕÅÁ¦µ°°×Í¬Ô´Îï,Ö×ÁöÄÚ¿Æ,,,
+RB1,Retinoblastoma 1,ÊÓÍøÄ¤Ä¸Ï¸°ûÁö1»ùÒò,Ö×ÁöÄÚ¿Æ,,,
+TACE,Transarterial Chemoembolization,¾­¶¯Âö»¯ÁÆË¨Èû,Ö×ÁöÄÚ¿Æ,,,
+TP53,Tumor Protein 53,Ö×Áöµ°°×53,Ö×ÁöÄÚ¿Æ,,,
+VEGFR,Vascular Endothelial Growth Factor Receptor,Ñª¹ÜÄÚÆ¤Éú³¤Òò×ÓÊÜÌå,Ö×ÁöÄÚ¿Æ,,,
+XDR,Extensively Drug-resistant,¹ã·ºÄÍÒ©,¸ĞÈ¾¿Æ,,,
+PCP,Pneumocystis jirovecii Pneumonia,Ò®ÊÏ·Îæß×Ó¾ú·ÎÑ×,¸ĞÈ¾¿Æ,,,
+NAT,Nucleic Acid Testing,ºËËá¼ì²â,¸ĞÈ¾¿Æ,,,
+RBV,Ribavirin,Àû°ÍÎ¤ÁÖ,¸ĞÈ¾¿Æ,,,
+LMV,Lamivudine,À­Ã×·ò¶¨,¸ĞÈ¾¿Æ,,,
+ADV,Adefovir,°¢µÂ¸£Î¤,¸ĞÈ¾¿Æ,,,
+ETV,Entecavir,¶÷Ìæ¿¨Î¤,¸ĞÈ¾¿Æ,,,
+TDF,Tenofovir Disoproxil Fumarate,ÌæÅµ¸£Î¤õ¥,¸ĞÈ¾¿Æ,,,
+TAF,Tenofovir Alafenamide,±û·ÓÌæÅµ¸£Î¤,¸ĞÈ¾¿Æ,,,
+OI,Opportunistic Infection,»ú»áĞÔ¸ĞÈ¾,¸ĞÈ¾¿Æ,,,
+IRIS,Immune Reconstitution Inflammatory Syndrome,ÃâÒßÖØ½¨Ñ×Ö¢×ÛºÏÕ÷,¸ĞÈ¾¿Æ,,,
+MODS,Multiple Organ Dysfunction Syndrome,¶àÆ÷¹Ù¹¦ÄÜÕÏ°­×ÛºÏÕ÷,¼±ÕïÒ½Ñ§,,,
+PEA,Pulseless Electrical Activity,ÎŞÂöµç»î¶¯,¼±ÕïÒ½Ñ§,,,
+IBP,Invasive Blood Pressure,ÓĞ´´ÑªÑ¹,Âé×í¿Æ,,,
+PAOP,Pulmonary Artery Occlusion Pressure,·Î¶¯ÂöĞ¨Ñ¹,Âé×í¿Æ,,,
+PTC,Post-Tetanic Count,Ç¿Ö±ºó¼ÆÊı,Âé×í¿Æ,,,
+N2O,Nitrous Oxide,Ñõ»¯ÑÇµª,Âé×í¿Æ,,,
+SEVO,Sevoflurane,Æß·úÍé,Âé×í¿Æ,,,
+ISO,Isoflurane,Òì·úÍé,Âé×í¿Æ,,,
+PROP,Propofol,±û²´·Ó,Âé×í¿Æ,,,
+KET,Ketamine,ÂÈ°·Íª,Âé×í¿Æ,,,
+REM,Remifentanil,Èğ·ÒÌ«Äá,Âé×í¿Æ,,,
+FENT,Fentanyl,·ÒÌ«Äá,Âé×í¿Æ,,,
+SUCC,Succinylcholine,çúçêµ¨¼î,Âé×í¿Æ,,,
+VEC,Vecuronium,Î¬¿âäåï§,Âé×í¿Æ,,,
+DOB,Dobutamine,¶à°Í·Ó¶¡°·,Âé×í¿Æ,,,
+DOP,Dopamine,¶à°Í°·,Âé×í¿Æ,,,
+ATR,Atropine,°¢ÍĞÆ·,Âé×í¿Æ,,,
+GLY,Glycopyrrolate,¸ñÂ¡äåï§,Âé×í¿Æ,,,
+NEO,Neostigmine,ĞÂË¹µÄÃ÷,Âé×í¿Æ,,,
+SUG,Sugammadex,Êæ¸üÆÏÌÇ,Âé×í¿Æ,,,
+CRL,Crown-Rump Length,¶¥ÍÎ³¤,¸¾²ú¿Æ,,,
+CST,Contraction Stress Test,¹¬ËõÓ¦¼¤ÊÔÑé,¸¾²ú¿Æ,,,
+CTG,Cardiotocography,Ì¥ĞÄ¹¬ËõÍ¼,¸¾²ú¿Æ,,,
+CVS,Chorionic Villus Sampling,ÈŞÃ«Ä¤ÈŞÃ«È¡Ñù,¸¾²ú¿Æ,,,
+D&E,Dilation and Evacuation,À©ÕÅÓëÇå¹¬Êõ,¸¾²ú¿Æ,,,
+DUB,Dysfunctional Uterine Bleeding,¹¦ÄÜÊ§µ÷ĞÔ×Ó¹¬³öÑª,¸¾²ú¿Æ,,,
+EC,Endometrial Cancer,×Ó¹¬ÄÚÄ¤°©,¸¾²ú¿Æ,,,
+EIN,Endometrial Intraepithelial Neoplasia,×Ó¹¬ÄÚÄ¤ÉÏÆ¤ÄÚÁö±ä,¸¾²ú¿Æ,,,
+GTD,Gestational Trophoblastic Disease,ÈÑÉï×ÌÑøÏ¸°û¼²²¡,¸¾²ú¿Æ,,,
+HELLP,Hemolysis Elevated Liver Enzymes Low Platelets,ÈÜÑª¸ÎÃ¸Éı¸ßÑªĞ¡°å¼õÉÙ×ÛºÏÕ÷,¸¾²ú¿Æ,,,
+IUI,Intrauterine Insemination,¹¬Ç»ÄÚÈË¹¤ÊÚ¾«,¸¾²ú¿Æ,,,
+OC,Oral Contraceptive,¿Ú·ş±ÜÔĞÒ©,¸¾²ú¿Æ,,,
+APGAR,Appearance Pulse Grimace Activity Respiration,°¢ÆÕ¼ÓÆÀ·Ö,¶ù¿Æ,,,
+UCVA,Uncorrected Visual Acuity,ÂãÑÛÊÓÁ¦,ÑÛ¿Æ,,,
+ICL,Implantable Collamer Lens,¿ÉÖ²ÈëÊ½ÒşĞÎÑÛ¾µ,ÑÛ¿Æ,,,
+RLE,Refractive Lens Exchange,Çü¹âĞÔ¾§×´ÌåÖÃ»»Êõ,ÑÛ¿Æ,,,
+Trab,Trabeculectomy,Ğ¡ÁºÇĞ³ıÊõ,ÑÛ¿Æ,,,
+GATT,Gonioscopy-Assisted Transluminal Trabeculotomy,·¿½Ç¾µ¸¨ÖúÏÂ¾­¹ÜĞ¡ÁºÇĞ¿ªÊõ,ÑÛ¿Æ,,,
+MIGS,Minimally Invasive Glaucoma Surgery,Î¢´´Çà¹âÑÛÊÖÊõ,ÑÛ¿Æ,,,
+CSOM,Chronic Suppurative Otitis Media,ÂıĞÔ»¯Å§ĞÔÖĞ¶úÑ×,¶ú±Çºí¿Æ,,,
+SCCa,Squamous Cell Carcinoma,ÁÛ×´Ï¸°û°©,¶ú±Çºí¿Æ,,,
+TORS,Transoral Robotic Surgery,¾­¿Ú»úÆ÷ÈËÊÖÊõ,¶ú±Çºí¿Æ,,,
+EAM,External Auditory Meatus,Íâ¶úµÀ,¶ú±Çºí¿Æ,,,
+OHC,Outer Hair Cell,ÍâÃ«Ï¸°û,¶ú±Çºí¿Æ,,,
+SP,Summating Potential,×ÜºÍµçÎ»,¶ú±Çºí¿Æ,,,
+CM,Cochlear Microphonic,¶úÎÏÎ¢ÒôµçÎ»,¶ú±Çºí¿Æ,,,
+SK,Senile Keratosis,ÀÏÄêĞÔ½Ç»¯²¡,Æ¤·ô¿Æ,,,
+UV,Ultraviolet,×ÏÍâÏß,Æ¤·ô¿Æ,,,
+NB-UVB,Narrowband Ultraviolet B,Õ­Æ×ÖĞ²¨×ÏÍâÏß,Æ¤·ô¿Æ,,,
+Dsg,Desmoglein,ÇÅÁ£Ğ¾µ°°×,Æ¤·ô¿Æ,,,
+PSO,Psoriasis,ÒøĞ¼²¡,Æ¤·ô¿Æ,,,
+SS,Systemic Sclerosis,ÏµÍ³ĞÔÓ²»¯Ö¢,Æ¤·ô¿Æ,,,
+MC,Molluscum Contagiosum,´«È¾ĞÔÈíğà,Æ¤·ô¿Æ,,,
+DLQI,Dermatology Life Quality Index,Æ¤·ô²¡Éú»îÖÊÁ¿Ö¸Êı,Æ¤·ô¿Æ,,,
+CO2,Carbon Dioxide,¶şÑõ»¯Ì¼,Æ¤·ô¿Æ,,,
+PDL,Pulsed Dye Laser,Âö³åÈ¾ÁÏ¼¤¹â,Æ¤·ô¿Æ,,,
+NB,Narrowband,Õ­Æ×,Æ¤·ô¿Æ,,,
+SPF,Sun Protection Factor,·ÀÉ¹Ö¸Êı,Æ¤·ô¿Æ,,,
+TEWL,Transepidermal Water Loss,¾­Æ¤Ë®·Ö¶ªÊ§,Æ¤·ô¿Æ,,,
+MED,Minimal Erythema Dose,×îĞ¡ºì°ß¼ÁÁ¿,Æ¤·ô¿Æ,,,
+MPD,Minimal Phototoxic Dose,×îĞ¡¹â¶¾¼ÁÁ¿,Æ¤·ô¿Æ,,,
+IIF,Indirect Immunofluorescence,¼ä½ÓÃâÒßÓ«¹â,Æ¤·ô¿Æ,,,
+OP,Osteoporosis,¹ÇÖÊÊèËÉÖ¢,¹Ç¿Æ,,,
+CTE,Carpal Tunnel Syndrome,Íó¹Ü×ÛºÏÕ÷,¹Ç¿Æ,,,
+TFCC,Triangular Fibrocartilage Complex,Èı½ÇÏËÎ¬Èí¹Ç¸´ºÏÌå,¹Ç¿Æ,,,
+ACJ,Acromioclavicular Joint,¼çËø¹Ø½Ú,¹Ç¿Æ,,,
+GHJ,Glenohumeral Joint,ÓÛëÅ¹Ø½Ú,¹Ç¿Æ,,,
+PEEK,Polyether Ether Ketone,¾ÛÃÑÃÑÍª,¹Ç¿Æ,,,
+FGF,Fibroblast Growth Factor,³ÉÏËÎ¬Ï¸°ûÉú³¤Òò×Ó,¹Ç¿Æ,,,
+PDGF,Platelet-derived Growth Factor,ÑªĞ¡°åÑÜÉúÉú³¤Òò×Ó,¹Ç¿Æ,,,
+TGF-¦Â,Transforming Growth Factor Beta,×ª»¯Éú³¤Òò×Ó¦Â,¹Ç¿Æ,,,
+IL-1,Interleukin-1,°×Ï¸°û½éËØ-1,¹Ç¿Æ,,,
+IL-6,Interleukin-6,°×Ï¸°û½éËØ-6,¹Ç¿Æ,,,
+TNF-¦Á,Tumor Necrosis Factor Alpha,Ö×Áö»µËÀÒò×Ó¦Á,¹Ç¿Æ,,,
+COX-2,Cyclooxygenase-2,»·ÑõºÏÃ¸-2,¹Ç¿Æ,,,
+RANKL,Receptor Activator of Nuclear Factor Kappa-B Ligand,ºËÒò×Ó¦ÊBÊÜÌå»î»¯Òò×ÓÅäÌå,¹Ç¿Æ,,,
+OPG,Osteoprotegerin,¹Ç±£»¤ËØ,¹Ç¿Æ,,,
+CTU,Computed Tomography Urography,¼ÆËã»ú¶Ï²ãÉ¨ÃèÄòÂ·ÔìÓ°,ÃÚÄòÍâ¿Æ,,,
+PNL,Percutaneous Nephrolithotomy,¾­Æ¤Éö¾µÈ¡Ê¯Êõ,ÃÚÄòÍâ¿Æ,,,
+LPN,Laparoscopic Partial Nephrectomy,¸¹Ç»¾µÉö²¿·ÖÇĞ³ıÊõ,ÃÚÄòÍâ¿Æ,,,
+HIFU,High-Intensity Focused Ultrasound,¸ßÇ¿¶È¾Û½¹³¬Éù,ÃÚÄòÍâ¿Æ,,,
+ICSI,Intracytoplasmic Sperm Injection,ÂÑ°û½¬ÄÚµ¥¾«×Ó×¢Éä,ÃÚÄòÍâ¿Æ,,,
+TESE,Testicular Sperm Extraction,ØºÍè¾«×ÓÌáÈ¡Êõ,ÃÚÄòÍâ¿Æ,,,
+PESA,Percutaneous Epididymal Sperm Aspiration,¾­Æ¤¸½Øº¾«×Ó³éÎüÊõ,ÃÚÄòÍâ¿Æ,,,
+NOA,Non-Obstructive Azoospermia,·Ç¹£×èĞÔÎŞ¾«×ÓÖ¢,ÃÚÄòÍâ¿Æ,,,
+CIC,Clean Intermittent Catheterization,Çå½à¼äĞªµ¼Äò,ÃÚÄòÍâ¿Æ,,,
+UUI,Urge Urinary Incontinence,¼±ÆÈĞÔÄòÊ§½û,ÃÚÄòÍâ¿Æ,,,
+MUI,Mixed Urinary Incontinence,»ìºÏĞÔÄòÊ§½û,ÃÚÄòÍâ¿Æ,,,
+Pdet,Detrusor Pressure,±ÆÄò¼¡Ñ¹Á¦,ÃÚÄòÍâ¿Æ,,,
+VUDS,Videourodynamics,Ó°ÏñÄò¶¯Á¦Ñ§,ÃÚÄòÍâ¿Æ,,,
+WAIS,Wechsler Adult Intelligence Scale,Î¤ÊÏ³ÉÈËÖÇÁ¦Á¿±í,¾«Éñ²¡Ñ§,,,
+WISC,Wechsler Intelligence Scale for Children,Î¤ÊÏ¶ùÍ¯ÖÇÁ¦Á¿±í,¾«Éñ²¡Ñ§,,,
+HAM-D,Hamilton Depression Rating Scale,ººÃÜ¶û¶ÙÒÖÓôÆÀ¶¨Á¿±í,¾«Éñ²¡Ñ§,,,
+HAM-A,Hamilton Anxiety Rating Scale,ººÃÜ¶û¶Ù½¹ÂÇÆÀ¶¨Á¿±í,¾«Éñ²¡Ñ§,,,
+MADRS,Montgomery-Asberg Depression Rating Scale,ÃÉ¸çÂíÀû-°¢Ë¹²®¸ñÒÖÓôÆÀ¶¨Á¿±í,¾«Éñ²¡Ñ§,,,
+IPT,Interpersonal Psychotherapy,ÈË¼ÊĞÄÀíÖÎÁÆ,¾«Éñ²¡Ñ§,,,
+ECTR,Electroconvulsive Therapy Response,µç³é´¤ÖÎÁÆ·´Ó¦,¾«Éñ²¡Ñ§,,,
+IVP,Intravenous Pyelography,¾²ÂöÉöÓÛÔìÓ°,Ó°ÏñÒ½Ñ§,,,
+VCUG,Voiding Cystourethrography,ÅÅÄòĞÔ°òë×ÄòµÀÔìÓ°,Ó°ÏñÒ½Ñ§,,,
+UGI,Upper Gastrointestinal Series,ÉÏÏû»¯µÀ±µ²ÍÔìÓ°,Ó°ÏñÒ½Ñ§,,,
+SBFT,Small Bowel Follow-Through,Ğ¡³¦±µ²ÍÔìÓ°,Ó°ÏñÒ½Ñ§,,,
+NCCT,Non-Contrast Computed Tomography,Æ½É¨¼ÆËã»ú¶Ï²ãÉ¨Ãè,Ó°ÏñÒ½Ñ§,,,
+CECT,Contrast-Enhanced Computed Tomography,ÔöÇ¿¼ÆËã»ú¶Ï²ãÉ¨Ãè,Ó°ÏñÒ½Ñ§,,,
+MDCT,Multi-Detector Computed Tomography,¶àÅÅÌ½²âÆ÷¼ÆËã»ú¶Ï²ãÉ¨Ãè,Ó°ÏñÒ½Ñ§,,,
+CBCT,Cone Beam Computed Tomography,×¶ĞÎÊø¼ÆËã»ú¶Ï²ãÉ¨Ãè,Ó°ÏñÒ½Ñ§,,,
+DTI,Diffusion Tensor Imaging,ÃÖÉ¢ÕÅÁ¿³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+CEUS,Contrast-Enhanced Ultrasound,³¬ÉùÔìÓ°,Ó°ÏñÒ½Ñ§,,,
+Echocardiography,Echocardiography,³¬ÉùĞÄ¶¯Í¼,Ó°ÏñÒ½Ñ§,,,
+SPECT/CT,SPECT/CT Fusion Imaging,µ¥¹â×Ó·¢Éä¼ÆËã»ú¶Ï²ãÉ¨Ãè/¼ÆËã»ú¶Ï²ãÉ¨ÃèÈÚºÏ³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+PET/MRI,PET/MRI Fusion Imaging,Õıµç×Ó·¢Éä¶Ï²ãÉ¨Ãè/´Å¹²ÕñÈÚºÏ³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+MinIP,Minimum Intensity Projection,×îĞ¡ÃÜ¶ÈÍ¶Ó°,Ó°ÏñÒ½Ñ§,,,
+CINE,Cine Imaging,µçÓ°³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+PC,Phase Contrast,ÏàÎ»¶Ô±È·¨,Ó°ÏñÒ½Ñ§,,,
+FIESTA,Fast Imaging Employing Steady-state Acquisition,ÎÈÌ¬²É¼¯¿ìËÙ³ÉÏñ,Ó°ÏñÒ½Ñ§,,,
+HFrEF,Heart Failure with Reduced Ejection Fraction,ÉäÑª·ÖÊı½µµÍµÄĞÄÁ¦Ë¥½ß,²¡ÀíÑ§,,,
+HFpEF,Heart Failure with Preserved Ejection Fraction,ÉäÑª·ÖÊı±£ÁôµÄĞÄÁ¦Ë¥½ß,²¡ÀíÑ§,,,
+SSc,Systemic Sclerosis,ÏµÍ³ĞÔÓ²»¯Ö¢,²¡ÀíÑ§,,,
+SJS,Stevens-Johnson Syndrome,Ê·µÙÎÄË¹-Ô¼º²Ñ·×ÛºÏÕ÷,²¡ÀíÑ§,,,
+PDAC,Pancreatic Ductal Adenocarcinoma,ÒÈÏÙµ¼¹ÜÏÙ°©,²¡ÀíÑ§,,,
+mTOR,Mammalian Target of Rapamycin Inhibitor,²¸Èé¶¯ÎïÀ×ÅÁÃ¹ËØ°Ğµ°°×ÒÖÖÆ¼Á,Ò©ÀíÑ§,,,
+NOAEL,No Observed Adverse Effect Level,Î´¹Û²ìµ½ÓĞº¦×÷ÓÃË®Æ½,Ò©ÀíÑ§,,,
+LOAEL,Lowest Observed Adverse Effect Level,×îµÍ¹Û²ìµ½ÓĞº¦×÷ÓÃË®Æ½,Ò©ÀíÑ§,,,
+ADR,Adverse Drug Reaction,Ò©Îï²»Á¼·´Ó¦,Ò©ÀíÑ§,,,
+DDI,Drug-Drug Interaction,Ò©ÎïÏà»¥×÷ÓÃ,Ò©ÀíÑ§,,,
+TDM,Therapeutic Drug Monitoring,ÖÎÁÆÒ©Îï¼à²â,Ò©ÀíÑ§,,,
+CYP450,Cytochrome P450 System,Ï¸°ûÉ«ËØP450Ã¸Ïµ,Ò©ÀíÑ§,,,
+UGT,UDP-Glucuronosyltransferase,ÄòÜÕ¶şÁ×ËáÆÏÌÑÌÇÈ©Ëá×ªÒÆÃ¸,Ò©ÀíÑ§,,,
+SULT,Sulfotransferase,»Ç»ù×ªÒÆÃ¸,Ò©ÀíÑ§,,,
+COMT,Catechol-O-Methyltransferase,¶ù²è·Ó-O-¼×»ù×ªÒÆÃ¸,Ò©ÀíÑ§,,,
+MAO,Monoamine Oxidase,µ¥°·Ñõ»¯Ã¸,Ò©ÀíÑ§,,,
+AChE,Acetylcholinesterase,ÒÒõ£µ¨¼îõ¥Ã¸,Ò©ÀíÑ§,,,
+PDE,Phosphodiesterase,Á×Ëá¶şõ¥Ã¸,Ò©ÀíÑ§,,,
+TGF,Transforming Growth Factor,×ª»¯Éú³¤Òò×Ó,ÃâÒßÑ§,,,
+SCID,Severe Combined Immunodeficiency,ÖØÖ¢ÁªºÏÃâÒßÈ±Ïİ,ÃâÒßÑ§,,,
+CVID,Common Variable Immunodeficiency,³£¼û±äÒìĞÍÃâÒßÈ±Ïİ²¡,ÃâÒßÑ§,,,
+AIRE,Autoimmune Regulator,×ÔÉíÃâÒßµ÷½ÚÒò×Ó,ÃâÒßÑ§,,,
+FOXP3,Forkhead Box P3,²æÍ·¿òP3,ÃâÒßÑ§,,,
+JAK,Janus Kinase,Janus¼¤Ã¸,ÃâÒßÑ§,,,
+ASO,Allele-Specific Oligonucleotide,µÈÎ»»ùÒòÌØÒìĞÔ¹ÑºËÜÕËá,ÒÅ´«Ñ§,,,
+BAC,Bacterial Artificial Chromosome,Ï¸¾úÈË¹¤È¾É«Ìå,ÒÅ´«Ñ§,,,
+BWA,Burrows-Wheeler Aligner,Burrows-Wheeler±È¶ÔÆ÷,ÒÅ´«Ñ§,,,
+CADD,Combined Annotation Dependent Depletion,ÁªºÏ×¢ÊÍÒÀÀµºÄ½ßÆÀ·Ö,ÒÅ´«Ñ§,,,
+CMA,Chromosomal Microarray Analysis,È¾É«ÌåÎ¢ÕóÁĞ·ÖÎö,ÒÅ´«Ñ§,,,
+ddPCR,Droplet Digital Polymerase Chain Reaction,Î¢µÎÊı×Ö¾ÛºÏÃ¸Á´·´Ó¦,ÒÅ´«Ñ§,,,
+DGV,Database of Genomic Variants,»ùÒò×é±äÒìÊı¾İ¿â,ÒÅ´«Ñ§,,,
+dNTP,Deoxynucleotide Triphosphate,ÍÑÑõºËÜÕÈıÁ×Ëá,ÒÅ´«Ñ§,,,
+DSB,Double-Strand Break,Ë«Á´¶ÏÁÑ,ÒÅ´«Ñ§,,,
+EMBL,European Molecular Biology Laboratory,Å·ÖŞ·Ö×ÓÉúÎïÑ§ÊµÑéÊÒ,ÒÅ´«Ñ§,,,
+ENCODE,Encyclopedia of DNA Elements,DNAÔª¼ş°Ù¿ÆÈ«Êé,ÒÅ´«Ñ§,,,
+ES,Exome Sequencing,ÍâÏÔ×Ó×é²âĞò,ÒÅ´«Ñ§,,,
+FST,Fixation Index,¹Ì¶¨Ö¸Êı,ÒÅ´«Ñ§,,,
+GATK,Genome Analysis Toolkit,»ùÒò×é·ÖÎö¹¤¾ß°ü,ÒÅ´«Ñ§,,,
+GCTA,Genome-wide Complex Trait Analysis,È«»ùÒò×é¸´ÔÓĞÔ×´·ÖÎö,ÒÅ´«Ñ§,,,
+GDB,Genome Database,»ùÒò×éÊı¾İ¿â,ÒÅ´«Ñ§,,,
+GEO,Gene Expression Omnibus,»ùÒò±í´ï×ÛºÏÊı¾İ¿â,ÒÅ´«Ñ§,,,
+GEP,Gene Expression Profiling,»ùÒò±í´ïÆ×·ÖÎö,ÒÅ´«Ñ§,,,
+GISTIC,Genomic Identification of Significant Targets in Cancer,°©Ö¢ÏÔÖø°Ğµã»ùÒò×é¼ø¶¨,ÒÅ´«Ñ§,,,
+GM,Genetically Modified,»ùÒòĞŞÊÎµÄ,ÒÅ´«Ñ§,,,
+GMO,Genetically Modified Organism,»ùÒòĞŞÊÎÉúÎïÌå,ÒÅ´«Ñ§,,,
+GSEA,Gene Set Enrichment Analysis,»ùÒò¼¯¸»¼¯·ÖÎö,ÒÅ´«Ñ§,,,
+HGP,Human Genome Project,ÈËÀà»ùÒò×é¼Æ»®,ÒÅ´«Ñ§,,,
+HMM,Hidden Markov Model,ÒşÂí¶û¿É·òÄ£ĞÍ,ÒÅ´«Ñ§,,,
+ICGC,International Cancer Genome Consortium,¹ú¼Ê°©Ö¢»ùÒò×éÁªÃË,ÒÅ´«Ñ§,,,
+IGV,Integrative Genomics Viewer,ÕûºÏ»ùÒò×éÑ§²é¿´Æ÷,ÒÅ´«Ñ§,,,
+INDEL,Insertion-Deletion,²åÈëÈ±Ê§,ÒÅ´«Ñ§,,,
+IPSC,Induced Pluripotent Stem Cell,ÓÕµ¼¶àÄÜ¸ÉÏ¸°û,ÒÅ´«Ñ§,,,
+LD,Linkage Disequilibrium,Á¬Ëø²»Æ½ºâ,ÒÅ´«Ñ§,,,
+LOD,Logarithm of Odds,ÓÅÊÆ¶ÔÊı,ÒÅ´«Ñ§,,,
+LTR,Long Terminal Repeat,³¤Ä©¶ËÖØ¸´ĞòÁĞ,ÒÅ´«Ñ§,,,
+MAF,Minor Allele Frequency,×îĞ¡µÈÎ»»ùÒòÆµÂÊ,ÒÅ´«Ñ§,,,
+MALDI-TOF,Matrix-Assisted Laser Desorption/Ionization Time-of-Flight,»ùÖÊ¸¨Öú¼¤¹â½âÎüµçÀë·ÉĞĞÊ±¼äÖÊÆ×,ÒÅ´«Ñ§,,,
+snRNA,Small Nuclear RNA,Ğ¡ºËºËÌÇºËËá,·Ö×ÓÉúÎïÑ§,,,
+TATA,TATA Box,TATAºĞ,·Ö×ÓÉúÎïÑ§,,,
+SAGE,Serial Analysis of Gene Expression,»ùÒò±í´ïÏµÁĞ·ÖÎö,·Ö×ÓÉúÎïÑ§,,,
+Western Blot,Western Blot,µ°°×ÖÊÓ¡¼£·¨,·Ö×ÓÉúÎïÑ§,,,
+Northern Blot,Northern Blot,RNAÓ¡¼£·¨,·Ö×ÓÉúÎïÑ§,,,
+Southern Blot,Southern Blot,DNAÓ¡¼£·¨,·Ö×ÓÉúÎïÑ§,,,
+PCR-RFLP,PCR-Restriction Fragment Length Polymorphism,PCRÏŞÖÆĞÔÆ¬¶Î³¤¶È¶àÌ¬ĞÔ,·Ö×ÓÉúÎïÑ§,,,
+LC-MS,Liquid Chromatography-Mass Spectrometry,ÒºÏàÉ«Æ×-ÖÊÆ×ÁªÓÃ,·Ö×ÓÉúÎïÑ§,,,
+AAS,Acute Aortic Syndrome,¼±ĞÔÖ÷¶¯Âö×ÛºÏÕ÷,½âÆÊÑ§,,,
+AV,Atrioventricular,·¿ÊÒµÄ,½âÆÊÑ§,,,
+TPR,Total Peripheral Resistance,×ÜÍâÖÜ×èÁ¦,ÉúÀíÑ§,,,
+PO2,Partial Pressure of Oxygen,Ñõ·ÖÑ¹,ÉúÀíÑ§,,,
+PCO2,Partial Pressure of Carbon Dioxide,¶şÑõ»¯Ì¼·ÖÑ¹,ÉúÀíÑ§,,,
+IP3,Inositol Trisphosphate,ÈıÁ×Ëá¼¡´¼,ÉúÀíÑ§,,,
+DAG,Diacylglycerol,¶şõ£¸ÊÓÍ,ÉúÀíÑ§,,,
+PKC,Protein Kinase C,µ°°×¼¤Ã¸C,ÉúÀíÑ§,,,
+PKA,Protein Kinase A,µ°°×¼¤Ã¸A,ÉúÀíÑ§,,,
+CaM,Calmodulin,¸Æµ÷µ°°×,ÉúÀíÑ§,,,
+MLCK,Myosin Light Chain Kinase,¼¡Çòµ°°×ÇáÁ´¼¤Ã¸,ÉúÀíÑ§,,,
+SR,Sarcoplasmic Reticulum,¼¡½¬Íø,ÉúÀíÑ§,,,
+RER,Respiratory Exchange Ratio,ºôÎü½»»»±È,ÉúÀíÑ§,,,
+VO2max,Maximal Oxygen Consumption,×î´óÉãÑõÁ¿,ÉúÀíÑ§,,,
+GST,Glutathione S-Transferase,¹Èë×¸ÊëÄS-×ªÒÆÃ¸,ÉúÎï»¯Ñ§,,,
+GFP,Green Fluorescent Protein,ÂÌÉ«Ó«¹âµ°°×,ÉúÎï»¯Ñ§,,,
+RFP,Red Fluorescent Protein,ºìÉ«Ó«¹âµ°°×,ÉúÎï»¯Ñ§,,,
+VLDL,Very Low-Density Lipoprotein,¼«µÍÃÜ¶ÈÖ¬µ°°×,ÉúÎï»¯Ñ§,,,
+KPC,Klebsiella pneumoniae carbapenemase,·ÎÑ×¿ËÀ×²®¾úÌ¼ÇàÃ¹Ï©Ã¸,Î¢ÉúÎïÑ§,,,
+NDM,New Delhi metallo-¦Â-lactamase,ĞÂµÂÀï½ğÊô¦Â-ÄÚõ£°·Ã¸,Î¢ÉúÎïÑ§,,,
+OMP,Outer membrane protein,ÍâÄ¤µ°°×,Î¢ÉúÎïÑ§,,,
+CPS,Capsular polysaccharide,¼ÔÄ¤¶àÌÇ,Î¢ÉúÎïÑ§,,,
+MALDI-TOF MS,Matrix-assisted laser desorption/ionization time-of-flight mass spectrometry,»ùÖÊ¸¨Öú¼¤¹â½âÎüµçÀë·ÉĞĞÊ±¼äÖÊÆ×,Î¢ÉúÎïÑ§,,,
+BSI,Bloodstream infection,ÑªÁ÷¸ĞÈ¾,Î¢ÉúÎïÑ§,,,
+PK/PD,Pharmacokinetics/pharmacodynamics,Ò©´ú¶¯Á¦Ñ§/Ò©Ğ§¶¯Á¦Ñ§,Î¢ÉúÎïÑ§,,,
+IRR,Incidence Rate Ratio,·¢²¡ÂÊ±È,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+SARS,Severe Acute Respiratory Syndrome,ÑÏÖØ¼±ĞÔºôÎü×ÛºÏÕ÷,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+MERS,Middle East Respiratory Syndrome,ÖĞ¶«ºôÎü×ÛºÏÕ÷,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+EVD,Ebola Virus Disease,°£²©À­²¡¶¾²¡,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+PPE,Personal Protective Equipment,¸öÈË·À»¤×°±¸,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+N95,N95 Respirator,N95¿ÚÕÖ,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+PHEIC,Public Health Emergency of International Concern,¹ú¼Ê¹Ø×¢µÄÍ»·¢¹«¹²ÎÀÉúÊÂ¼ş,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
+GAVI,Global Alliance for Vaccines and Immunization,È«ÇòÒßÃçÃâÒßÁªÃË,¹«¹²ÎÀÉúÓëÁ÷ĞĞ²¡Ñ§,,,
