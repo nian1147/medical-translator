@@ -249,9 +249,10 @@ for cn, (abbr, en) in _extra_cn.items():
 
 def find_abbreviations_in_text(text: str) -> list:
     """扫描文本中与内置术语库匹配的缩写，返回 (缩写, 全称, 中文) 列表"""
+    abbr_list = MEDICAL_ABBREVIATIONS if isinstance(MEDICAL_ABBREVIATIONS, dict) else {}
     found = []
     text_upper = text.upper()
-    for abbr, (full_en, full_cn) in MEDICAL_ABBREVIATIONS.items():
+    for abbr, (full_en, full_cn) in abbr_list.items():
         pattern = r'\b' + re.escape(abbr.upper()) + r'\b'
         if re.search(pattern, text_upper):
             found.append((abbr, full_en, full_cn))
@@ -268,19 +269,20 @@ def find_abbreviations_in_text(text: str) -> list:
 
 def translate_text(client: OpenAI, text: str, target_lang: str = "中文") -> str:
     """调用 DeepSeek API 翻译医学文献"""
+    abbr_list = MEDICAL_ABBREVIATIONS if isinstance(MEDICAL_ABBREVIATIONS, dict) else {}
+    vocab_list = MEDICAL_VOCABULARY if isinstance(MEDICAL_VOCABULARY, dict) else {}
 
     # 构建医学术语参考表
-    # 1. 缩写对照表
     term_ref = "\n".join([
         f"{abbr}: {full_en} → {full_cn}"
-        for abbr, (full_en, full_cn) in sorted(MEDICAL_ABBREVIATIONS.items())
+        for abbr, (full_en, full_cn) in sorted(abbr_list.items())
     ])
 
-    # 2. 通用词汇表（抽样防止prompt过长，最多取500条）
-    vocab_sample = dict(list(MEDICAL_VOCABULARY.items())[:500])
+    # 通用词汇表（抽样，最多500条）
+    vocab_items = list(vocab_list.items())[:500]
     vocab_ref = "\n".join([
         f"{en} → {cn}"
-        for en, cn in sorted(vocab_sample.items())
+        for en, cn in sorted(vocab_items)
     ])
 
     system_prompt = f"""你是一位资深医学翻译专家，专门为医学院校学生、临床规培医师和科研初学者服务。
@@ -333,8 +335,9 @@ def lookup_abbreviation(client: OpenAI, query: str, direction: str = "auto") -> 
 
     # 尝试直接匹配缩写
     query_upper = query.strip().upper()
-    if query_upper in MEDICAL_ABBREVIATIONS:
-        full_en, full_cn = MEDICAL_ABBREVIATIONS[query_upper]
+    abbr_list = MEDICAL_ABBREVIATIONS if isinstance(MEDICAL_ABBREVIATIONS, dict) else {}
+    if query_upper in abbr_list:
+        full_en, full_cn = abbr_list[query_upper]
         local_results.append(f"【本地词库匹配】\n📌 {query_upper}\n→ {full_en}\n→ {full_cn}")
 
     # 尝试中文模糊匹配
@@ -524,8 +527,8 @@ with tab2:
             with cols[col_idx % 3]:
                 st.markdown(f"**{cat_name}**")
                 for a in abbrs:
-                    if a in MEDICAL_ABBREVIATIONS:
-                        full_en, full_cn = MEDICAL_ABBREVIATIONS[a]
+                    if a in abbr_list:
+                        full_en, full_cn = abbr_list[a]
                         st.caption(f"• **{a}** — {full_cn}")
             col_idx += 1
 
