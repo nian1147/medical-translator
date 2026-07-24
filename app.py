@@ -158,24 +158,53 @@ def get_client():
 # 用 Excel 打开 terms.csv 即可编辑，保存后重启应用生效
 
 def load_terms_from_csv(filepath: str):
-    """从 CSV 文件加载医学术语库，返回 (MEDICAL_ABBREVIATIONS, CN_TO_EN)"""
+    """从 CSV 文件加载医学术语库（自动检测编码，兼容 Excel 保存的 GBK 和标准 UTF-8）"""
     abbreviations = {}
     cn_to_en = {}
-    with open(filepath, "r", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            abbr = row["缩写"].strip()
-            full_en = row["英文全称"].strip()
-            full_cn = row["中文译名"].strip()
-            if abbr:
-                abbreviations[abbr] = (full_en, full_cn)
-            # 中文→英文反向索引
-            if full_cn and full_cn not in cn_to_en:
-                cn_to_en[full_cn] = (abbr, full_en)
+
+    # 依次尝试不同编码，哪个不报错用哪个
+    for encoding in ["utf-8-sig", "utf-8", "gbk", "gb2312", "gb18030"]:
+        try:
+            with open(filepath, "r", encoding=encoding) as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    abbr = (row.get("缩写") or "").strip()
+                    full_en = (row.get("英文全称") or "").strip()
+                    full_cn = (row.get("中文译名") or "").strip()
+                    if abbr:
+                        abbreviations[abbr] = (full_en, full_cn)
+                    if full_cn and full_cn not in cn_to_en:
+                        cn_to_en[full_cn] = (abbr, full_en)
+            break  # 读取成功，跳出编码尝试循环
+        except (UnicodeDecodeError, UnicodeError):
+            continue  # 这个编码不行，试下一个
+
     return abbreviations, cn_to_en
 
 MEDICAL_ABBREVIATIONS, CN_TO_EN = load_terms_from_csv(
     os.path.join(os.path.dirname(__file__), "terms.csv")
+)
+
+# 加载通用医学词汇（无缩写，仅中英文对照，翻译时作为术语参考）
+def load_vocabulary(filepath: str) -> dict:
+    """加载通用医学词汇表（英文术语→中文译名）"""
+    vocab = {}
+    for enc in ["utf-8-sig", "utf-8", "gbk", "gb2312", "gb18030"]:
+        try:
+            with open(filepath, "r", encoding=enc) as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    en = (row.get("英文术语") or "").strip().lower()
+                    cn = (row.get("中文译名") or "").strip()
+                    if en and cn and en not in vocab:
+                        vocab[en] = cn
+            break
+        except (UnicodeDecodeError, UnicodeError):
+            continue
+    return vocab
+
+MEDICAL_VOCABULARY = load_vocabulary(
+    os.path.join(os.path.dirname(__file__), "vocabulary.csv")
 )
 
 # 额外中文术语（CSV 中可能没有的标准中文别名）
@@ -227,18 +256,31 @@ def find_abbreviations_in_text(text: str) -> list:
 def translate_text(client: OpenAI, text: str, target_lang: str = "中文") -> str:
     """调用 DeepSeek API 翻译医学文献"""
 
-    # 构建医学术语参考表（从内置库中提取）
+    # 构建医学术语参考表
+    # 1. 缩写对照表
     term_ref = "\n".join([
         f"{abbr}: {full_en} → {full_cn}"
         for abbr, (full_en, full_cn) in sorted(MEDICAL_ABBREVIATIONS.items())
+    ])
+
+    # 2. 通用词汇表（抽样防止prompt过长，最多取500条）
+    vocab_sample = dict(list(MEDICAL_VOCABULARY.items())[:500])
+    vocab_ref = "\n".join([
+        f"{en} → {cn}"
+        for en, cn in sorted(vocab_sample.items())
     ])
 
     system_prompt = f"""你是一位资深医学翻译专家，专门为医学院校学生、临床规培医师和科研初学者服务。
 
 你的核心任务：将英文医学文献翻译为{target_lang}，严格遵循以下规则：
 
-1. **术语标准化**：优先使用《医学主题词表》(MeSH/CMeSH)中的标准译名。以下是常见医学术语对照参考：
+1. **术语标准化**：优先使用《医学主题词表》(MeSH/CMeSH)中的标准译名。
+
+以下是常见医学缩写对照参考：
 {term_ref}
+
+以下是通用医学术语对照参考：
+{vocab_ref}
 
 2. **缩写处理**：翻译中遇到的医学缩写，使用格式【缩写：英文全称，中文全称】标注。例如：The patient underwent PCI → 患者接受了【PCI：Percutaneous Coronary Intervention，经皮冠状动脉介入治疗】。
 
