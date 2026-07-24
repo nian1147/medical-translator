@@ -525,8 +525,8 @@ with tab2:
             with cols[col_idx % 3]:
                 st.markdown(f"**{cat_name}**")
                 for a in abbrs:
-                    if a in abbr_list:
-                        full_en, full_cn = abbr_list[a]
+                    if a in MEDICAL_ABBREVIATIONS:
+                        full_en, full_cn = MEDICAL_ABBREVIATIONS[a]
                         st.caption(f"• **{a}** — {full_cn}")
             col_idx += 1
 
