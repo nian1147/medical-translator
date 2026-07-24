@@ -116,6 +116,18 @@ with st.sidebar:
 
     st.markdown("---")
 
+    # 词库统计
+    try:
+        abbr_count = len(MEDICAL_ABBREVIATIONS)
+    except Exception:
+        abbr_count = 0
+    try:
+        vocab_count = len(MEDICAL_VOCABULARY)
+    except Exception:
+        vocab_count = 0
+    st.markdown(f"## 📚 术语库")
+    st.caption(f"已加载 {abbr_count} 个缩写术语 + {vocab_count} 个通用术语")
+
     st.markdown("---")
 
     # 使用说明
