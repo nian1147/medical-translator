@@ -118,8 +118,7 @@ with st.sidebar:
 
     # 词库统计
     st.markdown(f"## 📚 术语库")
-    st.caption(f"已加载 {len(MEDICAL_ABBREVIATIONS)} 个医学术语")
-    st.caption("编辑 `terms.csv` 添加更多术语")
+    st.caption(f"已加载 {len(MEDICAL_ABBREVIATIONS)} 个缩写术语 + {len(MEDICAL_VOCABULARY)} 个通用术语")
 
     st.markdown("---")
 
@@ -158,26 +157,31 @@ def get_client():
 # 用 Excel 打开 terms.csv 即可编辑，保存后重启应用生效
 
 def load_terms_from_csv(filepath: str):
-    """从 CSV 文件加载医学术语库（自动检测编码，兼容 Excel 保存的 GBK 和标准 UTF-8）"""
+    """从 CSV 文件加载医学术语库（自动检测编码，容错所有异常）"""
     abbreviations = {}
     cn_to_en = {}
 
-    # 依次尝试不同编码，哪个不报错用哪个
     for encoding in ["utf-8-sig", "utf-8", "gbk", "gb2312", "gb18030"]:
         try:
             with open(filepath, "r", encoding=encoding) as f:
                 reader = csv.DictReader(f)
-                for row in reader:
-                    abbr = (row.get("缩写") or "").strip()
-                    full_en = (row.get("英文全称") or "").strip()
-                    full_cn = (row.get("中文译名") or "").strip()
-                    if abbr:
-                        abbreviations[abbr] = (full_en, full_cn)
-                    if full_cn and full_cn not in cn_to_en:
-                        cn_to_en[full_cn] = (abbr, full_en)
-            break  # 读取成功，跳出编码尝试循环
+                for i, row in enumerate(reader, start=2):  # 从第2行开始（第1行是表头）
+                    try:
+                        abbr = (row.get("缩写") or "").strip()
+                        full_en = (row.get("英文全称") or "").strip()
+                        full_cn = (row.get("中文译名") or "").strip()
+                        if abbr:
+                            abbreviations[abbr] = (full_en, full_cn)
+                        if full_cn and full_cn not in cn_to_en:
+                            cn_to_en[full_cn] = (abbr, full_en)
+                    except Exception:
+                        pass  # 跳过坏行
+            break  # 读取成功
         except (UnicodeDecodeError, UnicodeError):
-            continue  # 这个编码不行，试下一个
+            continue
+        except Exception as e:
+            # 其他异常（如文件损坏），跳过该编码尝试下一个
+            continue
 
     return abbreviations, cn_to_en
 
@@ -187,19 +191,24 @@ MEDICAL_ABBREVIATIONS, CN_TO_EN = load_terms_from_csv(
 
 # 加载通用医学词汇（无缩写，仅中英文对照，翻译时作为术语参考）
 def load_vocabulary(filepath: str) -> dict:
-    """加载通用医学词汇表（英文术语→中文译名）"""
+    """加载通用医学词汇表（英文术语→中文译名，容错所有异常）"""
     vocab = {}
     for enc in ["utf-8-sig", "utf-8", "gbk", "gb2312", "gb18030"]:
         try:
             with open(filepath, "r", encoding=enc) as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    en = (row.get("英文术语") or "").strip().lower()
-                    cn = (row.get("中文译名") or "").strip()
-                    if en and cn and en not in vocab:
-                        vocab[en] = cn
+                    try:
+                        en = (row.get("英文术语") or "").strip().lower()
+                        cn = (row.get("中文译名") or "").strip()
+                        if en and cn and en not in vocab:
+                            vocab[en] = cn
+                    except Exception:
+                        pass
             break
         except (UnicodeDecodeError, UnicodeError):
+            continue
+        except Exception:
             continue
     return vocab
 
