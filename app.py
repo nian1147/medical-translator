@@ -116,8 +116,6 @@ with st.sidebar:
 
     st.markdown("---")
 
-    st.markdown("---")
-
     # 使用说明
     st.markdown("## 📖 使用说明")
     st.markdown("""
