@@ -720,17 +720,17 @@ was also lower in the PCI group (8.3% vs 15.7%, p<0.001).""", language=None)
 
                         abbreviations = find_abbreviations_in_text(input_text)
                         if abbreviations:
-                            st.markdown("##### 🔬 识别的医学缩写")
-                            chips_html = ""
-                            for abbr, full_en, full_cn in abbreviations:
-                                chips_html += (
-                                    f'<span class="abbr-chip">'
-                                    f'<strong>{abbr}</strong>'
-                                    f'<span class="arrow">→</span>'
-                                    f'{full_cn}'
-                                    f'</span> '
-                                )
-                            st.markdown(chips_html, unsafe_allow_html=True)
+                            with st.expander(f"🔬 识别的医学缩写（{len(abbreviations)} 个）", expanded=False):
+                                chips_html = ""
+                                for abbr, full_en, full_cn in abbreviations:
+                                    chips_html += (
+                                        f'<span class="abbr-chip">'
+                                        f'<strong>{abbr}</strong>'
+                                        f'<span class="arrow">→</span>'
+                                        f'{full_cn}'
+                                        f'</span> '
+                                    )
+                                st.markdown(chips_html, unsafe_allow_html=True)
 
                         # 将「关键术语注释」部分折叠
                         import re as _re
