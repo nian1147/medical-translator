@@ -10,6 +10,8 @@ import PyPDF2
 import docx
 import io
 import os
+import csv
+import re
 
 # ============================================================
 # 页面设置
@@ -114,6 +116,13 @@ with st.sidebar:
 
     st.markdown("---")
 
+    # 词库统计
+    st.markdown(f"## 📚 术语库")
+    st.caption(f"已加载 {len(MEDICAL_ABBREVIATIONS)} 个医学术语")
+    st.caption("编辑 `terms.csv` 添加更多术语")
+
+    st.markdown("---")
+
     # 使用说明
     st.markdown("## 📖 使用说明")
     st.markdown("""
@@ -144,161 +153,56 @@ def get_client():
     )
 
 
-# ============ 内置医学术语库（常见缩写+对照） ============
-# 这是本地快速查询的术语库，API 翻译时会携带作为参考
+# ============ 医学术语库 — 从 CSV 文件加载 ============
+# CSV 文件路径：terms.csv，格式：缩写,英文全称,中文译名,学科
+# 用 Excel 打开 terms.csv 即可编辑，保存后重启应用生效
 
-MEDICAL_ABBREVIATIONS = {
-    # 心血管
-    "STEMI": ("ST-segment Elevation Myocardial Infarction", "ST段抬高型心肌梗死"),
-    "NSTEMI": ("Non-ST-segment Elevation Myocardial Infarction", "非ST段抬高型心肌梗死"),
-    "PCI": ("Percutaneous Coronary Intervention", "经皮冠状动脉介入治疗"),
-    "CABG": ("Coronary Artery Bypass Grafting", "冠状动脉旁路移植术"),
-    "ACS": ("Acute Coronary Syndrome", "急性冠脉综合征"),
-    "HF": ("Heart Failure", "心力衰竭"),
-    "CHF": ("Congestive Heart Failure", "充血性心力衰竭"),
-    "AF": ("Atrial Fibrillation", "心房颤动"),
-    "VT": ("Ventricular Tachycardia", "室性心动过速"),
-    "VF": ("Ventricular Fibrillation", "心室颤动"),
-    "LVEF": ("Left Ventricular Ejection Fraction", "左心室射血分数"),
-    "CAD": ("Coronary Artery Disease", "冠状动脉疾病"),
-    "HTN": ("Hypertension", "高血压"),
-    "SBP": ("Systolic Blood Pressure", "收缩压"),
-    "DBP": ("Diastolic Blood Pressure", "舒张压"),
-    "CCB": ("Calcium Channel Blocker", "钙通道阻滞剂"),
-    "ACEI": ("Angiotensin-Converting Enzyme Inhibitor", "血管紧张素转化酶抑制剂"),
-    "ARB": ("Angiotensin Receptor Blocker", "血管紧张素受体阻滞剂"),
-    # 呼吸
-    "COPD": ("Chronic Obstructive Pulmonary Disease", "慢性阻塞性肺疾病"),
-    "ARDS": ("Acute Respiratory Distress Syndrome", "急性呼吸窘迫综合征"),
-    "PE": ("Pulmonary Embolism", "肺栓塞"),
-    "OSA": ("Obstructive Sleep Apnea", "阻塞性睡眠呼吸暂停"),
-    "FEV1": ("Forced Expiratory Volume in 1 second", "第1秒用力呼气容积"),
-    "FVC": ("Forced Vital Capacity", "用力肺活量"),
-    # 神经
-    "CVA": ("Cerebrovascular Accident", "脑血管意外（脑卒中）"),
-    "TIA": ("Transient Ischemic Attack", "短暂性脑缺血发作"),
-    "AD": ("Alzheimer's Disease", "阿尔茨海默病"),
-    "PD": ("Parkinson's Disease", "帕金森病"),
-    "MS": ("Multiple Sclerosis", "多发性硬化"),
-    "EEG": ("Electroencephalogram", "脑电图"),
-    "MRI": ("Magnetic Resonance Imaging", "磁共振成像"),
-    "CT": ("Computed Tomography", "计算机断层扫描"),
-    # 内分泌
-    "DM": ("Diabetes Mellitus", "糖尿病"),
-    "T1DM": ("Type 1 Diabetes Mellitus", "1型糖尿病"),
-    "T2DM": ("Type 2 Diabetes Mellitus", "2型糖尿病"),
-    "HbA1c": ("Glycated Hemoglobin", "糖化血红蛋白"),
-    "TSH": ("Thyroid-Stimulating Hormone", "促甲状腺激素"),
-    "DKA": ("Diabetic Ketoacidosis", "糖尿病酮症酸中毒"),
-    "PCOS": ("Polycystic Ovary Syndrome", "多囊卵巢综合征"),
-    # 肿瘤
-    "NSCLC": ("Non-Small Cell Lung Cancer", "非小细胞肺癌"),
-    "SCLC": ("Small Cell Lung Cancer", "小细胞肺癌"),
-    "CRC": ("Colorectal Cancer", "结直肠癌"),
-    "HCC": ("Hepatocellular Carcinoma", "肝细胞癌"),
-    "ALL": ("Acute Lymphoblastic Leukemia", "急性淋巴细胞白血病"),
-    "AML": ("Acute Myeloid Leukemia", "急性髓系白血病"),
-    "CML": ("Chronic Myeloid Leukemia", "慢性髓系白血病"),
-    "CR": ("Complete Response", "完全缓解"),
-    "PR": ("Partial Response", "部分缓解"),
-    "OS": ("Overall Survival", "总生存期"),
-    "PFS": ("Progression-Free Survival", "无进展生存期"),
-    # 感染
-    "UTI": ("Urinary Tract Infection", "泌尿系感染"),
-    "CAP": ("Community-Acquired Pneumonia", "社区获得性肺炎"),
-    "HAP": ("Hospital-Acquired Pneumonia", "医院获得性肺炎"),
-    "TB": ("Tuberculosis", "结核病"),
-    "HIV": ("Human Immunodeficiency Virus", "人类免疫缺陷病毒"),
-    "AIDS": ("Acquired Immunodeficiency Syndrome", "获得性免疫缺陷综合征"),
-    "HBV": ("Hepatitis B Virus", "乙型肝炎病毒"),
-    "HCV": ("Hepatitis C Virus", "丙型肝炎病毒"),
-    "MRSA": ("Methicillin-Resistant Staphylococcus Aureus", "耐甲氧西林金黄色葡萄球菌"),
-    # 消化
-    "GERD": ("Gastroesophageal Reflux Disease", "胃食管反流病"),
-    "IBD": ("Inflammatory Bowel Disease", "炎症性肠病"),
-    "UC": ("Ulcerative Colitis", "溃疡性结肠炎"),
-    "CD": ("Crohn's Disease", "克罗恩病"),
-    "IBS": ("Irritable Bowel Syndrome", "肠易激综合征"),
-    "NAFLD": ("Non-Alcoholic Fatty Liver Disease", "非酒精性脂肪性肝病"),
-    "PUD": ("Peptic Ulcer Disease", "消化性溃疡"),
-    # 肾脏
-    "CKD": ("Chronic Kidney Disease", "慢性肾脏病"),
-    "ESRD": ("End-Stage Renal Disease", "终末期肾病"),
-    "AKI": ("Acute Kidney Injury", "急性肾损伤"),
-    "GFR": ("Glomerular Filtration Rate", "肾小球滤过率"),
-    # 血液
-    "RBC": ("Red Blood Cell", "红细胞"),
-    "WBC": ("White Blood Cell", "白细胞"),
-    "PLT": ("Platelet", "血小板"),
-    "Hb": ("Hemoglobin", "血红蛋白"),
-    "Hct": ("Hematocrit", "血细胞比容"),
-    "PT": ("Prothrombin Time", "凝血酶原时间"),
-    "APTT": ("Activated Partial Thromboplastin Time", "活化部分凝血活酶时间"),
-    "INR": ("International Normalized Ratio", "国际标准化比值"),
-    "DVT": ("Deep Vein Thrombosis", "深静脉血栓"),
-    # 药理/试验设计
-    "RCT": ("Randomized Controlled Trial", "随机对照试验"),
-    "OR": ("Odds Ratio", "比值比"),
-    "RR": ("Risk Ratio", "风险比"),
-    "HR": ("Hazard Ratio", "风险比"),
-    "CI": ("Confidence Interval", "置信区间"),
-    "AE": ("Adverse Event", "不良事件"),
-    "SAE": ("Serious Adverse Event", "严重不良事件"),
-    "ITT": ("Intention-to-Treat", "意向性治疗分析"),
-    "PP": ("Per-Protocol", "符合方案集分析"),
-    # 其他常用
-    "q.d.": ("quaque die (once daily)", "每日一次"),
-    "b.i.d.": ("bis in die (twice daily)", "每日两次"),
-    "t.i.d.": ("ter in die (three times daily)", "每日三次"),
-    "p.r.n.": ("pro re nata (as needed)", "必要时"),
-    "NPO": ("nil per os (nothing by mouth)", "禁食"),
-    "STAT": ("statim (immediately)", "立即"),
-    "SOB": ("Shortness of Breath", "气促"),
-    "CP": ("Chest Pain", "胸痛"),
-    "LOC": ("Loss of Consciousness", "意识丧失"),
-    "ROS": ("Review of Systems", "系统回顾"),
-    "HPI": ("History of Present Illness", "现病史"),
-    "PMH": ("Past Medical History", "既往史"),
+def load_terms_from_csv(filepath: str):
+    """从 CSV 文件加载医学术语库，返回 (MEDICAL_ABBREVIATIONS, CN_TO_EN)"""
+    abbreviations = {}
+    cn_to_en = {}
+    with open(filepath, "r", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            abbr = row["缩写"].strip()
+            full_en = row["英文全称"].strip()
+            full_cn = row["中文译名"].strip()
+            if abbr:
+                abbreviations[abbr] = (full_en, full_cn)
+            # 中文→英文反向索引
+            if full_cn and full_cn not in cn_to_en:
+                cn_to_en[full_cn] = (abbr, full_en)
+    return abbreviations, cn_to_en
+
+MEDICAL_ABBREVIATIONS, CN_TO_EN = load_terms_from_csv(
+    os.path.join(os.path.dirname(__file__), "terms.csv")
+)
+
+# 额外中文术语（CSV 中可能没有的标准中文别名）
+_extra_cn = {
+    "高血压": ("HTN", "Hypertension"),
+    "糖尿病": ("DM", "Diabetes Mellitus"),
+    "心肌梗死": ("MI", "Myocardial Infarction"),
+    "心力衰竭": ("HF", "Heart Failure"),
+    "脑卒中": ("CVA", "Cerebrovascular Accident"),
+    "慢性阻塞性肺疾病": ("COPD", "Chronic Obstructive Pulmonary Disease"),
+    "磁共振成像": ("MRI", "Magnetic Resonance Imaging"),
+    "计算机断层扫描": ("CT", "Computed Tomography"),
+    "经皮冠状动脉介入治疗": ("PCI", "Percutaneous Coronary Intervention"),
+    "随机对照试验": ("RCT", "Randomized Controlled Trial"),
+    "总生存期": ("OS", "Overall Survival"),
+    "无进展生存期": ("PFS", "Progression-Free Survival"),
+    "急性冠脉综合征": ("ACS", "Acute Coronary Syndrome"),
+    "心房颤动": ("AF", "Atrial Fibrillation"),
+    "胃食管反流病": ("GERD", "Gastroesophageal Reflux Disease"),
+    "非小细胞肺癌": ("NSCLC", "Non-Small Cell Lung Cancer"),
+    "急性呼吸窘迫综合征": ("ARDS", "Acute Respiratory Distress Syndrome"),
+    "慢性肾脏病": ("CKD", "Chronic Kidney Disease"),
+    "炎症性肠病": ("IBD", "Inflammatory Bowel Disease"),
 }
-
-# 反查词典：中文 → (缩写, 英文全称)
-CN_TO_EN = {
-    # 从缩写库中提取中文→英文的映射
-}
-
-def build_cn_to_en():
-    """构建中文→英文反向查询词典"""
-    for abbr, (full_en, full_cn) in MEDICAL_ABBREVIATIONS.items():
-        # 如果中文名不在词典中，添加；如果缩写更常用则覆盖
-        if full_cn not in CN_TO_EN:
-            CN_TO_EN[full_cn] = (abbr, full_en)
-    # 补充额外中文术语
-    CN_TO_EN.update({
-        "高血压": ("HTN", "Hypertension"),
-        "糖尿病": ("DM", "Diabetes Mellitus"),
-        "心肌梗死": ("MI", "Myocardial Infarction"),
-        "心力衰竭": ("HF", "Heart Failure"),
-        "脑卒中": ("CVA", "Cerebrovascular Accident"),
-        "慢性阻塞性肺疾病": ("COPD", "Chronic Obstructive Pulmonary Disease"),
-        "磁共振成像": ("MRI", "Magnetic Resonance Imaging"),
-        "计算机断层扫描": ("CT", "Computed Tomography"),
-        "经皮冠状动脉介入治疗": ("PCI", "Percutaneous Coronary Intervention"),
-        "随机对照试验": ("RCT", "Randomized Controlled Trial"),
-        "不良事件": ("AE", "Adverse Event"),
-        "严重不良事件": ("SAE", "Serious Adverse Event"),
-        "总生存期": ("OS", "Overall Survival"),
-        "无进展生存期": ("PFS", "Progression-Free Survival"),
-        "急性冠脉综合征": ("ACS", "Acute Coronary Syndrome"),
-        "心房颤动": ("AF", "Atrial Fibrillation"),
-        "冠状动脉疾病": ("CAD", "Coronary Artery Disease"),
-        "胃食管反流病": ("GERD", "Gastroesophageal Reflux Disease"),
-        "非小细胞肺癌": ("NSCLC", "Non-Small Cell Lung Cancer"),
-        "急性呼吸窘迫综合征": ("ARDS", "Acute Respiratory Distress Syndrome"),
-        "慢性肾脏病": ("CKD", "Chronic Kidney Disease"),
-        "炎症性肠病": ("IBD", "Inflammatory Bowel Disease"),
-    })
-
-build_cn_to_en()
+for cn, (abbr, en) in _extra_cn.items():
+    if cn not in CN_TO_EN:
+        CN_TO_EN[cn] = (abbr, en)
 
 
 def find_abbreviations_in_text(text: str) -> list:
@@ -306,8 +210,6 @@ def find_abbreviations_in_text(text: str) -> list:
     found = []
     text_upper = text.upper()
     for abbr, (full_en, full_cn) in MEDICAL_ABBREVIATIONS.items():
-        # 用词边界匹配，避免 "PCI" 匹配到 "PCIE"
-        import re
         pattern = r'\b' + re.escape(abbr.upper()) + r'\b'
         if re.search(pattern, text_upper):
             found.append((abbr, full_en, full_cn))
