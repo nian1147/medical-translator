@@ -732,8 +732,20 @@ was also lower in the PCI group (8.3% vs 15.7%, p<0.001).""", language=None)
                                 )
                             st.markdown(chips_html, unsafe_allow_html=True)
 
+                        # 将「关键术语注释」部分折叠
+                        import re as _re
+                        _parts = _re.split(
+                            r'(?:\n\n|\n)(?:##\s*)?(?:关键术语注释|关键术语|术语注释|📌 关键术语|📋 术语注释)',
+                            result, maxsplit=1
+                        )
+                        translation_body = _parts[0].strip()
+                        glossary_section = _parts[1].strip() if len(_parts) > 1 else ""
+
                         st.markdown("##### 📝 翻译正文")
-                        st.markdown(f'<div class="result-box">{result}</div>', unsafe_allow_html=True)
+                        st.markdown(f'<div class="result-box">{translation_body}</div>', unsafe_allow_html=True)
+                        if glossary_section:
+                            with st.expander("📋 关键术语注释", expanded=False):
+                                st.markdown(glossary_section)
 
                     except Exception as e:
                         st.error(f"翻译失败：{str(e)}")
@@ -914,8 +926,20 @@ with tab3:
                         status_text.text("✅ 翻译完成！")
                         combined = "\n\n---\n\n".join(full_result)
 
+                        # 将「关键术语注释」部分折叠
+                        import re as _re2
+                        _parts2 = _re2.split(
+                            r'(?:\n\n|\n)(?:##\s*)?(?:关键术语注释|关键术语|术语注释|📌 关键术语|📋 术语注释)',
+                            combined, maxsplit=1
+                        )
+                        _body = _parts2[0].strip()
+                        _glossary = _parts2[1].strip() if len(_parts2) > 1 else ""
+
                         st.markdown("##### 📝 翻译结果")
-                        st.markdown(f'<div class="result-box">{combined}</div>', unsafe_allow_html=True)
+                        st.markdown(f'<div class="result-box">{_body}</div>', unsafe_allow_html=True)
+                        if _glossary:
+                            with st.expander("📋 关键术语注释", expanded=False):
+                                st.markdown(_glossary)
 
                         col_dl1, col_dl2 = st.columns([1, 3])
                         with col_dl1:
