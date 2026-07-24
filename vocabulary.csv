@@ -1,144 +1,326 @@
-è‹±æ–‡æœ¯è¯­,ä¸­æ–‡è¯‘å,å­¦ç§‘
-myocardial infarction,å¿ƒè‚Œæ¢—æ­»,å¿ƒè¡€ç®¡
-coronary artery disease,å† çŠ¶åŠ¨è„‰ç–¾ç—…,å¿ƒè¡€ç®¡
-atherosclerosis,åŠ¨è„‰ç²¥æ ·ç¡¬åŒ–,å¿ƒè¡€ç®¡
-revascularization,è¡€è¿é‡å»º,å¿ƒè¡€ç®¡
-stent thrombosis,æ”¯æ¶å†…è¡€æ “,å¿ƒè¡€ç®¡
-restenosis,å†ç‹­çª„,å¿ƒè¡€ç®¡
-cardiac troponin,å¿ƒè‚Œè‚Œé’™è›‹ç™½,å¿ƒè¡€ç®¡
-natriuretic peptide,åˆ©é’ è‚½,å¿ƒè¡€ç®¡
-cardiac output,å¿ƒè¾“å‡ºé‡,å¿ƒè¡€ç®¡
-systemic vascular resistance,ä½“å¾ªç¯è¡€ç®¡é˜»åŠ›,å¿ƒè¡€ç®¡
-pulmonary capillary wedge pressure,è‚ºæ¯›ç»†è¡€ç®¡æ¥”å‹,å¿ƒè¡€ç®¡
-cardiogenic shock,å¿ƒæºæ€§ä¼‘å…‹,å¿ƒè¡€ç®¡
-systolic dysfunction,æ”¶ç¼©åŠŸèƒ½éšœç¢,å¿ƒè¡€ç®¡
-diastolic dysfunction,èˆ’å¼ åŠŸèƒ½éšœç¢,å¿ƒè¡€ç®¡
-ventricular remodeling,å¿ƒå®¤é‡æ„,å¿ƒè¡€ç®¡
-oxidative stress,æ°§åŒ–åº”æ¿€,åŸºç¡€åŒ»å­¦
-inflammation,ç‚ç—‡,åŸºç¡€åŒ»å­¦
-apoptosis,ç»†èƒå‡‹äº¡,åŸºç¡€åŒ»å­¦
-autophagy,è‡ªå™¬,åŸºç¡€åŒ»å­¦
-necrosis,åæ­»,åŸºç¡€åŒ»å­¦
-fibrosis,çº¤ç»´åŒ–,åŸºç¡€åŒ»å­¦
-ischemia reperfusion injury,ç¼ºè¡€å†çŒæ³¨æŸä¼¤,åŸºç¡€åŒ»å­¦
-signal transduction,ä¿¡å·è½¬å¯¼,åŸºç¡€åŒ»å­¦
-transcription factor,è½¬å½•å› å­,åŸºç¡€åŒ»å­¦
-gene expression,åŸºå› è¡¨è¾¾,åŸºç¡€åŒ»å­¦
-epigenetics,è¡¨è§‚é—ä¼ å­¦,åŸºç¡€åŒ»å­¦
-methylation,ç”²åŸºåŒ–,åŸºç¡€åŒ»å­¦
-phosphorylation,ç£·é…¸åŒ–,åŸºç¡€åŒ»å­¦
-ubiquitination,æ³›ç´ åŒ–,åŸºç¡€åŒ»å­¦
-proteasome,è›‹ç™½é…¶ä½“,åŸºç¡€åŒ»å­¦
-neovascularization,æ–°ç”Ÿè¡€ç®¡å½¢æˆ,åŸºç¡€åŒ»å­¦
-angiogenesis,è¡€ç®¡ç”Ÿæˆ,åŸºç¡€åŒ»å­¦
-vasculogenesis,è¡€ç®¡å‘ç”Ÿ,åŸºç¡€åŒ»å­¦
-lymphangiogenesis,æ·‹å·´ç®¡ç”Ÿæˆ,åŸºç¡€åŒ»å­¦
-epithelial mesenchymal transition,ä¸Šçš®é—´è´¨è½¬åŒ–,è‚¿ç˜¤
-tumor microenvironment,è‚¿ç˜¤å¾®ç¯å¢ƒ,è‚¿ç˜¤
-immune checkpoint,å…ç–«æ£€æŸ¥ç‚¹,è‚¿ç˜¤
-programmed cell death,ç¨‹åºæ€§ç»†èƒæ­»äº¡,è‚¿ç˜¤
-tumor infiltrating lymphocyte,è‚¿ç˜¤æµ¸æ¶¦æ·‹å·´ç»†èƒ,è‚¿ç˜¤
-microsatellite instability,å¾®å«æ˜Ÿä¸ç¨³å®šæ€§,è‚¿ç˜¤
-mismatch repair,é”™é…ä¿®å¤,è‚¿ç˜¤
-circulating tumor DNA,å¾ªç¯è‚¿ç˜¤DNA,è‚¿ç˜¤
-minimal residual disease,å¾®å°æ®‹ç•™ç—…å˜,è‚¿ç˜¤
-neoadjuvant chemotherapy,æ–°è¾…åŠ©åŒ–ç–—,è‚¿ç˜¤
-adjuvant chemotherapy,è¾…åŠ©åŒ–ç–—,è‚¿ç˜¤
-palliative care,å§‘æ¯æ²»ç–—,è‚¿ç˜¤
-cytokine release syndrome,ç»†èƒå› å­é‡Šæ”¾ç»¼åˆå¾,è‚¿ç˜¤
-glomerular filtration rate,è‚¾å°çƒæ»¤è¿‡ç‡,è‚¾ç—…
-tubulointerstitial fibrosis,è‚¾å°ç®¡é—´è´¨çº¤ç»´åŒ–,è‚¾ç—…
-proteinuria,è›‹ç™½å°¿,è‚¾ç—…
-hematuria,è¡€å°¿,è‚¾ç—…
-nephrotic syndrome,è‚¾ç—…ç»¼åˆå¾,è‚¾ç—…
-nephritic syndrome,è‚¾ç‚ç»¼åˆå¾,è‚¾ç—…
-renin angiotensin aldosterone system,è‚¾ç´ è¡€ç®¡ç´§å¼ ç´ é†›å›ºé…®ç³»ç»Ÿ,å†…åˆ†æ³Œ
-glycemic control,è¡€ç³–æ§åˆ¶,å†…åˆ†æ³Œ
-insulin resistance,èƒ°å²›ç´ æŠµæŠ—,å†…åˆ†æ³Œ
-beta cell dysfunction,Î²ç»†èƒåŠŸèƒ½éšœç¢,å†…åˆ†æ³Œ
-glycemic variability,è¡€ç³–å˜å¼‚æ€§,å†…åˆ†æ³Œ
-hypoglycemia unawareness,æ— ç—‡çŠ¶æ€§ä½è¡€ç³–,å†…åˆ†æ³Œ
-metabolic syndrome,ä»£è°¢ç»¼åˆå¾,å†…åˆ†æ³Œ
-thyroid storm,ç”²çŠ¶è…ºå±è±¡,å†…åˆ†æ³Œ
-diabetic neuropathy,ç³–å°¿ç—…ç¥ç»ç—…å˜,å†…åˆ†æ³Œ
-diabetic retinopathy,ç³–å°¿ç—…è§†ç½‘è†œç—…å˜,å†…åˆ†æ³Œ
-diabetic nephropathy,ç³–å°¿ç—…è‚¾ç—…,å†…åˆ†æ³Œ
-bronchoalveolar lavage,æ”¯æ°”ç®¡è‚ºæ³¡çŒæ´—,å‘¼å¸
-ventilation perfusion mismatch,é€šæ°”çŒæ³¨ä¸åŒ¹é…,å‘¼å¸
-airway remodeling,æ°”é“é‡å¡‘,å‘¼å¸
-mucociliary clearance,é»æ¶²çº¤æ¯›æ¸…é™¤,å‘¼å¸
-pulmonary hypertension,è‚ºåŠ¨è„‰é«˜å‹,å‘¼å¸
-diffuse alveolar damage,å¼¥æ¼«æ€§è‚ºæ³¡æŸä¼¤,å‘¼å¸
-ground glass opacity,ç£¨ç»ç’ƒæ ·é˜´å½±,å½±åƒ
-consolidation,å®å˜,å½±åƒ
-cerebrospinal fluid,è„‘è„Šæ¶²,ç¥ç»
-blood brain barrier,è¡€è„‘å±éšœ,ç¥ç»
-synaptic plasticity,çªè§¦å¯å¡‘æ€§,ç¥ç»
-neuroinflammation,ç¥ç»ç‚ç—‡,ç¥ç»
-neurodegeneration,ç¥ç»é€€è¡Œæ€§å˜,ç¥ç»
-demyelination,è„±é«“é˜,ç¥ç»
-excitotoxicity,å…´å¥‹æ€§æ¯’æ€§,ç¥ç»
-coagulation cascade,å‡è¡€çº§è”ååº”,è¡€æ¶²
-fibrinolysis,çº¤ç»´è›‹ç™½æº¶è§£,è¡€æ¶²
-hematopoiesis,é€ è¡€,è¡€æ¶²
-erythropoiesis,çº¢ç»†èƒç”Ÿæˆ,è¡€æ¶²
-thrombocytopenia,è¡€å°æ¿å‡å°‘,è¡€æ¶²
-neutropenia,ä¸­æ€§ç²’ç»†èƒå‡å°‘,è¡€æ¶²
-leukocytosis,ç™½ç»†èƒå¢å¤š,è¡€æ¶²
-acid base balance,é…¸ç¢±å¹³è¡¡,ç”Ÿç†å­¦
-homeostasis,å†…ç¨³æ€,ç”Ÿç†å­¦
-pharmacokinetics,è¯ä»£åŠ¨åŠ›å­¦,è¯ç†
-pharmacodynamics,è¯æ•ˆåŠ¨åŠ›å­¦,è¯ç†
-bioavailability,ç”Ÿç‰©åˆ©ç”¨åº¦,è¯ç†
-therapeutic index,æ²»ç–—æŒ‡æ•°,è¯ç†
-adverse drug reaction,è¯ç‰©ä¸è‰¯ååº”,è¯ç†
-drug drug interaction,è¯ç‰©ç›¸äº’ä½œç”¨,è¯ç†
-cytochrome P450,ç»†èƒè‰²ç´ P450,è¯ç†
-half life,åŠè¡°æœŸ,è¯ç†
-steady state concentration,ç¨³æ€è¡€è¯æµ“åº¦,è¯ç†
-first pass effect,é¦–è¿‡æ•ˆåº”,è¯ç†
-dose response relationship,é‡æ•ˆå…³ç³»,è¯ç†
-placebo effect,å®‰æ…°å‰‚æ•ˆåº”,ä¸´åºŠç ”ç©¶
-confounding factor,æ··æ‚å› ç´ ,ä¸´åºŠç ”ç©¶
-selection bias,é€‰æ‹©åå€š,ä¸´åºŠç ”ç©¶
-publication bias,å‘è¡¨åå€š,ä¸´åºŠç ”ç©¶
-statistical significance,ç»Ÿè®¡å­¦æ˜¾è‘—æ€§,ä¸´åºŠç ”ç©¶
-power analysis,æŠŠæ¡åº¦åˆ†æ,ä¸´åºŠç ”ç©¶
-sample size calculation,æ ·æœ¬é‡è®¡ç®—,ä¸´åºŠç ”ç©¶
-primary endpoint,ä¸»è¦ç»ˆç‚¹,ä¸´åºŠç ”ç©¶
-secondary endpoint,æ¬¡è¦ç»ˆç‚¹,ä¸´åºŠç ”ç©¶
-surrogate endpoint,æ›¿ä»£ç»ˆç‚¹,ä¸´åºŠç ”ç©¶
-number needed to treat,éœ€è¦æ²»ç–—çš„äººæ•°,ä¸´åºŠç ”ç©¶
-number needed to harm,éœ€è¦ä¼¤å®³çš„äººæ•°,ä¸´åºŠç ”ç©¶
-absolute risk reduction,ç»å¯¹é£é™©é™ä½,ä¸´åºŠç ”ç©¶
-relative risk reduction,ç›¸å¯¹é£é™©é™ä½,ä¸´åºŠç ”ç©¶
-sensitivity,çµæ•åº¦,ä¸´åºŠç ”ç©¶
-specificity,ç‰¹å¼‚åº¦,ä¸´åºŠç ”ç©¶
-positive predictive value,é˜³æ€§é¢„æµ‹å€¼,ä¸´åºŠç ”ç©¶
-negative predictive value,é˜´æ€§é¢„æµ‹å€¼,ä¸´åºŠç ”ç©¶
-likelihood ratio,ä¼¼ç„¶æ¯”,ä¸´åºŠç ”ç©¶
-area under curve,æ›²çº¿ä¸‹é¢ç§¯,ä¸´åºŠç ”ç©¶
-receiver operating characteristic,å—è¯•è€…å·¥ä½œç‰¹å¾æ›²çº¿,ä¸´åºŠç ”ç©¶
-informed consent,çŸ¥æƒ…åŒæ„,åŒ»å­¦ä¼¦ç†
-institutional review board,æœºæ„å®¡æŸ¥å§”å‘˜ä¼š,åŒ»å­¦ä¼¦ç†
-declaration of Helsinki,èµ«å°”è¾›åŸºå®£è¨€,åŒ»å­¦ä¼¦ç†
-evidence based medicine,å¾ªè¯åŒ»å­¦,ä¸´åºŠç ”ç©¶
-systematic review,ç³»ç»Ÿç»¼è¿°,ä¸´åºŠç ”ç©¶
-case control study,ç—…ä¾‹å¯¹ç…§ç ”ç©¶,ä¸´åºŠç ”ç©¶
-cohort study,é˜Ÿåˆ—ç ”ç©¶,ä¸´åºŠç ”ç©¶
-cross sectional study,æ¨ªæ–­é¢ç ”ç©¶,ä¸´åºŠç ”ç©¶
-longitudinal study,çºµå‘ç ”ç©¶,ä¸´åºŠç ”ç©¶
-prospective study,å‰ç»æ€§ç ”ç©¶,ä¸´åºŠç ”ç©¶
-retrospective study,å›é¡¾æ€§ç ”ç©¶,ä¸´åºŠç ”ç©¶
-histopathology,ç»„ç»‡ç—…ç†å­¦,ç—…ç†
-immunohistochemistry,å…ç–«ç»„ç»‡åŒ–å­¦,ç—…ç†
-in situ hybridization,åŸä½æ‚äº¤,ç—…ç†
-polymerase chain reaction,èšåˆé…¶é“¾ååº”,åˆ†å­ç”Ÿç‰©å­¦
-western blot,è›‹ç™½è´¨å°è¿¹æ³•,åˆ†å­ç”Ÿç‰©å­¦
-enzyme linked immunosorbent assay,é…¶è”å…ç–«å¸é™„è¯•éªŒ,åˆ†å­ç”Ÿç‰©å­¦
-flow cytometry,æµå¼ç»†èƒæœ¯,åˆ†å­ç”Ÿç‰©å­¦
-next generation sequencing,ä¸‹ä¸€ä»£æµ‹åº,åˆ†å­ç”Ÿç‰©å­¦
-genome wide association study,å…¨åŸºå› ç»„å…³è”ç ”ç©¶,é—ä¼ å­¦
-single nucleotide polymorphism,å•æ ¸è‹·é…¸å¤šæ€æ€§,é—ä¼ å­¦
-copy number variation,æ‹·è´æ•°å˜å¼‚,é—ä¼ å­¦
-loss of heterozygosity,æ‚åˆæ€§ç¼ºå¤±,é—ä¼ å­¦
+Ó¢ÎÄÊõÓï,ÖĞÎÄÒëÃû,Ñ§¿Æ
+myocardial infarction,ĞÄ¼¡¹£ËÀ,ĞÄÑª¹Ü
+coronary artery disease,¹Ú×´¶¯Âö¼²²¡,ĞÄÑª¹Ü
+atherosclerosis,¶¯ÂöÖàÑùÓ²»¯,ĞÄÑª¹Ü
+revascularization,ÑªÔËÖØ½¨,ĞÄÑª¹Ü
+stent thrombosis,Ö§¼ÜÄÚÑªË¨,ĞÄÑª¹Ü
+restenosis,ÔÙÏÁÕ­,ĞÄÑª¹Ü
+cardiac troponin,ĞÄ¼¡¼¡¸Æµ°°×,ĞÄÑª¹Ü
+natriuretic peptide,ÀûÄÆëÄ,ĞÄÑª¹Ü
+cardiac output,ĞÄÊä³öÁ¿,ĞÄÑª¹Ü
+systemic vascular resistance,ÌåÑ­»·Ñª¹Ü×èÁ¦,ĞÄÑª¹Ü
+pulmonary capillary wedge pressure,·ÎÃ«Ï¸Ñª¹ÜĞ¨Ñ¹,ĞÄÑª¹Ü
+cardiogenic shock,ĞÄÔ´ĞÔĞİ¿Ë,ĞÄÑª¹Ü
+systolic dysfunction,ÊÕËõ¹¦ÄÜÕÏ°­,ĞÄÑª¹Ü
+diastolic dysfunction,ÊæÕÅ¹¦ÄÜÕÏ°­,ĞÄÑª¹Ü
+ventricular remodeling,ĞÄÊÒÖØ¹¹,ĞÄÑª¹Ü
+oxidative stress,Ñõ»¯Ó¦¼¤,»ù´¡Ò½Ñ§
+inflammation,Ñ×Ö¢,»ù´¡Ò½Ñ§
+apoptosis,Ï¸°ûµòÍö,»ù´¡Ò½Ñ§
+autophagy,×ÔÊÉ,»ù´¡Ò½Ñ§
+necrosis,»µËÀ,»ù´¡Ò½Ñ§
+fibrosis,ÏËÎ¬»¯,»ù´¡Ò½Ñ§
+ischemia reperfusion injury,È±ÑªÔÙ¹à×¢ËğÉË,»ù´¡Ò½Ñ§
+signal transduction,ĞÅºÅ×ªµ¼,»ù´¡Ò½Ñ§
+transcription factor,×ªÂ¼Òò×Ó,»ù´¡Ò½Ñ§
+gene expression,»ùÒò±í´ï,»ù´¡Ò½Ñ§
+epigenetics,±í¹ÛÒÅ´«Ñ§,»ù´¡Ò½Ñ§
+methylation,¼×»ù»¯,»ù´¡Ò½Ñ§
+phosphorylation,Á×Ëá»¯,»ù´¡Ò½Ñ§
+ubiquitination,·ºËØ»¯,»ù´¡Ò½Ñ§
+proteasome,µ°°×Ã¸Ìå,»ù´¡Ò½Ñ§
+neovascularization,ĞÂÉúÑª¹ÜĞÎ³É,»ù´¡Ò½Ñ§
+angiogenesis,Ñª¹ÜÉú³É,»ù´¡Ò½Ñ§
+vasculogenesis,Ñª¹Ü·¢Éú,»ù´¡Ò½Ñ§
+lymphangiogenesis,ÁÜ°Í¹ÜÉú³É,»ù´¡Ò½Ñ§
+epithelial mesenchymal transition,ÉÏÆ¤¼äÖÊ×ª»¯,Ö×Áö
+tumor microenvironment,Ö×ÁöÎ¢»·¾³,Ö×Áö
+immune checkpoint,ÃâÒß¼ì²éµã,Ö×Áö
+programmed cell death,³ÌĞòĞÔÏ¸°ûËÀÍö,Ö×Áö
+tumor infiltrating lymphocyte,Ö×Áö½şÈóÁÜ°ÍÏ¸°û,Ö×Áö
+microsatellite instability,Î¢ÎÀĞÇ²»ÎÈ¶¨ĞÔ,Ö×Áö
+mismatch repair,´íÅäĞŞ¸´,Ö×Áö
+circulating tumor DNA,Ñ­»·Ö×ÁöDNA,Ö×Áö
+minimal residual disease,Î¢Ğ¡²ĞÁô²¡±ä,Ö×Áö
+neoadjuvant chemotherapy,ĞÂ¸¨Öú»¯ÁÆ,Ö×Áö
+adjuvant chemotherapy,¸¨Öú»¯ÁÆ,Ö×Áö
+palliative care,¹ÃÏ¢ÖÎÁÆ,Ö×Áö
+cytokine release syndrome,Ï¸°ûÒò×ÓÊÍ·Å×ÛºÏÕ÷,Ö×Áö
+glomerular filtration rate,ÉöĞ¡ÇòÂË¹ıÂÊ,Éö²¡
+tubulointerstitial fibrosis,ÉöĞ¡¹Ü¼äÖÊÏËÎ¬»¯,Éö²¡
+proteinuria,µ°°×Äò,Éö²¡
+hematuria,ÑªÄò,Éö²¡
+nephrotic syndrome,Éö²¡×ÛºÏÕ÷,Éö²¡
+nephritic syndrome,ÉöÑ××ÛºÏÕ÷,Éö²¡
+renin angiotensin aldosterone system,ÉöËØÑª¹Ü½ôÕÅËØÈ©¹ÌÍªÏµÍ³,ÄÚ·ÖÃÚ
+glycemic control,ÑªÌÇ¿ØÖÆ,ÄÚ·ÖÃÚ
+insulin resistance,ÒÈµºËØµÖ¿¹,ÄÚ·ÖÃÚ
+beta cell dysfunction,¦ÂÏ¸°û¹¦ÄÜÕÏ°­,ÄÚ·ÖÃÚ
+glycemic variability,ÑªÌÇ±äÒìĞÔ,ÄÚ·ÖÃÚ
+hypoglycemia unawareness,ÎŞÖ¢×´ĞÔµÍÑªÌÇ,ÄÚ·ÖÃÚ
+metabolic syndrome,´úĞ»×ÛºÏÕ÷,ÄÚ·ÖÃÚ
+thyroid storm,¼××´ÏÙÎ£Ïó,ÄÚ·ÖÃÚ
+diabetic neuropathy,ÌÇÄò²¡Éñ¾­²¡±ä,ÄÚ·ÖÃÚ
+diabetic retinopathy,ÌÇÄò²¡ÊÓÍøÄ¤²¡±ä,ÄÚ·ÖÃÚ
+diabetic nephropathy,ÌÇÄò²¡Éö²¡,ÄÚ·ÖÃÚ
+bronchoalveolar lavage,Ö§Æø¹Ü·ÎÅİ¹àÏ´,ºôÎü
+ventilation perfusion mismatch,Í¨Æø¹à×¢²»Æ¥Åä,ºôÎü
+airway remodeling,ÆøµÀÖØËÜ,ºôÎü
+mucociliary clearance,ğ¤ÒºÏËÃ«Çå³ı,ºôÎü
+pulmonary hypertension,·Î¶¯Âö¸ßÑ¹,ºôÎü
+diffuse alveolar damage,ÃÖÂşĞÔ·ÎÅİËğÉË,ºôÎü
+ground glass opacity,Ä¥²£Á§ÑùÒõÓ°,Ó°Ïñ
+consolidation,Êµ±ä,Ó°Ïñ
+cerebrospinal fluid,ÄÔ¼¹Òº,Éñ¾­
+blood brain barrier,ÑªÄÔÆÁÕÏ,Éñ¾­
+synaptic plasticity,Í»´¥¿ÉËÜĞÔ,Éñ¾­
+neuroinflammation,Éñ¾­Ñ×Ö¢,Éñ¾­
+neurodegeneration,Éñ¾­ÍËĞĞĞÔ±ä,Éñ¾­
+demyelination,ÍÑËèÇÊ,Éñ¾­
+excitotoxicity,ĞË·ÜĞÔ¶¾ĞÔ,Éñ¾­
+coagulation cascade,ÄıÑª¼¶Áª·´Ó¦,ÑªÒº
+fibrinolysis,ÏËÎ¬µ°°×ÈÜ½â,ÑªÒº
+hematopoiesis,ÔìÑª,ÑªÒº
+erythropoiesis,ºìÏ¸°ûÉú³É,ÑªÒº
+thrombocytopenia,ÑªĞ¡°å¼õÉÙ,ÑªÒº
+neutropenia,ÖĞĞÔÁ£Ï¸°û¼õÉÙ,ÑªÒº
+leukocytosis,°×Ï¸°ûÔö¶à,ÑªÒº
+acid base balance,Ëá¼îÆ½ºâ,ÉúÀíÑ§
+homeostasis,ÄÚÎÈÌ¬,ÉúÀíÑ§
+pharmacokinetics,Ò©´ú¶¯Á¦Ñ§,Ò©Àí
+pharmacodynamics,Ò©Ğ§¶¯Á¦Ñ§,Ò©Àí
+bioavailability,ÉúÎïÀûÓÃ¶È,Ò©Àí
+therapeutic index,ÖÎÁÆÖ¸Êı,Ò©Àí
+adverse drug reaction,Ò©Îï²»Á¼·´Ó¦,Ò©Àí
+drug drug interaction,Ò©ÎïÏà»¥×÷ÓÃ,Ò©Àí
+cytochrome P450,Ï¸°ûÉ«ËØP450,Ò©Àí
+half life,°ëË¥ÆÚ,Ò©Àí
+steady state concentration,ÎÈÌ¬ÑªÒ©Å¨¶È,Ò©Àí
+first pass effect,Ê×¹ıĞ§Ó¦,Ò©Àí
+dose response relationship,Á¿Ğ§¹ØÏµ,Ò©Àí
+placebo effect,°²Î¿¼ÁĞ§Ó¦,ÁÙ´²ÑĞ¾¿
+confounding factor,»ìÔÓÒòËØ,ÁÙ´²ÑĞ¾¿
+selection bias,Ñ¡ÔñÆ«ÒĞ,ÁÙ´²ÑĞ¾¿
+publication bias,·¢±íÆ«ÒĞ,ÁÙ´²ÑĞ¾¿
+statistical significance,Í³¼ÆÑ§ÏÔÖøĞÔ,ÁÙ´²ÑĞ¾¿
+power analysis,°ÑÎÕ¶È·ÖÎö,ÁÙ´²ÑĞ¾¿
+sample size calculation,Ñù±¾Á¿¼ÆËã,ÁÙ´²ÑĞ¾¿
+primary endpoint,Ö÷ÒªÖÕµã,ÁÙ´²ÑĞ¾¿
+secondary endpoint,´ÎÒªÖÕµã,ÁÙ´²ÑĞ¾¿
+surrogate endpoint,Ìæ´úÖÕµã,ÁÙ´²ÑĞ¾¿
+number needed to treat,ĞèÒªÖÎÁÆµÄÈËÊı,ÁÙ´²ÑĞ¾¿
+number needed to harm,ĞèÒªÉËº¦µÄÈËÊı,ÁÙ´²ÑĞ¾¿
+absolute risk reduction,¾ø¶Ô·çÏÕ½µµÍ,ÁÙ´²ÑĞ¾¿
+relative risk reduction,Ïà¶Ô·çÏÕ½µµÍ,ÁÙ´²ÑĞ¾¿
+sensitivity,ÁéÃô¶È,ÁÙ´²ÑĞ¾¿
+specificity,ÌØÒì¶È,ÁÙ´²ÑĞ¾¿
+positive predictive value,ÑôĞÔÔ¤²âÖµ,ÁÙ´²ÑĞ¾¿
+negative predictive value,ÒõĞÔÔ¤²âÖµ,ÁÙ´²ÑĞ¾¿
+likelihood ratio,ËÆÈ»±È,ÁÙ´²ÑĞ¾¿
+area under curve,ÇúÏßÏÂÃæ»ı,ÁÙ´²ÑĞ¾¿
+receiver operating characteristic,ÊÜÊÔÕß¹¤×÷ÌØÕ÷ÇúÏß,ÁÙ´²ÑĞ¾¿
+informed consent,ÖªÇéÍ¬Òâ,Ò½Ñ§Â×Àí
+institutional review board,»ú¹¹Éó²éÎ¯Ô±»á,Ò½Ñ§Â×Àí
+declaration of Helsinki,ºÕ¶ûĞÁ»ùĞûÑÔ,Ò½Ñ§Â×Àí
+evidence based medicine,Ñ­Ö¤Ò½Ñ§,ÁÙ´²ÑĞ¾¿
+systematic review,ÏµÍ³×ÛÊö,ÁÙ´²ÑĞ¾¿
+case control study,²¡Àı¶ÔÕÕÑĞ¾¿,ÁÙ´²ÑĞ¾¿
+cohort study,¶ÓÁĞÑĞ¾¿,ÁÙ´²ÑĞ¾¿
+cross sectional study,ºá¶ÏÃæÑĞ¾¿,ÁÙ´²ÑĞ¾¿
+longitudinal study,×İÏòÑĞ¾¿,ÁÙ´²ÑĞ¾¿
+prospective study,Ç°Õ°ĞÔÑĞ¾¿,ÁÙ´²ÑĞ¾¿
+retrospective study,»Ø¹ËĞÔÑĞ¾¿,ÁÙ´²ÑĞ¾¿
+histopathology,×éÖ¯²¡ÀíÑ§,²¡Àí
+immunohistochemistry,ÃâÒß×éÖ¯»¯Ñ§,²¡Àí
+in situ hybridization,Ô­Î»ÔÓ½»,²¡Àí
+polymerase chain reaction,¾ÛºÏÃ¸Á´·´Ó¦,·Ö×ÓÉúÎïÑ§
+western blot,µ°°×ÖÊÓ¡¼£·¨,·Ö×ÓÉúÎïÑ§
+enzyme linked immunosorbent assay,Ã¸ÁªÃâÒßÎü¸½ÊÔÑé,·Ö×ÓÉúÎïÑ§
+flow cytometry,Á÷Ê½Ï¸°ûÊõ,·Ö×ÓÉúÎïÑ§
+next generation sequencing,ÏÂÒ»´ú²âĞò,·Ö×ÓÉúÎïÑ§
+genome wide association study,È«»ùÒò×é¹ØÁªÑĞ¾¿,ÒÅ´«Ñ§
+single nucleotide polymorphism,µ¥ºËÜÕËá¶àÌ¬ĞÔ,ÒÅ´«Ñ§
+copy number variation,¿½±´Êı±äÒì,ÒÅ´«Ñ§
+loss of heterozygosity,ÔÓºÏĞÔÈ±Ê§,ÒÅ´«Ñ§
+DNA,ÍÑÑõºËÌÇºËËá,·Ö×ÓÉúÎïÑ§
+RNA,ºËÌÇºËËá,·Ö×ÓÉúÎïÑ§
+PCR,¾ÛºÏÃ¸Á´·´Ó¦,·Ö×ÓÉúÎïÑ§
+qPCR,ÊµÊ±Ó«¹â¶¨Á¿¾ÛºÏÃ¸Á´·´Ó¦,·Ö×ÓÉúÎïÑ§
+RT-PCR,Äæ×ªÂ¼¾ÛºÏÃ¸Á´·´Ó¦,·Ö×ÓÉúÎïÑ§
+Southern blot,DNAÓ¡¼£·¨,·Ö×ÓÉúÎïÑ§
+Northern blot,RNAÓ¡¼£·¨,·Ö×ÓÉúÎïÑ§
+ELISA,Ã¸ÁªÃâÒßÎü¸½²â¶¨,·Ö×ÓÉúÎïÑ§
+EMSA,µçÓ¾Ç¨ÒÆÂÊ±ä¶¯·ÖÎö,·Ö×ÓÉúÎïÑ§
+ChIP,È¾É«ÖÊÃâÒß³Áµí,·Ö×ÓÉúÎïÑ§
+RNAi,RNA¸ÉÈÅ,·Ö×ÓÉúÎïÑ§
+siRNA,Ğ¡¸ÉÈÅRNA,·Ö×ÓÉúÎïÑ§
+miRNA,Î¢Ğ¡RNA,·Ö×ÓÉúÎïÑ§
+lncRNA,³¤Á´·Ç±àÂëRNA,·Ö×ÓÉúÎïÑ§
+CRISPR,³É´Ø¹æÂÉ¼ä¸ô¶Ì»ØÎÄÖØ¸´ĞòÁĞ,·Ö×ÓÉúÎïÑ§
+Cas9,CRISPRÏà¹Øµ°°×9,·Ö×ÓÉúÎïÑ§
+Plasmid,ÖÊÁ£,·Ö×ÓÉúÎïÑ§
+Vector,ÔØÌå,·Ö×ÓÉúÎïÑ§
+Promoter,Æô¶¯×Ó,·Ö×ÓÉúÎïÑ§
+Enhancer,ÔöÇ¿×Ó,·Ö×ÓÉúÎïÑ§
+Exon,ÍâÏÔ×Ó,·Ö×ÓÉúÎïÑ§
+Intron,ÄÚº¬×Ó,·Ö×ÓÉúÎïÑ§
+Splicing,¼ô½Ó,·Ö×ÓÉúÎïÑ§
+Cell membrane,Ï¸°ûÄ¤,Ï¸°ûÉúÎïÑ§
+Cytoplasm,Ï¸°ûÖÊ,Ï¸°ûÉúÎïÑ§
+Nucleus,Ï¸°ûºË,Ï¸°ûÉúÎïÑ§
+Mitochondrion,ÏßÁ£Ìå,Ï¸°ûÉúÎïÑ§
+Endoplasmic reticulum,ÄÚÖÊÍø,Ï¸°ûÉúÎïÑ§
+Golgi apparatus,¸ß¶û»ùÌå,Ï¸°ûÉúÎïÑ§
+Lysosome,ÈÜÃ¸Ìå,Ï¸°ûÉúÎïÑ§
+Peroxisome,¹ıÑõ»¯ÎïÃ¸Ìå,Ï¸°ûÉúÎïÑ§
+Cytoskeleton,Ï¸°û¹Ç¼Ü,Ï¸°ûÉúÎïÑ§
+Microtubule,Î¢¹Ü,Ï¸°ûÉúÎïÑ§
+Actin,¼¡¶¯µ°°×,Ï¸°ûÉúÎïÑ§
+Myosin,¼¡Çòµ°°×,Ï¸°ûÉúÎïÑ§
+Cell cycle,Ï¸°ûÖÜÆÚ,Ï¸°ûÉúÎïÑ§
+Mitosis,ÓĞË¿·ÖÁÑ,Ï¸°ûÉúÎïÑ§
+Meiosis,¼õÊı·ÖÁÑ,Ï¸°ûÉúÎïÑ§
+Cell signaling,Ï¸°ûĞÅºÅ×ªµ¼,Ï¸°ûÉúÎïÑ§
+Receptor,ÊÜÌå,Ï¸°ûÉúÎïÑ§
+Ligand,ÅäÌå,Ï¸°ûÉúÎïÑ§
+Kinase,¼¤Ã¸,Ï¸°ûÉúÎïÑ§
+Phosphatase,Á×ËáÃ¸,Ï¸°ûÉúÎïÑ§
+Transcription,×ªÂ¼,Ï¸°ûÉúÎïÑ§
+Antigen,¿¹Ô­,ÃâÒßÑ§
+Antibody,¿¹Ìå,ÃâÒßÑ§
+Immunoglobulin,ÃâÒßÇòµ°°×,ÃâÒßÑ§
+T cell,TÏ¸°û,ÃâÒßÑ§
+B cell,BÏ¸°û,ÃâÒßÑ§
+NK cell,×ÔÈ»É±ÉËÏ¸°û,ÃâÒßÑ§
+Macrophage,¾ŞÊÉÏ¸°û,ÃâÒßÑ§
+Dendritic cell,Ê÷Í»×´Ï¸°û,ÃâÒßÑ§
+Cytokine,Ï¸°ûÒò×Ó,ÃâÒßÑ§
+Chemokine,Ç÷»¯Òò×Ó,ÃâÒßÑ§
+Interleukin,°×Ï¸°û½éËØ,ÃâÒßÑ§
+Interferon,¸ÉÈÅËØ,ÃâÒßÑ§
+TNF,Ö×Áö»µËÀÒò×Ó,ÃâÒßÑ§
+Complement,²¹Ìå,ÃâÒßÑ§
+MHC,Ö÷Òª×éÖ¯ÏàÈİĞÔ¸´ºÏÌå,ÃâÒßÑ§
+TCR,TÏ¸°ûÊÜÌå,ÃâÒßÑ§
+BCR,BÏ¸°ûÊÜÌå,ÃâÒßÑ§
+CD marker,·Ö»¯´Ø±ê¼Ç,ÃâÒßÑ§
+Immune tolerance,ÃâÒßÄÍÊÜ,ÃâÒßÑ§
+Autoimmunity,×ÔÉíÃâÒß,ÃâÒßÑ§
+Hypersensitivity,³¬Ãô·´Ó¦,ÃâÒßÑ§
+Bacterium,Ï¸¾ú,Î¢ÉúÎïÑ§
+Virus,²¡¶¾,Î¢ÉúÎïÑ§
+Fungus,Õæ¾ú,Î¢ÉúÎïÑ§
+Parasite,¼ÄÉú³æ,Î¢ÉúÎïÑ§
+Gram stain,¸ïÀ¼È¾É«,Î¢ÉúÎïÑ§
+Culture,ÅàÑø,Î¢ÉúÎïÑ§
+Antibiotic,¿¹ÉúËØ,Î¢ÉúÎïÑ§
+Antimicrobial,¿¹Î¢ÉúÎïÒ©,Î¢ÉúÎïÑ§
+Pathogen,²¡Ô­Ìå,Î¢ÉúÎïÑ§
+Virulence,¶¾Á¦,Î¢ÉúÎïÑ§
+Inoculation,½ÓÖÖ,Î¢ÉúÎïÑ§
+Incubation,·õÓı,Î¢ÉúÎïÑ§
+Agar plate,ÇíÖ¬Æ½°å,Î¢ÉúÎïÑ§
+Colony,¾úÂä,Î¢ÉúÎïÑ§
+Sequencing,²âĞò,Î¢ÉúÎïÑ§
+Strain,Öê,Î¢ÉúÎïÑ§
+Resistance,ÄÍÒ©ĞÔ,Î¢ÉúÎïÑ§
+Susceptibility,Ãô¸ĞĞÔ,Î¢ÉúÎïÑ§
+Biofilm,ÉúÎï±»Ä¤,Î¢ÉúÎïÑ§
+Endotoxin,ÄÚ¶¾ËØ,Î¢ÉúÎïÑ§
+Exotoxin,Íâ¶¾ËØ,Î¢ÉúÎïÑ§
+Bacteriophage,ÊÉ¾úÌå,Î¢ÉúÎïÑ§
+Prion,ëÃ²¡¶¾,Î¢ÉúÎïÑ§
+Viroid,Àà²¡¶¾,Î¢ÉúÎïÑ§
+Hypoxia,È±Ñõ,²¡ÀíÉúÀíÑ§
+Ischemia,È±Ñª,²¡ÀíÉúÀíÑ§
+Reperfusion,ÔÙ¹à×¢,²¡ÀíÉúÀíÑ§
+Edema,Ë®Ö×,²¡ÀíÉúÀíÑ§
+Shock,Ğİ¿Ë,²¡ÀíÉúÀíÑ§
+DIC,ÃÖÉ¢ĞÔÑª¹ÜÄÚÄıÑª,²¡ÀíÉúÀíÑ§
+Acidosis,ËáÖĞ¶¾,²¡ÀíÉúÀíÑ§
+Alkalosis,¼îÖĞ¶¾,²¡ÀíÉúÀíÑ§
+Electrolyte imbalance,µç½âÖÊÎÉÂÒ,²¡ÀíÉúÀíÑ§
+Fever,·¢ÈÈ,²¡ÀíÉúÀíÑ§
+Pain,ÌÛÍ´,²¡ÀíÉúÀíÑ§
+Stress,Ó¦¼¤,²¡ÀíÉúÀíÑ§
+Adaptation,ÊÊÓ¦,²¡ÀíÉúÀíÑ§
+Hypertrophy,·Ê´ó,²¡ÀíÉúÀíÑ§
+Hyperplasia,ÔöÉú,²¡ÀíÉúÀíÑ§
+Atrophy,Î®Ëõ,²¡ÀíÉúÀíÑ§
+Metaplasia,»¯Éú,²¡ÀíÉúÀíÑ§
+Dysplasia,ÒìĞÍÔöÉú,²¡ÀíÉúÀíÑ§
+Neoplasia,Ö×ÁöĞÎ³É,²¡ÀíÉúÀíÑ§
+Metastasis,×ªÒÆ,²¡ÀíÉúÀíÑ§
+Thrombosis,ÑªË¨ĞÎ³É,²¡ÀíÉúÀíÑ§
+Embolism,Ë¨Èû,²¡ÀíÉúÀíÑ§
+Infarction,¹£ËÀ,²¡ÀíÉúÀíÑ§
+Sepsis,Å§¶¾Ö¢,²¡ÀíÉúÀíÑ§
+Drug,Ò©Îï,Ò©ÀíÑ§
+Agonist,¼¤¶¯¼Á,Ò©ÀíÑ§
+Antagonist,Ş×¿¹¼Á,Ò©ÀíÑ§
+Affinity,Ç×ºÍÁ¦,Ò©ÀíÑ§
+Efficacy,Ğ§ÄÜ,Ò©ÀíÑ§
+Potency,Ğ§¼Û,Ò©ÀíÑ§
+LD50,°ëÊıÖÂËÀÁ¿,Ò©ÀíÑ§
+ED50,°ëÊıÓĞĞ§Á¿,Ò©ÀíÑ§
+Half-life,°ëË¥ÆÚ,Ò©ÀíÑ§
+Clearance,Çå³ıÂÊ,Ò©ÀíÑ§
+Volume of distribution,±í¹Û·Ö²¼Èİ»ı,Ò©ÀíÑ§
+Metabolism,´úĞ»,Ò©ÀíÑ§
+Side effect,¸±×÷ÓÃ,Ò©ÀíÑ§
+Toxicity,¶¾ĞÔ,Ò©ÀíÑ§
+Tolerance,ÄÍÊÜĞÔ,Ò©ÀíÑ§
+Dependence,ÒÀÀµĞÔ,Ò©ÀíÑ§
+Addiction,³Éñ«,Ò©ÀíÑ§
+Placebo,°²Î¿¼Á,Ò©ÀíÑ§
+Dose-response curve,¼ÁÁ¿-·´Ó¦ÇúÏß,Ò©ÀíÑ§
+Skeleton,¹Ç÷À,½âÆÊÑ§
+Skull,Â­¹Ç,½âÆÊÑ§
+Vertebra,×µ¹Ç,½âÆÊÑ§
+Rib,Àß¹Ç,½âÆÊÑ§
+Sternum,ĞØ¹Ç,½âÆÊÑ§
+Clavicle,Ëø¹Ç,½âÆÊÑ§
+Scapula,¼çëÎ¹Ç,½âÆÊÑ§
+Humerus,ëÅ¹Ç,½âÆÊÑ§
+Radius,èã¹Ç,½âÆÊÑ§
+Ulna,³ß¹Ç,½âÆÊÑ§
+Pelvis,¹ÇÅè,½âÆÊÑ§
+Femur,¹É¹Ç,½âÆÊÑ§
+Tibia,ëÖ¹Ç,½âÆÊÑ§
+Fibula,ëè¹Ç,½âÆÊÑ§
+Joint,¹Ø½Ú,½âÆÊÑ§
+Muscle,¼¡Èâ,½âÆÊÑ§
+Nerve,Éñ¾­,½âÆÊÑ§
+Artery,¶¯Âö,½âÆÊÑ§
+Vein,¾²Âö,½âÆÊÑ§
+Heart,ĞÄÔà,½âÆÊÑ§
+Lung,·Î,½âÆÊÑ§
+Liver,¸ÎÔà,½âÆÊÑ§
+Kidney,ÉöÔà,½âÆÊÑ§
+Brain,ÄÔ,½âÆÊÑ§
+Spinal cord,¼¹Ëè,½âÆÊÑ§
+Tissue,×éÖ¯,×éÖ¯ÅßÌ¥Ñ§
+Epithelium,ÉÏÆ¤×éÖ¯,×éÖ¯ÅßÌ¥Ñ§
+Connective tissue,½áµŞ×éÖ¯,×éÖ¯ÅßÌ¥Ñ§
+Muscle tissue,¼¡×éÖ¯,×éÖ¯ÅßÌ¥Ñ§
+Nervous tissue,Éñ¾­×éÖ¯,×éÖ¯ÅßÌ¥Ñ§
+Cartilage,Èí¹Ç,×éÖ¯ÅßÌ¥Ñ§
+Bone,¹Ç×éÖ¯,×éÖ¯ÅßÌ¥Ñ§
+Blood,ÑªÒº,×éÖ¯ÅßÌ¥Ñ§
+Lymph,ÁÜ°Í,×éÖ¯ÅßÌ¥Ñ§
+Germ layer,Åß²ã,×éÖ¯ÅßÌ¥Ñ§
+Ectoderm,ÍâÅß²ã,×éÖ¯ÅßÌ¥Ñ§
+Mesoderm,ÖĞÅß²ã,×éÖ¯ÅßÌ¥Ñ§
+Endoderm,ÄÚÅß²ã,×éÖ¯ÅßÌ¥Ñ§
+Embryo,ÅßÌ¥,×éÖ¯ÅßÌ¥Ñ§
+Fetus,Ì¥¶ù,×éÖ¯ÅßÌ¥Ñ§
+Placenta,Ì¥ÅÌ,×éÖ¯ÅßÌ¥Ñ§
+Amnion,ÑòÄ¤,×éÖ¯ÅßÌ¥Ñ§
+Chorion,ÈŞÃ«Ä¤,×éÖ¯ÅßÌ¥Ñ§
+Allantois,ÄòÄÒ,×éÖ¯ÅßÌ¥Ñ§
+Yolk sac,ÂÑ»ÆÄÒ,×éÖ¯ÅßÌ¥Ñ§
+Gastrulation,Ô­³¦ĞÎ³É,×éÖ¯ÅßÌ¥Ñ§
+Neurulation,Éñ¾­ÅßĞÎ³É,×éÖ¯ÅßÌ¥Ñ§
+Organogenesis,Æ÷¹Ù·¢Éú,×éÖ¯ÅßÌ¥Ñ§
+Histogenesis,×éÖ¯·¢Éú,×éÖ¯ÅßÌ¥Ñ§
+Cytodifferentiation,Ï¸°û·Ö»¯,×éÖ¯ÅßÌ¥Ñ§
