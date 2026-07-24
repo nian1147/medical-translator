@@ -571,4 +571,733 @@ SPECT,Single-Photon Emission Computed Tomography,单光子发射计算机断层�
 TI-RADS,Thyroid Imaging Reporting and Data System,甲状腺影像报告和数据系统,影像医学[reference:280]
 TOF,Time of Flight,时间飞跃法,影像医学[reference:281]
 US,Ultrasound,超声,影像医学
-VRT,Volume Rendering Technique,容积再现技术,影像医学
+VRT,Volume Rendering Technique,容积再现技术,影像医学ECHO,Echocardiography,超声心动图,心血管内科
+PCWP,Pulmonary Capillary Wedge Pressure,肺毛细血管楔压,心血管内科
+BB,Beta Blocker,β受体阻滞剂,心血管内科
+NO,Nitric Oxide,一氧化氮,心血管内科
+NT-proBNP,N-terminal pro-Brain Natriuretic Peptide,N末端脑钠肽前体,心血管内科
+TC,Total Cholesterol,总胆固醇,心血管内科
+hs-CRP,High-sensitivity C-reactive Protein,高敏C反应蛋白,心血管内科
+CAG,Coronary Angiography,冠状动脉造影,心血管内科
+IVUS,Intravascular Ultrasound,血管内超声,心血管内科
+FFR,Fractional Flow Reserve,血流储备分数,心血管内科
+DC,Direct Current,直流电,心血管内科
+ICD,Implantable Cardioverter-Defibrillator,植入式心律转复除颤器,心血管内科
+PM,Pacemaker,起搏器,心血管内科
+CRT,Cardiac Resynchronization Therapy,心脏再同步化治疗,心血管内科
+AVB,Atrioventricular Block,房室传导阻滞,心血管内科
+LBBB,Left Bundle Branch Block,左束支传导阻滞,心血管内科
+RBBB,Right Bundle Branch Block,右束支传导阻滞,心血管内科
+WPW,Wolff-Parkinson-White Syndrome,沃尔夫-帕金森-怀特综合征,心血管内科
+SVT,Supraventricular Tachycardia,室上性心动过速,心血管内科
+PAD,Peripheral Artery Disease,外周动脉疾病,心血管内科
+PEF,Peak Expiratory Flow,呼气峰流速,呼吸内科
+DLCO,Diffusing Capacity of the Lung for Carbon Monoxide,肺一氧化碳弥散量,呼吸内科
+TLC,Total Lung Capacity,肺总量,呼吸内科
+RV,Residual Volume,残气量,呼吸内科
+VC,Vital Capacity,肺活量,呼吸内科
+MVV,Maximal Voluntary Ventilation,最大自主通气量,呼吸内科
+FiO2,Fraction of Inspired Oxygen,吸入氧浓度,呼吸内科
+CPAP,Continuous Positive Airway Pressure,持续气道正压通气,呼吸内科
+IPAP,Inspiratory Positive Airway Pressure,吸气相气道正压,呼吸内科
+EPAP,Expiratory Positive Airway Pressure,呼气相气道正压,呼吸内科
+ABG,Arterial Blood Gas,动脉血气分析,呼吸内科
+V/Q,Ventilation/Perfusion Scan,通气/灌注扫描,呼吸内科
+TBLB,Transbronchial Lung Biopsy,经支气管肺活检,呼吸内科
+EBUS,Endobronchial Ultrasound,支气管内超声,呼吸内科
+TBNA,Transbronchial Needle Aspiration,经支气管针吸活检,呼吸内科
+6MWT,Six-Minute Walk Test,6分钟步行试验,呼吸内科
+AHI,Apnea-Hypopnea Index,呼吸暂停低通气指数,呼吸内科
+ICS,Inhaled Corticosteroid,吸入性糖皮质激素,呼吸内科
+LABA,Long-Acting Beta Agonist,长效β2受体激动剂,呼吸内科
+SABA,Short-Acting Beta Agonist,短效β2受体激动剂,呼吸内科
+LAMA,Long-Acting Muscarinic Antagonist,长效抗胆碱能药物,呼吸内科
+SAMA,Short-Acting Muscarinic Antagonist,短效抗胆碱能药物,呼吸内科
+MTB,Mycobacterium Tuberculosis,结核分枝杆菌,呼吸内科
+MDR-TB,Multidrug-Resistant Tuberculosis,耐多药结核病,呼吸内科
+XDR-TB,Extensively Drug-Resistant Tuberculosis,广泛耐药结核病,呼吸内科
+PH,Pulmonary Hypertension,肺动脉高压,呼吸内科
+PAH,Pulmonary Arterial Hypertension,动脉性肺动脉高压,呼吸内科
+UIP,Usual Interstitial Pneumonia,寻常型间质性肺炎,呼吸内科
+NSIP,Nonspecific Interstitial Pneumonia,非特异性间质性肺炎,呼吸内科
+COP,Cryptogenic Organizing Pneumonia,隐源性机化性肺炎,呼吸内科
+ABPA,Allergic Bronchopulmonary Aspergillosis,变应性支气管肺曲霉病,呼吸内科
+PSC,Primary Sclerosing Cholangitis,原发性硬化性胆管炎,消化内科
+AC,Acute Cholangitis,急性胆管炎,消化内科
+AP,Acute Pancreatitis,急性胰腺炎,消化内科
+FAP,Family Adenomatous Polyposis,家族性腺瘤性息肉病,消化内科
+HNPCC,Hereditary Nonpolyposis Colorectal Cancer,遗传性非息肉病性结直肠癌,消化内科
+MEN1,Multiple Endocrine Neoplasia Type 1,多发性内分泌腺瘤病1型,消化内科
+VIP,Vasoactive Intestinal Peptide,血管活性肠肽,消化内科
+SST,Somatostatin,生长抑素,消化内科
+PPI,Proton Pump Inhibitor,质子泵抑制剂,消化内科
+H2RA,Histamine-2 Receptor Antagonist,H2受体拮抗剂,消化内科
+5-ASA,5-Aminosalicylic Acid,5-氨基水杨酸,消化内科
+AZA,Azathioprine,硫唑嘌呤,消化内科
+6-MP,6-Mercaptopurine,6-巯基嘌呤,消化内科
+MTX,Methotrexate,甲氨蝶呤,消化内科
+HEV,Hepatitis E Virus,戊型肝炎病毒,消化内科
+HDV,Hepatitis D Virus,丁型肝炎病毒,消化内科
+HGV,Hepatitis G Virus,庚型肝炎病毒,消化内科
+CMV,Cytomegalovirus,巨细胞病毒,消化内科
+EBV,Epstein-Barr Virus,EB病毒,消化内科
+HP,Helicobacter Pylori,幽门螺杆菌,消化内科
+GGT,Gamma-Glutamyl Transferase,γ-谷氨酰转移酶,消化内科
+ALP,Alkaline Phosphatase,碱性磷酸酶,消化内科
+TBil,Total Bilirubin,总胆红素,消化内科
+DBil,Direct Bilirubin,直接胆红素,消化内科
+IBil,Indirect Bilirubin,间接胆红素,消化内科
+MG,Myasthenia Gravis,重症肌无力,神经内科
+CIDP,Chronic Inflammatory Demyelinating Polyneuropathy,慢性炎性脱髓鞘性多发性神经病,神经内科
+PSP,Progressive Supranuclear Palsy,进行性核上性麻痹,神经内科
+MSA,Mutiple System Atrophy,多系统萎缩,神经内科
+CBD,Corticobasal Degeneration,皮质基底节变性,神经内科
+DLB,Dementia with Lewy Bodies,路易体痴呆,神经内科
+FTD,Frontotemporal Dementia,额颞叶痴呆,神经内科
+CMT,Charcot-Marie-Tooth Disease,夏科-马里-图斯病,神经内科
+DMD,Duchenne Muscular Dystrophy,杜氏肌营养不良,神经内科
+SMA,Spinal Muscular Atrophy,脊髓性肌萎缩症,神经内科
+NMO,Neuromyelitis Optica,视神经脊髓炎,神经内科
+MOG,Myelin Oligodendrocyte Glycoprotein,髓鞘少突胶质细胞糖蛋白,神经内科
+ADEM,Acute Disseminated Encephalomyelitis,急性播散性脑脊髓炎,神经内科
+CJD,Creutzfeldt-Jakob Disease,克雅病,神经内科
+WFS,Wolfram Syndrome,沃尔夫勒姆综合征,神经内科
+SCA,Spinocerebellar Ataxia,脊髓小脑性共济失调,神经内科
+FA,Friedreich's Ataxia,弗里德赖希共济失调,神经内科
+PN,Peripheral Neuropathy,周围神经病,神经内科
+RLS,Restless Legs Syndrome,不宁腿综合征,神经内科
+NPH,Normal Pressure Hydrocephalus,正常压力脑积水,神经内科
+IIH,Idiopathic Intracranial Hypertension,特发性颅内压增高,神经内科
+CVST,Cerebral Venous Sinus Thrombosis,脑静脉窦血栓形成,神经内科
+MELAS,Mitochondrial Encephalopathy Lactic Acidosis and Stroke-like Episodes,线粒体脑肌病伴乳酸酸中毒和卒中样发作,神经内科
+CADASIL,Cerebral Autosomal Dominant Arteriopathy with Subcortical Infarcts and Leukoencephalopathy,伴皮质下梗死和白质脑病的常染色体显性遗传性脑动脉病,神经内科
+PRES,Posterior Reversible Encephalopathy Syndrome,可逆性后部脑病综合征,神经内科
+CNSL,Central Nervous System Lymphoma,中枢神经系统淋巴瘤,神经内科
+PNET,Primitive Neuroectodermal Tumor,原始神经外胚层肿瘤,神经内科
+GBM,Glioblastoma Multiforme,多形性胶质母细胞瘤,神经内科
+LGG,Low-Grade Glioma,低级别胶质瘤,神经内科
+MEP,Motor Evoked Potential,运动诱发电位,神经内科
+SSEP,Somatosensory Evoked Potential,体感诱发电位,神经内科
+BAEP,Brainstem Auditory Evoked Potential,脑干听觉诱发电位,神经内科
+NCV,Nerve Conduction Velocity,神经传导速度,神经内科
+MEG,Magnetoencephalography,脑磁图,神经内科
+ACTH,Adrenocorticotropic Hormone,促肾上腺皮质激素,内分泌科
+ADH,Antidiuretic Hormone,抗利尿激素,内分泌科
+T3,Triiodothyronine,三碘甲状腺原氨酸,内分泌科
+T4,Thyroxine,甲状腺素,内分泌科
+FT3,Free Triiodothyronine,游离三碘甲状腺原氨酸,内分泌科
+FT4,Free Thyroxine,游离甲状腺素,内分泌科
+PTH,Parathyroid Hormone,甲状旁腺激素,内分泌科
+LH,Luteinizing Hormone,黄体生成素,内分泌科
+FSH,Follicle-stimulating Hormone,卵泡刺激素,内分泌科
+E2,Estradiol,雌二醇,内分泌科
+P,Progesterone,孕酮,内分泌科
+T,Testosterone,睾酮,内分泌科
+DHEA-S,Dehydroepiandrosterone Sulfate,硫酸脱氢表雄酮,内分泌科
+Cortisol,Cortisol,皮质醇,内分泌科
+Aldo,Aldosterone,醛固酮,内分泌科
+Renin,Renin,肾素,内分泌科
+HHS,Hyperosmolar Hyperglycemic State,高渗性高血糖状态,内分泌科
+OGTT,Oral Glucose Tolerance Test,口服葡萄糖耐量试验,内分泌科
+IR,Insulin Resistance,胰岛素抵抗,内分泌科
+MODY,Maturity-onset Diabetes of the Young,青少年发病的成年型糖尿病,内分泌科
+MEN2,Multiple Endocrine Neoplasia Type 2,多发性内分泌腺瘤病2型,内分泌科
+SIADH,Syndrome of Inappropriate Antidiuretic Hormone Secretion,抗利尿激素分泌不当综合征,内分泌科
+DI,Diabetes Insipidus,尿崩症,内分泌科
+Cushing,Cushing Syndrome,库欣综合征,内分泌科
+Addison,Addison Disease,艾迪生病,内分泌科
+Pheo,Pheochromocytoma,嗜铬细胞瘤,内分泌科
+HyperPTH,Hyperparathyroidism,甲状旁腺功能亢进症,内分泌科
+HypoPTH,Hypoparathyroidism,甲状旁腺功能减退症,内分泌科
+HyperT,Hyperthyroidism,甲状腺功能亢进症,内分泌科
+HypoT,Hypothyroidism,甲状腺功能减退症,内分泌科
+GD,Graves Disease,格雷夫斯病,内分泌科
+HT,Hashimoto Thyroiditis,桥本甲状腺炎,内分泌科
+NG,Neuroglycopenia,神经低血糖症,内分泌科
+CRH,Corticotropin Releasing Hormone,促肾上腺皮质激素释放激素,内分泌科
+TRH,Thyrotropin Releasing Hormone,促甲状腺激素释放激素,内分泌科
+GnRH,Gonadotropin Releasing Hormone,促性腺激素释放激素,内分泌科
+UA,Uric Acid,尿酸,肾脏内科
+K+,Potassium,钾,肾脏内科
+Na+,Sodium,钠,肾脏内科
+Ca,Calcium,钙,肾脏内科
+HCO3-,Bicarbonate,碳酸氢根,肾脏内科
+Alb,Albumin,白蛋白,肾脏内科
+UP,Urine Protein,尿蛋白,肾脏内科
+CRRT,Continuous Renal Replacement Therapy,连续性肾脏替代治疗,肾脏内科
+HDF,Hemodiafiltration,血液透析滤过,肾脏内科
+UF,Ultrafiltration,超滤,肾脏内科
+AVF,Arteriovenous Fistula,动静脉内瘘,肾脏内科
+AVG,Arteriovenous Graft,动静脉移植物,肾脏内科
+CVC,Central Venous Catheter,中心静脉导管,肾脏内科
+RRT,Renal Replacement Therapy,肾脏替代治疗,肾脏内科
+MN,Membranous Nephropathy,膜性肾病,肾脏内科
+FSGS,Focal Segmental Glomerulosclerosis,局灶节段性肾小球硬化,肾脏内科
+IgAN,IgA Nephropathy,IgA肾病,肾脏内科
+MPGN,Membranoproliferative Glomerulonephritis,膜增生性肾小球肾炎,肾脏内科
+ATN,Acute Tubular Necrosis,急性肾小管坏死,肾脏内科
+TTP,Thrombotic Thrombocytopenic Purpura,血栓性血小板减少性紫癜,肾脏内科
+DN,Diabetic Nephropathy,糖尿病肾病,肾脏内科
+CKD-MBD,Chronic Kidney Disease-Mineral and Bone Disorder,慢性肾脏病-矿物质和骨异常,肾脏内科
+MDS,Myelodysplastic Syndrome,骨髓增生异常综合征,血液科
+MPN,Myeloproliferative Neoplasm,骨髓增殖性肿瘤,血液科
+DLBCL,Diffuse Large B-cell Lymphoma,弥漫大B细胞淋巴瘤,血液科
+FL,Follicular Lymphoma,滤泡性淋巴瘤,血液科
+MCL,Mantle Cell Lymphoma,套细胞淋巴瘤,血液科
+ALCL,Anaplastic Large Cell Lymphoma,间变性大细胞淋巴瘤,血液科
+ALL-L1,Acute Lymphoblastic Leukemia L1,急性淋巴细胞白血病L1型,血液科
+APL,Acute Promyelocytic Leukemia,急性早幼粒细胞白血病,血液科
+HSCT,Hematopoietic Stem Cell Transplantation,造血干细胞移植,血液科
+GVHD,Graft-versus-Host Disease,移植物抗宿主病,血液科
+EFS,Event-Free Survival,无事件生存期,血液科
+MRD,Minimal Residual Disease,微小残留病,血液科
+BM,Bone Marrow,骨髓,血液科
+BMA,Bone Marrow Aspiration,骨髓穿刺,血液科
+BMB,Bone Marrow Biopsy,骨髓活检,血液科
+PB,Peripheral Blood,外周血,血液科
+PBSC,Peripheral Blood Stem Cell,外周血干细胞,血液科
+ANC,Absolute Neutrophil Count,绝对中性粒细胞计数,血液科
+RDW,Red Cell Distribution Width,红细胞分布宽度,血液科
+FIB,Fibrinogen,纤维蛋白原,血液科
+ITP,Immune Thrombocytopenia,免疫性血小板减少症,血液科
+PNH,Paroxysmal Nocturnal Hemoglobinuria,阵发性睡眠性血红蛋白尿症,血液科
+THAL,Thalassemia,地中海贫血,血液科
+VTE,Venous Thromboembolism,静脉血栓栓塞症,血液科
+ALK,Anaplastic Lymphoma Kinase,间变性淋巴瘤激酶,肿瘤内科
+PD-1,Programmed Cell Death Protein 1,程序性死亡受体1,肿瘤内科
+PD-L1,Programmed Death-Ligand 1,程序性死亡配体1,肿瘤内科
+CTLA-4,Cytotoxic T-Lymphocyte Associated Protein 4,细胞毒性T淋巴细胞相关蛋白4,肿瘤内科
+ICI,Immune Checkpoint Inhibitor,免疫检查点抑制剂,肿瘤内科
+SD,Stable Disease,疾病稳定,肿瘤内科
+DCR,Disease Control Rate,疾病控制率,肿瘤内科
+RECIST,Response Evaluation Criteria in Solid Tumors,实体瘤疗效评价标准,肿瘤内科
+ECOG,Eastern Cooperative Oncology Group,东部肿瘤协作组,肿瘤内科
+PS,Performance Status,体能状态评分,肿瘤内科
+DLT,Dose-Limiting Toxicity,剂量限制性毒性,肿瘤内科
+MTD,Maximum Tolerated Dose,最大耐受剂量,肿瘤内科
+RP2D,Recommended Phase 2 Dose,推荐II期剂量,肿瘤内科
+LDH,Lactate Dehydrogenase,乳酸脱氢酶,肿瘤内科
+TNM,Tumor Node Metastasis,肿瘤淋巴结转移分期,肿瘤内科
+AJCC,American Joint Committee on Cancer,美国癌症联合委员会,肿瘤内科
+NCCN,National Comprehensive Cancer Network,美国国家综合癌症网络,肿瘤内科
+ESMO,European Society for Medical Oncology,欧洲肿瘤内科学会,肿瘤内科
+ASCO,American Society of Clinical Oncology,美国临床肿瘤学会,肿瘤内科
+CSCO,Chinese Society of Clinical Oncology,中国临床肿瘤学会,肿瘤内科
+GCP,Good Clinical Practice,药物临床试验质量管理规范,肿瘤内科
+IRB,Institutional Review Board,机构审查委员会,肿瘤内科
+IIT,Investigator-Initiated Trial,研究者发起试验,肿瘤内科
+IND,Investigational New Drug,研究性新药,肿瘤内科
+NDA,New Drug Application,新药申请,肿瘤内科
+BLA,Biologics License Application,生物制品许可申请,肿瘤内科
+CRO,Contract Research Organization,合同研究组织,肿瘤内科
+FFPE,Formalin-Fixed Paraffin-Embedded,福尔马林固定石蜡包埋,肿瘤内科
+NGS,Next-Generation Sequencing,下一代测序,肿瘤内科
+ctDNA,Circulating Tumor DNA,循环肿瘤DNA,肿瘤内科
+CTC,Circulating Tumor Cell,循环肿瘤细胞,肿瘤内科
+TMB,Tumor Mutational Burden,肿瘤突变负荷,肿瘤内科
+MSI,Microssatellite Instability,微卫星不稳定性,肿瘤内科
+CRKP,Carbapenem-resistant Klebsiella pneumoniae,碳青霉烯耐药肺炎克雷伯菌,感染科
+CLABSI,Central Line-associated Bloodstream Infection,中心静脉导管相关血流感染,感染科
+CAUTI,Catheter-associated Urinary Tract Infection,导管相关尿路感染,感染科
+HCAP,Healthcare-associated Pneumonia,医疗保健相关性肺炎,感染科
+ELISA,Enzyme-linked Immunosorbent Assay,酶联免疫吸附试验,感染科
+HBsAg,Hepatitis B Surface Antigen,乙型肝炎表面抗原,感染科
+HBeAg,Hepatitis B e Antigen,乙型肝炎e抗原,感染科
+Anti-HBs,Antibody to Hepatitis B Surface Antigen,乙型肝炎表面抗体,感染科
+Anti-HBc,Antibody to Hepatitis B Core Antigen,乙型肝炎核心抗体,感染科
+Anti-HCV,Antibody to Hepatitis C Virus,丙型肝炎抗体,感染科
+HCV RNA,Hepatitis C Virus Ribonucleic Acid,丙型肝炎病毒核糖核酸,感染科
+HBV DNA,Hepatitis B Virus Deoxyribonucleic Acid,乙型肝炎病毒脱氧核糖核酸,感染科
+HIV RNA,HIV Ribonucleic Acid,人类免疫缺陷病毒核糖核酸,感染科
+CD4,Cluster of Differentiation 4,分化簇4,感染科
+VL,Viral Load,病毒载量,感染科
+ART,Antiretroviral Therapy,抗逆转录病毒治疗,感染科
+DAA,Direct-acting Antiviral,直接抗病毒药物,感染科
+PEP,Post-exposure Prophylaxis,暴露后预防,感染科
+PrEP,Pre-exposure Prophylaxis,暴露前预防,感染科
+STI,Sexually Transmitted Infection,性传播感染,感染科
+IV,Intravenous,静脉内,急诊医学
+IO,Intraosseous,骨内,急诊医学
+LMA,Laryngeal Mask Airway,喉罩气道,急诊医学
+SIRS,Systemic Inflammatory Response Syndrome,全身炎症反应综合征,急诊医学
+TBI,Traumatic Brain Injury,创伤性脑损伤,急诊医学
+TEE,Transesophageal Echocardiography,经食管超声心动图,急诊医学
+ALI,Acute Lung Injury,急性肺损伤,急诊医学
+ATLS,Advanced Trauma Life Support,高级创伤生命支持,急诊医学
+AVPU,Alert Voice Pain Unresponsive,警觉-声音-疼痛-无反应,急诊医学
+EMS,Emergency Medical Services,急救医疗服务,急诊医学
+ETT,Endotracheal Tube,气管内导管,急诊医学
+FDP,Fibrin Degradation Product,纤维蛋白降解产物,急诊医学
+HIT,Heparin-induced Thrombocytopenia,肝素诱导的血小板减少症,急诊医学
+IVC,Inferior Vena Cava,下腔静脉,急诊医学
+LFT,Liver Function Test,肝功能试验,急诊医学
+MTP,Massive Transfusion Protocol,大量输血方案,急诊医学
+PA,Posteroanterior,后前位,急诊医学
+POCUS,Point-of-care Ultrasound,床旁超声,急诊医学
+TEG,Thromboelastography,血栓弹力图,急诊医学
+CO,Cardiac Output,心输出量,麻醉科
+SV,Stroke Volume,每搏输出量,麻醉科
+SVR,Systemic Vascular Resistance,全身血管阻力,麻醉科
+PVR,Pulmonary Vascular Resistance,肺血管阻力,麻醉科
+BE,Base Excess,碱剩余,麻醉科
+IM,Intramuscular,肌内,麻醉科
+SC,Subcutaneous,皮下,麻醉科
+PCA,Patient-Controlled Analgesia,患者自控镇痛,麻醉科
+TIVA,Total Intravenous Anesthesia,全凭静脉麻醉,麻醉科
+TEA,Thoracic Epidural Anesthesia,胸段硬膜外麻醉,麻醉科
+RA,Regional Anesthesia,区域麻醉,麻醉科
+LA,Local Anesthesia,局部麻醉,麻醉科
+NMB,Neuromuscular Blockade,神经肌肉阻滞,麻醉科
+NMBA,Neuromuscular Blocking Agent,神经肌肉阻滞药,麻醉科
+PONV,Postoperative Nausea and Vomiting,术后恶心呕吐,麻醉科
+MAL,Mallampati Classification,马兰帕蒂分级,麻醉科
+DL,Difficult Laryngoscopy,困难喉镜显露,麻醉科
+DAS,Difficult Airway Society,困难气道学会,麻醉科
+PSV,Pressure Support Ventilation,压力支持通气,麻醉科
+PCV,Pressure-Controlled Ventilation,压力控制通气,麻醉科
+VCV,Volume-Controlled Ventilation,容量控制通气,麻醉科
+SIMV,Synchronized Intermittent Mandatory Ventilation,同步间歇指令通气,麻醉科
+IPPV,Intermittent Positive Pressure Ventilation,间歇正压通气,麻醉科
+HFOV,High-Frequency Oscillatory Ventilation,高频振荡通气,麻醉科
+TTE,Transthoracic Echocardiography,经胸超声心动图,麻醉科
+HPV,Human Papillomavirus,人乳头瘤病毒,妇产科
+HRT,Hormone Replacement Therapy,激素替代疗法,妇产科
+HSG,Hysterosalpingography,子宫输卵管造影术,妇产科
+IVF,In Vitro Fertilization,体外受精,妇产科
+LMP,Last Menstrual Period,末次月经,妇产科
+OCP,Oral Contraceptive Pill,口服避孕药,妇产科
+PID,Pelvic Inflammatory Disease,盆腔炎性疾病,妇产科
+PPROM,Preterm Premature Rupture of Membranes,未足月胎膜早破,妇产科
+RDS,Respiratory Distress Syndrome,呼吸窘迫综合征,妇产科
+TOLAC,Trial of Labor After Cesarean,剖宫产后试产,妇产科
+TVUS,Transvaginal Ultrasound,经阴道超声,妇产科
+VBAC,Vaginal Birth After Cesarean,剖宫产后阴道分娩,妇产科
+VIN,Vulvar Intraepithelial Neoplasia,外阴上皮内瘤变,妇产科
+WHO,World Health Organization,世界卫生组织,妇产科
+ASD,Atrial Septal Defect,房间隔缺损,儿科
+IVH,Intraventricular Hemorrhage,脑室内出血,儿科
+PVL,Periventricular Leukomalacia,脑室周围白质软化,儿科
+ROP,Retinopathy of Prematurity,早产儿视网膜病,儿科
+MAS,Meconium Aspiration Syndrome,胎粪吸入综合征,儿科
+TTN,Transient Tachypnea of the Newborn,新生儿暂时性呼吸增快,儿科
+PKU,Phenylketonuria,苯丙酮尿症,儿科
+CF,Cystic Fibrosis,囊性纤维化,儿科
+Kawasaki,Kawasaki Disease,川崎病,儿科
+HSP,Henoch-Schönlein Purpura,过敏性紫癜,儿科
+JIA,Juvenile Idiopathic Arthritis,幼年特发性关节炎,儿科
+KD,Kawasaki Disease,川崎病,儿科
+IDM,Infant of Diabetic Mother,糖尿病母亲婴儿,儿科
+VLBW,Very Low Birth Weight,极低出生体重,儿科
+ELBW,Extremely Low Birth Weight,超低出生体重,儿科
+LGA,Large for Gestational Age,大于胎龄儿,儿科
+HLHS,Hypoplastic Left Heart Syndrome,左心发育不全综合征,儿科
+TAPVR,Total Anomalous Pulmonary Venous Return,完全性肺静脉异位引流,儿科
+DORV,Double Outlet Right Ventricle,右心室双出口,儿科
+AS,Aortic Stenosis,主动脉瓣狭窄,儿科
+CoA,Coarctation of the Aorta,主动脉缩窄,儿科
+VZV,Varicella-Zoster Virus,水痘-带状疱疹病毒,儿科
+HHV-6,Human Herpesvirus 6,人疱疹病毒6型,儿科
+VA,visual acuity,视力,眼科
+NPDR,non-proliferative diabetic retinopathy,非增殖性糖尿病视网膜病变,眼科
+CNV,choroidal neovascularization,脉络膜新生血管,眼科
+CSC,central serous chorioretinopathy,中心性浆液性脉络膜视网膜病变,眼科
+RD,retinal detachment,视网膜脱离,眼科
+RRD,rhegmatogenous retinal detachment,孔源性视网膜脱离,眼科
+TRD,tractional retinal detachment,牵拉性视网膜脱离,眼科
+MH,macular hole,黄斑裂孔,眼科
+RVO,retinal vein occlusion,视网膜静脉阻塞,眼科
+CRVO,central retinal vein occlusion,视网膜中央静脉阻塞,眼科
+BRVO,branch retinal vein occlusion,视网膜分支静脉阻塞,眼科
+CRAO,central retinal artery occlusion,视网膜中央动脉阻塞,眼科
+BRAO,branch retinal artery occlusion,视网膜分支动脉阻塞,眼科
+POAG,primary open-angle glaucoma,原发性开角型青光眼,眼科
+PACG,primary angle-closure glaucoma,原发性闭角型青光眼,眼科
+NTG,normal-tension glaucoma,正常眼压性青光眼,眼科
+OHT,ocular hypertension,高眼压症,眼科
+K,keratometry,角膜曲率测量,眼科
+PKP,penetrating keratoplasty,穿透性角膜移植术,眼科
+DALK,deep anterior lamellar keratoplasty,深板层角膜移植术,眼科
+EK,endothelial keratoplasty,内皮角膜移植术,眼科
+DSEK,Descemet stripping endothelial keratoplasty,后弹力层剥离内皮角膜移植术,眼科
+DMEK,Descemet membrane endothelial keratoplasty,后弹力层膜内皮角膜移植术,眼科
+CXL,collagen cross-linking,角膜胶原交联术,眼科
+KC,keratoconus,圆锥角膜,眼科
+PCO,posterior capsule opacification,后发性白内障,眼科
+PCIOL,posterior chamber intraocular lens,后房型人工晶状体,眼科
+ACIOL,anterior chamber intraocular lens,前房型人工晶状体,眼科
+PPV,pars plana vitrectomy,玻璃体切割术,眼科
+SB,scleral buckle,巩膜扣带术,眼科
+SLT,selective laser trabeculoplasty,选择性激光小梁成形术,眼科
+YAG,neodymium-doped yttrium aluminum garnet laser,钇铝石榴石激光,眼科
+SMILE,small incision lenticule extraction,小切口透镜取出术,眼科
+CHL,Conductive Hearing Loss,传导性听力损失,耳鼻喉科
+ET,Eustachian Tube,咽鼓管,耳鼻喉科
+IAC,Internal Auditory Canal,内耳道,耳鼻喉科
+CN,Cranial Nerve,脑神经,耳鼻喉科
+VNG,Videonystagmography,视频眼震图,耳鼻喉科
+ENG,Electronystagmography,眼震电图,耳鼻喉科
+ECochG,Electrocochleography,耳蜗电图,耳鼻喉科
+OAE,Otoacoustic Emissions,耳声发射,耳鼻喉科
+DPOAE,Distortion Product Otoacoustic Emissions,畸变产物耳声发射,耳鼻喉科
+TEOAE,Transient Evoked Otoacoustic Emissions,瞬态诱发耳声发射,耳鼻喉科
+ASSR,Auditory Steady-State Response,听觉稳态反应,耳鼻喉科
+PTA,Pure Tone Audiometry,纯音测听,耳鼻喉科
+SDS,Speech Discrimination Score,言语识别率,耳鼻喉科
+SISI,Short Increment Sensitivity Index,短增量敏感指数,耳鼻喉科
+TTS,Temporary Threshold Shift,暂时性阈移,耳鼻喉科
+PTS,Permanent Threshold Shift,永久性阈移,耳鼻喉科
+NIHL,Noise-Induced Hearing Loss,噪声性听力损失,耳鼻喉科
+MD,Meniere's Disease,梅尼埃病,耳鼻喉科
+SCC,Semicircular Canal,半规管,耳鼻喉科
+VEMP,Vestibular Evoked Myogenic Potential,前庭诱发肌源性电位,耳鼻喉科
+cVEMP,Cervical Vestibular Evoked Myogenic Potential,颈前庭诱发肌源性电位,耳鼻喉科
+oVEMP,Ocular Vestibular Evoked Myogenic Potential,眼前庭诱发肌源性电位,耳鼻喉科
+FN,Facial Nerve,面神经,耳鼻喉科
+NAR,Non-Allergic Rhinitis,非变应性鼻炎,耳鼻喉科
+NP,Nasal Polyp,鼻息肉,耳鼻喉科
+VCD,Vocal Cord Dysfunction,声带功能障碍,耳鼻喉科
+BOT,Base of Tongue,舌根,耳鼻喉科
+NPC,Nasopharyngeal Carcinoma,鼻咽癌,耳鼻喉科
+LSCC,Laryngeal Squamous Cell Carcinoma,喉鳞状细胞癌,耳鼻喉科
+AK,Actinic Keratosis,光化性角化病,皮肤科
+ANA,Antinuclear Antibody,抗核抗体,皮肤科
+APC,Antigen Presenting Cell,抗原呈递细胞,皮肤科
+BCC,Basal Cell Carcinoma,基底细胞癌,皮肤科
+BCG,Bacillus Calmette-Guérin,卡介苗,皮肤科
+CTCL,Cutaneous T-cell Lymphoma,皮肤T细胞淋巴瘤,皮肤科
+DIF,Direct Immunofluorescence,直接免疫荧光,皮肤科
+DLE,Discoid Lupus Erythematosus,盘状红斑狼疮,皮肤科
+EM,Erythema Multiforme,多形红斑,皮肤科
+EN,Erythema Nodosum,结节性红斑,皮肤科
+FB,Foreign Body,异物,皮肤科
+FDE,Fixed Drug Eruption,固定性药疹,皮肤科
+HAART,Highly Active Antiretroviral Therapy,高效抗逆转录病毒治疗,皮肤科
+H&E,Hematoxylin and Eosin,苏木精-伊红,皮肤科
+HLA,Human Leukocyte Antigen,人类白细胞抗原,皮肤科
+IFN,Interferon,干扰素,皮肤科
+IgA,Immunoglobulin A,免疫球蛋白A,皮肤科
+IgE,Immunoglobulin E,免疫球蛋白E,皮肤科
+IgG,Immunoglobulin G,免疫球蛋白G,皮肤科
+IPL,Intense Pulsed Light,强脉冲光,皮肤科
+KS,Kaposi Sarcoma,卡波西肉瘤,皮肤科
+LE,Lupus Erythematosus,红斑狼疮,皮肤科
+LP,Lichen Planus,扁平苔藓,皮肤科
+LS,Lichen Sclerosus,硬化性苔藓,皮肤科
+MF,Mycosis Fungoides,蕈样肉芽肿,皮肤科
+LCL,Lateral Collateral Ligament,外侧副韧带,骨科
+IMN,Intramedullary Nail,髓内钉,骨科
+DHS,Dynamic Hip Screw,动力髋螺钉,骨科
+X-ray,Radiograph,X线片,骨科
+DXA,Dual-energy X-ray Absorptiometry,双能X线吸收测定法,骨科
+NRS,Numeric Rating Scale,数字评分量表,骨科
+FRAX,Fracture Risk Assessment Tool,骨折风险评估工具,骨科
+OTA,Orthopaedic Trauma Association,骨科创伤协会,骨科
+AAOS,American Academy of Orthopaedic Surgeons,美国骨科医师学会,骨科
+LCP,Locking Compression Plate,锁定加压接骨板,骨科
+PFNA,Proximal Femoral Nail Antirotation,股骨近端防旋髓内钉,骨科
+THR,Total Hip Replacement,全髋关节置换,骨科
+TKR,Total Knee Replacement,全膝关节置换,骨科
+UKA,Unicompartmental Knee Arthroplasty,单髁膝关节置换术,骨科
+HTO,High Tibial Osteotomy,胫骨高位截骨术,骨科
+ACDF,Anterior Cervical Discectomy and Fusion,颈椎前路椎间盘切除融合术,骨科
+PLIF,Posterior Lumbar Interbody Fusion,后路腰椎椎间融合术,骨科
+TLIF,Transforaminal Lumbar Interbody Fusion,经椎间孔腰椎椎间融合术,骨科
+LLIF,Lateral Lumbar Interbody Fusion,侧路腰椎椎间融合术,骨科
+SIJ,Sacroiliac Joint,骶髂关节,骨科
+SCFE,Slipped Capital Femoral Epiphysis,股骨头骨骺滑脱,骨科
+CTEV,Congenital Talipes Equinovarus,先天性马蹄内翻足,骨科
+PJI,Periprosthetic Joint Infection,假体周围关节感染,骨科
+PRP,Platelet-Rich Plasma,富血小板血浆,骨科
+TURBT,Transurethral Resection of Bladder Tumor,经尿道膀胱肿瘤切除术,泌尿外科
+URS,Ureteroscopy,输尿管镜检查术,泌尿外科
+RIRS,Retrograde Intrarenal Surgery,逆行肾内手术,泌尿外科
+DRE,Digital Rectal Examination,直肠指检,泌尿外科
+TRUS,Transrectal Ultrasound,经直肠超声,泌尿外科
+BCa,Bladder Cancer,膀胱癌,泌尿外科
+UTUC,Upper Tract Urothelial Carcinoma,上尿路尿路上皮癌,泌尿外科
+NMIBC,Non-Muscle Invasive Bladder Cancer,非肌层浸润性膀胱癌,泌尿外科
+MIBC,Muscle Invasive Bladder Cancer,肌层浸润性膀胱癌,泌尿外科
+CRPC,Castration-Resistant Prostate Cancer,去势抵抗性前列腺癌,泌尿外科
+ADT,Androgen Deprivation Therapy,雄激素剥夺治疗,泌尿外科
+RP,Radical Prostatectomy,根治性前列腺切除术,泌尿外科
+RC,Radical Cystectomy,根治性膀胱切除术,泌尿外科
+RN,Radical Nephrectomy,根治性肾切除术,泌尿外科
+LND,Lymph Node Dissection,淋巴结清扫术,泌尿外科
+IC,Interstitial Cystitis,间质性膀胱炎,泌尿外科
+LUTD,Lower Urinary Tract Dysfunction,下尿路功能障碍,泌尿外科
+VUR,Vesicoureteral Reflux,膀胱输尿管反流,泌尿外科
+UPJO,Ureteropelvic Junction Obstruction,肾盂输尿管连接部梗阻,泌尿外科
+PUV,Posterior Urethral Valves,后尿道瓣膜,泌尿外科
+HSPN,Henoch-Schönlein Purpura Nephritis,过敏性紫癜肾炎,泌尿外科
+NS,Nephrotic Syndrome,肾病综合征,泌尿外科
+RTA,Renal Tubular Acidosis,肾小管酸中毒,泌尿外科
+UTI-R,Recurrent Urinary Tract Infection,复发性尿路感染,泌尿外科
+CBT,Cognitive Behavioral Therapy,认知行为治疗,精神病学
+MAOI,Monoamine Oxidase Inhibitor,单胺氧化酶抑制剂,精神病学
+MDD,Major Depressive Disorder,重性抑郁障碍,精神病学
+BD,Bipolar Disorder,双相障碍,精神病学
+SZ,Schizophrenia,精神分裂症,精神病学
+SAD,Social Anxiety Disorder,社交焦虑障碍,精神病学
+CBT-I,Cognitive Behavioral Therapy for Insomnia,失眠认知行为治疗,精神病学
+DBT,Dialectical Behavior Therapy,辩证行为治疗,精神病学
+TMS,Transcranial Magnetic Stimulation,经颅磁刺激,精神病学
+VNS,Vagus Nerve Stimulation,迷走神经刺激,精神病学
+DBS,Deep Brain Stimulation,脑深部电刺激,精神病学
+NMS,Neuroleptic Malignant Syndrome,抗精神病药恶性综合征,精神病学
+EPS,Extrapyramidal Symptoms,锥体外系症状,精神病学
+TD,Tardive Dyskinesia,迟发性运动障碍,精神病学
+SI,Suicidal Ideation,自杀意念,精神病学
+SA,Suicide Attempt,自杀未遂,精神病学
+NSSI,Nonsuicidal Self-Injury,非自杀性自伤,精神病学
+SUD,Substance Use Disorder,物质使用障碍,精神病学
+AUD,Alcohol Use Disorder,酒精使用障碍,精神病学
+ODD,Oppositional Defiant Disorder,对立违抗障碍,精神病学
+PANDAS,Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal Infections,链球菌感染相关儿童自身免疫性神经精神障碍,精神病学
+CAPD,Central Auditory Processing Disorder,中枢听觉处理障碍,精神病学
+SPD,Sensory Processing Disorder,感觉处理障碍,精神病学
+RDoC,Research Domain Criteria,研究领域标准,精神病学
+MRV,Magnetic Resonance Venography,磁共振静脉成像,影像医学
+CTP,Computed Tomography Perfusion,计算机断层灌注成像,影像医学
+MRP,Magnetic Resonance Perfusion,磁共振灌注成像,影像医学
+ADC,Apparent Diffusion Coefficient,表观弥散系数,影像医学
+SWI,Susceptibility Weighted Imaging,磁敏感加权成像,影像医学
+MRS,Magnetic Resonance Spectroscopy,磁共振波谱成像,影像医学
+BOLD,Blood Oxygen Level Dependent,血氧水平依赖成像,影像医学
+PWI,Perfusion Weighted Imaging,灌注加权成像,影像医学
+ASL,Arterial Spin Labeling,动脉自旋标记,影像医学
+IVIM,Intravoxel Incoherent Motion,体素内不相干运动,影像医学
+DCE-MRI,Dynamic Contrast Enhanced MRI,动态对比增强磁共振成像,影像医学
+SSD,Shaded Surface Display,表面遮盖显示,影像医学
+HU,Hounsfield Unit,亨氏单位,影像医学
+ROI,Region of Interest,感兴趣区,影像医学
+VOI,Volume of Interest,感兴趣容积,影像医学
+SNR,Signal to Noise Ratio,信噪比,影像医学
+CNR,Contrast to Noise Ratio,对比噪声比,影像医学
+TE,Echo Time,回波时间,影像医学
+TR,Repetition Time,重复时间,影像医学
+TI,Inversion Time,反转时间,影像医学
+NEX,Number of Excitations,激励次数,影像医学
+ETL,Echo Train Length,回波链长度,影像医学
+EPI,Echo Planar Imaging,平面回波成像,影像医学
+GRE,Gradient Echo,梯度回波,影像医学
+SE,Spin Echo,自旋回波,影像医学
+STIR,Short Tau Inversion Recovery,短时反转恢复序列,影像医学
+T1WI,T1 Weighted Imaging,T1加权成像,影像医学
+T2WI,T2 Weighted Imaging,T2加权成像,影像医学
+PDWI,Proton Density Weighted Imaging,质子密度加权成像,影像医学
+CE-MRA,Contrast Enhanced MRA,对比增强磁共振血管成像,影像医学
+TOF-MRA,Time of Flight MRA,时间飞跃法磁共振血管成像,影像医学
+PC-MRA,Phase Contrast MRA,相位对比磁共振血管成像,影像医学
+CVD,Cerebrovascular Disease,脑血管疾病,病理学
+IPMN,Intraductal Papillary Mucinous Neoplasm,导管内乳头状黏液性肿瘤,病理学
+NET,Neuroendocrine Tumor,神经内分泌肿瘤,病理学
+CC,Cholangiocarcinoma,胆管癌,病理学
+TCC,Transitional Cell Carcinoma,移行细胞癌,病理学
+MCC,Merkel Cell Carcinoma,梅克尔细胞癌,病理学
+MALT,Mucosa-Associated Lymphoid Tissue,黏膜相关淋巴组织,病理学
+PV,Polycythemia Vera,真性红细胞增多症,病理学
+PMF,Primary Myelofibrosis,原发性骨髓纤维化,病理学
+LCH,Langerhans Cell Histiocytosis,朗格汉斯细胞组织细胞增生症,病理学
+GCA,Giant Cell Arteritis,巨细胞动脉炎,病理学
+NSAID,Nonsteroidal Anti-Inflammatory Drug,非甾体抗炎药,药理学
+DMARD,Disease-Modifying Antirheumatic Drug,改善病情抗风湿药,药理学
+CYP,Cytochrome P450,细胞色素P450,药理学
+AUC,Area Under the Curve,曲线下面积,药理学
+Cmax,Maximum Concentration,峰浓度,药理学
+Tmax,Time to Maximum Concentration,达峰时间,药理学
+t1/2,Half-Life,半衰期,药理学
+Vd,Volume of Distribution,表观分布容积,药理学
+CL,Clearance,清除率,药理学
+MIC,Minimum Inhibitory Concentration,最低抑菌浓度,药理学
+MBC,Minimum Bactericidal Concentration,最低杀菌浓度,药理学
+PK,Pharmacokinetics,药代动力学,药理学
+ADME,Absorption Distribution Metabolism Excretion,吸收分布代谢排泄,药理学
+IC50,Half Maximal Inhibitory Concentration,半数抑制浓度,药理学
+EC50,Half Maximal Effective Concentration,半数有效浓度,药理学
+ED50,Median Effective Dose,半数有效剂量,药理学
+LD50,Median Lethal Dose,半数致死剂量,药理学
+BBB,Blood-Brain Barrier,血脑屏障,药理学
+ANS,Autonomic Nervous System,自主神经系统,药理学
+GPCR,G Protein-Coupled Receptor,G蛋白偶联受体,药理学
+RTK,Receptor Tyrosine Kinase,受体酪氨酸激酶,药理学
+cAMP,Cyclic Adenosine Monophosphate,环磷酸腺苷,药理学
+ATP,Adenosine Triphosphate,三磷酸腺苷,药理学
+ADP,Adenosine Diphosphate,二磷酸腺苷,药理学
+NADPH,Nicotinamide Adenine Dinucleotide Phosphate,烟酰胺腺嘌呤二核苷酸磷酸,药理学
+COX,Cyclooxygenase,环氧合酶,药理学
+LOX,Lipoxygenase,脂氧合酶,药理学
+MHC,Major Histocompatibility Complex,主要组织相容性复合体,免疫学
+TCR,T Cell Receptor,T细胞受体,免疫学
+BCR,B Cell Receptor,B细胞受体,免疫学
+NK,Natural Killer Cell,自然杀伤细胞,免疫学
+Th,T Helper Cell,辅助性T细胞,免疫学
+Treg,Regulatory T Cell,调节性T细胞,免疫学
+Ig,Immunoglobulin,免疫球蛋白,免疫学
+IgM,Immunoglobulin M,免疫球蛋白M,免疫学
+IgD,Immunoglobulin D,免疫球蛋白D,免疫学
+C3,Complement Component 3,补体成分3,免疫学
+C4,Complement Component 4,补体成分4,免疫学
+GM-CSF,Granulocyte-Macrophage Colony-Stimulating Factor,粒细胞-巨噬细胞集落刺激因子,免疫学
+G-CSF,Granulocyte Colony-Stimulating Factor,粒细胞集落刺激因子,免疫学
+MCP,Monocyte Chemoattractant Protein,单核细胞趋化蛋白,免疫学
+RANTES,Regulated on Activation Normal T Cell Expressed and Secreted,活化正常T细胞表达和分泌调节因子,免疫学
+LPS,Lipopolysaccharide,脂多糖,免疫学
+PAMP,Pathogen-Associated Molecular Pattern,病原体相关分子模式,免疫学
+PRR,Pattern Recognition Receptor,模式识别受体,免疫学
+TLR,Toll-Like Receptor,Toll样受体,免疫学
+NLR,NOD-Like Receptor,NOD样受体,免疫学
+RLR,RIG-I-Like Receptor,RIG-I样受体,免疫学
+CLR,C-Type Lectin Receptor,C型凝集素受体,免疫学
+Fc,Fragment Crystallizable,可结晶片段,免疫学
+Fab,Fragment Antigen Binding,抗原结合片段,免疫学
+scFv,Single-Chain Variable Fragment,单链可变区片段,免疫学
+CAR,Chimeric Antigen Receptor,嵌合抗原受体,免疫学
+CTL,Cytotoxic T Lymphocyte,细胞毒性T淋巴细胞,免疫学
+ADCC,Antibody-Dependent Cell-Mediated Cytotoxicity,抗体依赖性细胞介导的细胞毒性,免疫学
+ELISPOT,Enzyme-Linked Immunospot Assay,酶联免疫斑点检测,免疫学
+FACS,Fluorescence-Activated Cell Sorting,荧光激活细胞分选,免疫学
+MFI,Mean Fluorescence Intensity,平均荧光强度,免疫学
+PBMC,Peripheral Blood Mononuclear Cell,外周血单个核细胞,免疫学
+TIL,Tumor-Infiltrating Lymphocyte,肿瘤浸润淋巴细胞,免疫学
+GVL,Graft-Versus-Leukemia,移植物抗白血病,免疫学
+DNA,Deoxyribonucleic Acid,脱氧核糖核酸,遗传学
+RNA,Ribonucleic Acid,核糖核酸,遗传学
+SNP,Single Nucleotide Polymorphism,单核苷酸多态性,遗传学
+GWAS,Genome-Wide Association Study,全基因组关联研究,遗传学
+WES,Whole Exome Sequencing,全外显子组测序,遗传学
+WGS,Whole Genome Sequencing,全基因组测序,遗传学
+Sanger,Sanger Sequencing,桑格测序,遗传学
+CGH,Comparative Genomic Hybridization,比较基因组杂交,遗传学
+MLPA,Multiplex Ligation-Dependent Probe Amplification,多重连接依赖探针扩增,遗传学
+STR,Short Tandem Repeat,短串联重复序列,遗传学
+VNTR,Variable Number Tandem Repeat,可变数目串联重复序列,遗传学
+LOH,Loss of Heterozygosity,杂合性缺失,遗传学
+UPD,Uniparental Disomy,单亲二体性,遗传学
+XL,X-Linked,X连锁,遗传学
+MT,Mitochondrial,线粒体,遗传学
+MIM,Mendelian Inheritance in Man,人类孟德尔遗传,遗传学
+OMIM,Online Mendelian Inheritance in Man,在线人类孟德尔遗传,遗传学
+HGVS,Human Genome Variation Society,人类基因组变异学会,遗传学
+ACMG,American College of Medical Genetics and Genomics,美国医学遗传学与基因组学学会,遗传学
+VUS,Variant of Uncertain Significance,意义不明确变异,遗传学
+PVS,Pathogenic Variant Strong,强致病性变异,遗传学
+BA,Biallelic,双等位基因,遗传学
+HE,Heterozygous,杂合子,遗传学
+HO,Homozygous,纯合子,遗传学
+HTZ,Heterozygote,杂合子,遗传学
+HMZ,Homozygote,纯合子,遗传学
+DEL,Deletion,缺失,遗传学
+DUP,Duplication,重复,遗传学
+INS,Insertion,插入,遗传学
+INV,Inversion,倒位,遗传学
+TRN,Translocation,易位,遗传学
+MUT,Mutation,突变,遗传学
+WT,Wild Type,野生型,遗传学
+PED,Pedigree,系谱,遗传学
+PRO,Proband,先证者,遗传学
+SIB,Sibling,同胞,遗传学
+MZ,Monozygotic,单卵性,遗传学
+DZ,Dizygotic,双卵性,遗传学
+HWE,Hardy-Weinberg Equilibrium,哈迪-温伯格平衡,遗传学
+RT-PCR,Reverse Transcription Polymerase Chain Reaction,逆转录聚合酶链反应,分子生物学
+qPCR,Quantitative Polymerase Chain Reaction,定量聚合酶链反应,分子生物学
+mRNA,Messenger RNA,信使核糖核酸,分子生物学
+tRNA,Transfer RNA,转移核糖核酸,分子生物学
+rRNA,Ribosomal RNA,核糖体核糖核酸,分子生物学
+cDNA,Complementary DNA,互补脱氧核糖核酸,分子生物学
+siRNA,Small Interfering RNA,小干扰核糖核酸,分子生物学
+miRNA,MicroRNA,微小核糖核酸,分子生物学
+shRNA,Short Hairpin RNA,短发夹核糖核酸,分子生物学
+lncRNA,Long Non-coding RNA,长链非编码核糖核酸,分子生物学
+CRISPR,Clustered Regularly Interspaced Short Palindromic Repeats,成簇规律间隔短回文重复序列,分子生物学
+Cas9,CRISPR-associated protein 9,CRISPR相关蛋白9,分子生物学
+sgRNA,Single Guide RNA,单链引导核糖核酸,分子生物学
+RFLP,Restriction Fragment Length Polymorphism,限制性片段长度多态性,分子生物学
+RNA-seq,RNA Sequencing,核糖核酸测序,分子生物学
+ChIP-seq,Chromatin Immunoprecipitation Sequencing,染色质免疫沉淀测序,分子生物学
+ISH,In Situ Hybridization,原位杂交,分子生物学
+WB,Western Blot,蛋白质印迹法,分子生物学
+EMSA,Electrophoretic Mobility Shift Assay,电泳迁移率变动分析,分子生物学
+IP,Immunoprecipitation,免疫沉淀,分子生物学
+Co-IP,Co-Immunoprecipitation,免疫共沉淀,分子生物学
+PAGE,Polyacrylamide Gel Electrophoresis,聚丙烯酰胺凝胶电泳,分子生物学
+SDS-PAGE,Sodium Dodecyl Sulfate Polyacrylamide Gel Electrophoresis,十二烷基硫酸钠聚丙烯酰胺凝胶电泳,分子生物学
+PFGE,Pulsed-Field Gel Electrophoresis,脉冲场凝胶电泳,分子生物学
+TUNEL,Terminal Deoxynucleotidyl Transferase dUTP Nick End Labeling,末端脱氧核苷酸转移酶dUTP缺口末端标记,分子生物学
+RACE,Rapid Amplification of cDNA Ends,cDNA末端快速扩增,分子生物学
+ORF,Open Reading Frame,开放阅读框,分子生物学
+UTR,Untranslated Region,非翻译区,分子生物学
+TSS,Transcription Start Site,转录起始位点,分子生物学
+TF,Transcription Factor,转录因子,分子生物学
+TAD,Topologically Associating Domain,拓扑关联结构域,分子生物学
+circRNA,Circular RNA,环状核糖核酸,分子生物学
+Ago,Argonaute,Argonaute蛋白,分子生物学
+RISC,RNA-Induced Silencing Complex,RNA诱导沉默复合体,分子生物学
+Dicer,Dicer,切割酶,分子生物学
+Pol,Polymerase,聚合酶,分子生物学
+RT,Reverse Transcriptase,逆转录酶,分子生物学
+AAA,Abdominal Aortic Aneurysm,腹主动脉瘤,解剖学
+ACA,Anterior Cerebral Artery,大脑前动脉,解剖学
+AICD,Automatic Implantable Cardioverter-Defibrillator,自动植入式心律转复除颤器,解剖学
+ABP,Arterial Blood Pressure,动脉血压,生理学
+TV,Tidal Volume,潮气量,生理学
+FRC,Functional Residual Capacity,功能残气量,生理学
+RBF,Renal Blood Flow,肾血流量,生理学
+FF,Filtration Fraction,滤过分数,生理学
+UO,Urine Output,尿量,生理学
+BMR,Basal Metabolic Rate,基础代谢率,生理学
+OT,Oxytocin,催产素,生理学
+NE,Norepinephrine,去甲肾上腺素,生理学
+ACh,Acetylcholine,乙酰胆碱,生理学
+DA,Dopamine,多巴胺,生理学
+GABA,Gamma-Aminobutyric Acid,γ-氨基丁酸,生理学
+EPSP,Excitatory Postsynaptic Potential,兴奋性突触后电位,生理学
+IPSP,Inhibitory Postsynaptic Potential,抑制性突触后电位,生理学
+RMP,Resting Membrane Potential,静息膜电位,生理学
+NADH,Nicotinamide Adenine Dinucleotide (Reduced),还原型烟酰胺腺嘌呤二核苷酸,生物化学
+FAD,Flavin Adenine Dinucleotide,黄素腺嘌呤二核苷酸,生物化学
+GTP,Guanosine Triphosphate,三磷酸鸟苷,生物化学
+UTP,Uridine Triphosphate,三磷酸尿苷,生物化学
+HPLC,High-Performance Liquid Chromatography,高效液相色谱法,生物化学
+NMR,Nuclear Magnetic Resonance,核磁共振,生物化学
+CHIP,Chromatin Immunoprecipitation,染色质免疫沉淀,生物化学
+RIA,Radioimmunoassay,放射免疫分析,生物化学
+CK,Creatine Kinase,肌酸激酶,生物化学
+CFU,Colony-forming Unit,菌落形成单位,微生物学
+MLST,Multilocus Sequence Typing,多位点序列分型,微生物学
+LTA,Lipoteichoic Acid,脂磷壁酸,微生物学
+TEM,Transmission Electron Microscopy,透射电子显微镜,微生物学
+SEM,Scanning Electron Microscopy,扫描电子显微镜,微生物学
+BHI,Brain Heart Infusion,脑心浸液,微生物学
+TSB,Tryptic Soy Broth,胰蛋白胨大豆肉汤,微生物学
+MHA,Mueller-Hinton Agar,穆勒-欣顿琼脂,微生物学
+EUCAST,European Committee on Antimicrobial Susceptibility Testing,欧洲抗菌药物敏感性试验委员会,微生物学
+NTM,Nontuberculous Mycobacteria,非结核分枝杆菌,微生物学
+SPA,Staphylococcal Protein A,葡萄球菌蛋白A,微生物学
+TSST-1,Toxic Shock Syndrome Toxin 1,中毒性休克综合征毒素1,微生物学
+ETEC,Enterotoxigenic Escherichia coli,产肠毒素性大肠埃希菌,微生物学
+EPEC,Enteropathogenic Escherichia coli,肠致病性大肠埃希菌,微生物学
+EHEC,Enterohemorrhagic Escherichia coli,肠出血性大肠埃希菌,微生物学
+EIEC,Enteroinvasive Escherichia coli,肠侵袭性大肠埃希菌,微生物学
+EAEC,Enteroaggregative Escherichia coli,肠聚集性大肠埃希菌,微生物学
+MRSE,Methicillin-resistant Staphylococcus epidermidis,耐甲氧西林表皮葡萄球菌,微生物学
+VISA,Vancomycin-intermediate Staphylococcus aureus,万古霉素中介金黄色葡萄球菌,微生物学
+VRSA,Vancomycin-resistant Staphylococcus aureus,耐万古霉素金黄色葡萄球菌,微生物学
+CRAB,Carbapenem-resistant Acinetobacter baumannii,耐碳青霉烯鲍曼不动杆菌,微生物学
+COVID-19,Coronavirus Disease 2019,新型冠状病毒病,公共卫生与流行病学
+SARS-CoV-2,Severe Acute Respiratory Syndrome Coronavirus 2,严重急性呼吸综合征冠状病毒2型,公共卫生与流行病学
+R0,Basic Reproduction Number,基本再生数,公共卫生与流行病学
+NPV,Negative Predictive Value,阴性预测值,公共卫生与流行病学
+ROC,Receiver Operating Characteristic,受试者工作特征,公共卫生与流行病学
+VE,Vaccine Effectiveness,疫苗效果,公共卫生与流行病学
+ID,Infectious Disease,传染病,公共卫生与流行病学
+AMR,Antimicrobial Resistance,抗菌药物耐药性,公共卫生与流行病学
+NCD,Non-Communicable Disease,非传染性疾病,公共卫生与流行病学
+SES,Socioeconomic Status,社会经济地位,公共卫生与流行病学
+DALY,Disability-Adjusted Life Year,伤残调整生命年,公共卫生与流行病学
+QALY,Quality-Adjusted Life Year,质量调整生命年,公共卫生与流行病学
+YLL,Years of Life Lost,寿命损失年,公共卫生与流行病学
+YLD,Years Lived with Disability,伤残寿命年,公共卫生与流行病学
+CFR,Case Fatality Rate,病死率,公共卫生与流行病学
+SIR,Standardized Incidence Ratio,标准化发病比,公共卫生与流行病学
+SMR,Standardized Mortality Ratio,标准化死亡比,公共卫生与流行病学
