@@ -1585,3 +1585,1372 @@ PPE,Personal Protective Equipment,���˷���װ��,�������������в�ѧ,,,
 N95,N95 Respirator,N95����,�������������в�ѧ,,,
 PHEIC,Public Health Emergency of International Concern,���ʹ�ע��ͻ�����������¼�,�������������в�ѧ,,,
 GAVI,Global Alliance for Vaccines and Immunization,ȫ��������������,�������������в�ѧ,,,
+CCU,Coronary Care Unit,冠心病监护病房,冠心病与心肌梗死
+OMT,Optimal Medical Therapy,最佳药物治疗,冠心病与心肌梗死
+HFmrEF,Heart Failure with Mildly Reduced Ejection Fraction,射血分数轻度降低的心力衰竭,心力衰竭与心肌病
+LV,Left Ventricle,左心室,心力衰竭与心肌病
+PVC,Premature Ventricular Contraction,室性期前收缩,心律失常与电生理
+PAC,Premature Atrial Contraction,房性期前收缩,心律失常与电生理
+ERP,Effective Refractory Period,有效不应期,心律失常与电生理
+SNRT,Sinus Node Recovery Time,窦房结恢复时间,心律失常与电生理
+AH,Atrial-His Interval,心房-希氏束间期,心律失常与电生理
+HV,His-Ventricular Interval,希氏束-心室间期,心律失常与电生理
+AVNRT,Atrioventricular Nodal Reentrant Tachycardia,房室结折返性心动过速,心律失常与电生理
+AVRT,Atrioventricular Reentrant Tachycardia,房室折返性心动过速,心律失常与电生理
+TdP,Torsades de Pointes,尖端扭转型室性心动过速,心律失常与电生理
+PPM,Permanent Pacemaker,永久性起搏器,心律失常与电生理
+RFCA,Radiofrequency Catheter Ablation,射频导管消融,心律失常与电生理
+SQTS,Short QT Syndrome,短QT综合征,心律失常与电生理
+LVH,Left Ventricular Hypertrophy,左心室肥厚,高血压病
+HBPM,Home Blood Pressure Monitoring,家庭血压监测,高血压病
+TS,tricuspid stenosis,三尖瓣狭窄,心脏瓣膜病
+MVP,mitral valve prolapse,二尖瓣脱垂,心脏瓣膜病
+RHD,rheumatic heart disease,风湿性心脏病,心脏瓣膜病
+SAVR,surgical aortic valve replacement,外科主动脉瓣置换术,心脏瓣膜病
+MVR,mitral valve replacement,二尖瓣置换术,心脏瓣膜病
+LVOT,left ventricular outflow tract,左心室流出道,心脏瓣膜病
+RVOT,right ventricular outflow tract,右心室流出道,心脏瓣膜病
+DVI,Doppler velocity index,多普勒速度指数,心脏瓣膜病
+EOA,effective orifice area,有效瓣口面积,心脏瓣膜病
+PHT,pressure half-time,压力减半时间,心脏瓣膜病
+Vmax,maximum velocity,最大流速,心脏瓣膜病
+AVSD,Atrioventricular Septal Defect,房室间隔缺损,先天性心脏病
+TA,Tricuspid Atresia,三尖瓣闭锁,先天性心脏病
+Ebstein,Ebstein Anomaly,埃布斯坦畸形,先天性心脏病
+IAA,Interrupted Aortic Arch,主动脉弓中断,先天性心脏病
+BPA,Branch Pulmonary Artery,肺动脉分支,先天性心脏病
+MPA,Main Pulmonary Artery,主肺动脉,先天性心脏病
+SVC,Superior Vena Cava,上腔静脉,先天性心脏病
+AVR,Aortic Valve Replacement,主动脉瓣置换术,先天性心脏病
+CXR,Chest X-Ray,胸部X线,心包疾病
+ABI,Ankle-Brachial Index,踝臂指数,外周血管疾病
+CLI,Critical Limb Ischemia,严重肢体缺血,外周血管疾病
+RVD,Renal Vein Thrombosis,肾静脉血栓形成,外周血管疾病
+SFA,Superficial Femoral Artery,股浅动脉,外周血管疾病
+TASC,TransAtlantic Inter-Society Consensus,跨大西洋多学会共识,外周血管疾病
+TOS,Thoracic Outlet Syndrome,胸廓出口综合征,外周血管疾病
+WIfI,Wound Ischemia foot Infection,创面缺血足部感染分级,外周血管疾病
+CDU,Color Doppler Ultrasound,彩色多普勒超声,外周血管疾病
+Rutherford,Rutherford Classification,卢瑟福分级,外周血管疾病
+Fontaine,Fontaine Classification,方丹分级,外周血管疾病
+EVAR,Endovascular Aneurysm Repair,腔内动脉瘤修复术,外周血管疾病
+LVEDV,Left Ventricular End-Diastolic Volume,左心室舒张末期容积,心脏影像学（超声、CT、MRI）
+LVESV,Left Ventricular End-Systolic Volume,左心室收缩末期容积,心脏影像学（超声、CT、MRI）
+IVS,Interventricular Septum,室间隔,心脏影像学（超声、CT、MRI）
+LVPW,Left Ventricular Posterior Wall,左心室后壁,心脏影像学（超声、CT、MRI）
+RWT,Relative Wall Thickness,相对室壁厚度,心脏影像学（超声、CT、MRI）
+TAPSE,Tricuspid Annular Plane Systolic Excursion,三尖瓣环收缩期位移,心脏影像学（超声、CT、MRI）
+PASP,Pulmonary Artery Systolic Pressure,肺动脉收缩压,心脏影像学（超声、CT、MRI）
+E/A,E/A Ratio,二尖瓣口舒张早期/晚期血流速度比值,心脏影像学（超声、CT、MRI）
+DT,Deceleration Time,减速时间,心脏影像学（超声、CT、MRI）
+IVRT,Isovolumic Relaxation Time,等容舒张时间,心脏影像学（超声、CT、MRI）
+GLS,Global Longitudinal Strain,整体纵向应变,心脏影像学（超声、CT、MRI）
+LGE,Late Gadolinium Enhancement,晚期钆增强,心脏影像学（超声、CT、MRI）
+T1,T1 Mapping,T1定量成像,心脏影像学（超声、CT、MRI）
+T2,T2 Mapping,T2定量成像,心脏影像学（超声、CT、MRI）
+ECV,Extracellular Volume Fraction,细胞外容积分数,心脏影像学（超声、CT、MRI）
+CACS,Coronary Artery Calcium Score,冠状动脉钙化积分,心脏影像学（超声、CT、MRI）
+FFR-CT,Fractional Flow Reserve Derived from CT,CT血流储备分数,心脏影像学（超声、CT、MRI）
+LMCA,Left Main Coronary Artery,左主干冠状动脉,心脏介入治疗
+PTCA,Percutaneous Transluminal Coronary Angioplasty,经皮冠状动脉腔内成形术,心脏介入治疗
+DAPT,Dual Antiplatelet Therapy,双联抗血小板治疗,心脏介入治疗
+QCA,Quantitative Coronary Angiography,定量冠状动脉造影,心脏介入治疗
+SCAI,Society for Cardiovascular Angiography and Interventions,心血管造影与介入学会,心脏介入治疗
+FEV1/FVC,Forced Expiratory Volume in 1 second/Forced Vital Capacity,第一秒用力呼气量/用力肺活量,慢性阻塞性肺疾病
+GOLD,Global Initiative for Chronic Obstructive Lung Disease,慢性阻塞性肺疾病全球倡议,慢性阻塞性肺疾病
+BODE,Body mass index Obstruction Dyspnea Exercise capacity,体重指数-气道阻塞-呼吸困难-运动能力指数,慢性阻塞性肺疾病
+CAT,COPD Assessment Test,慢性阻塞性肺疾病评估测试,慢性阻塞性肺疾病
+mMRC,modified Medical Research Council dyspnea scale,改良英国医学研究委员会呼吸困难量表,慢性阻塞性肺疾病
+EIB,Exercise-Induced Bronchoconstriction,运动性支气管收缩,慢性阻塞性肺疾病
+PEFR,Peak Expiratory Flow Rate,呼气峰流速值,支气管哮喘
+MMEF,Maximal Mid-Expiratory Flow,最大呼气中期流量,支气管哮喘
+MEF50,Maximal Expiratory Flow at 50% of FVC,50%用力肺活量时最大呼气流量,支气管哮喘
+MEF25,Maximal Expiratory Flow at 25% of FVC,25%用力肺活量时最大呼气流量,支气管哮喘
+PC20,Provocative Concentration causing a 20% fall in FEV1,使FEV1下降20%的激发浓度,支气管哮喘
+PD20,Provocative Dose causing a 20% fall in FEV1,使FEV1下降20%的激发剂量,支气管哮喘
+OCS,Oral Corticosteroid,口服糖皮质激素,支气管哮喘
+LTRA,Leukotriene Receptor Antagonist,白三烯受体拮抗剂,支气管哮喘
+FeNO,Fractional Exhaled Nitric Oxide,呼出气一氧化氮分数,支气管哮喘
+ACT,Asthma Control Test,哮喘控制测试,支气管哮喘
+ACQ,Asthma Control Questionnaire,哮喘控制问卷,支气管哮喘
+GINA,Global Initiative for Asthma,全球哮喘防治创议,支气管哮喘
+AHR,Airway Hyperresponsiveness,气道高反应性,支气管哮喘
+EOS,Eosinophil,嗜酸性粒细胞,支气管哮喘
+ECP,Eosinophil Cationic Protein,嗜酸性粒细胞阳离子蛋白,支气管哮喘
+MBP,Major Basic Protein,主要碱性蛋白,支气管哮喘
+PAF,Platelet-Activating Factor,血小板活化因子,支气管哮喘
+IL-5,Interleukin-5,白细胞介素-5,支气管哮喘
+CURB-65,Confusion Urea Respiratory Rate Blood Pressure Age≥65,肺炎严重度评分（意识尿素呼吸血压年龄≥65）,肺部感染与肺炎
+GGO,Ground-Glass Opacity,磨玻璃密度影,肺部感染与肺炎
+PSI,Pneumonia Severity Index,肺炎严重指数,肺部感染与肺炎
+TMP-SMX,Trimethoprim-Sulfamethoxazole,甲氧苄啶-磺胺甲噁唑,肺部感染与肺炎
+AFB,Acid-Fast Bacillus,抗酸杆菌,肺结核与非结核分枝杆菌
+CFP-10,Culture Filtrate Protein 10,培养滤液蛋白10,肺结核与非结核分枝杆菌
+DST,Drug Susceptibility Testing,药物敏感性试验,肺结核与非结核分枝杆菌
+ESAT-6,Early Secretory Antigenic Target 6,早期分泌抗原靶6,肺结核与非结核分枝杆菌
+GPL,Glycopeptidolipid,糖肽脂,肺结核与非结核分枝杆菌
+IGRA,Interferon-Gamma Release Assay,γ-干扰素释放试验,肺结核与非结核分枝杆菌
+INH,Isoniazid,异烟肼,肺结核与非结核分枝杆菌
+MGIT,Mycobacteria Growth Indicator Tube,分枝杆菌生长指示管,肺结核与非结核分枝杆菌
+MOTT,Mycobacteria Other Than Tuberculosis,非结核分枝杆菌,肺结核与非结核分枝杆菌
+NAAT,Nucleic Acid Amplification Test,核酸扩增试验,肺结核与非结核分枝杆菌
+PAS,Para-Aminosalicylic Acid,对氨基水杨酸,肺结核与非结核分枝杆菌
+PPD,Purified Protein Derivative,纯蛋白衍生物,肺结核与非结核分枝杆菌
+PZA,Pyrazinamide,吡嗪酰胺,肺结核与非结核分枝杆菌
+RIF,Rifampicin,利福平,肺结核与非结核分枝杆菌
+SM,Streptomycin,链霉素,肺结核与非结核分枝杆菌
+TST,Tuberculin Skin Test,结核菌素皮肤试验,肺结核与非结核分枝杆菌
+DIP,Desquamative Interstitial Pneumonia,脱屑性间质性肺炎,间质性肺疾病
+RB-ILD,Respiratory Bronchiolitis-Associated Interstitial Lung Disease,呼吸性细支气管炎相关间质性肺病,间质性肺疾病
+AIP,Acute Interstitial Pneumonia,急性间质性肺炎,间质性肺疾病
+LIP,Lymphocytic Interstitial Pneumonia,淋巴细胞性间质性肺炎,间质性肺疾病
+CTD-ILD,Connective Tissue Disease-Associated Interstitial Lung Disease,结缔组织病相关间质性肺病,间质性肺疾病
+RA-ILD,Rheumatoid Arthritis-Associated Interstitial Lung Disease,类风湿关节炎相关间质性肺病,间质性肺疾病
+SSc-ILD,Systemic Sclerosis-Associated Interstitial Lung Disease,系统性硬化症相关间质性肺病,间质性肺疾病
+SLE-ILD,Systemic Lupus Erythematosus-Associated Interstitial Lung Disease,系统性红斑狼疮相关间质性肺病,间质性肺疾病
+DM-ILD,Dermatomyositis-Associated Interstitial Lung Disease,皮肌炎相关间质性肺病,间质性肺疾病
+PLCH,Pulmonary Langerhans Cell Histiocytosis,肺朗格汉斯细胞组织细胞增生症,间质性肺疾病
+IPAF,Interstitial Pneumonia with Autoimmune Features,具有自身免疫特征的间质性肺炎,间质性肺疾病
+CPFE,Combined Pulmonary Fibrosis and Emphysema,肺纤维化合并肺气肿,间质性肺疾病
+PPFE,Pleuroparenchymal Fibroelastosis,胸膜肺实质弹力纤维增生症,间质性肺疾病
+DILD,Drug-Induced Interstitial Lung Disease,药物性间质性肺病,间质性肺疾病
+IIP,Idiopathic Interstitial Pneumonia,特发性间质性肺炎,间质性肺疾病
+KL-6,Krebs von den Lungen-6,涎液化糖链抗原-6,间质性肺疾病
+SP-D,Surfactant Protein D,表面活性蛋白D,间质性肺疾病
+RVSP,Right Ventricular Systolic Pressure,右心室收缩压,肺栓塞与肺血管病
+PADP,Pulmonary Artery Diastolic Pressure,肺动脉舒张压,肺栓塞与肺血管病
+V/Q Scan,Ventilation/Perfusion Scan,通气/灌注扫描,肺栓塞与肺血管病
+UFH,Unfractionated Heparin,普通肝素,肺栓塞与肺血管病
+WHO-FC,World Health Organization Functional Class,世界卫生组织功能分级,肺栓塞与肺血管病
+mPAP,Mean Pulmonary Artery Pressure,平均肺动脉压,肺栓塞与肺血管病
+PVOD,Pulmonary Veno-Occlusive Disease,肺静脉闭塞病,肺栓塞与肺血管病
+PCH,Pulmonary Capillary Hemangiomatosis,肺毛细血管瘤病,肺栓塞与肺血管病
+I:E,Inspiratory-to-Expiratory Ratio,吸呼比,呼吸衰竭与机械通气
+Pplat,Plateau Pressure,平台压,呼吸衰竭与机械通气
+Ppeak,Peak Inspiratory Pressure,吸气峰压,呼吸衰竭与机械通气
+HFNC,High-Flow Nasal Cannula,经鼻高流量氧疗,呼吸衰竭与机械通气
+P/F Ratio,PaO2/FiO2 Ratio,氧合指数,呼吸衰竭与机械通气
+A-aDO2,Alveolar-arterial Oxygen Difference,肺泡-动脉氧分压差,呼吸衰竭与机械通气
+VD/VT,Dead Space to Tidal Volume Ratio,死腔/潮气量比值,呼吸衰竭与机械通气
+LDCT,Low-Dose Computed Tomography,低剂量计算机断层扫描,肺癌筛查与诊断
+FNA,Fine Needle Aspiration,细针穿刺抽吸,肺癌筛查与诊断
+ROS1,ROS Proto-Oncogene 1,ROS原癌基因1,肺癌筛查与诊断
+SUV,Standardized Uptake Value,标准化摄取值,肺癌筛查与诊断
+SPN,Solitary Pulmonary Nodule,孤立性肺结节,肺癌筛查与诊断
+VATS,Video-Assisted Thoracoscopic Surgery,电视辅助胸腔镜手术,肺癌筛查与诊断
+SBRT,Stereotactic Body Radiotherapy,立体定向体部放疗,肺癌筛查与诊断
+TTNA,Transthoracic Needle Aspiration,经胸针吸活检,肺癌筛查与诊断
+CYFRA21-1,Cytokeratin 19 Fragment,细胞角蛋白19片段,肺癌筛查与诊断
+PSG,Polysomnography,多导睡眠图,睡眠呼吸障碍
+ESS,Epworth Sleepiness Scale,Epworth嗜睡量表,睡眠呼吸障碍
+RDI,Respiratory Disturbance Index,呼吸紊乱指数,睡眠呼吸障碍
+ODI,Oxygen Desaturation Index,氧减指数,睡眠呼吸障碍
+NREM,Non-Rapid Eye Movement,非快速眼动睡眠,睡眠呼吸障碍
+UPPP,Uvulopalatopharyngoplasty,悬雍垂腭咽成形术,睡眠呼吸障碍
+MAD,Mandibular Advancement Device,下颌前移装置,睡眠呼吸障碍
+ASV,Adaptive Servo-Ventilation,适应性伺服通气,睡眠呼吸障碍
+EOG,Electrooculogram,眼电图,睡眠呼吸障碍
+MSLT,Multiple Sleep Latency Test,多次睡眠潜伏期试验,睡眠呼吸障碍
+MWT,Maintenance of Wakefulness Test,维持清醒试验,睡眠呼吸障碍
+PLMS,Periodic Limb Movements in Sleep,睡眠周期性肢体运动,睡眠呼吸障碍
+OSAHS,Obstructive Sleep Apnea Hypopnea Syndrome,阻塞性睡眠呼吸暂停低通气综合征,睡眠呼吸障碍
+LES,Lower Esophageal Sphincter,食管下括约肌,胃食管反流与食管疾病
+EE,Erosive Esophagitis,糜烂性食管炎,胃食管反流与食管疾病
+NERD,Non-Erosive Reflux Disease,非糜烂性反流病,胃食管反流与食管疾病
+ESCC,Esophageal Squamous Cell Carcinoma,食管鳞状细胞癌,胃食管反流与食管疾病
+HGD,High-Grade Dysplasia,高级别上皮内瘤变,胃食管反流与食管疾病
+LGD,Low-Grade Dysplasia,低级别上皮内瘤变,胃食管反流与食管疾病
+MII,Multichannel Intraluminal Impedance,多通道腔内阻抗,胃食管反流与食管疾病
+HRM,High-Resolution Manometry,高分辨率测压,胃食管反流与食管疾病
+EMR,Endoscopic Mucosal Resection,内镜下黏膜切除术,胃食管反流与食管疾病
+ESD,Endoscopic Submucosal Dissection,内镜黏膜下剥离术,胃食管反流与食管疾病
+Nissen,Nissen Fundoplication,尼森胃底折叠术,胃食管反流与食管疾病
+LINX,LINX Reflux Management System,LINX反流管理系统,胃食管反流与食管疾病
+STRETTA,Stretta Procedure,斯特雷塔射频治疗,胃食管反流与食管疾病
+TIF,Transoral Incisionless Fundoplication,经口无切口胃底折叠术,胃食管反流与食管疾病
+P-CAB,Potassium-Competitive Acid Blocker,钾离子竞争性酸阻滞剂,胃食管反流与食管疾病
+HH,Hiatal Hernia,食管裂孔疝,胃食管反流与食管疾病
+RSS,Reflux Symptom Score,反流症状评分,胃食管反流与食管疾病
+SF-36,Short Form-36 Health Survey,健康调查简表-36,胃食管反流与食管疾病
+GU,Gastric Ulcer,胃溃疡,消化性溃疡与胃炎
+DU,Duodenal Ulcer,十二指肠溃疡,消化性溃疡与胃炎
+GIM,Gastric Intestinal Metaplasia,胃黏膜肠上皮化生,消化性溃疡与胃炎
+IL-1β,Interleukin-1 Beta,白细胞介素-1β,消化性溃疡与胃炎
+PGI,Pepsinogen I,胃蛋白酶原I,消化性溃疡与胃炎
+PGII,Pepsinogen II,胃蛋白酶原II,消化性溃疡与胃炎
+G-17,Gastrin-17,胃泌素-17,消化性溃疡与胃炎
+UBT,Urea Breath Test,尿素呼气试验,消化性溃疡与胃炎
+SAT,Stool Antigen Test,粪便抗原检测,消化性溃疡与胃炎
+RUT,Rapid Urease Test,快速尿素酶试验,消化性溃疡与胃炎
+MALToma,Mucosa-Associated Lymphoid Tissue Lymphoma,黏膜相关淋巴组织淋巴瘤,消化性溃疡与胃炎
+GAVE,Gastric Antral Vascular Ectasia,胃窦血管扩张症,消化性溃疡与胃炎
+MEN-1,Multiple Endocrine Neoplasia Type 1,多发性内分泌腺瘤病1型,消化性溃疡与胃炎
+IFX,Infliximab,英夫利西单抗,炎症性肠病（克罗恩/溃结）
+ADA,Adalimumab,阿达木单抗,炎症性肠病（克罗恩/溃结）
+VDZ,Vedolizumab,维得利珠单抗,炎症性肠病（克罗恩/溃结）
+UST,Ustekinumab,乌司奴单抗,炎症性肠病（克罗恩/溃结）
+HBI,Harvey-Bradshaw Index,哈维-布拉德肖指数,炎症性肠病（克罗恩/溃结）
+SCCAI,Simple Clinical Colitis Activity Index,简单临床结肠炎活动指数,炎症性肠病（克罗恩/溃结）
+CDAI,Crohn's Disease Activity Index,克罗恩病活动指数,炎症性肠病（克罗恩/溃结）
+EIM,Extra-intestinal Manifestation,肠外表现,炎症性肠病（克罗恩/溃结）
+CDI,Clostridioides Difficile Infection,艰难梭菌感染,炎症性肠病（克罗恩/溃结）
+MRE,Magnetic Resonance Enterography,磁共振小肠造影,炎症性肠病（克罗恩/溃结）
+IBDQ,Inflammatory Bowel Disease Questionnaire,炎症性肠病问卷,炎症性肠病（克罗恩/溃结）
+SES-CD,Simple Endoscopic Score for Crohn's Disease,克罗恩病简易内镜评分,炎症性肠病（克罗恩/溃结）
+UCEIS,Ulcerative Colitis Endoscopic Index of Severity,溃疡性结肠炎内镜严重程度指数,炎症性肠病（克罗恩/溃结）
+PCDAI,Pediatric Crohn's Disease Activity Index,儿童克罗恩病活动指数,炎症性肠病（克罗恩/溃结）
+PUCAI,Pediatric Ulcerative Colitis Activity Index,儿童溃疡性结肠炎活动指数,炎症性肠病（克罗恩/溃结）
+FCP,Fecal Calprotectin,粪便钙卫蛋白,炎症性肠病（克罗恩/溃结）
+FD,Functional Dyspepsia,功能性消化不良,功能性胃肠病
+FDr,Functional Diarrhea,功能性腹泻,功能性胃肠病
+PDS,Postprandial Distress Syndrome,餐后不适综合征,功能性胃肠病
+IBS-C,Irritable Bowel Syndrome with Constipation,便秘型肠易激综合征,功能性胃肠病
+IBS-D,Irritable Bowel Syndrome with Diarrhea,腹泻型肠易激综合征,功能性胃肠病
+IBS-M,Irritable Bowel Syndrome with Mixed Bowel Habits,混合型肠易激综合征,功能性胃肠病
+IBS-U,Irritable Bowel Syndrome Unsubtyped,未分类型肠易激综合征,功能性胃肠病
+FAPS,Functional Abdominal Pain Syndrome,功能性腹痛综合征,功能性胃肠病
+SOD,Sphincter of Oddi Dysfunction,奥迪括约肌功能障碍,功能性胃肠病
+FGP,Functional Gastroparesis,功能性胃轻瘫,功能性胃肠病
+RUM,Recurrent Upper Abdominal Pain,复发性上腹痛,功能性胃肠病
+FBD,Functional Bowel Disorder,功能性肠病,功能性胃肠病
+FDD,Functional Defecation Disorder,功能性排便障碍,功能性胃肠病
+DGBI,Disorders of Gut-Brain Interaction,肠脑互动障碍,功能性胃肠病
+FGID,Functional Gastrointestinal Disorder,功能性胃肠病,功能性胃肠病
+GES,Gastric Emptying Scintigraphy,胃排空闪烁显像,功能性胃肠病
+BFT,Biofeedback Therapy,生物反馈治疗,功能性胃肠病
+ENS,Enteric Nervous System,肠神经系统,功能性胃肠病
+SIBO,Small Intestinal Bacterial Overgrowth,小肠细菌过度生长,功能性胃肠病
+VSI,Visceral Sensitivity Index,内脏敏感性指数,功能性胃肠病
+GSRS,Gastrointestinal Symptom Rating Scale,胃肠症状评定量表,功能性胃肠病
+SF-Q,Short Form Quality of Life Questionnaire,生活质量简表问卷,功能性胃肠病
+HBcAb,hepatitis B core antibody,乙型肝炎核心抗体,肝脏疾病（肝炎、肝硬化）
+HBsAb,hepatitis B surface antibody,乙型肝炎表面抗体,肝脏疾病（肝炎、肝硬化）
+MELD,model for end-stage liver disease,终末期肝病模型,肝脏疾病（肝炎、肝硬化）
+CHILD,Child-Turcotte-Pugh score,Child-Turcotte-Pugh评分,肝脏疾病（肝炎、肝硬化）
+PanIN,pancreatic intraepithelial neoplasia,胰腺上皮内瘤变,胰腺疾病
+MCN,mucinous cystic neoplasm,黏液性囊性肿瘤,胰腺疾病
+DP,distal pancreatectomy,远端胰腺切除术,胰腺疾病
+TP,total pancreatectomy,全胰腺切除术,胰腺疾病
+SAP,severe acute pancreatitis,重症急性胰腺炎,胰腺疾病
+APFC,acute peripancreatic fluid collection,急性胰周液体积聚,胰腺疾病
+WON,walled-off necrosis,包裹性坏死,胰腺疾病
+PFC,pancreatic fluid collection,胰周液体积聚,胰腺疾病
+PTBD,Percutaneous Transhepatic Biliary Drainage,经皮肝穿刺胆道引流术,胆道疾病
+IDUS,Intraductal Ultrasound,胰胆管内超声,胆道疾病
+GB,Gallbladder,胆囊,胆道疾病
+GBC,Gallbladder Cancer,胆囊癌,胆道疾病
+CCA,Cholangiocarcinoma,胆管癌,胆道疾病
+AAC,Acute Acalculous Cholecystitis,急性非结石性胆囊炎,胆道疾病
+GS,Gallstone,胆结石,胆道疾病
+CBDS,Common Bile Duct Stone,胆总管结石,胆道疾病
+EST,Endoscopic Sphincterotomy,内镜下括约肌切开术,胆道疾病
+EPBD,Endoscopic Papillary Balloon Dilation,内镜下乳头球囊扩张术,胆道疾病
+ENBD,Endoscopic Nasobiliary Drainage,内镜下鼻胆管引流术,胆道疾病
+ERBD,Endoscopic Retrograde Biliary Drainage,内镜下逆行胆道引流术,胆道疾病
+BII,Bilirubin,胆红素,胆道疾病
+MSI-H,Microsatellite Instability-High,高度微卫星不稳定性,消化道肿瘤
+MSS,Microsatellite Stable,微卫星稳定,消化道肿瘤
+NRAS,Neuroblastoma RAS Viral Oncogene Homolog,神经母细胞瘤RAS病毒癌基因同源物,消化道肿瘤
+PIK3CA,Phosphatidylinositol-4,5-Bisphosphate 3-Kinase Catalytic Subunit Alpha,"磷脂酰肌醇-4,5-二磷酸3-激酶催化亚基α,消化道肿瘤"
+SMAD4,Mothers Against Decapentaplegic Homolog 4,母亲抗十肢瘫痪同源物4,消化道肿瘤
+DCC,Deleted in Colorectal Carcinoma,结直肠癌缺失基因,消化道肿瘤
+MLH1,MutL Homolog 1,MutL同源物1,消化道肿瘤
+MSH2,MutS Homolog 2,MutS同源物2,消化道肿瘤
+MSH6,MutS Homolog 6,MutS同源物6,消化道肿瘤
+PMS2,Postmeiotic Segregation Increased 2,减数分裂后分离增加2,消化道肿瘤
+CA72-4,Carbohydrate Antigen 72-4,糖类抗原72-4,消化道肿瘤
+NBI,Narrow Band Imaging,窄带成像,消化道肿瘤
+POEM,Peroral Endoscopic Myotomy,经口内镜下肌切开术,消化道内镜诊断与治疗
+NOTES,Natural Orifice Transluminal Endoscopic Surgery,经自然腔道内镜手术,消化道内镜诊断与治疗
+CLE,Confocal Laser Endomicroscopy,共聚焦激光显微内镜,消化道内镜诊断与治疗
+FICE,Flexible Spectral Imaging Color Enhancement,智能分光比色技术,消化道内镜诊断与治疗
+BLI,Blue Laser Imaging,蓝激光成像,消化道内镜诊断与治疗
+LCI,Linked Color Imaging,联动成像,消化道内镜诊断与治疗
+EVL,Endoscopic Variceal Ligation,内镜下静脉曲张套扎术,消化道内镜诊断与治疗
+EIS,Endoscopic Injection Sclerotherapy,内镜下硬化剂注射治疗,消化道内镜诊断与治疗
+PEG,Percutaneous Endoscopic Gastrostomy,经皮内镜下胃造口术,消化道内镜诊断与治疗
+PEJ,Percutaneous Endoscopic Jejunostomy,经皮内镜下空肠造口术,消化道内镜诊断与治疗
+SEMS,Self-Expandable Metal Stent,自膨式金属支架,消化道内镜诊断与治疗
+SEPS,Self-Expandable Plastic Stent,自膨式塑料支架,消化道内镜诊断与治疗
+FNB,Fine Needle Biopsy,细针活检术,消化道内镜诊断与治疗
+CS,Chromoendoscopy,色素内镜,消化道内镜诊断与治疗
+CE,Capsule Endoscopy,胶囊内镜,消化道内镜诊断与治疗
+DBE,Double-Balloon Enteroscopy,双气囊小肠镜,消化道内镜诊断与治疗
+SBE,Single-Balloon Enteroscopy,单气囊小肠镜,消化道内镜诊断与治疗
+SPE,Spiral Enteroscopy,螺旋小肠镜,消化道内镜诊断与治疗
+LAMS,Lumen-Apposing Metal Stent,lumen对位金属支架,消化道内镜诊断与治疗
+GIT,gastrointestinal tract,胃肠道,肠道菌群与消化健康
+SCFA,short-chain fatty acids,短链脂肪酸,肠道菌群与消化健康
+FMT,fecal microbiota transplantation,粪菌移植,肠道菌群与消化健康
+AMP,antimicrobial peptide,抗菌肽,肠道菌群与消化健康
+MAMP,microbe-associated molecular pattern,微生物相关分子模式,肠道菌群与消化健康
+NOD,nucleotide-binding oligomerization domain,核苷酸结合寡聚化结构域,肠道菌群与消化健康
+NF-κB,nuclear factor kappa-B,核因子κB,肠道菌群与消化健康
+ZO,zonula occludens,闭锁小带,肠道菌群与消化健康
+TMAO,trimethylamine N-oxide,氧化三甲胺,肠道菌群与消化健康
+BAs,bile acids,胆汁酸,肠道菌群与消化健康
+FXR,farnesoid X receptor,法尼醇X受体,肠道菌群与消化健康
+TGR5,G protein-coupled bile acid receptor 1,G蛋白偶联胆汁酸受体1,肠道菌群与消化健康
+PYY,peptide YY,肽YY,肠道菌群与消化健康
+CCK,cholecystokinin,胆囊收缩素,肠道菌群与消化健康
+MUC2,mucin 2,黏蛋白2,肠道菌群与消化健康
+SIgA,secretory immunoglobulin A,分泌型免疫球蛋白A,肠道菌群与消化健康
+OTU,operational taxonomic unit,操作分类单元,肠道菌群与消化健康
+IS,ischemic stroke,缺血性卒中,脑血管疾病（卒中）
+MCA,middle cerebral artery,大脑中动脉,脑血管疾病（卒中）
+ICA,internal carotid artery,颈内动脉,脑血管疾病（卒中）
+ECA,external carotid artery,颈外动脉,脑血管疾病（卒中）
+ASPECTS,Alberta Stroke Program Early CT Score,阿尔伯塔卒中项目早期CT评分,脑血管疾病（卒中）
+IVT,intravenous thrombolysis,静脉溶栓,脑血管疾病（卒中）
+rt-PA,recombinant tissue plasminogen activator,重组组织型纤溶酶原激活剂,脑血管疾病（卒中）
+LAA,large artery atherosclerosis,大动脉粥样硬化,脑血管疾病（卒中）
+SVD,small vessel disease,小血管病,脑血管疾病（卒中）
+TOAST,Trial of Org 10172 in Acute Stroke Treatment,急性卒中治疗Org 10172试验分型,脑血管疾病（卒中）
+CBF,cerebral blood flow,脑血流量,脑血管疾病（卒中）
+ASM,Anti-Seizure Medication,抗发作药物,癫痫
+VEEG,Video Electroencephalography,视频脑电图,癫痫
+SUDEP,Sudden Unexpected Death in Epilepsy,癫痫猝死,癫痫
+ILAE,International League Against Epilepsy,国际抗癫痫联盟,癫痫
+GTCS,Generalized Tonic-Clonic Seizure,全面性强直-阵挛发作,癫痫
+FS,Focal Seizure,局灶性发作,癫痫
+LGS,Lennox-Gastaut Syndrome,伦诺克斯-加斯托综合征,癫痫
+CAE,Childhood Absence Epilepsy,儿童失神癫痫,癫痫
+JME,Juvenile Myoclonic Epilepsy,青少年肌阵挛癫痫,癫痫
+TLE,Temporal Lobe Epilepsy,颞叶癫痫,癫痫
+RE,Refractory Epilepsy,难治性癫痫,癫痫
+CSE,Convulsive Status Epilepticus,惊厥性癫痫持续状态,癫痫
+NCSE,Nonconvulsive Status Epilepticus,非惊厥性癫痫持续状态,癫痫
+RNS,Responsive Neurostimulation,反应性神经刺激术,癫痫
+EMU,Epilepsy Monitoring Unit,癫痫监测单元,癫痫
+CBZ,Carbamazepine,卡马西平,癫痫
+VPA,Valproic Acid,丙戊酸,癫痫
+LTG,Lamotrigine,拉莫三嗪,癫痫
+MDS-UPDRS,Movement Disorder Society-Unified Parkinson's Disease Rating Scale,国际运动障碍学会统一帕金森病评定量表,帕金森病与运动障碍
+LEDD,Levodopa Equivalent Daily Dose,左旋多巴等效日剂量,帕金森病与运动障碍
+DAT,Dopamine Transporter,多巴胺转运体,帕金森病与运动障碍
+SNc,Substantia Nigra Pars Compacta,黑质致密部,帕金森病与运动障碍
+LB,Lewy Body,路易小体,帕金森病与运动障碍
+L-DOPA,Levodopa,左旋多巴,帕金森病与运动障碍
+STN,Subthalamic Nucleus,丘脑底核,帕金森病与运动障碍
+GPi,Globus Pallidus Interna,苍白球内侧部,帕金森病与运动障碍
+VIM,Ventral Intermediate Nucleus,腹中间核,帕金森病与运动障碍
+RBD,REM Sleep Behavior Disorder,快速眼动睡眠行为障碍,帕金森病与运动障碍
+PDD,Parkinson's Disease Dementia,帕金森病痴呆,帕金森病与运动障碍
+DRD,Dopa-Responsive Dystonia,多巴反应性肌张力障碍,帕金森病与运动障碍
+MAO-B,Monoamine Oxidase B,单胺氧化酶B,帕金森病与运动障碍
+H&Y,Hoehn and Yahr Scale,Hoehn-Yahr分级,帕金森病与运动障碍
+NMSS,Non-Motor Symptoms Scale,非运动症状量表,帕金森病与运动障碍
+PDQ-39,Parkinson's Disease Questionnaire-39,帕金森病问卷-39,帕金森病与运动障碍
+PIGD,Postural Instability and Gait Difficulty,姿势不稳与步态困难,帕金森病与运动障碍
+DYT,Dystonia,肌张力障碍,帕金森病与运动障碍
+RRMS,Relapsing-Remitting Multiple Sclerosis,复发缓解型多发性硬化,多发性硬化与脱髓鞘
+SPMS,Secondary Progressive Multiple Sclerosis,继发进展型多发性硬化,多发性硬化与脱髓鞘
+PPMS,Primary Progressive Multiple Sclerosis,原发进展型多发性硬化,多发性硬化与脱髓鞘
+PRMS,Progressive-Relapsing Multiple Sclerosis,进展复发型多发性硬化,多发性硬化与脱髓鞘
+OCB,Oligoclonal Bands,寡克隆区带,多发性硬化与脱髓鞘
+AQP4,Aquaporin-4,水通道蛋白4,多发性硬化与脱髓鞘
+DMT,Disease-Modifying Therapy,疾病修正治疗,多发性硬化与脱髓鞘
+IFN-β,Interferon-beta,β-干扰素,多发性硬化与脱髓鞘
+NEDA,No Evidence of Disease Activity,无疾病活动证据,多发性硬化与脱髓鞘
+MTR,Magnetization Transfer Ratio,磁化传递率,多发性硬化与脱髓鞘
+PLP,Proteolipid Protein,蛋白脂质蛋白,多发性硬化与脱髓鞘
+EAE,Experimental Autoimmune Encephalomyelitis,实验性自身免疫性脑脊髓炎,多发性硬化与脱髓鞘
+MSFC,Multiple Sclerosis Functional Composite,多发性硬化功能复合评分,多发性硬化与脱髓鞘
+APOE,Apolipoprotein E,载脂蛋白E,阿尔茨海默病与痴呆
+Aβ,Amyloid Beta,β淀粉样蛋白,阿尔茨海默病与痴呆
+Tau,Tau Protein,Tau蛋白,阿尔茨海默病与痴呆
+NFT,Neurofibrillary Tangle,神经原纤维缠结,阿尔茨海默病与痴呆
+CDR,Clinical Dementia Rating,临床痴呆评定量表,阿尔茨海默病与痴呆
+ADAS-Cog,Alzheimer's Disease Assessment Scale-Cognitive Subscale,阿尔茨海默病评定量表-认知分量表,阿尔茨海默病与痴呆
+NPI,Neuropsychiatric Inventory,神经精神量表,阿尔茨海默病与痴呆
+VaD,Vascular Dementia,血管性痴呆,阿尔茨海默病与痴呆
+ADL,Activities of Daily Living,日常生活活动,阿尔茨海默病与痴呆
+IADL,Instrumental Activities of Daily Living,工具性日常生活活动,阿尔茨海默病与痴呆
+ChEI,Cholinesterase Inhibitor,胆碱酯酶抑制剂,阿尔茨海默病与痴呆
+BPSD,Behavioral and Psychological Symptoms of Dementia,痴呆行为和精神症状,阿尔茨海默病与痴呆
+WML,White Matter Lesion,白质病变,阿尔茨海默病与痴呆
+HIS,Hachinski Ischemic Score,哈钦斯基缺血评分,阿尔茨海默病与痴呆
+PiB,Pittsburgh Compound B,匹兹堡化合物B,阿尔茨海默病与痴呆
+CMAP,compound muscle action potential,复合肌肉动作电位,周围神经病
+SNAP,sensory nerve action potential,感觉神经动作电位,周围神经病
+F-wave,F-wave,F波,周围神经病
+H-reflex,Hoffmann reflex,H反射,周围神经病
+AMAN,acute motor axonal neuropathy,急性运动轴索性神经病,周围神经病
+AMSAN,acute motor-sensory axonal neuropathy,急性运动感觉轴索性神经病,周围神经病
+MFS,Miller Fisher syndrome,米勒-费希尔综合征,周围神经病
+PNP,polyneuropathy,多发性神经病,周围神经病
+DPN,diabetic peripheral neuropathy,糖尿病周围神经病,周围神经病
+HMSN,hereditary motor and sensory neuropathy,遗传性运动感觉神经病,周围神经病
+HNPP,hereditary neuropathy with liability to pressure palsies,遗传性压力易感性神经病,周围神经病
+SSR,sympathetic skin response,交感皮肤反应,周围神经病
+QST,quantitative sensory testing,定量感觉测试,周围神经病
+IENFD,intraepidermal nerve fiber density,表皮内神经纤维密度,周围神经病
+NIS,Neuropathy Impairment Score,神经病损评分,周围神经病
+TCNS,Toronto Clinical Neuropathy Score,多伦多临床神经病评分,周围神经病
+MNSI,Michigan Neuropathy Screening Instrument,密歇根神经病筛查工具,周围神经病
+AChR,acetylcholine receptor,乙酰胆碱受体,肌肉疾病（肌无力等）
+MuSK,muscle-specific tyrosine kinase,肌肉特异性酪氨酸激酶,肌肉疾病（肌无力等）
+LRP4,low-density lipoprotein receptor-related protein 4,低密度脂蛋白受体相关蛋白4,肌肉疾病（肌无力等）
+SFEMG,single-fiber electromyography,单纤维肌电图,肌肉疾病（肌无力等）
+LGMD,limb-girdle muscular dystrophy,肢带型肌营养不良症,肌肉疾病（肌无力等）
+FSHD,facioscapulohumeral muscular dystrophy,面肩肱型肌营养不良症,肌肉疾病（肌无力等）
+IBM,inclusion body myositis,包涵体肌炎,肌肉疾病（肌无力等）
+DM-dermatomyositis,dermatomyositis,皮肌炎,肌肉疾病（肌无力等）
+NMJ,neuromuscular junction,神经肌肉接头,肌肉疾病（肌无力等）
+PLEX,plasma exchange,血浆置换,肌肉疾病（肌无力等）
+MUP,motor unit potential,运动单位电位,肌肉疾病（肌无力等）
+MUAP,motor unit action potential,运动单位动作电位,肌肉疾病（肌无力等）
+EDX,electrodiagnostic study,电诊断检查,肌肉疾病（肌无力等）
+LEMS,Lambert-Eaton myasthenic syndrome,兰伯特-伊顿肌无力综合征,肌肉疾病（肌无力等）
+CMS,congenital myasthenic syndrome,先天性肌无力综合征,肌肉疾病（肌无力等）
+GLU,Glucose,葡萄糖,中枢神经系统感染
+LAC,Lactate,乳酸,中枢神经系统感染
+PLMD,Periodic Limb Movement Disorder,周期性肢体运动障碍,睡眠障碍
+SWS,Slow Wave Sleep,慢波睡眠,睡眠障碍
+EDS,Excessive Daytime Sleepiness,日间过度嗜睡,睡眠障碍
+ICSD,International Classification of Sleep Disorders,国际睡眠障碍分类,睡眠障碍
+PSQI,Pittsburgh Sleep Quality Index,匹兹堡睡眠质量指数,睡眠障碍
+DBAS,Dysfunctional Beliefs and Attitudes about Sleep,睡眠功能失调性信念与态度,睡眠障碍
+BZD,Benzodiazepine,苯二氮䓬类,睡眠障碍
+Z-Drug,Zolpidem/Zopiclone/Zaleplon,佐匹克隆/唑吡坦/扎来普隆,睡眠障碍
+SOREM,Sleep Onset REM Period,睡眠起始快速眼动期,睡眠障碍
+N1,N1 Stage,N1期睡眠,睡眠障碍
+N2,N2 Stage,N2期睡眠,睡眠障碍
+N3,N3 Stage,N3期睡眠,睡眠障碍
+IFG,Impaired Fasting Glucose,空腹血糖受损,糖尿病及其并发症
+BG,Blood Glucose,血糖,糖尿病及其并发症
+SMBG,Self-Monitoring of Blood Glucose,自我血糖监测,糖尿病及其并发症
+DKD,Diabetic Kidney Disease,糖尿病肾脏病,糖尿病及其并发症
+CAN,Cardiovascular Autonomic Neuropathy,心血管自主神经病变,糖尿病及其并发症
+DF,Diabetic Foot,糖尿病足,糖尿病及其并发症
+DFU,Diabetic Foot Ulcer,糖尿病足溃疡,糖尿病及其并发症
+LADA,Latent Autoimmune Diabetes in Adults,成人隐匿性自身免疫糖尿病,糖尿病及其并发症
+TPOAb,Thyroid Peroxidase Antibody,甲状腺过氧化物酶抗体,甲状腺疾病
+TgAb,Thyroglobulin Antibody,甲状腺球蛋白抗体,甲状腺疾病
+FNAB,Fine Needle Aspiration Biopsy,细针穿刺活检,甲状腺疾病
+RAI,Radioactive Iodine,放射性碘,甲状腺疾病
+RAIU,Radioactive Iodine Uptake,放射性碘摄取率,甲状腺疾病
+DTC,Differentiated Thyroid Carcinoma,分化型甲状腺癌,甲状腺疾病
+MTC,Medullary Thyroid Carcinoma,甲状腺髓样癌,甲状腺疾病
+ATC,Anaplastic Thyroid Carcinoma,未分化甲状腺癌,甲状腺疾病
+FTC,Follicular Thyroid Carcinoma,甲状腺滤泡癌,甲状腺疾病
+MNG,Multinodular Goiter,多结节性甲状腺肿,甲状腺疾病
+AITD,Autoimmune Thyroid Disease,自身免疫性甲状腺疾病,甲状腺疾病
+PPT,Postpartum Thyroiditis,产后甲状腺炎,甲状腺疾病
+LT4,Levothyroxine,左甲状腺素,甲状腺疾病
+LT3,Liothyronine,碘塞罗宁,甲状腺疾病
+ATA,American Thyroid Association,美国甲状腺协会,甲状腺疾病
+PRA,Plasma Renin Activity,血浆肾素活性,肾上腺疾病
+DHEA,Dehydroepiandrosterone,脱氢表雄酮,肾上腺疾病
+DHEAS,Dehydroepiandrosterone Sulfate,硫酸脱氢表雄酮,肾上腺疾病
+17-OHP,17-Hydroxyprogesterone,17-羟孕酮,肾上腺疾病
+AVP,Arginine Vasopressin,精氨酸加压素,肾上腺疾病
+MIBG,Metaiodobenzylguanidine,间碘苄胍,肾上腺疾病
+AVS,Adrenal Vein Sampling,肾上腺静脉采血,肾上腺疾病
+NCAH,Non-Classic Congenital Adrenal Hyperplasia,非经典型先天性肾上腺皮质增生症,肾上腺疾病
+AI,Adrenal Insufficiency,肾上腺功能不全,肾上腺疾病
+ACTH-D,ACTH-Dependent,促肾上腺皮质激素依赖性,肾上腺疾病
+ACTH-I,ACTH-Independent,促肾上腺皮质激素非依赖性,肾上腺疾病
+CRHST,CRH Stimulation Test,促肾上腺皮质激素释放激素兴奋试验,肾上腺疾病
+ACTHST,ACTH Stimulation Test,促肾上腺皮质激素兴奋试验,肾上腺疾病
+UFC,Urinary Free Cortisol,尿游离皮质醇,肾上腺疾病
+MSH,Melanocyte-Stimulating Hormone,促黑素细胞激素,垂体疾病
+NFA,Non-Functioning Adenoma,无功能腺瘤,垂体疾病
+NFPA,Non-Functioning Pituitary Adenoma,无功能垂体腺瘤,垂体疾病
+PIT-1,Pituitary-Specific Transcription Factor 1,垂体特异性转录因子1,垂体疾病
+PRLoma,Prolactinoma,催乳素瘤,垂体疾病
+SSTR,Somatostatin Receptor,生长抑素受体,垂体疾病
+TIDA,Tuberoinfundibular Dopamine Pathway,结节漏斗多巴胺通路,垂体疾病
+TSHoma,TSH-Secreting Pituitary Adenoma,促甲状腺激素分泌性垂体腺瘤,垂体疾病
+ACTHoma,ACTH-Secreting Pituitary Adenoma,促肾上腺皮质激素分泌性垂体腺瘤,垂体疾病
+GHoma,GH-Secreting Pituitary Adenoma,生长激素分泌性垂体腺瘤,垂体疾病
+HPG,Hypothalamic-Pituitary-Gonadal Axis,下丘脑-垂体-性腺轴,垂体疾病
+AMH,Anti-Müllerian Hormone,抗苗勒管激素,性腺疾病
+SHBG,Sex Hormone-Binding Globulin,性激素结合球蛋白,性腺疾病
+A,Androstenedione,雄烯二酮,性腺疾病
+INHB,Inhibin B,抑制素B,性腺疾病
+KISS1,Kisspeptin 1,吻肽1,性腺疾病
+TAC3,Tachykinin 3,速激肽3,性腺疾病
+NKB,Neurokinin B,神经激肽B,性腺疾病
+MKRN3,Makorin Ring Finger Protein 3,马科林环指蛋白3,性腺疾病
+POR,Cytochrome P450 Oxidoreductase,细胞色素P450氧化还原酶,性腺疾病
+CYP21A2,Cytochrome P450 Family 21 Subfamily A Member 2,细胞色素P450家族21亚家族A成员2,性腺疾病
+CYP17A1,Cytochrome P450 Family 17 Subfamily A Member 1,细胞色素P450家族17亚家族A成员1,性腺疾病
+HSD3B2,3-Beta-Hydroxysteroid Dehydrogenase Type 2,3β-羟基类固醇脱氢酶2型,性腺疾病
+HSD17B3,17-Beta-Hydroxysteroid Dehydrogenase Type 3,17β-羟基类固醇脱氢酶3型,性腺疾病
+SRD5A2,Steroid 5-Alpha-Reductase 2,类固醇5α-还原酶2,性腺疾病
+LHCGR,Luteinizing Hormone/Choriogonadotropin Receptor,黄体生成素/绒毛膜促性腺激素受体,性腺疾病
+FSHR,Follicle-Stimulating Hormone Receptor,卵泡刺激素受体,性腺疾病
+GNRHR,Gonadotropin-Releasing Hormone Receptor,促性腺激素释放激素受体,性腺疾病
+VitD,Vitamin D,维生素D,钙磷代谢与骨质疏松
+25(OH)D,25-Hydroxyvitamin D,25-羟维生素D,钙磷代谢与骨质疏松
+1,25(OH)2D,1,"25-Dihydroxyvitamin D,1,25-二羟维生素D,钙磷代谢与骨质疏松"
+FGF23,Fibroblast Growth Factor 23,成纤维细胞生长因子23,钙磷代谢与骨质疏松
+CaSR,Calcium-Sensing Receptor,钙敏感受体,钙磷代谢与骨质疏松
+TRPV5,Transient Receptor Potential Vanilloid 5,瞬时受体电位香草酸亚型5,钙磷代谢与骨质疏松
+TRPV6,Transient Receptor Potential Vanilloid 6,瞬时受体电位香草酸亚型6,钙磷代谢与骨质疏松
+NaPi-IIa,Sodium-Phosphate Cotransporter IIa,钠磷共转运体IIa,钙磷代谢与骨质疏松
+NaPi-IIc,Sodium-Phosphate Cotransporter IIc,钠磷共转运体IIc,钙磷代谢与骨质疏松
+PiT1,Phosphate Transporter 1,磷酸盐转运体1,钙磷代谢与骨质疏松
+PiT2,Phosphate Transporter 2,磷酸盐转运体2,钙磷代谢与骨质疏松
+CYP27B1,Cytochrome P450 27B1,细胞色素P450 27B1,钙磷代谢与骨质疏松
+CYP24A1,Cytochrome P450 24A1,细胞色素P450 24A1,钙磷代谢与骨质疏松
+VDR,Vitamin D Receptor,维生素D受体,钙磷代谢与骨质疏松
+RANK,Receptor Activator of Nuclear Factor-κB,核因子κB受体活化因子,钙磷代谢与骨质疏松
+OCN,Osteocalcin,骨钙素,钙磷代谢与骨质疏松
+P1NP,Procollagen Type 1 N-Terminal Propeptide,1型前胶原氨基端前肽,钙磷代谢与骨质疏松
+CTX-1,C-Terminal Telopeptide of Type 1 Collagen,1型胶原羧基端交联肽,钙磷代谢与骨质疏松
+NTX,N-Terminal Telopeptide of Type 1 Collagen,1型胶原氨基端交联肽,钙磷代谢与骨质疏松
+BALP,Bone-Specific Alkaline Phosphatase,骨特异性碱性磷酸酶,钙磷代谢与骨质疏松
+TRACP-5b,Tartrate-Resistant Acid Phosphatase 5b,抗酒石酸酸性磷酸酶5b,钙磷代谢与骨质疏松
+SOST,Sclerostin,硬骨素,钙磷代谢与骨质疏松
+DKK1,Dickkopf-1,Dickkopf相关蛋白1,钙磷代谢与骨质疏松
+TBS,Trabecular Bone Score,骨小梁评分,钙磷代谢与骨质疏松
+WC,Waist Circumference,腰围,肥胖与代谢综合征
+WHR,Waist-to-Hip Ratio,腰臀比,肥胖与代谢综合征
+HOMA-IR,Homeostatic Model Assessment of Insulin Resistance,稳态模型胰岛素抵抗指数,肥胖与代谢综合征
+IDF,International Diabetes Federation,国际糖尿病联盟,肥胖与代谢综合征
+NCEP-ATP III,National Cholesterol Education Program Adult Treatment Panel III,国家胆固醇教育计划成人治疗组第三次报告,肥胖与代谢综合征
+RYGB,Roux-en-Y Gastric Bypass,Roux-en-Y胃旁路术,肥胖与代谢综合征
+SG,Sleeve Gastrectomy,袖状胃切除术,肥胖与代谢综合征
+LAGB,Laparoscopic Adjustable Gastric Banding,腹腔镜可调节胃束带术,肥胖与代谢综合征
+DEXA,Dual-Energy X-ray Absorptiometry,双能X线吸收测定法,肥胖与代谢综合征
+BIA,Bioelectrical Impedance Analysis,生物电阻抗分析,肥胖与代谢综合征
+ARR,Aldosterone-to-Renin Ratio,醛固酮与肾素比值,内分泌高血压
+NP-59,NP-59 (Iodocholesterol),碘胆固醇,内分泌高血压
+DOC,Deoxycorticosterone,脱氧皮质酮,内分泌高血压
+PPGL,Pheochromocytoma and Paraganglioma,嗜铬细胞瘤和副神经节瘤,内分泌高血压
+VHL,Von Hippel-Lindau Disease,冯·希佩尔-林道病,内分泌高血压
+NF1,Neurofibromatosis Type 1,神经纤维瘤病1型,内分泌高血压
+SDH,Succinate Dehydrogenase,琥珀酸脱氢酶,内分泌高血压
+FH,Fumarate Hydratase,延胡索酸水合酶,内分泌高血压
+CYP11B1,Cytochrome P450 11B1,细胞色素P450 11B1,内分泌高血压
+CYP11B2,Cytochrome P450 11B2,细胞色素P450 11B2,内分泌高血压
+KCNJ5,Potassium Inwardly Rectifying Channel Subfamily J Member 5,钾内向整流通道亚家族J成员5,内分泌高血压
+ApoA-I,Apolipoprotein A-I,载脂蛋白A-I,脂代谢异常
+ApoB,Apolipoprotein B,载脂蛋白B,脂代谢异常
+Lp(a),Lipoprotein (a),脂蛋白(a),脂代谢异常
+CETP,Cholesteryl Ester Transfer Protein,胆固醇酯转移蛋白,脂代谢异常
+LPL,Lipoprotein Lipase,脂蛋白脂酶,脂代谢异常
+LCAT,Lecithin-Cholesterol Acyltransferase,卵磷脂胆固醇酰基转移酶,脂代谢异常
+ACAT,Acyl-CoA Cholesterol Acyltransferase,酰基辅酶A胆固醇酰基转移酶,脂代谢异常
+SREBP,Sterol Regulatory Element-Binding Protein,固醇调节元件结合蛋白,脂代谢异常
+PPARα,Peroxisome Proliferator-Activated Receptor Alpha,过氧化物酶体增殖物激活受体α,脂代谢异常
+PPARγ,Peroxisome Proliferator-Activated Receptor Gamma,过氧化物酶体增殖物激活受体γ,脂代谢异常
+LXR,Liver X Receptor,肝X受体,脂代谢异常
+ABCG5,ATP-Binding Cassette Transporter G5,ATP结合盒转运蛋白G5,脂代谢异常
+ABCG8,ATP-Binding Cassette Transporter G8,ATP结合盒转运蛋白G8,脂代谢异常
+ABCA1,ATP-Binding Cassette Transporter A1,ATP结合盒转运蛋白A1,脂代谢异常
+SR-BI,Scavenger Receptor Class B Type I,B类清道夫受体I型,脂代谢异常
+LDLR,Low-Density Lipoprotein Receptor,低密度脂蛋白受体,脂代谢异常
+HTG,Hypertriglyceridemia,高甘油三酯血症,脂代谢异常
+HLD,Hyperlipidemia,高脂血症,脂代谢异常
+APD,Automated Peritoneal Dialysis,自动化腹膜透析,慢性肾脏病
+ESKD,End-Stage Kidney Disease,终末期肾脏病,慢性肾脏病
+KDIGO,Kidney Disease: Improving Global Outcomes,改善全球肾脏病预后组织,慢性肾脏病
+MHD,Maintenance Hemodialysis,维持性血液透析,慢性肾脏病
+APOL1,Apolipoprotein L1,载脂蛋白L1,肾小球疾病（肾炎/肾病综合征）
+CYC,Cyclophosphamide,环磷酰胺,肾小球疾病（肾炎/肾病综合征）
+MGN,Membranous Glomerulonephritis,膜性肾小球肾炎,肾小球疾病（肾炎/肾病综合征）
+PLA2R,Phospholipase A2 Receptor,磷脂酶A2受体,肾小球疾病（肾炎/肾病综合征）
+UAE,Urinary Albumin Excretion,尿白蛋白排泄率,糖尿病肾病
+MAU,Microalbuminuria,微量白蛋白尿,糖尿病肾病
+GLP-1RA,Glucagon-Like Peptide-1 Receptor Agonist,胰高血糖素样肽-1受体激动剂,糖尿病肾病
+KT,Kidney Transplantation,肾移植,糖尿病肾病
+KIM-1,Kidney Injury Molecule-1,肾损伤分子-1,糖尿病肾病
+NGAL,Neutrophil Gelatinase-Associated Lipocalin,中性粒细胞明胶酶相关脂质运载蛋白,糖尿病肾病
+TGF-β1,Transforming Growth Factor-Beta 1,转化生长因子-β1,糖尿病肾病
+CTGF,Connective Tissue Growth Factor,结缔组织生长因子,糖尿病肾病
+ECM,Extracellular Matrix,细胞外基质,糖尿病肾病
+MDRD,Modification of Diet in Renal Disease,肾脏病饮食改良（公式）,糖尿病肾病
+CKD-EPI,Chronic Kidney Disease Epidemiology Collaboration,慢性肾脏病流行病学协作（公式）,糖尿病肾病
+UAER,Urinary Albumin Excretion Rate,尿白蛋白排泄率,高血压肾损害
+CysC,Cystatin C,胱抑素C,高血压肾损害
+DCT,Distal Convoluted Tubule,远端肾小管,肾小管间质疾病
+FEK,Fractional Excretion of Potassium,钾排泄分数,肾小管间质疾病
+FENa,Fractional Excretion of Sodium,钠排泄分数,肾小管间质疾病
+IF,Immunofluorescence,免疫荧光,肾小管间质疾病
+NAG,N-Acetyl-β-D-Glucosaminidase,N-乙酰-β-D-氨基葡萄糖苷酶,肾小管间质疾病
+TMA,Thrombotic Microangiopathy,血栓性微血管病,肾小管间质疾病
+Kt/V,Kt/V,尿素清除指数,透析与血液净化
+URR,urea reduction ratio,尿素下降率,透析与血液净化
+CVVH,continuous venovenous hemofiltration,连续性静脉-静脉血液滤过,透析与血液净化
+CVVHD,continuous venovenous hemodialysis,连续性静脉-静脉血液透析,透析与血液净化
+CVVHDF,continuous venovenous hemodiafiltration,连续性静脉-静脉血液透析滤过,透析与血液净化
+SLED,sustained low-efficiency dialysis,持续低效透析,透析与血液净化
+PIRRT,prolonged intermittent renal replacement therapy,延长间歇性肾脏替代治疗,透析与血液净化
+EPO,erythropoietin,促红细胞生成素,透析与血液净化
+Na,sodium,钠,透析与血液净化
+HCO3,bicarbonate,碳酸氢盐,透析与血液净化
+DGF,Delayed Graft Function,移植肾功能延迟恢复,肾移植
+ATG,Anti-Thymocyte Globulin,抗胸腺细胞球蛋白,肾移植
+BK,BK Virus,BK病毒,肾移植
+PVAN,Polyomavirus-Associated Nephropathy,多瘤病毒相关性肾病,肾移植
+USRDS,United States Renal Data System,美国肾脏数据系统,肾移植
+KDPI,Kidney Donor Profile Index,肾脏供体概况指数,肾移植
+ECD,Expanded Criteria Donor,扩大标准供者,肾移植
+DCD,Donation after Circulatory Death,循环死亡后捐献,肾移植
+DD,Deceased Donor,deceased donor,"尸体供者,肾移植"
+UNOS,United Network for Organ Sharing,器官共享联合网络,肾移植
+OPTN,Organ Procurement and Transplantation Network,器官获取与移植网络,肾移植
+CNI-T,Calcineurin Inhibitor Toxicity,钙调神经磷酸酶抑制剂毒性,肾移植
+BPAR,Biopsy-Proven Acute Rejection,活检证实的急性排斥反应,肾移植
+AB,Acid-Base,酸碱平衡,水电解质酸碱平衡
+AG,Anion Gap,阴离子间隙,水电解质酸碱平衡
+ECF,Extracellular Fluid,细胞外液,水电解质酸碱平衡
+NaHCO3,Sodium Bicarbonate,碳酸氢钠,水电解质酸碱平衡
+OSM,Osmolality,渗透压,水电解质酸碱平衡
+TBW,Total Body Water,总体水,水电解质酸碱平衡
+TPN,Total Parenteral Nutrition,全肠外营养,水电解质酸碱平衡
+TBMN,Thin Basement Membrane Nephropathy,薄基底膜肾病,遗传性肾病
+NPHP,Nephronophthisis,肾消耗病,遗传性肾病
+MCKD,Medullary Cystic Kidney Disease,髓质囊性肾病,遗传性肾病
+ADTKD,Autosomal Dominant Tubulointerstitial Kidney Disease,常染色体显性肾小管间质性肾病,遗传性肾病
+CAKUT,Congenital Anomalies of the Kidney and Urinary Tract,先天性肾脏和尿路畸形,遗传性肾病
+SRNS,Steroid-Resistant Nephrotic Syndrome,激素抵抗性肾病综合征,遗传性肾病
+aHUS,Atypical Hemolytic Uremic Syndrome,非典型溶血性尿毒症综合征,遗传性肾病
+Dent,Dent Disease,Dent病,遗传性肾病
+Lowe,Lowe Syndrome,Lowe综合征,遗传性肾病
+Fabry,Fabry Disease,Fabry病,遗传性肾病
+JBTS,Joubert Syndrome,Joubert综合征,遗传性肾病
+BBS,Bardet-Biedl Syndrome,Bardet-Biedl综合征,遗传性肾病
+HNF1B,Hepatocyte Nuclear Factor 1 Beta,肝细胞核因子1β,遗传性肾病
+WT1,Wilms Tumor 1,Wilms瘤1,遗传性肾病
+PAX2,Paired Box 2,配对盒基因2,遗传性肾病
+UMOD,Uromodulin,尿调节素,遗传性肾病
+MUC1,Mucin 1,黏蛋白1,遗传性肾病
+COL4A5,Collagen Type IV Alpha 5,IV型胶原α5链,遗传性肾病
+COL4A3,Collagen Type IV Alpha 3,IV型胶原α3链,遗传性肾病
+COL4A4,Collagen Type IV Alpha 4,IV型胶原α4链,遗传性肾病
+IDA,Iron Deficiency Anemia,缺铁性贫血,贫血
+MA,Megaloblastic Anemia,巨幼细胞性贫血,贫血
+TIBC,Total Iron Binding Capacity,总铁结合力,贫血
+SF,Serum Ferritin,血清铁蛋白,贫血
+TSAT,Transferrin Saturation,转铁蛋白饱和度,贫血
+FEP,Free Erythrocyte Protoporphyrin,游离红细胞原卟啉,贫血
+B12,Vitamin B12,维生素B12,贫血
+RET,Reticulocyte,网织红细胞,贫血
+RET%,Reticulocyte Percentage,网织红细胞百分比,贫血
+IRF,Immature Reticulocyte Fraction,未成熟网织红细胞比率,贫血
+BFU-E,Burst-Forming Unit-Erythroid,爆式红系集落形成单位,贫血
+CFU-E,Colony-Forming Unit-Erythroid,红系集落形成单位,贫血
+PRCA,Pure Red Cell Aplasia,纯红细胞再生障碍,贫血
+BCR-ABL,Breakpoint Cluster Region-Abelson,断裂点簇集区-艾贝尔森融合基因,慢粒
+TKIs,Tyrosine Kinase Inhibitors,酪氨酸激酶抑制剂,慢粒
+CCyR,Complete Cytogenetic Response,完全细胞遗传学反应,慢粒
+MMR,Major Molecular Response,主要分子学反应,慢粒
+IT,Intrathecal,鞘内注射,急淋
+ABVD,Adriamycin Bleomycin Vinblastine Dacarbazine,阿霉素博来霉素长春碱达卡巴嗪,淋巴瘤（霍奇金）
+BEACOPP,Bleomycin Etoposide Adriamycin Cyclophosphamide Vincristine Procarbazine Prednisone,博来霉素依托泊苷阿霉素环磷酰胺长春新碱丙卡巴肼泼尼松,淋巴瘤（霍奇金）
+CHOP,Cyclophosphamide Doxorubicin Vincristine Prednisone,环磷酰胺多柔比星长春新碱泼尼松,淋巴瘤（非霍奇金）
+R-CHOP,Rituximab Cyclophosphamide Doxorubicin Vincristine Prednisone,利妥昔单抗环磷酰胺多柔比星长春新碱泼尼松,淋巴瘤（非霍奇金）
+DA-EPOCH,Dose-Adjusted Etoposide Prednisone Vincristine Cyclophosphamide Doxorubicin,剂量调整依托泊苷泼尼松长春新碱环磷酰胺多柔比星,淋巴瘤（非霍奇金）
+R-EPOCH,Rituximab Etoposide Prednisone Vincristine Cyclophosphamide Doxorubicin,利妥昔单抗依托泊苷泼尼松长春新碱环磷酰胺多柔比星,淋巴瘤（非霍奇金）
+BV,Brentuximab Vedotin,本妥昔单抗维多汀,淋巴瘤（霍奇金/非霍奇金）
+CAR-T,Chimeric Antigen Receptor T-Cell,嵌合抗原受体T细胞,淋巴瘤（非霍奇金）
+MZL,Marginal Zone Lymphoma,边缘区淋巴瘤,淋巴瘤（非霍奇金）
+PET-CT,Positron Emission Tomography-Computed Tomography,正电子发射断层扫描-计算机断层扫描,淋巴瘤（霍奇金/非霍奇金）
+IPI,International Prognostic Index,国际预后指数,淋巴瘤（非霍奇金）
+IPS,International Prognostic Score,国际预后评分,淋巴瘤（霍奇金）
+ASCT,Autologous Stem Cell Transplantation,自体干细胞移植,淋巴瘤（霍奇金/非霍奇金）
+Allo-SCT,Allogeneic Stem Cell Transplantation,异基因干细胞移植,淋巴瘤（霍奇金/非霍奇金）
+IPSS-R,Revised International Prognostic Scoring System,修订版国际预后积分系统,骨髓增生异常综合征
+WPSS,WHO Classification-based Prognostic Scoring System,基于WHO分类的预后积分系统,骨髓增生异常综合征
+RCUD,Refractory Cytopenia with Unilineage Dysplasia,难治性血细胞减少伴单系发育异常,骨髓增生异常综合征
+RARS,Refractory Anemia with Ring Sideroblasts,难治性贫血伴环状铁粒幼细胞,骨髓增生异常综合征
+RCMD,Refractory Cytopenia with Multilineage Dysplasia,难治性血细胞减少伴多系发育异常,骨髓增生异常综合征
+RAEB,Refractory Anemia with Excess Blasts,难治性贫血伴原始细胞增多,骨髓增生异常综合征
+RAEB-T,Refractory Anemia with Excess Blasts in Transformation,转化中的难治性贫血伴原始细胞增多,骨髓增生异常综合征
+MDS-U,MDS Unclassifiable,未分类的骨髓增生异常综合征,骨髓增生异常综合征
+MDS-SLD,MDS with Single Lineage Dysplasia,骨髓增生异常综合征伴单系发育异常,骨髓增生异常综合征
+MDS-MLD,MDS with Multilineage Dysplasia,骨髓增生异常综合征伴多系发育异常,骨髓增生异常综合征
+MDS-RS,MDS with Ring Sideroblasts,骨髓增生异常综合征伴环状铁粒幼细胞,骨髓增生异常综合征
+MDS-EB,MDS with Excess Blasts,骨髓增生异常综合征伴原始细胞增多,骨髓增生异常综合征
+MDS-IB,MDS with Isolated del(5q),骨髓增生异常综合征伴孤立性5q缺失,骨髓增生异常综合征
+CMML,Chronic Myelomonocytic Leukemia,慢性粒-单核细胞白血病,骨髓增生异常综合征
+Allo-HSCT,Allogeneic Hematopoietic Stem Cell Transplantation,异基因造血干细胞移植,骨髓增生异常综合征
+DEC,Decitabine,地西他滨,骨髓增生异常综合征
+LEN,Lenalidomide,来那度胺,骨髓增生异常综合征
+ESA,Erythropoiesis-Stimulating Agent,红细胞生成刺激剂,骨髓增生异常综合征
+FX,Factor X,凝血因子Ⅹ,出凝血疾病
+FXI,Factor XI,凝血因子Ⅺ,出凝血疾病
+FXII,Factor XII,凝血因子Ⅻ,出凝血疾病
+FXIII,Factor XIII,凝血因子ⅩⅢ,出凝血疾病
+AT,Antithrombin,抗凝血酶,出凝血疾病
+MPV,Mean Platelet Volume,平均血小板体积,出凝血疾病
+PFA-100,Platelet Function Assay-100,血小板功能测定-100,出凝血疾病
+BT,Bleeding Time,出血时间,出凝血疾病
+ROTEM,Rotational Thromboelastometry,旋转血栓弹力测定,出凝血疾病
+ABO,ABO blood group system,ABO血型系统,输血医学
+ACD,acid-citrate-dextrose,酸性枸橼酸葡萄糖,输血医学
+AHF,antihemophilic factor,抗血友病因子,输血医学
+AHTR,acute hemolytic transfusion reaction,急性溶血性输血反应,输血医学
+ALAT,alanine aminotransferase,丙氨酸氨基转移酶,输血医学
+ARC,American Red Cross,美国红十字会,输血医学
+BAT,buffy coat,白膜层,输血医学
+FFP,fresh frozen plasma,新鲜冰冻血浆,输血医学
+IAT,indirect antiglobulin test,间接抗球蛋白试验,输血医学
+IUT,intrauterine transfusion,宫内输血,输血医学
+LISS,low ionic strength solution,低离子强度溶液,输血医学
+PCC,prothrombin complex concentrate,凝血酶原复合物浓缩物,输血医学
+PRBC,packed red blood cells,浓缩红细胞,输血医学
+TA-GVHD,transfusion-associated graft-versus-host disease,输血相关性移植物抗宿主病,输血医学
+TRALI,transfusion-related acute lung injury,输血相关性急性肺损伤,输血医学
+TRM,Transplant-Related Mortality,移植相关死亡率,造血干细胞移植
+NRM,Non-Relapse Mortality,非复发死亡率,造血干细胞移植
+BU,Busulfan,白消安,造血干细胞移植
+CY,Cyclophosphamide,环磷酰胺,造血干细胞移植
+FLU,Fludarabine,氟达拉滨,造血干细胞移植
+RIC,Reduced-Intensity Conditioning,减低强度预处理,造血干细胞移植
+UCB,Umbilical Cord Blood,脐带血,造血干细胞移植
+MUD,Matched Unrelated Donor,匹配无关供者,造血干细胞移植
+MMUD,Mismatched Unrelated Donor,不匹配无关供者,造血干细胞移植
+Haplo,Haploidentical,单倍体相合,造血干细胞移植
+DLI,Donor Lymphocyte Infusion,供者淋巴细胞输注,造血干细胞移植
+VOD,Veno-Occlusive Disease,肝静脉闭塞病,造血干细胞移植
+HLH,Hemophagocytic Lymphohistiocytosis,噬血细胞综合征,噬血细胞综合征
+FHL,Familial Hemophagocytic Lymphohistiocytosis,家族性噬血细胞综合征,噬血细胞综合征
+sHLH,Secondary Hemophagocytic Lymphohistiocytosis,继发性噬血细胞综合征,噬血细胞综合征
+EBV-HLH,Epstein-Barr Virus-associated Hemophagocytic Lymphohistiocytosis,EB病毒相关性噬血细胞综合征,噬血细胞综合征
+CD25,Cluster of Differentiation 25,分化簇25,噬血细胞综合征
+sCD25,Soluble CD25,可溶性CD25,噬血细胞综合征
+Ferr,Ferritin,铁蛋白,噬血细胞综合征
+VP16,Etoposide,依托泊苷,噬血细胞综合征
+DEX,Dexamethasone,地塞米松,噬血细胞综合征
+PRF1,Perforin 1,穿孔素1,噬血细胞综合征
+UNC13D,Unc-13 Homolog D,Unc-13同源物D,噬血细胞综合征
+STX11,Syntaxin 11,突触融合蛋白11,噬血细胞综合征
+STXBP2,Syntaxin Binding Protein 2,突触融合蛋白结合蛋白2,噬血细胞综合征
+XIAP,X-linked Inhibitor of Apoptosis Protein,X连锁凋亡抑制蛋白,噬血细胞综合征
+ITK,Interleukin-2 Inducible T-cell Kinase,白细胞介素-2诱导性T细胞激酶,噬血细胞综合征
+CD107a,Cluster of Differentiation 107a,分化簇107a,噬血细胞综合征
+HLH-2004,Hemophagocytic Lymphohistiocytosis-2004 Protocol,噬血细胞综合征2004方案,噬血细胞综合征
+HLH-94,Hemophagocytic Lymphohistiocytosis-94 Protocol,噬血细胞综合征94方案,噬血细胞综合征
+MET,Mesenchymal-Epithelial Transition Factor,间质-上皮转化因子,肺癌
+NTRK,Neurotrophic Tyrosine Receptor Kinase,神经营养性酪氨酸受体激酶,肺癌
+TTF-1,Thyroid Transcription Factor 1,甲状腺转录因子1,肺癌
+NSE,Neuron-Specific Enolase,神经元特异性烯醇化酶,肺癌
+TNBC,Triple-Negative Breast Cancer,三阴性乳腺癌,乳腺癌
+Ki-67,Antigen Ki-67,增殖细胞核抗原Ki-67,乳腺癌
+DCIS,Ductal Carcinoma In Situ,导管原位癌,乳腺癌
+LCIS,Lobular Carcinoma In Situ,小叶原位癌,乳腺癌
+IDC,Invasive Ductal Carcinoma,浸润性导管癌,乳腺癌
+ILC,Invasive Lobular Carcinoma,浸润性小叶癌,乳腺癌
+CISH,Chromogenic In Situ Hybridization,显色原位杂交,乳腺癌
+NACT,Neoadjuvant Chemotherapy,新辅助化疗,乳腺癌
+ADJ,Adjuvant Chemotherapy,辅助化疗,乳腺癌
+SLNB,Sentinel Lymph Node Biopsy,前哨淋巴结活检,乳腺癌
+ALND,Axillary Lymph Node Dissection,腋窝淋巴结清扫,乳腺癌
+MAM,Mammography,乳腺X线摄影,乳腺癌
+CDK4/6,Cyclin-Dependent Kinase 4/6,细胞周期蛋白依赖性激酶4/6,乳腺癌
+PARP,Poly ADP-Ribose Polymerase,聚腺苷二磷酸核糖聚合酶,乳腺癌
+CIMP,CpG Island Methylator Phenotype,CpG岛甲基化表型,结直肠癌
+DSS,Disease-Specific Survival,疾病特异性生存期,结直肠癌
+EMVI,Extramural Vascular Invasion,壁外血管侵犯,结直肠癌
+FOBT,Fecal Occult Blood Test,粪便潜血试验,结直肠癌
+FIT,Fecal Immunochemical Test,粪便免疫化学检测,结直肠癌
+LVI,Lymphovascular Invasion,淋巴血管侵犯,结直肠癌
+DCF,Docetaxel Cisplatin Fluorouracil,多西他赛顺铂氟尿嘧啶,胃癌与食管癌
+FLOT,Fluorouracil Leucovorin Oxaliplatin Docetaxel,氟尿嘧啶亚叶酸钙奥沙利铂多西他赛,胃癌与食管癌
+XELOX,Capecitabine Oxaliplatin,卡培他滨奥沙利铂,胃癌与食管癌
+SOX,S-1 Oxaliplatin,S-1奥沙利铂,胃癌与食管癌
+S-1,Tegafur Gimeracil Oteracil Potassium,替吉奥,胃癌与食管癌
+NAC,Neoadjuvant Chemotherapy,新辅助化疗,胃癌与食管癌
+RFS,Relapse-Free Survival,无复发生存期,胃癌与食管癌
+GEJ,Gastroesophageal Junction,胃食管连接部,胃癌与食管癌
+EGJ,Esophagogastric Junction,食管胃连接部,胃癌与食管癌
+Siewert,Siewert Classification,Siewert分型,胃癌与食管癌
+Lauren,Lauren Classification,Lauren分型,胃癌与食管癌
+ICC,Intrahepatic Cholangiocarcinoma,肝内胆管癌,肝癌与胆管癌
+ECC,Extrahepatic Cholangiocarcinoma,肝外胆管癌,肝癌与胆管癌
+MWA,Microwave Ablation,微波消融术,肝癌与胆管癌
+PEI,Percutaneous Ethanol Injection,经皮无水乙醇注射,肝癌与胆管癌
+LR,Liver Resection,肝切除术,肝癌与胆管癌
+PVE,Portal Vein Embolization,门静脉栓塞术,肝癌与胆管癌
+ALPPS,Associating Liver Partition and Portal Vein Ligation for Staged Hepatectomy,联合肝脏分隔和门静脉结扎的二步肝切除术,肝癌与胆管癌
+BCLC,Barcelona Clinic Liver Cancer,巴塞罗那临床肝癌分期,肝癌与胆管癌
+R1,Resection Margin Microscopic Positive,切缘镜下阳性,胰腺癌
+R2,Resection Margin Macroscopic Positive,切缘肉眼阳性,胰腺癌
+FOLFIRINOX,Folinic Acid Fluorouracil Irinotecan Oxaliplatin,亚叶酸氟尿嘧啶伊立替康奥沙利铂,胰腺癌
+GEM,Gemcitabine,吉西他滨,胰腺癌
+NAB-P,Albumin-Bound Paclitaxel,白蛋白结合型紫杉醇,胰腺癌
+mpMRI,Multiparametric Magnetic Resonance Imaging,多参数磁共振成像,前列腺癌
+mCRPC,Metastatic Castration-Resistant Prostate Cancer,转移性去势抵抗性前列腺癌,前列腺癌
+HSPC,Hormone-Sensitive Prostate Cancer,激素敏感性前列腺癌,前列腺癌
+mHSPC,Metastatic Hormone-Sensitive Prostate Cancer,转移性激素敏感性前列腺癌,前列腺癌
+EBRT,External Beam Radiation Therapy,外照射放疗,前列腺癌
+Brachytherapy,Brachytherapy,近距离放射治疗,前列腺癌
+WW,Watchful Waiting,观察等待,前列腺癌
+ISUP,International Society of Urological Pathology,国际泌尿病理学会,前列腺癌
+PI-RADS,Prostate Imaging Reporting and Data System,前列腺影像报告和数据系统,前列腺癌
+PSAV,Prostate-Specific Antigen Velocity,前列腺特异性抗原速率,前列腺癌
+SRE,Skeletal-Related Event,骨骼相关事件,前列腺癌
+PSMA,Prostate-Specific Membrane Antigen,前列腺特异性膜抗原,前列腺癌
+HE4,Human Epididymis Protein 4,人附睾蛋白4,卵巢癌与宫颈癌
+FIGO,International Federation of Gynecology and Obstetrics,国际妇产科联盟,卵巢癌与宫颈癌
+HRD,Homologous Recombination Deficiency,同源重组缺陷,卵巢癌与宫颈癌
+PARPi,Poly ADP-Ribose Polymerase Inhibitor,聚腺苷二磷酸核糖聚合酶抑制剂,卵巢癌与宫颈癌
+IDS,Interval Debulking Surgery,间歇性肿瘤细胞减灭术,卵巢癌与宫颈癌
+LNM,Lymph Node Metastasis,淋巴结转移,卵巢癌与宫颈癌
+HSIL,High-Grade Squamous Intraepithelial Lesion,高级别鳞状上皮内病变,卵巢癌与宫颈癌
+LSIL,Low-Grade Squamous Intraepithelial Lesion,低级别鳞状上皮内病变,卵巢癌与宫颈癌
+ASCUS,Atypical Squamous Cells of Undetermined Significance,意义不明确的非典型鳞状细胞,卵巢癌与宫颈癌
+EOC,Epithelial Ovarian Cancer,上皮性卵巢癌,卵巢癌与宫颈癌
+HGSOC,High-Grade Serous Ovarian Cancer,高级别浆液性卵巢癌,卵巢癌与宫颈癌
+LGSOC,Low-Grade Serous Ovarian Cancer,低级别浆液性卵巢癌,卵巢癌与宫颈癌
+MOC,Mucinous Ovarian Cancer,黏液性卵巢癌,卵巢癌与宫颈癌
+CKIT,CD117 (c-KIT proto-oncogene),CD117（c-KIT原癌基因）,黑色素瘤
+EORTC,European Organisation for Research and Treatment of Cancer,欧洲癌症研究与治疗组织,黑色素瘤
+FDA,Food and Drug Administration,美国食品药品监督管理局,黑色素瘤
+FDG-PET,18F-Fluorodeoxyglucose Positron Emission Tomography,18F-氟脱氧葡萄糖正电子发射断层显像,黑色素瘤
+GNA11,Guanine Nucleotide-Binding Protein Subunit Alpha-11,鸟嘌呤核苷酸结合蛋白α亚基11,黑色素瘤
+GNAQ,Guanine Nucleotide-Binding Protein Subunit Alpha-Q,鸟嘌呤核苷酸结合蛋白α亚基Q,黑色素瘤
+IFN-α,Interferon-alpha,干扰素α,黑色素瘤
+IL-2,Interleukin-2,白细胞介素2,黑色素瘤
+MAPK,Mitogen-Activated Protein Kinase,丝裂原活化蛋白激酶,黑色素瘤
+MART-1,Melanoma Antigen Recognized by T Cells 1,T细胞识别的黑色素瘤抗原1,黑色素瘤
+MC1R,Melanocortin 1 Receptor,黑皮质素1受体,黑色素瘤
+MEK,Mitogen-Activated Protein Kinase Kinase,丝裂原活化蛋白激酶激酶,黑色素瘤
+MITF,Microphthalmia-Associated Transcription Factor,小眼畸形相关转录因子,黑色素瘤
+FLT3,Fms-Like Tyrosine Kinase 3,Fms样酪氨酸激酶3,靶向治疗与免疫治疗
+IDH1,Isocitrate Dehydrogenase 1,异柠檬酸脱氢酶1,靶向治疗与免疫治疗
+IDH2,Isocitrate Dehydrogenase 2,异柠檬酸脱氢酶2,靶向治疗与免疫治疗
+BTK,Bruton's Tyrosine Kinase,布鲁顿酪氨酸激酶,靶向治疗与免疫治疗
+ABS,Antibiotic Stewardship,抗生素管理,细菌感染与抗生素
+AMC,Amoxicillin-Clavulanate,阿莫西林克拉维酸,细菌感染与抗生素
+AMK,Amikacin,阿米卡星,细菌感染与抗生素
+AZM,Azithromycin,阿奇霉素,细菌感染与抗生素
+BID,Bis in Die,每日两次,细菌感染与抗生素
+CAZ,Ceftazidime,头孢他啶,细菌感染与抗生素
+CIP,Ciprofloxacin,环丙沙星,细菌感染与抗生素
+CMI,Concentration Minimum Inhibitory,最低抑菌浓度,细菌感染与抗生素
+CTX,Cefotaxime,头孢噻肟,细菌感染与抗生素
+DDS,Drug Delivery System,药物递送系统,细菌感染与抗生素
+DOT,Days of Therapy,治疗天数,细菌感染与抗生素
+EARS-Net,European Antimicrobial Resistance Surveillance Network,欧洲抗菌药物耐药监测网络,细菌感染与抗生素
+ECDC,European Centre for Disease Prevention and Control,欧洲疾病预防控制中心,细菌感染与抗生素
+FQ,Fluoroquinolone,氟喹诺酮类,细菌感染与抗生素
+GAS,Group A Streptococcus,A族链球菌,细菌感染与抗生素
+ILI,Influenza-Like Illness,流感样疾病,病毒感染（流感）
+H1N1,Influenza A Virus Subtype H1N1,甲型流感病毒H1N1亚型,病毒感染（流感）
+H3N2,Influenza A Virus Subtype H3N2,甲型流感病毒H3N2亚型,病毒感染（流感）
+OSV,Oseltamivir,奥司他韦,病毒感染（流感）
+M2,Matrix Protein 2,基质蛋白2,病毒感染（流感）
+RdRp,RNA-Dependent RNA Polymerase,RNA依赖性RNA聚合酶,病毒感染（新冠）
+ACE2,Angiotensin-Converting Enzyme 2,血管紧张素转化酶2,病毒感染（新冠）
+MIS-C,Multisystem Inflammatory Syndrome in Children,儿童多系统炎症综合征,病毒感染（新冠）
+NPS,Nasopharyngeal Swab,鼻咽拭子,病毒感染（新冠/流感）
+AFST,Antifungal Susceptibility Testing,抗真菌药敏试验,真菌感染
+AMB,Amphotericin B,两性霉素B,真菌感染
+ITR,Itraconazole,伊曲康唑,真菌感染
+VOR,Voriconazole,伏立康唑,真菌感染
+POS,Posaconazole,泊沙康唑,真菌感染
+ISA,Isavuconazole,艾沙康唑,真菌感染
+CAS,Caspofungin,卡泊芬净,真菌感染
+MEC,Minimum Effective Concentration,最低有效浓度,真菌感染
+BDG,(1→3)-β-D-Glucan,(1→3)-β-D-葡聚糖,真菌感染
+SOT,Solid Organ Transplantation,实体器官移植,真菌感染
+MSG,Mycoses Study Group,真菌病研究组,真菌感染
+IFI,Invasive Fungal Infection,侵袭性真菌感染,真菌感染
+IA,Invasive Aspergillosis,侵袭性曲霉病,真菌感染
+IHA,Indirect Hemagglutination Assay,间接血凝试验,寄生虫病
+IFA,Indirect Fluorescent Antibody Assay,间接荧光抗体试验,寄生虫病
+ICT,Immunochromatographic Test,免疫层析试验,寄生虫病
+RDT,Rapid Diagnostic Test,快速诊断试验,寄生虫病
+LAMP,Loop-Mediated Isothermal Amplification,环介导等温扩增,寄生虫病
+PZQ,Praziquantel,吡喹酮,寄生虫病
+MDA,Mass Drug Administration,大规模药物给药,寄生虫病
+IVM,Ivermectin,伊维菌素,寄生虫病
+PQ,Primaquine,伯氨喹,寄生虫病
+CQ,Chloroquine,氯喹,寄生虫病
+TDR,Tropical Disease Research,热带病研究,寄生虫病
+NTD,Neglected Tropical Disease,被忽视的热带病,寄生虫病
+qSOFA,Quick Sequential Organ Failure Assessment,快速序贯器官衰竭评估,脓毒症与感染性休克
+ScvO2,Central Venous Oxygen Saturation,中心静脉血氧饱和度,脓毒症与感染性休克
+EGDT,Early Goal-Directed Therapy,早期目标导向治疗,脓毒症与感染性休克
+DO2,Oxygen Delivery,氧输送,脓毒症与感染性休克
+VO2,Oxygen Consumption,氧消耗,脓毒症与感染性休克
+IPC,Infection prevention and control,感染预防与控制,院内感染与多重耐药菌
+AMS,Antimicrobial stewardship,抗菌药物管理,院内感染与多重耐药菌
+CRBSI,Catheter-related bloodstream infection,导管相关性血流感染,院内感染与多重耐药菌
+MDRO,Multidrug-resistant organism,多重耐药菌,院内感染与多重耐药菌
+CPE,Carbapenemase-producing Enterobacteriaceae,产碳青霉烯酶肠杆菌科细菌,院内感染与多重耐药菌
+OXA,Oxacillinase,苯唑西林酶,院内感染与多重耐药菌
+IMP,Imipenemase,亚胺培南酶,院内感染与多重耐药菌
+DTP,Diphtheria-Tetanus-Pertussis,白喉-破伤风-百日咳疫苗,疫苗与免疫预防
+DTaP,Diphtheria-Tetanus-acellular Pertussis,无细胞白喉-破伤风-百日咳疫苗,疫苗与免疫预防
+Hib,Haemophilus influenzae type b,b型流感嗜血杆菌疫苗,疫苗与免疫预防
+IPV,Inactivated Poliovirus Vaccine,灭活脊髓灰质炎疫苗,疫苗与免疫预防
+MMRV,Measles-Mumps-Rubella-Varicella,麻疹-腮腺炎-风疹-水痘疫苗,疫苗与免疫预防
+OPV,Oral Poliovirus Vaccine,口服脊髓灰质炎疫苗,疫苗与免疫预防
+PPSV,Pneumococcal Polysaccharide Vaccine,肺炎球菌多糖疫苗,疫苗与免疫预防
+RZV,Recombinant Zoster Vaccine,重组带状疱疹疫苗,疫苗与免疫预防
+Tdap,Tetanus-Diphtheria-acellular Pertussis,破伤风-白喉-无细胞百日咳疫苗,疫苗与免疫预防
+VAR,Varicella Vaccine,水痘疫苗,疫苗与免疫预防
+HepA,Hepatitis A Vaccine,甲型肝炎疫苗,疫苗与免疫预防
+HepB,Hepatitis B Vaccine,乙型肝炎疫苗,疫苗与免疫预防
+MenACWY,Meningococcal ACWY Vaccine,脑膜炎球菌ACWY疫苗,疫苗与免疫预防
+MenB,Meningococcal B Vaccine,脑膜炎球菌B群疫苗,疫苗与免疫预防
+LAIV,Live Attenuated Influenza Vaccine,流感减毒活疫苗,疫苗与免疫预防
+IIV,Inactivated Influenza Vaccine,流感灭活疫苗,疫苗与免疫预防
+VAERS,Vaccine Adverse Event Reporting System,疫苗不良事件报告系统,疫苗与免疫预防
+ACIP,Advisory Committee on Immunization Practices,免疫实践咨询委员会,疫苗与免疫预防
+FER,Ferritin,铁蛋白,发热待查
+RF,Rheumatoid factor,类风湿因子,发热待查
+FUO,Fever of unknown origin,不明原因发热,发热待查
+PMN,Polymorphonuclear neutrophil,多形核中性粒细胞,发热待查
+IFN-γ,Interferon-gamma,干扰素-γ,发热待查
+BSE,Bovine Spongiform Encephalopathy,牛海绵状脑病,人畜共患病
+CCHF,Crimean-Congo Hemorrhagic Fever,克里米亚-刚果出血热,人畜共患病
+FMD,Foot-and-Mouth Disease,口蹄疫,人畜共患病
+H5N1,Influenza A Virus Subtype H5N1,甲型流感病毒H5N1亚型,人畜共患病
+H7N9,Influenza A Virus Subtype H7N9,甲型流感病毒H7N9亚型,人畜共患病
+NIAID,National Institute of Allergy and Infectious Diseases,国家过敏与传染病研究所,人畜共患病
+Nipah,Nipah Virus,尼帕病毒,人畜共患病
+PRRS,Porcine Reproductive and Respiratory Syndrome,猪繁殖与呼吸综合征,人畜共患病
+TBE,Tick-Borne Encephalitis,蜱传脑炎,人畜共患病
+VEE,Venezuelan Equine Encephalitis,委内瑞拉马脑炎,人畜共患病
+VHF,Viral Hemorrhagic Fever,病毒性出血热,人畜共患病
+WNV,West Nile Virus,西尼罗病毒,人畜共患病
+ZIKV,Zika Virus,寨卡病毒,人畜共患病
+EID,emerging infectious disease,新发传染病,新发传染病
+Lassa,Lassa fever,拉沙热,新发传染病
+MERS-CoV,Middle East respiratory syndrome coronavirus,中东呼吸综合征冠状病毒,新发传染病
+CHIKV,chikungunya virus,基孔肯雅病毒,新发传染病
+DENV,dengue virus,登革病毒,新发传染病
+RVF,Rift Valley fever,裂谷热,新发传染病
+HPS,hantavirus pulmonary syndrome,汉坦病毒肺综合征,新发传染病
+HFRS,hemorrhagic fever with renal syndrome,肾综合征出血热,新发传染病
+LGV,lymphogranuloma venereum,性病性淋巴肉芽肿,新发传染病
+NDM-1,New Delhi metallo-beta-lactamase-1,新德里金属-β-内酰胺酶-1,新发传染病
+CAB,Circulation-Airway-Breathing,循环-气道-呼吸,心肺复苏
+DNR,Do Not Resuscitate,不复苏,心肺复苏
+DNAR,Do Not Attempt Resuscitation,不尝试复苏,心肺复苏
+OHCA,Out-of-Hospital Cardiac Arrest,院外心脏骤停,心肺复苏
+IHCA,In-Hospital Cardiac Arrest,院内心脏骤停,心肺复苏
+CCO,Continuous Cardiac Output,连续心输出量,心肺复苏
+TTM,Targeted Temperature Management,目标温度管理,心肺复苏
+LUCAS,Lund University Cardiopulmonary Assist System,隆德大学心肺辅助系统,心肺复苏
+AHA,American Heart Association,美国心脏协会,心肺复苏
+ILCOR,International Liaison Committee on Resuscitation,国际复苏联合委员会,心肺复苏
+ERC,European Resuscitation Council,欧洲复苏委员会,心肺复苏
+COHb,Carboxyhemoglobin,碳氧血红蛋白,急性中毒
+ISS,Injury Severity Score,损伤严重度评分,多发伤与创伤急救
+RTS,Revised Trauma Score,修正创伤评分,多发伤与创伤急救
+DPL,Diagnostic Peritoneal Lavage,诊断性腹腔灌洗,多发伤与创伤急救
+PELVIC XR,Pelvic X-ray,骨盆X线片,多发伤与创伤急救
+SCI,Spinal Cord Injury,脊髓损伤,多发伤与创伤急救
+MOF,Multiple Organ Failure,多器官功能衰竭,多发伤与创伤急救
+APP,Appendicitis,阑尾炎,急性腹痛
+HIDA,Hepatobiliary Iminodiacetic Acid,肝胆亚氨基二乙酸,急性腹痛
+SBO,Small Bowel Obstruction,小肠梗阻,急性腹痛
+VBG,Venous Blood Gas,静脉血气,急性腹痛
+XRT,X-ray Therapy,X线治疗,急性腹痛
+ZES,Zollinger-Ellison Syndrome,佐林格-埃利森综合征,急性腹痛
+IMH,Intramural Hematoma,主动脉壁内血肿,急性胸痛
+PAU,Penetrating Aortic Ulcer,穿透性主动脉溃疡,急性胸痛
+PTX,Pneumothorax,气胸,急性胸痛
+MSK,Musculoskeletal Chest Pain,肌肉骨骼性胸痛,急性胸痛
+PCS,Panic Attack,惊恐发作,急性胸痛
+cTnT,Cardiac Troponin T,心肌肌钙蛋白T,急性胸痛
+PNA,Pneumonia,肺炎,急性呼吸困难
+RALE,Radiographic Assessment of Lung Edema,肺水肿影像学评估,急性呼吸困难
+H1,Histamine H1 Receptor,组胺H1受体,过敏性休克
+H2,Histamine H2 Receptor,组胺H2受体,过敏性休克
+PG,Prostaglandin,前列腺素,过敏性休克
+TRY,Serum Tryptase,血清类胰蛋白酶,过敏性休克
+URT,Upper Respiratory Tract,上呼吸道,过敏性休克
+LRT,Lower Respiratory Tract,下呼吸道,过敏性休克
+CPK,Creatine Phosphokinase,肌酸磷酸激酶,热射病与低体温
+NIRS,Near-Infrared Spectroscopy,近红外光谱,热射病与低体温
+APRV,Airway Pressure Release Ventilation,气道压力释放通气,急诊气道管理
+BVM,Bag-Valve-Mask,球囊面罩,急诊气道管理
+IGEL,I-Gel Supraglottic Airway,I-凝胶声门上气道,急诊气道管理
+NPA,Nasopharyngeal Airway,鼻咽通气道,急诊气道管理
+OPA,Oropharyngeal Airway,口咽通气道,急诊气道管理
+RASS,Richmond Agitation-Sedation Scale,里士满躁动-镇静评分,急诊气道管理
+RSI,Rapid Sequence Intubation,快速序贯插管,急诊气道管理
+TRIAGE,Triage,检伤分类,灾难医学与院前急救
+START,Simple Triage and Rapid Treatment,简单检伤分类与快速治疗,灾难医学与院前急救
+METHANE,My MCI/ETA/Type/Hazards/Access/Number/EMS,甲烷报告法（MCI/预计到达时间/类型/危险/通道/数量/EMS）,灾难医学与院前急救
+CBRNE,Chemical Biological Radiological Nuclear Explosive,化生放核爆,灾难医学与院前急救
+SALT,Salt Triage (Sort Assess Life-saving Interventions Treatment/Transport),盐分检伤分类（分类-评估-救命干预-治疗/转运）,灾难医学与院前急救
+O2,Oxygen,氧气,灾难医学与院前急救
+REBOA,Resuscitative Endovascular Balloon Occlusion of the Aorta,复苏性主动脉内球囊阻断,灾难医学与院前急救
+TCCC,Tactical Combat Casualty Care,战术战伤救治,灾难医学与院前急救
+Vent,Ventilator,呼吸机,灾难医学与院前急救
+WMD,Weapons of Mass Destruction,大规模杀伤性武器,灾难医学与院前急救
+PHTLS,Prehospital Trauma Life Support,院前创伤生命支持,灾难医学与院前急救
+MIST,Mechanism Injury Signs Treatment,损伤机制-损伤-体征-治疗（报告格式）,灾难医学与院前急救
+DCAP-BTLS,Deformity Contusion Abrasion Penetration Burns Tenderness Laceration Swelling,畸形-挫伤-擦伤-穿透-烧伤-压痛-撕裂-肿胀（检伤记忆法）,灾难医学与院前急救
+SAMPLE,Signs/Symptoms Allergies Medications Past Medical History Last Meal Events,体征/症状-过敏-药物-既往史-最后进食-事件（病史采集记忆法）,灾难医学与院前急救
+HDP,Hypertensive disorders of pregnancy,妊娠期高血压疾病,正常妊娠与产前保健
+MSAFP,Maternal serum alpha-fetoprotein,母血清甲胎蛋白,正常妊娠与产前保健
+NT,Nuchal translucency,颈项透明层,正常妊娠与产前保健
+PAPP-A,Pregnancy-associated plasma protein A,妊娠相关血浆蛋白A,正常妊娠与产前保健
+Rh,Rhesus,恒河猴因子（Rh血型）,正常妊娠与产前保健
+APH,Antepartum Hemorrhage,产前出血,高危妊娠
+FGR,Fetal Growth Restriction,胎儿生长受限,高危妊娠
+PTL,Preterm Labor,早产临产,高危妊娠
+SROM,Spontaneous Rupture of Membranes,自发性胎膜破裂,高危妊娠
+TTTS,Twin-to-Twin Transfusion Syndrome,双胎输血综合征,高危妊娠
+IUFD,Intrauterine Fetal Death,宫内胎儿死亡,高危妊娠
+PIH,Pregnancy-Induced Hypertension,妊娠期高血压,妊娠期合并症（糖尿病/高血压）
+NICE,National Institute for Health and Care Excellence,英国国家卫生与临床优化研究所,妊娠期合并症（糖尿病/高血压）
+PTB,Preterm Birth,早产,妊娠期合并症（糖尿病/高血压）
+MVM,Maternal Vascular Malperfusion,母体血管灌注不良,妊娠期合并症（糖尿病/高血压）
+RFT,Renal Function Test,肾功能检查,妊娠期合并症（糖尿病/高血压）
+EFM,Electronic Fetal Monitoring,电子胎心监护,分娩与产程管理
+Preeclampsia,Preeclampsia,子痫前期,分娩与产程管理
+Eclampsia,Eclampsia,子痫,分娩与产程管理
+PPH,Postpartum Hemorrhage,产后出血,分娩与产程管理
+LEEP,Loop Electrosurgical Excision Procedure,宫颈环形电切术,妇科肿瘤（宫颈）
+EMT,Endometrial Thickness,子宫内膜厚度,妇科肿瘤（内膜）
+ROMA,Risk of Ovarian Malignancy Algorithm,卵巢恶性肿瘤风险算法,妇科肿瘤（卵巢）
+RMI,Risk of Malignancy Index,恶性肿瘤风险指数,妇科肿瘤（卵巢）
+TAH,Total Abdominal Hysterectomy,经腹全子宫切除术,妇科肿瘤（宫颈/内膜/卵巢）
+BSO,Bilateral Salpingo-Oophorectomy,双侧输卵管卵巢切除术,妇科肿瘤（卵巢/内膜）
+PLND,Pelvic Lymph Node Dissection,盆腔淋巴结清扫术,妇科肿瘤（宫颈/内膜/卵巢）
+POI,primary ovarian insufficiency,早发性卵巢功能不全,月经失调与内分泌
+HPO,hypothalamic-pituitary-ovarian axis,下丘脑-垂体-卵巢轴,月经失调与内分泌
+AUB,abnormal uterine bleeding,异常子宫出血,月经失调与内分泌
+PALM-COEIN,polyp adenomyosis leiomyoma malignancy and hyperplasia coagulopathy ovulatory dysfunction endometrial iatrogenic not yet classified,PALM-COEIN分类系统,月经失调与内分泌
+GnRHa,Gonadotropin-Releasing Hormone Agonist,促性腺激素释放激素激动剂,子宫内膜异位症
+LNG-IUS,Levonorgestrel-Releasing Intrauterine System,左炔诺孕酮宫内缓释系统,子宫内膜异位症
+ASRM,American Society for Reproductive Medicine,美国生殖医学学会,子宫内膜异位症
+rASRM,Revised American Society for Reproductive Medicine Score,修订美国生殖医学学会评分,子宫内膜异位症
+EFI,Endometriosis Fertility Index,子宫内膜异位症生育指数,子宫内膜异位症
+DIE,Deep Infiltrating Endometriosis,深部浸润型子宫内膜异位症,子宫内膜异位症
+OMA,Ovarian Endometrioma,卵巢子宫内膜异位囊肿,子宫内膜异位症
+AWE,Abdominal Wall Endometriosis,腹壁子宫内膜异位症,子宫内膜异位症
+CES,Cesarean Scar Endometriosis,剖宫产瘢痕子宫内膜异位症,子宫内膜异位症
+LAP,Laparoscopy,腹腔镜检查,子宫内膜异位症
+LSC,Laparoscopic Surgery,腹腔镜手术,子宫内膜异位症
+CA-125,Cancer Antigen 125,癌抗原125,子宫内膜异位症
+BDNF,Brain-Derived Neurotrophic Factor,脑源性神经营养因子,子宫内膜异位症
+PFMT,Pelvic Floor Muscle Training,盆底肌训练,盆底功能障碍
+POP,Pelvic Organ Prolapse,盆腔器官脱垂,盆底功能障碍
+PFDI,Pelvic Floor Distress Inventory,盆底困扰问卷,盆底功能障碍
+PFIQ,Pelvic Floor Impact Questionnaire,盆底影响问卷,盆底功能障碍
+POP-Q,Pelvic Organ Prolapse Quantification,盆腔器官脱垂定量分度法,盆底功能障碍
+TVT,Tension-free Vaginal Tape,无张力阴道吊带术,盆底功能障碍
+TOT,Transobturator Tape,经闭孔吊带术,盆底功能障碍
+BNR,Bladder Neck Reconstruction,膀胱颈重建术,盆底功能障碍
+PFD,Pelvic Floor Dysfunction,盆底功能障碍,盆底功能障碍
+PFM,Pelvic Floor Muscle,盆底肌,盆底功能障碍
+EAS,External Anal Sphincter,肛门外括约肌,盆底功能障碍
+IAS,Internal Anal Sphincter,肛门内括约肌,盆底功能障碍
+UI,Urinary Incontinence,尿失禁,盆底功能障碍
+FI,Fecal Incontinence,大便失禁,盆底功能障碍
+CPPS,Chronic Pelvic Pain Syndrome,慢性盆腔疼痛综合征,盆底功能障碍
+PESS,Pelvic Organ Prolapse Symptom Score,盆腔器官脱垂症状评分,盆底功能障碍
+FET,Frozen Embryo Transfer,冻融胚胎移植,辅助生殖技术
+OHSS,Ovarian Hyperstimulation Syndrome,卵巢过度刺激综合征,辅助生殖技术
+COH,Controlled Ovarian Hyperstimulation,控制性卵巢刺激,辅助生殖技术
+PGD,Preimplantation Genetic Diagnosis,植入前遗传学诊断,辅助生殖技术
+PGS,Preimplantation Genetic Screening,植入前遗传学筛查,辅助生殖技术
+PGT,Preimplantation Genetic Testing,植入前遗传学检测,辅助生殖技术
+MESA,Microsurgical Epididymal Sperm Aspiration,显微附睾精子抽吸术,辅助生殖技术
+TESA,Testicular Sperm Aspiration,睾丸精子抽吸术,辅助生殖技术
+ZIFT,Zygote Intrafallopian Transfer,合子输卵管内移植,辅助生殖技术
+GIFT,Gamete Intrafallopian Transfer,配子输卵管内移植,辅助生殖技术
+BL,Blastocyst,囊胚,辅助生殖技术
+TORCH,toxoplasmosis rubella cytomegalovirus herpes simplex,弓形虫风疹巨细胞病毒单纯疱疹,新生儿疾病
+PPHN,persistent pulmonary hypertension of the newborn,新生儿持续性肺动脉高压,新生儿疾病
+CDH,congenital diaphragmatic hernia,先天性膈疝,新生儿疾病
+EA,esophageal atresia,食管闭锁,新生儿疾病
+TEF,tracheoesophageal fistula,气管食管瘘,新生儿疾病
+HMD,hyaline membrane disease,肺透明膜病,新生儿疾病
+PIE,pulmonary interstitial emphysema,肺间质气肿,新生儿疾病
+Celiac,Celiac Disease,乳糜泻,儿童消化系统疾病
+FPIES,Food Protein-Induced Enterocolitis Syndrome,食物蛋白诱导性小肠结肠炎综合征,儿童消化系统疾病
+EoE,Eosinophilic Esophagitis,嗜酸细胞性食管炎,儿童消化系统疾病
+AIH,Autoimmune Hepatitis,自身免疫性肝炎,儿童消化系统疾病
+Hirschsprung,Hirschsprung Disease,先天性巨结肠,儿童消化系统疾病
+DHA,Docosahexaenoic Acid,二十二碳六烯酸,儿童生长发育与营养
+EER,Estimated Energy Requirement,估计能量需要量,儿童生长发育与营养
+EPA,Eicosapentaenoic Acid,二十碳五烯酸,儿童生长发育与营养
+FAO,Food and Agriculture Organization,联合国粮食及农业组织,儿童生长发育与营养
+FTO,Fat Mass and Obesity Associated Gene,脂肪量与肥胖相关基因,儿童生长发育与营养
+GHD,Growth Hormone Deficiency,生长激素缺乏症,儿童生长发育与营养
+IGFBP-3,Insulin-like Growth Factor Binding Protein 3,胰岛素样生长因子结合蛋白3,儿童生长发育与营养
+MUAC,Mid-Upper Arm Circumference,中上臂围,儿童生长发育与营养
+NCHS,National Center for Health Statistics,国家卫生统计中心,儿童生长发育与营养
+PEM,Protein-Energy Malnutrition,蛋白质-能量营养不良,儿童生长发育与营养
+PUFA,Polyunsaturated Fatty Acid,多不饱和脂肪酸,儿童生长发育与营养
+RDA,Recommended Dietary Allowance,推荐膳食供给量,儿童生长发育与营养
+SGAW,SGA with Weight,小于胎龄儿（体重）,儿童生长发育与营养
+UNICEF,United Nations International Children's Emergency Fund,联合国儿童基金会,儿童生长发育与营养
+IgG4,Immunoglobulin G4,免疫球蛋白G4,儿童免疫与过敏
+Th1,T helper type 1,1型辅助性T细胞,儿童免疫与过敏
+Th2,T helper type 2,2型辅助性T细胞,儿童免疫与过敏
+Th17,T helper type 17,17型辅助性T细胞,儿童免疫与过敏
+NK cell,Natural killer cell,自然杀伤细胞,儿童免疫与过敏
+IL-4,Interleukin-4,白细胞介素-4,儿童免疫与过敏
+IL-13,Interleukin-13,白细胞介素-13,儿童免疫与过敏
+IL-10,Interleukin-10,白细胞介素-10,儿童免疫与过敏
+SPT,Skin prick test,皮肤点刺试验,儿童免疫与过敏
+sIgE,Specific immunoglobulin E,特异性免疫球蛋白E,儿童免疫与过敏
+EASI,Eczema Area and Severity Index,湿疹面积与严重程度指数,儿童免疫与过敏
+OIT,Oral immunotherapy,口服免疫治疗,儿童免疫与过敏
+SLIT,Sublingual immunotherapy,舌下免疫治疗,儿童免疫与过敏
+SCIT,Subcutaneous immunotherapy,皮下免疫治疗,儿童免疫与过敏
+TAPVC,Total Anomalous Pulmonary Venous Connection,完全性肺静脉异位引流,儿童心血管疾病
+PAPVC,Partial Anomalous Pulmonary Venous Connection,部分性肺静脉异位引流,儿童心血管疾病
+LVEDD,Left Ventricular End-Diastolic Dimension,左心室舒张末期内径,儿童心血管疾病
+CPB,Cardiopulmonary Bypass,体外循环,儿童心血管疾病
+PGE1,Prostaglandin E1,前列腺素E1,儿童心血管疾病
+C-arm,C-arm Fluoroscopy,C形臂X线机,骨折与创伤骨科
+CCD,Cervical Collar Device,颈托装置,骨折与创伤骨科
+DCO,Damage Control Orthopedics,损伤控制骨科,骨折与创伤骨科
+EX-FIX,External Fixation,外固定,骨折与创伤骨科
+FES,Fat Embolism Syndrome,脂肪栓塞综合征,骨折与创伤骨科
+K-wire,Kirschner Wire,克氏针,骨折与创伤骨科
+MIPO,Minimally Invasive Plate Osteosynthesis,微创钢板接骨术,骨折与创伤骨科
+ALIF,Anterior Lumbar Interbody Fusion,腰椎前路椎体间融合术,脊柱外科（椎间盘/椎管狭窄）
+DDD,Degenerative Disc Disease,椎间盘退行性疾病,脊柱外科（椎间盘/椎管狭窄）
+DISH,Diffuse Idiopathic Skeletal Hyperostosis,弥漫性特发性骨肥厚症,脊柱外科（椎间盘/椎管狭窄）
+DLS,Degenerative Lumbar Scoliosis,退变性腰椎侧凸,脊柱外科（椎间盘/椎管狭窄）
+HNP,Herniated Nucleus Pulposus,髓核突出,脊柱外科（椎间盘/椎管狭窄）
+LSS,Lumbar Spinal Stenosis,腰椎管狭窄症,脊柱外科（椎间盘/椎管狭窄）
+OLIF,Oblique Lumbar Interbody Fusion,斜侧方腰椎椎体间融合术,脊柱外科（椎间盘/椎管狭窄）
+XLIF,Extreme Lateral Interbody Fusion,极外侧椎体间融合术,脊柱外科（椎间盘/椎管狭窄）
+CSM,Cervical Spondylotic Myelopathy,颈椎病性脊髓病,脊柱外科（椎间盘/椎管狭窄）
+RSA,Reverse Shoulder Arthroplasty,反式肩关节置换术,关节外科（髋/膝关节置换）
+UHMWPE,Ultra-High Molecular Weight Polyethylene,超高分子量聚乙烯,关节外科（髋/膝关节置换）
+MoM,Metal-on-Metal,金属对金属,关节外科（髋/膝关节置换）
+MoP,Metal-on-Polyethylene,金属对聚乙烯,关节外科（髋/膝关节置换）
+KSS,Knee Society Score,膝关节协会评分,关节外科（髋/膝关节置换）
+WOMAC,Western Ontario and McMaster Universities Osteoarthritis Index,西安大略和麦克马斯特大学骨关节炎指数,关节外科（髋/膝关节置换）
+ALVAL,Aseptic Lymphocytic Vasculitis-Associated Lesion,无菌性淋巴细胞性血管炎相关病变,关节外科（髋/膝关节置换）
+MPFL,Medial Patellofemoral Ligament,内侧髌股韧带,运动医学与关节镜
+SLAP,Superior Labrum Anterior to Posterior,上盂唇前后撕裂,运动医学与关节镜
+FAI,Femoroacetabular Impingement,股骨髋臼撞击综合征,运动医学与关节镜
+SCJ,Sternoclavicular Joint,胸锁关节,运动医学与关节镜
+LHB,Long Head of Biceps,肱二头肌长头腱,运动医学与关节镜
+MUA,Manipulation Under Anesthesia,麻醉下手法松解,运动医学与关节镜
+KOOS,Knee Injury and Osteoarthritis Outcome Score,膝关节损伤与骨关节炎结局评分,运动医学与关节镜
+ASES,American Shoulder and Elbow Surgeons Score,美国肩肘外科医师评分,运动医学与关节镜
+DICER1,DICER1 (Dicer 1,Ribonuclease III),"DICER1基因,骨肿瘤"
+EHE,EHE (Epithelioid Hemangioendothelioma),上皮样血管内皮瘤,骨肿瘤
+H3F3A,H3F3A (H3 Histone Family Member 3A),H3F3A基因,骨肿瘤
+HMB-45,HMB-45 (Human Melanoma Black-45),人黑色素瘤黑-45,骨肿瘤
+MFH,MFH (Malignant Fibrous Histiocytoma),恶性纤维组织细胞瘤,骨肿瘤
+MSTS,MSTS (Musculoskeletal Tumor Society),肌肉骨骼肿瘤学会,骨肿瘤
+OGS,OGS (Osteogenic Sarcoma),骨肉瘤,骨肿瘤
+SFT,SFT (Solitary Fibrous Tumor),孤立性纤维性肿瘤,骨肿瘤
+AOFAS,American Orthopaedic Foot and Ankle Society,美国足踝外科协会,足踝外科
+ATFL,Anterior Talofibular Ligament,距腓前韧带,足踝外科
+CFL,Calcaneofibular Ligament,跟腓韧带,足踝外科
+PTFL,Posterior Talofibular Ligament,距腓后韧带,足踝外科
+DTFL,Deep Talofibular Ligament,距腓深韧带,足踝外科
+SPR,Spring Ligament,弹簧韧带,足踝外科
+TMT,Tarsometatarsal Joint,跗跖关节,足踝外科
+PIP,Proximal Interphalangeal Joint,近侧趾间关节,足踝外科
+HVA,Hallux Valgus Angle,拇外翻角,足踝外科
+IMA,Intermetatarsal Angle,跖骨间角,足踝外科
+DMAA,Distal Metatarsal Articular Angle,远端跖骨关节角,足踝外科
+Lisfranc,Lisfranc Joint,利斯弗朗关节,足踝外科
+Chopart,Chopart Joint,肖帕尔关节,足踝外科
+TAL,Tendo Achillis Longus,跟腱,足踝外科
+FDL,Flexor Digitorum Longus,趾长屈肌腱,足踝外科
+PL,Peroneus Longus,腓骨长肌,足踝外科
+PINP,Procollagen Type I N-terminal Propeptide,I型前胶原氨基端前肽,骨质疏松性骨折
+25OHD,25-Hydroxyvitamin D,25-羟维生素D,骨质疏松性骨折
+SERM,Selective Estrogen Receptor Modulator,选择性雌激素受体调节剂,骨质疏松性骨折
+PTHrP,Parathyroid Hormone-related Protein,甲状旁腺激素相关蛋白,骨质疏松性骨折
+VFA,Vertebral Fracture Assessment,椎体骨折评估,骨质疏松性骨折
+QCT,Quantitative Computed Tomography,定量计算机断层扫描,骨质疏松性骨折
+HR-pQCT,High-resolution Peripheral Quantitative Computed Tomography,高分辨率外周定量计算机断层扫描,骨质疏松性骨折
+HSA,Hip Structural Analysis,髋部结构分析,骨质疏松性骨折
+VCF,Vertebral Compression Fracture,椎体压缩性骨折,骨质疏松性骨折
+PVP,Percutaneous Vertebroplasty,经皮椎体成形术,骨质疏松性骨折
+ZOL,Zoledronic Acid,唑来膦酸,骨质疏松性骨折
+ALN,Alendronate,阿仑膦酸钠,骨质疏松性骨折
+RLX,Raloxifene,雷洛昔芬,骨质疏松性骨折
+DENO,Denosumab,地舒单抗,骨质疏松性骨折
+TERI,Teriparatide,特立帕肽,骨质疏松性骨折
+ABL,Abaloparatide,阿巴洛肽,骨质疏松性骨折
+NWB,Non-Weight Bearing,非负重,骨科康复
+PWB,Partial Weight Bearing,部分负重,骨科康复
+FWB,Full Weight Bearing,完全负重,骨科康复
+NMES,Neuromuscular Electrical Stimulation,神经肌肉电刺激,骨科康复
+OKC,Open Kinetic Chain,开链运动,骨科康复
+WBAT,Weight Bearing As Tolerated,可耐受负重,骨科康复
+AAROM,Active Assistive Range of Motion,主动辅助关节活动度,骨科康复
+SLR,Straight Leg Raise,直腿抬高,骨科康复
+RICE,Rest Ice Compression Elevation,休息冰敷加压抬高,骨科康复
+TENS,Transcutaneous Electrical Nerve Stimulation,经皮神经电刺激,骨科康复
+CPM,Continuous Passive Motion,持续被动活动,骨科康复
+MMT,Manual Muscle Testing,徒手肌力测试,骨科康复
+Perthes,Legg-Calvé-Perthes Disease,莱格-卡尔维-佩尔特斯病,小儿骨科
+SUFE,Slipped Upper Femoral Epiphysis,股骨上端骨骺滑脱,小儿骨科
+Osteogenesis Imperfecta,Osteogenesis Imperfecta,成骨不全症,小儿骨科
+Scoliosis,Scoliosis,脊柱侧凸,小儿骨科
+KAFO,Knee-Ankle-Foot Orthosis,膝踝足矫形器,小儿骨科
+AFO,Ankle-Foot Orthosis,踝足矫形器,小儿骨科
+SER,Supination-External Rotation,旋后-外旋型,小儿骨科
+Salter-Harris,Salter-Harris Classification,索尔特-哈里斯分型,小儿骨科
+GMFCS,Gross Motor Function Classification System,粗大运动功能分级系统,小儿骨科
+Ponseti,Ponseti Method,庞塞蒂方法,小儿骨科
+Ilizarov,Ilizarov Technique,伊利扎洛夫技术,小儿骨科
+VEPTR,Vertical Expandable Prosthetic Titanium Rib,垂直可扩展假体钛肋,小儿骨科
+MCGR,Magnetically Controlled Growing Rod,磁控生长棒,小儿骨科
+Fassier-Duval,Fassier-Duval Rod,法西耶-杜瓦尔棒,小儿骨科
+Risser,Risser Sign,里瑟征,小儿骨科
+F,Bioavailability,生物利用度,药理学总论与药代动力学
+Css,Steady-State Concentration,稳态浓度,药理学总论与药代动力学
+Ke,Elimination Rate Constant,消除速率常数,药理学总论与药代动力学
+Ka,Absorption Rate Constant,吸收速率常数,药理学总论与药代动力学
+Km,Michaelis-Menten Constant,米氏常数,药理学总论与药代动力学
+OATP,Organic Anion Transporting Polypeptide,有机阴离子转运多肽,药理学总论与药代动力学
+P-gp,P-glycoprotein,P-糖蛋白,药理学总论与药代动力学
+PPB,Plasma Protein Binding,血浆蛋白结合率,药理学总论与药代动力学
+MRT,Mean Residence Time,平均滞留时间,药理学总论与药代动力学
+AUMC,Area Under the First Moment Curve,一阶矩曲线下面积,药理学总论与药代动力学
+NONMEM,Nonlinear Mixed Effects Modeling,非线性混合效应模型,药理学总论与药代动力学
+SUSAR,Suspected Unexpected Serious Adverse Reaction,可疑非预期严重不良反应,药物不良反应与警戒
+QTc,Corrected QT Interval,校正QT间期,药物不良反应与警戒
+DILI,Drug-Induced Liver Injury,药物性肝损伤,药物不良反应与警戒
+DRESS,Drug Reaction with Eosinophilia and Systemic Symptoms,嗜酸性粒细胞增多及全身症状药物反应,药物不良反应与警戒
+AGEP,Acute Generalized Exanthematous Pustulosis,急性泛发性发疹性脓疱病,药物不良反应与警戒
+HSS,Hypersensitivity Syndrome,超敏反应综合征,药物不良反应与警戒
+ADRAC,Adverse Drug Reactions Advisory Committee,药物不良反应咨询委员会,药物不良反应与警戒
+CIOMS,Council for International Organizations of Medical Sciences,国际医学科学组织理事会,药物不良反应与警戒
+MedDRA,Medical Dictionary for Regulatory Activities,监管活动医学词典,药物不良反应与警戒
+WHO-ART,World Health Organization Adverse Reaction Terminology,世界卫生组织不良反应术语,药物不良反应与警戒
+Naranjo,Naranjo Algorithm,纳兰霍评分法,药物不良反应与警戒
+RUCAM,Roussel Uclaf Causality Assessment Method,鲁塞尔-尤克拉夫因果关系评估法,药物不良反应与警戒
+PSUR,Periodic Safety Update Report,定期安全性更新报告,药物不良反应与警戒
+DSMB,Data Safety Monitoring Board,数据安全监查委员会,药物不良反应与警戒
+MAH,Marketing Authorization Holder,上市许可持有人,药物不良反应与警戒
+ICSR,Individual Case Safety Report,个例安全性报告,药物不良反应与警戒
+E2B,Electronic Transmission of Individual Case Safety Reports,个例安全性报告电子传输标准,药物不良反应与警戒
+DOTD,Days of Therapy per 1000 Days Present,每千住院日治疗天数,抗生素合理用药
+LOT,Length of Therapy,治疗疗程,抗生素合理用药
+ASP,Antimicrobial Stewardship Program,抗菌药物管理计划,抗生素合理用药
+IDSA,Infectious Diseases Society of America,美国感染病学会,抗生素合理用药
+SSTI,Skin and Soft Tissue Infection,皮肤软组织感染,抗生素合理用药
+IAI,Intra-Abdominal Infection,腹腔感染,抗生素合理用药
+ABSSSI,Acute Bacterial Skin and Skin Structure Infection,急性细菌性皮肤及皮肤结构感染,抗生素合理用药
+ICAM-1,Intercellular Adhesion Molecule 1,细胞间黏附分子1,免疫学基础与自身免疫
+Tfh,Follicular Helper T Cell,滤泡辅助性T细胞,免疫学基础与自身免疫
+FK506,Tacrolimus,他克莫司,移植免疫与免疫缺陷
+OKT3,Muromonab-CD3,莫罗单抗-CD3,移植免疫与免疫缺陷
+XMAT,Crossmatch,交叉配型,移植免疫与免疫缺陷
+IRI,Ischemia-Reperfusion Injury,缺血再灌注损伤,移植免疫与免疫缺陷
+Sanger Sequencing,Sanger Sequencing,桑格测序,分子生物学技术（PCR/测序/CRISPR）
+gRNA,Guide RNA,引导RNA,分子生物学技术（PCR/测序/CRISPR）
+AFLP,Amplified Fragment Length Polymorphism,扩增片段长度多态性,分子生物学技术（PCR/测序/CRISPR）
+HDR,Homology Directed Repair,同源定向修复,分子生物学技术（PCR/测序/CRISPR）
+NHEJ,Non-Homologous End Joining,非同源末端连接,分子生物学技术（PCR/测序/CRISPR）
+PAM,Protospacer Adjacent Motif,前间隔序列邻近基序,分子生物学技术（PCR/测序/CRISPR）
+TALEN,Transcription Activator-Like Effector Nuclease,转录激活因子样效应物核酸酶,分子生物学技术（PCR/测序/CRISPR）
+ZFN,Zinc Finger Nuclease,锌指核酸酶,分子生物学技术（PCR/测序/CRISPR）
+SNV,Single Nucleotide Variant,单核苷酸变异,遗传病与基因诊断
+MPS,Massively Parallel Sequencing,大规模平行测序,遗传病与基因诊断
+NIPT,Non-invasive Prenatal Testing,无创产前检测,遗传病与基因诊断
+CFTR,Cystic Fibrosis Transmembrane Conductance Regulator,囊性纤维化跨膜传导调节因子,遗传病与基因诊断
+FMR1,Fragile X Mental Retardation 1,脆性X智力低下1号基因,遗传病与基因诊断
+HBB,Hemoglobin Subunit Beta,β-珠蛋白基因,遗传病与基因诊断
+MT-ND1,Mitochondrially Encoded NADH Dehydrogenase 1,线粒体编码NADH脱氢酶1,遗传病与基因诊断
+LCM,Laser Capture Microdissection,激光捕获显微切割,病理学诊断技术
+FCM,Flow Cytometry,流式细胞术,病理学诊断技术
+aCGH,Array Comparative Genomic Hybridization,阵列比较基因组杂交,病理学诊断技术
+SISH,Silver In Situ Hybridization,银染原位杂交,病理学诊断技术
+IBW,Ideal Body Weight,理想体重,麻醉药物与麻醉管理
+ED95,Effective Dose 95%,95%有效剂量,麻醉药物与麻醉管理
+MIV,Minute Ventilation,分钟通气量,麻醉药物与麻醉管理
+PCEA,Patient-Controlled Epidural Analgesia,患者自控硬膜外镇痛,麻醉药物与麻醉管理
+IVRA,Intravenous Regional Anesthesia,静脉区域麻醉,麻醉药物与麻醉管理
+CRPS,Complex Regional Pain Syndrome,复杂性区域疼痛综合征,疼痛管理
+DN4,Douleur Neuropathique 4 Questions,神经病理性疼痛4问筛查,疼痛管理
+LANSS,Leeds Assessment of Neuropathic Symptoms and Signs,利兹神经病理性症状与体征评估,疼痛管理
+MPQ,McGill Pain Questionnaire,麦吉尔疼痛问卷,疼痛管理
+SF-MPQ,Short-Form McGill Pain Questionnaire,简式麦吉尔疼痛问卷,疼痛管理
+BPS,Behavioral Pain Scale,行为疼痛量表,疼痛管理
+CPOT,Critical-Care Pain Observation Tool,重症监护疼痛观察工具,疼痛管理
+FLACC,Face Legs Activity Cry Consolability,面部-腿部-活动-哭泣-可安慰性量表,疼痛管理
+PIPP,Premature Infant Pain Profile,早产儿疼痛档案,疼痛管理
+NIPS,Neonatal Infant Pain Scale,新生儿疼痛量表,疼痛管理
+NPQ,Neuropathic Pain Questionnaire,神经病理性疼痛问卷,疼痛管理
+ID Pain,Identification Pain,识别疼痛问卷,疼痛管理
+PD-Q,PainDETECT Questionnaire,PainDETECT问卷,疼痛管理
+S-LANSS,Self-Report Leeds Assessment of Neuropathic Symptoms and Signs,自评利兹神经病理性症状与体征评估,疼痛管理
+SCS,Spinal Cord Stimulation,脊髓电刺激,疼痛管理
+DRG,Dorsal Root Ganglion,背根神经节,疼痛管理
+IV-PCA,Intravenous Patient-Controlled Analgesia,静脉患者自控镇痛,疼痛管理
+APACHE,Acute Physiology And Chronic Health Evaluation,急性生理与慢性健康评估,重症监护（ICU）
+HDU,High Dependency Unit,高度依赖病房,重症监护（ICU）
+SBT,Spontaneous Breathing Trial,自主呼吸试验,重症监护（ICU）
+SvO2,Mixed Venous Oxygen Saturation,混合静脉血氧饱和度,重症监护（ICU）
+LR+,Positive Likelihood Ratio,阳性似然比,临床流行病学
+LR-,Negative Likelihood Ratio,阴性似然比,临床流行病学
+NNT,Number Needed to Treat,需治疗人数,临床流行病学
+NNH,Number Needed to Harm,需害人数,临床流行病学
+PAR,Population Attributable Risk,人群归因危险度,临床流行病学
+SROC,Summary Receiver Operating Characteristic,汇总受试者工作特征,临床流行病学
+MeSH,Medical Subject Headings,医学主题词表,临床流行病学
+EBM,Evidence-Based Medicine,循证医学,临床流行病学
+PICO,Population Intervention Comparison Outcome,人群干预对照结局,临床流行病学
+QUADAS,Quality Assessment of Diagnostic Accuracy Studies,诊断准确性研究质量评价,临床流行病学
+STARD,Standards for Reporting of Diagnostic Accuracy,诊断准确性报告标准,临床流行病学
+PRISMA,Preferred Reporting Items for Systematic Reviews and Meta-Analyses,系统评价和荟萃分析优先报告条目,临床流行病学
+CONSORT,Consolidated Standards of Reporting Trials,试验报告统一标准,临床流行病学
+GRADE,Grading of Recommendations Assessment Development and Evaluation,推荐分级的评估制定与评价,临床流行病学
+IPD,Individual Patient Data,个体患者数据,临床流行病学
+SMD,Standardized Mean Difference,标准化均数差,循证医学与Meta分析
+AMSTAR,Assessment of Multiple Systematic Reviews,多系统评价评估工具,循证医学与Meta分析
+Cochrane,Cochrane Collaboration,考克兰协作网,循证医学与Meta分析
+FEM,Fixed Effects Model,固定效应模型,循证医学与Meta分析
+HET,Heterogeneity,异质性,循证医学与Meta分析
+I²,I-squared,I²统计量,循证医学与Meta分析
+Egger,Egger's Test,Egger检验,循证医学与Meta分析
+Funnel,Funnel Plot,漏斗图,循证医学与Meta分析
+ANOVA,Analysis of Variance,方差分析,医学统计学方法
+MANOVA,Multivariate Analysis of Variance,多变量方差分析,医学统计学方法
+ANCOVA,Analysis of Covariance,协方差分析,医学统计学方法
+GLM,Generalized Linear Model,广义线性模型,医学统计学方法
+GLMM,Generalized Linear Mixed Model,广义线性混合模型,医学统计学方法
+LMM,Linear Mixed Model,线性混合模型,医学统计学方法
+GEE,Generalized Estimating Equations,广义估计方程,医学统计学方法
+EFA,Exploratory Factor Analysis,探索性因子分析,医学统计学方法
+CFA,Confirmatory Factor Analysis,验证性因子分析,医学统计学方法
+LCA,Latent Class Analysis,潜在类别分析,医学统计学方法
+ML,Machine Learning,机器学习,医学统计学方法
+CV,Cross-Validation,交叉验证,医学统计学方法
+LASSO,Least Absolute Shrinkage and Selection Operator,套索回归,医学统计学方法
+RIDGE,Ridge Regression,岭回归,医学统计学方法
+ELASTIC NET,Elastic Net,弹性网络,医学统计学方法
+SVM,Support Vector Machine,支持向量机,医学统计学方法
+XGBOOST,Extreme Gradient Boosting,极端梯度提升,医学统计学方法
+NN,Neural Network,神经网络,医学统计学方法
+PSM,Propensity Score Matching,倾向性评分匹配,医学统计学方法
+cfDNA,Cell-Free DNA,游离DNA,生物标志物与精准医学
+FGFR,Fibroblast Growth Factor Receptor,成纤维细胞生长因子受体,生物标志物与精准医学
+BRCA,Breast Cancer Susceptibility Gene,乳腺癌易感基因,生物标志物与精准医学
+PEN,partial enteral nutrition,部分肠内营养,临床营养支持
+PPN,peripheral parenteral nutrition,外周肠外营养,临床营养支持
+ONS,oral nutritional supplements,口服营养补充,临床营养支持
+NRS-2002,Nutritional Risk Screening 2002,营养风险筛查2002,临床营养支持
+MNA,mini nutritional assessment,微型营养评定,临床营养支持
+REE,resting energy expenditure,静息能量消耗,临床营养支持
+BEE,basal energy expenditure,基础能量消耗,临床营养支持
+RQ,respiratory quotient,呼吸商,临床营养支持
+NPE,non-protein energy,非蛋白能量,临床营养支持
+N balance,nitrogen balance,氮平衡,临床营养支持
+BCAA,branched-chain amino acids,支链氨基酸,临床营养支持
+LCT,long-chain triglycerides,长链甘油三酯,临床营养支持
+MCT,medium-chain triglycerides,中链甘油三酯,临床营养支持
+GLN,glutamine,谷氨酰胺,临床营养支持
+ARG,arginine,精氨酸,临床营养支持
+PICC,peripherally inserted central catheter,经外周中心静脉导管,临床营养支持
+SMI,Skeletal Muscle Index,骨骼肌指数,老年医学与肌少症
+SPPB,Short Physical Performance Battery,简易体能测试量表,老年医学与肌少症
+EWGSOP,European Working Group on Sarcopenia in Older People,欧洲老年人肌少症工作组,老年医学与肌少症
+AWGS,Asian Working Group for Sarcopenia,亚洲肌少症工作组,老年医学与肌少症
+FNIH,Foundation for the National Institutes of Health,美国国立卫生研究院基金会,老年医学与肌少症
+HGS,Handgrip Strength,握力,老年医学与肌少症
+ALM,Appendicular Lean Mass,四肢瘦组织质量,老年医学与肌少症
+FFMI,Fat-Free Mass Index,去脂体重指数,老年医学与肌少症
+SARC-F,Strength Assistance in Walking Rising from a Chair Climb Stairs and Falls,肌少症筛查问卷,老年医学与肌少症
