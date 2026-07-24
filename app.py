@@ -116,6 +116,12 @@ with st.sidebar:
 
     st.markdown("---")
 
+    # 词库统计
+    st.markdown(f"## 📚 术语库")
+    st.caption(f"已加载 {len(MEDICAL_ABBREVIATIONS)} 个缩写术语 + {len(MEDICAL_VOCABULARY)} 个通用术语")
+
+    st.markdown("---")
+
     # 使用说明
     st.markdown("## 📖 使用说明")
     st.markdown("""
@@ -179,15 +185,9 @@ def load_terms_from_csv(filepath: str):
 
     return abbreviations, cn_to_en
 
-MEDICAL_ABBREVIATIONS, CN_TO_EN = {}, {}
-try:
-    _abbrs, _cn_to_en = load_terms_from_csv(
-        os.path.join(os.path.dirname(__file__), "terms.csv")
-    )
-    if _abbrs or _cn_to_en:
-        MEDICAL_ABBREVIATIONS, CN_TO_EN = _abbrs, _cn_to_en
-except Exception:
-    pass  # CSV 读不了就用空字典，应用继续运行
+MEDICAL_ABBREVIATIONS, CN_TO_EN = load_terms_from_csv(
+    os.path.join(os.path.dirname(__file__), "terms.csv")
+)
 
 # 加载通用医学词汇（无缩写，仅中英文对照，翻译时作为术语参考）
 def load_vocabulary(filepath: str) -> dict:
@@ -212,13 +212,9 @@ def load_vocabulary(filepath: str) -> dict:
             continue
     return vocab
 
-MEDICAL_VOCABULARY = {}
-try:
-    MEDICAL_VOCABULARY = load_vocabulary(
-        os.path.join(os.path.dirname(__file__), "vocabulary.csv")
-    )
-except Exception:
-    pass  # 读取失败用空字典
+MEDICAL_VOCABULARY = load_vocabulary(
+    os.path.join(os.path.dirname(__file__), "vocabulary.csv")
+)
 
 # 额外中文术语（CSV 中可能没有的标准中文别名）
 _extra_cn = {

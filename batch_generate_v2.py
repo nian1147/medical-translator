@@ -1,10 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
 批量生成医学术语 v2 — 细分子专题，每专题独立生成，最大化词汇覆盖
 """
+import sys
+import io
+# 强制终端 UTF-8，解决 Windows 乱码问题
+if sys.platform == "win32":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
 import csv
 import os
-import sys
 import time
 
 # ============================================================
