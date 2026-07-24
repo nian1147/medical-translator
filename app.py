@@ -652,24 +652,6 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ── 统计卡片 ──
-cols_stats = st.columns(4)
-stat_items = [
-    ("📋", f"{abbr_count:,}", "医学缩写术语"),
-    ("📖", f"{vocab_count:,}", "通用医学词汇"),
-    ("🔤", f"{len(CN_TO_EN):,}", "中文索引条目"),
-    ("🤖", "DeepSeek", "翻译引擎"),
-]
-for idx, (icon, value, label) in enumerate(stat_items):
-    with cols_stats[idx]:
-        st.markdown(f"""
-        <div class="stat-card">
-            <div class="stat-card-icon">{icon}</div>
-            <div class="stat-card-value">{value}</div>
-            <div class="stat-card-label">{label}</div>
-        </div>
-        """, unsafe_allow_html=True)
-
 st.markdown("<br>", unsafe_allow_html=True)
 
 # ============================================================
