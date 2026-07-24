@@ -3103,3 +3103,75 @@ ICER,Incremental Cost-Effectiveness Ratio,增量成本效果比,医学统计学
 CUA,Cost-Utility Analysis,成本效用分析,医学统计学
 CBA,Cost-Benefit Analysis,成本效益分析,医学统计学
 SUCRA,Surface Under the Cumulative Ranking Curve,累积排序曲线下面积,医学统计学
+﻿BAUS,British Association of Urological Surgeons,英国泌尿外科医师协会,泌尿外科
+SIU,Societe Internationale d'Urologie,国际泌尿外科学会,泌尿外科
+ISUP,International Society of Urological Pathology,国际泌尿病理学会,泌尿外科
+PI-RADS,Prostate Imaging Reporting and Data System,前列腺影像报告和数据系统,泌尿外科
+GG,Gleason Grade,Gleason分级分组,泌尿外科
+ISUP-GG,ISUP Grade Group,ISUP分级分组,泌尿外科
+AS-uro,Active Surveillance (Urology),主动监测,泌尿外科
+csPCa,Clinically Significant Prostate Cancer,临床有意义前列腺癌,泌尿外科
+CAB,Combined Androgen Blockade,联合雄激素阻断,泌尿外科
+fPSA,Free Prostate-Specific Antigen,游离前列腺特异性抗原,泌尿外科
+PSADT,PSA Doubling Time,PSA倍增时间,泌尿外科
+Brachy,Brachytherapy,近距离放射治疗,泌尿外科
+AUS,Artificial Urinary Sphincter,人工尿道括约肌,泌尿外科
+DVIU,Direct Vision Internal Urethrotomy,直视下尿道内切开术,泌尿外科
+BNC,Bladder Neck Contracture,膀胱颈挛缩,泌尿外科
+TUIBNC,Transurethral Incision of Bladder Neck Contracture,经尿道膀胱颈挛缩切开术,泌尿外科
+DVC,Dorsal Venous Complex,阴茎背深静脉复合体,泌尿外科
+AUR,Acute Urinary Retention,急性尿潴留,泌尿外科
+UVJ,Ureterovesical Junction,输尿管膀胱连接处,泌尿外科
+UVJO,Ureterovesical Junction Obstruction,输尿管膀胱连接处梗阻,泌尿外科
+DLPP,Detrusor Leak Point Pressure,逼尿肌漏尿点压力,泌尿外科
+MAG3,Mercaptoacetyltriglycine,巯基乙酰三甘氨酸肾图,泌尿外科
+DTPA,Diethylene Triamine Pentaacetic Acid,二乙烯三胺五乙酸肾图,泌尿外科
+CBAVD,Congenital Bilateral Absence of Vas Deferens,先天性双侧输精管缺如,泌尿外科
+CPPS,Chronic Pelvic Pain Syndrome,慢性盆腔疼痛综合征,泌尿外科
+SRM,Small Renal Mass,肾脏小占位,泌尿外科
+DCE,Dynamic Contrast Enhancement,动态对比增强,泌尿外科
+RFA-uro,Radiofrequency Ablation (Urology),射频消融术,泌尿外科
+MWA-uro,Microwave Ablation (Urology),微波消融术,泌尿外科
+ERBT,En Bloc Resection of Bladder Tumor,膀胱肿瘤整块切除术,泌尿外科
+PDD,Photodynamic Diagnosis,光动力诊断,泌尿外科
+NBI-uro,Narrow Band Imaging (Urology),窄带成像,泌尿外科
+BEEC,Bladder Exstrophy-Epispadias Complex,膀胱外翻-尿道上裂复合畸形,小儿泌尿外科
+UDT,Undescended Testis,隐睾,小儿泌尿外科
+NBD,Neuropathic Bladder Dysfunction,神经源性膀胱功能障碍,小儿泌尿外科
+PUJO,Pelviureteric Junction Obstruction,肾盂输尿管连接部梗阻,小儿泌尿外科
+VUJO,Vesicoureteric Junction Obstruction,输尿管膀胱连接部梗阻,小儿泌尿外科
+PUJ,Pelviureteric Junction,肾盂输尿管连接处,小儿泌尿外科
+VUJ,Vesicoureteric Junction,输尿管膀胱连接处,小儿泌尿外科
+RPG-ped,Retrograde Pyelogram (Pediatric),逆行肾盂造影,小儿泌尿外科
+TUI,Transurethral Incision,经尿道切开术,小儿泌尿外科
+SNM-ped,Sacral Neuromodulation (Pediatric),骶神经调控,小儿泌尿外科
+BtxA-ped,Botulinum Toxin A (Pediatric Bladder),膀胱肉毒杆菌毒素A注射,小儿泌尿外科
+Cx,Circumcision,包皮环切术,小儿泌尿外科
+OIU,Optical Internal Urethrotomy,光学内尿道切开术,小儿泌尿外科
+BFB,Biofeedback (Pediatric Voiding),生物反馈治疗,小儿泌尿外科
+DxHA,Dextranomer/Hyaluronic Acid,聚糖酐/透明质酸（Deflux注射）,小儿泌尿外科
+FPS,Fowler-Stephens Procedure,Fowler-Stephens手术,小儿泌尿外科
+SBO-uro,Spina Bifida Occulta (Urology),隐性脊柱裂（泌尿表现）,小儿泌尿外科
+RRR,Relative Risk Reduction,相对风险降低,医学统计学
+df,Degrees of Freedom,自由度,医学统计学
+NHST,Null Hypothesis Significance Testing,零假设显著性检验,医学统计学
+SAMPL,Statistical Analyses and Methods in the Published Literature,已发表文献统计分析方法指南,医学统计学
+ICMJE,International Committee of Medical Journal Editors,国际医学期刊编辑委员会,医学统计学
+M-H,Mantel-Haenszel Method,Mantel-Haenszel方法,医学统计学
+GRRAS,Guidelines for Reporting Reliability and Agreement Studies,信度与一致性研究报告指南,医学统计学
+MICE,Multiple Imputation by Chained Equations,链式方程多重插补,医学统计学
+FCS,Fully Conditional Specification,完全条件指定法,医学统计学
+IPD,Individual Participant Data,个体参与者数据,医学统计学
+IPD-MA,Individual Participant Data Meta-Analysis,个体数据Meta分析,医学统计学
+DTA,Diagnostic Test Accuracy,诊断试验准确性,医学统计学
+HSROC,Hierarchical Summary ROC,分层汇总ROC,医学统计学
+NRI,Net Reclassification Improvement,净重分类改善,医学统计学
+IDI,Integrated Discrimination Improvement,综合判别改善,医学统计学
+LASSO,Least Absolute Shrinkage and Selection Operator,LASSO回归,医学统计学
+CER,Control Event Rate,对照组事件率,医学统计学
+EER,Experimental Event Rate,试验组事件率,医学统计学
+CPG,Clinical Practice Guideline,临床实践指南,医学统计学
+HTA,Health Technology Assessment,卫生技术评估,医学统计学
+TSA-stats,Trial Sequential Analysis,试验序贯分析,医学统计学
+RDD,Regression Discontinuity Design,断点回归设计,医学统计学
+IPTW-stats,Inverse Probability of Treatment Weighting,逆概率治疗加权法,医学统计学
