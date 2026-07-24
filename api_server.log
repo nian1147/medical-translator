@@ -2,3 +2,10 @@
 [API] http://localhost:8765
  * Serving Flask app 'api_server'
  * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8765
+ * Running on http://198.18.0.1:8765
+Press CTRL+C to quit
+127.0.0.1 - - [24/Jul/2026 19:50:50] "POST /api/translate HTTP/1.1" 200 -
+127.0.0.1 - - [24/Jul/2026 19:51:06] "POST /api/lookup HTTP/1.1" 200 -
