@@ -105,3 +105,470 @@ LOC,Loss of Consciousness,意识丧失,临床症状
 ROS,Review of Systems,系统回顾,病历
 HPI,History of Present Illness,现病史,病历
 PMH,Past Medical History,既往史,病历
+缩写,英文全称,中文译名,学科
+ACS,Acute Coronary Syndrome,急性冠脉综合征,心血管内科
+AF,Atrial Fibrillation,心房颤动,心血管内科
+AMI,Acute Myocardial Infarction,急性心肌梗死,心血管内科
+BNP,Brain Natriuretic Peptide,脑钠肽,心血管内科
+CABG,Coronary Artery Bypass Grafting,冠状动脉旁路移植术,心血管内科
+CAD,Coronary Artery Disease,冠状动脉疾病,心血管内科
+CCB,Calcium Channel Blocker,钙通道阻滞剂,心血管内科
+CHF,Congestive Heart Failure,充血性心力衰竭,心血管内科
+CRP,C-Reactive Protein,C反应蛋白,心血管内科
+CTnI,Cardiac Troponin I,心肌肌钙蛋白I,心血管内科
+DVT,Deep Vein Thrombosis,深静脉血栓形成,心血管内科
+ECG,Electrocardiogram,心电图,心血管内科
+EF,Ejection Fraction,射血分数,心血管内科
+HF,Heart Failure,心力衰竭,心血管内科
+IABP,Intra-Aortic Balloon Pump,主动脉内球囊反搏,心血管内科
+LDL,Low-Density Lipoprotein,低密度脂蛋白,心血管内科
+LVEF,Left Ventricular Ejection Fraction,左心室射血分数,心血管内科
+MACE,Major Adverse Cardiovascular Events,主要不良心血管事件,心血管内科
+MI,Myocardial Infarction,心肌梗死,心血管内科
+NYHA,New York Heart Association,纽约心脏协会,心血管内科
+PCI,Percutaneous Coronary Intervention,经皮冠状动脉介入治疗,心血管内科
+STEMI,ST-Segment Elevation Myocardial Infarction,ST段抬高型心肌梗死,心血管内科
+TIA,Transient Ischemic Attack,短暂性脑缺血发作,心血管内科
+VT,Ventricular Tachycardia,室性心动过速,心血管内科
+ARF,Acute Respiratory Failure,急性呼吸衰竭,呼吸内科
+ARDS,Acute Respiratory Distress Syndrome,急性呼吸窘迫综合征,呼吸内科
+BAL,Bronchoalveolar Lavage,支气管肺泡灌洗,呼吸内科
+BALF,Bronchoalveolar Lavage Fluid,支气管肺泡灌洗液,呼吸内科[reference:0]
+BIPAP,Bilevel Positive Airway Pressure,双水平气道正压通气,呼吸内科
+CAP,Community-Acquired Pneumonia,社区获得性肺炎,呼吸内科
+COPD,Chronic Obstructive Pulmonary Disease,慢性阻塞性肺疾病,呼吸内科[reference:1]
+CTPA,CT Pulmonary Angiography,CT肺动脉造影,呼吸内科
+DVT,Deep Vein Thrombosis,深静脉血栓形成,呼吸内科
+FEV1,Forced Expiratory Volume in 1 Second,第1秒用力呼气容积,呼吸内科
+FVC,Forced Vital Capacity,用力肺活量,呼吸内科
+HAP,Hospital-Acquired Pneumonia,医院获得性肺炎,呼吸内科[reference:2]
+IPF,Idiopathic Pulmonary Fibrosis,特发性肺纤维化,呼吸内科[reference:3]
+LTOT,Long-Term Oxygen Therapy,长期氧疗,呼吸内科
+MV,Mechanical Ventilation,机械通气,呼吸内科
+NIV,Non-Invasive Ventilation,无创通气,呼吸内科
+OSA,Obstructive Sleep Apnea,阻塞性睡眠呼吸暂停,呼吸内科[reference:4]
+PAP,Pulmonary Arterial Pressure,肺动脉压,呼吸内科
+PEEP,Positive End-Expiratory Pressure,呼气末正压,呼吸内科
+PFT,Pulmonary Function Test,肺功能检查,呼吸内科
+SaO2,Oxygen Saturation,血氧饱和度,呼吸内科
+SpO2,Pulse Oximetry Oxygen Saturation,脉搏血氧饱和度,呼吸内科
+TB,Tuberculosis,结核病,呼吸内科
+VAP,Ventilator-Associated Pneumonia,呼吸机相关性肺炎,呼吸内科[reference:5]
+ALT,Alanine Aminotransferase,丙氨酸氨基转移酶,消化内科[reference:6]
+AST,Aspartate Aminotransferase,天冬氨酸氨基转移酶,消化内科[reference:7]
+CA19-9,Carbohydrate Antigen 19-9,糖类抗原19-9,消化内科[reference:8]
+CEA,Carcinoembryonic Antigen,癌胚抗原,消化内科
+CRP,C-Reactive Protein,C反应蛋白,消化内科
+CT,Computed Tomography,计算机断层扫描,消化内科
+EGD,Esophagogastroduodenoscopy,食管胃十二指肠镜检查,消化内科[reference:9]
+ERCP,Endoscopic Retrograde Cholangiopancreatography,内镜逆行胰胆管造影,消化内科[reference:10]
+EUS,Endoscopic Ultrasound,超声内镜检查,消化内科[reference:11]
+GERD,Gastroesophageal Reflux Disease,胃食管反流病,消化内科
+GI,Gastrointestinal,胃肠道的,消化内科[reference:12]
+HCC,Hepatocellular Carcinoma,肝细胞癌,消化内科[reference:13]
+HBV,Hepatitis B Virus,乙型肝炎病毒,消化内科[reference:14]
+HCV,Hepatitis C Virus,丙型肝炎病毒,消化内科[reference:15]
+IBD,Inflammatory Bowel Disease,炎症性肠病,消化内科
+IBS,Irritable Bowel Syndrome,肠易激综合征,消化内科
+LC,Liver Cirrhosis,肝硬化,消化内科
+NAFLD,Nonalcoholic Fatty Liver Disease,非酒精性脂肪性肝病,消化内科
+NASH,Nonalcoholic Steatohepatitis,非酒精性脂肪性肝炎,消化内科
+PBC,Primary Biliary Cholangitis,原发性胆汁性胆管炎,消化内科
+PUD,Peptic Ulcer Disease,消化性溃疡,消化内科
+UC,Ulcerative Colitis,溃疡性结肠炎,消化内科
+AD,Alzheimer's Disease,阿尔茨海默病,神经内科
+ADHD,Attention-Deficit/Hyperactivity Disorder,注意缺陷多动障碍,神经内科[reference:16]
+AIDP,Acute Inflammatory Demyelinating Polyneuropathy,急性炎症性脱髓鞘性多发性神经病,神经内科
+ALS,Amyotrophic Lateral Sclerosis,肌萎缩侧索硬化,神经内科
+CAA,Cerebral Amyloid Angiopathy,脑淀粉样血管病,神经内科
+CNS,Central Nervous System,中枢神经系统,神经内科[reference:19]
+CSF,Cerebrospinal Fluid,脑脊液,神经内科[reference:20]
+CVT,Cerebral Venous Thrombosis,颅内静脉系统血栓形成,神经内科
+GBS,Guillain-Barré Syndrome,吉兰-巴雷综合征,神经内科
+ICH,Intracerebral Hemorrhage,脑出血,神经内科
+MCI,Mild Cognitive Impairment,轻度认知功能障碍,神经内科[reference:24]
+MS,Multiple Sclerosis,多发性硬化,神经内科
+PD,Parkinson's Disease,帕金森病,神经内科
+PET,Positron Emission Tomography,正电子发射断层显像,神经内科[reference:25]
+SAH,Subarachnoid Hemorrhage,蛛网膜下腔出血,神经内科
+SCD,Subacute Combined Degeneration of Spinal Cord,亚急性联合变性,神经内科
+SSRI,Selective Serotonin Reuptake Inhibitor,选择性5-羟色胺再摄取抑制剂,神经内科[reference:28]
+TGA,Transient Global Amnesia,短暂性全面遗忘症,神经内科
+TIA,Transient Ischemic Attack,短暂性脑缺血发作,神经内科
+DM,Diabetes Mellitus,糖尿病,内分泌科[reference:31]
+DPP-4,Dipeptidyl Peptidase-4,二肽基肽酶-4,内分泌科[reference:32]
+FPG,Fasting Plasma Glucose,空腹血糖,内分泌科[reference:33]
+GDM,Gestational Diabetes Mellitus,妊娠期糖尿病,内分泌科[reference:34]
+GH,Growth Hormone,生长激素,内分泌科
+GHRH,Growth Hormone-Releasing Hormone,生长激素释放激素,内分泌科
+GLP-1,Glucagon-Like Peptide-1,胰高糖素样肽-1,内分泌科[reference:37]
+HbA1c,Hemoglobin A1c,糖化血红蛋白,内分泌科
+HDL,High-Density Lipoprotein,高密度脂蛋白,内分泌科
+HPA,Hypothalamic-Pituitary-Adrenal Axis,下丘脑-垂体-肾上腺轴,内分泌科[reference:40]
+IGF-1,Insulin-Like Growth Factor-1,胰岛素样生长因子-1,内分泌科[reference:41]
+IGT,Impaired Glucose Tolerance,糖耐量受损,内分泌科[reference:42]
+LDL,Low-Density Lipoprotein,低密度脂蛋白,内分泌科
+MS,Metabolic Syndrome,代谢综合征,内分泌科
+PO,Per Os (Oral),口服,内分泌科[reference:45]
+PPG,Postprandial Glucose,餐后血糖,内分泌科[reference:46]
+PRL,Prolactin,催乳素,内分泌科
+RAAS,Renin-Angiotensin-Aldosterone System,肾素-血管紧张素-醛固酮系统,内分泌科
+SGLT2,Sodium-Glucose Cotransporter 2,钠-葡萄糖协同转运蛋白2,内分泌科
+T1DM,Type 1 Diabetes Mellitus,1型糖尿病,内分泌科
+T2DM,Type 2 Diabetes Mellitus,2型糖尿病,内分泌科
+TG,Triglyceride,甘油三酯,内分泌科
+TSH,Thyroid-Stimulating Hormone,促甲状腺激素,内分泌科
+ACEI,Angiotensin-Converting Enzyme Inhibitor,血管紧张素转换酶抑制剂,肾脏内科
+ACR,Albumin-to-Creatinine Ratio,白蛋白/肌酐比值,肾脏内科
+ADPKD,Autosomal Dominant Polycystic Kidney Disease,常染色体显性遗传性多囊肾病,肾脏内科[reference:54]
+ANCA,Anti-Neutrophil Cytoplasmic Antibody,抗中性粒细胞胞浆抗体,肾脏内科[reference:55]
+ARB,Angiotensin II Receptor Blocker,血管紧张素Ⅱ受体拮抗剂,肾脏内科
+BUN,Blood Urea Nitrogen,血尿素氮,肾脏内科[reference:57]
+CKD,Chronic Kidney Disease,慢性肾脏病,肾脏内科
+Cr,Creatinine,肌酐,肾脏内科[reference:59]
+eGFR,Estimated Glomerular Filtration Rate,估算肾小球滤过率,肾脏内科
+ESRD,End-Stage Renal Disease,终末期肾病,肾脏内科[reference:61]
+GFR,Glomerular Filtration Rate,肾小球滤过率,肾脏内科
+GN,Glomerulonephritis,肾小球肾炎,肾脏内科
+Hb,Hemoglobin,血红蛋白,肾脏内科[reference:63]
+HD,Hemodialysis,血液透析,肾脏内科
+HUS,Hemolytic Uremic Syndrome,溶血尿毒综合征,肾脏内科
+KUB,Kidney-Ureter-Bladder,肾-输尿管-膀胱(平片),肾脏内科[reference:65]
+PD,Peritoneal Dialysis,腹膜透析,肾脏内科
+RAAS,Renin-Angiotensin-Aldosterone System,肾素-血管紧张素-醛固酮系统,肾脏内科
+RBC,Red Blood Cell,红细胞,肾脏内科
+SCr,Serum Creatinine,血清肌酐,肾脏内科[reference:68]
+TIN,Tubulointerstitial Nephritis,肾小管间质性肾炎,肾脏内科
+UACR,Urine Albumin-to-Creatinine Ratio,尿白蛋白/肌酐比值,肾脏内科
+UTI,Urinary Tract Infection,尿路感染,肾脏内科[reference:70]
+WBC,White Blood Cell,白细胞,肾脏内科
+AFP,Alpha-Fetoprotein,甲胎蛋白,血液科[reference:72]
+ALL,Acute Lymphoblastic Leukemia,急性淋巴细胞白血病,血液科
+AML,Acute Myeloid Leukemia,急性髓系白血病,血液科
+APTT,Activated Partial Thromboplastin Time,活化部分凝血活酶时间,血液科[reference:73]
+CBC,Complete Blood Count,全血细胞计数,血液科[reference:74]
+CLL,Chronic Lymphocytic Leukemia,慢性淋巴细胞白血病,血液科
+CML,Chronic Myeloid Leukemia,慢性髓系白血病,血液科
+DIC,Disseminated Intravascular Coagulation,弥散性血管内凝血,血液科[reference:75]
+ESR,Erythrocyte Sedimentation Rate,红细胞沉降率,血液科[reference:76]
+Hb,Hemoglobin,血红蛋白,血液科[reference:77]
+Hct,Hematocrit,血细胞比容,血液科[reference:78]
+HL,Hodgkin's Lymphoma,霍奇金淋巴瘤,血液科[reference:79]
+HSC,Hematopoietic Stem Cell,造血干细胞,血液科[reference:80]
+INR,International Normalized Ratio,国际标准化比值,血液科[reference:81]
+MCH,Mean Corpuscular Hemoglobin,平均红细胞血红蛋白量,血液科[reference:82]
+MCHC,Mean Corpuscular Hemoglobin Concentration,平均红细胞血红蛋白浓度,血液科[reference:83]
+MCV,Mean Corpuscular Volume,平均红细胞体积,血液科[reference:84]
+NHL,Non-Hodgkin's Lymphoma,非霍奇金淋巴瘤,血液科
+PLT,Platelet,血小板,血液科
+PT,Prothrombin Time,凝血酶原时间,血液科[reference:86]
+PTT,Partial Thromboplastin Time,部分凝血活酶时间,血液科[reference:87]
+RBC,Red Blood Cell,红细胞,血液科
+WBC,White Blood Cell,白细胞,血液科
+5-FU,5-Fluorouracil,5-氟尿嘧啶,肿瘤内科[reference:90]
+AFP,Alpha-Fetoprotein,甲胎蛋白,肿瘤内科[reference:91]
+CA125,Carbohydrate Antigen 125,糖类抗原125,肿瘤内科[reference:92]
+CEA,Carcinoembryonic Antigen,癌胚抗原,肿瘤内科[reference:93]
+CR,Complete Response,完全缓解,肿瘤内科[reference:94]
+CRC,Colorectal Cancer,结直肠癌,肿瘤内科[reference:95]
+CTCAE,Common Terminology Criteria for Adverse Events,不良反应常见术语标准,肿瘤内科[reference:96]
+DFS,Disease-Free Survival,无病生存期,肿瘤内科
+EGFR,Epidermal Growth Factor Receptor,表皮生长因子受体,肿瘤内科[reference:97]
+FISH,Fluorescence In Situ Hybridization,荧光原位杂交,肿瘤内科[reference:98]
+GIST,Gastrointestinal Stromal Tumor,胃肠道间质瘤,肿瘤内科[reference:99]
+HER2,Human Epidermal Growth Factor Receptor 2,人表皮生长因子受体2,肿瘤内科[reference:100]
+IHC,Immunohistochemistry,免疫组织化学,肿瘤内科[reference:101]
+MMP,Matrix Metalloproteinase,基质金属蛋白酶,肿瘤内科[reference:102]
+NSCLC,Non-Small Cell Lung Cancer,非小细胞肺癌,肿瘤内科[reference:103]
+OS,Overall Survival,总生存期,肿瘤内科
+PCR,Polymerase Chain Reaction,聚合酶链反应,肿瘤内科[reference:104]
+PD,Progressive Disease,疾病进展,肿瘤内科
+PFS,Progression-Free Survival,无进展生存期,肿瘤内科
+PR,Partial Response,部分缓解,肿瘤内科
+SCLC,Small Cell Lung Cancer,小细胞肺癌,肿瘤内科[reference:105]
+TKI,Tyrosine Kinase Inhibitor,酪氨酸激酶抑制剂,肿瘤内科[reference:106]
+TNF,Tumor Necrosis Factor,肿瘤坏死因子,肿瘤内科[reference:107]
+VEGF,Vascular Endothelial Growth Factor,血管内皮生长因子,肿瘤内科[reference:108]
+AIDS,Acquired Immunodeficiency Syndrome,获得性免疫缺陷综合征,感染科[reference:109]
+ALT,Alanine Aminotransferase,丙氨酸氨基转移酶,感染科[reference:110]
+APACHE II,Acute Physiology and Chronic Health Evaluation II,急性生理学与慢性健康状况评分系统Ⅱ,感染科[reference:111]
+AST,Aspartate Aminotransferase,天冬氨酸氨基转移酶,感染科[reference:112]
+BALF,Bronchoalveolar Lavage Fluid,支气管肺泡灌洗液,感染科[reference:113]
+BMI,Body Mass Index,体质指数,感染科[reference:114]
+BP,Blood Pressure,血压,感染科[reference:115]
+BUN,Blood Urea Nitrogen,血尿素氮,感染科[reference:116]
+CDC,Centers for Disease Control and Prevention,疾病控制与预防中心,感染科[reference:117]
+CLSI,Clinical and Laboratory Standards Institute,美国临床和实验室标准化协会,感染科[reference:118]
+CRE,Carbapenem-Resistant Enterobacteriaceae,碳青霉烯类耐药肠杆菌科细菌,感染科[reference:119]
+CRP,C-Reactive Protein,C反应蛋白,感染科[reference:120]
+CSF,Cerebrospinal Fluid,脑脊液,感染科[reference:121]
+ESBL,Extended-Spectrum Beta-Lactamase,超广谱β-内酰胺酶,感染科[reference:122]
+HAI,Healthcare-Associated Infection,医疗保健相关感染,感染科[reference:123]
+HBV,Hepatitis B Virus,乙型肝炎病毒,感染科[reference:124]
+HCV,Hepatitis C Virus,丙型肝炎病毒,感染科[reference:125]
+HIV,Human Immunodeficiency Virus,人类免疫缺陷病毒,感染科[reference:126]
+ICU,Intensive Care Unit,重症监护病房,感染科[reference:127]
+MRSA,Methicillin-Resistant Staphylococcus Aureus,耐甲氧西林金黄色葡萄球菌,感染科[reference:128]
+PCR,Polymerase Chain Reaction,聚合酶链反应,感染科[reference:129]
+PCT,Procalcitonin,降钙素原,感染科[reference:130]
+SSI,Surgical Site Infection,手术部位感染,感染科[reference:131]
+VAP,Ventilator-Associated Pneumonia,呼吸机相关性肺炎,感染科[reference:132]
+VRE,Vancomycin-Resistant Enterococcus,万古霉素耐药肠球菌,感染科[reference:133]
+ABC,Airway-Breathing-Circulation,气道-呼吸-循环,急诊医学
+ACLS,Advanced Cardiac Life Support,高级心血管生命支持,急诊医学
+ALS,Advanced Life Support,高级生命支持,急诊医学
+AMI,Acute Myocardial Infarction,急性心肌梗死,急诊医学
+APACHE II,Acute Physiology and Chronic Health Evaluation II,急性生理学与慢性健康状况评分系统Ⅱ,急诊医学[reference:134]
+BLS,Basic Life Support,基础生命支持,急诊医学
+BP,Blood Pressure,血压,急诊医学
+CPR,Cardiopulmonary Resuscitation,心肺复苏,急诊医学[reference:135]
+CT,Computed Tomography,计算机断层扫描,急诊医学
+DIC,Disseminated Intravascular Coagulation,弥散性血管内凝血,急诊医学[reference:136]
+ER,Emergency Room,急诊室,急诊医学[reference:137]
+FAST,Focused Assessment with Sonography for Trauma,创伤超声重点评估,急诊医学
+GCS,Glasgow Coma Scale,格拉斯哥昏迷评分,急诊医学
+HR,Heart Rate,心率,急诊医学
+ICU,Intensive Care Unit,重症监护病房,急诊医学[reference:138]
+MAP,Mean Arterial Pressure,平均动脉压,急诊医学
+MI,Myocardial Infarction,心肌梗死,急诊医学[reference:140]
+NIV,Non-Invasive Ventilation,无创通气,急诊医学
+PEEP,Positive End-Expiratory Pressure,呼气末正压,急诊医学
+PE,Pulmonary Embolism,肺栓塞,急诊医学
+ROSC,Return of Spontaneous Circulation,自主循环恢复,急诊医学
+SBP,Systolic Blood Pressure,收缩压,急诊医学
+SOFA,Sequential Organ Failure Assessment,序贯器官衰竭评估,急诊医学[reference:142]
+TIA,Transient Ischemic Attack,短暂性脑缺血发作,急诊医学
+ASA,American Society of Anesthesiologists,美国麻醉医师协会,麻醉科[reference:143]
+BIS,Bispectral Index,脑电双频指数,麻醉科
+BMI,Body Mass Index,体质指数,麻醉科[reference:144]
+CVP,Central Venous Pressure,中心静脉压,麻醉科[reference:145]
+DBP,Diastolic Blood Pressure,舒张压,麻醉科[reference:146]
+ETCO2,End-Tidal Carbon Dioxide,呼气末二氧化碳分压,麻醉科
+HR,Heart Rate,心率,麻醉科[reference:147]
+ICP,Intracranial Pressure,颅内压,麻醉科
+MAC,Minimum Alveolar Concentration,最低肺泡有效浓度,麻醉科
+MAP,Mean Arterial Pressure,平均动脉压,麻醉科[reference:148]
+NIBP,Non-Invasive Blood Pressure,无创血压,麻醉科[reference:149]
+NMDA,N-Methyl-D-Aspartate,N-甲基-D-天冬氨酸,麻醉科[reference:150]
+PaCO2,Arterial Carbon Dioxide Tension,动脉血二氧化碳分压,麻醉科[reference:151]
+PaO2,Arterial Oxygen Tension,动脉血氧分压,麻醉科[reference:152]
+PACU,Post-Anesthesia Care Unit,麻醉后监护室,麻醉科[reference:153]
+PETCO2,End-Tidal Carbon Dioxide Tension,呼气末二氧化碳分压,麻醉科[reference:154]
+RR,Respiratory Rate,呼吸频率,麻醉科[reference:155]
+SBP,Systolic Blood Pressure,收缩压,麻醉科[reference:156]
+SpO2,Pulse Oximetry Oxygen Saturation,脉搏血氧饱和度,麻醉科[reference:157]
+TCI,Target-Controlled Infusion,靶控输注,麻醉科[reference:158]
+TOF,Train-of-Four,四个成串刺激,麻醉科
+VAS,Visual Analog Scale,视觉模拟评分法,麻醉科[reference:159]
+VT,Tidal Volume,潮气量,麻醉科[reference:160]
+ACOG,American College of Obstetricians and Gynecologists,美国妇产科学院,妇产科
+AFI,Amniotic Fluid Index,羊水指数,妇产科
+AFP,Alpha-Fetoprotein,甲胎蛋白,妇产科
+AGA,Appropriate for Gestational Age,适于胎龄,妇产科
+AROM,Artificial Rupture of Membranes,人工破膜,妇产科
+BPD,Biparietal Diameter,双顶径,妇产科
+BPP,Biophysical Profile,生物物理评分,妇产科
+CPD,Cephalopelvic Disproportion,头盆不称,妇产科
+C/S,Cesarean Section,剖宫产术,妇产科
+D&C,Dilation and Curettage,刮宫术,妇产科[reference:170]
+EBL,Estimated Blood Loss,估计失血量,妇产科
+EDC,Estimated Date of Confinement,预产期,妇产科
+EFW,Estimated Fetal Weight,估计胎儿体重,妇产科
+FHR,Fetal Heart Rate,胎心率,妇产科
+FHT,Fetal Heart Tones,胎心音,妇产科
+FM,Fetal Movement,胎动,妇产科
+GA,Gestational Age,孕龄,妇产科
+GBS,Group B Streptococcus,B族链球菌,妇产科
+GDM,Gestational Diabetes Mellitus,妊娠期糖尿病,妇产科
+HC,Head Circumference,头围,妇产科
+hCG,Human Chorionic Gonadotropin,人绒毛膜促性腺激素,妇产科
+IUGR,Intrauterine Growth Restriction,宫内生长受限,妇产科
+IUD,Intrauterine Device,宫内节育器,妇产科
+NST,Non-Stress Test,无应激试验,妇产科
+PROM,Premature Rupture of Membranes,胎膜早破,妇产科
+AGA,Appropriate for Gestational Age,适于胎龄,儿科[reference:184]
+AGE,Acute Gastroenteritis,急性胃肠炎,儿科[reference:185]
+BPD,Bronchopulmonary Dysplasia,支气管肺发育不良,儿科
+CHD,Congenital Heart Disease,先天性心脏病,儿科
+CP,Cerebral Palsy,脑性瘫痪,儿科[reference:186]
+CSF,Cerebrospinal Fluid,脑脊液,儿科
+G6PD,Glucose-6-Phosphate Dehydrogenase,葡萄糖-6-磷酸脱氢酶,儿科[reference:187]
+HFMD,Hand-Foot-and-Mouth Disease,手足口病,儿科
+HIE,Hypoxic-Ischemic Encephalopathy,缺氧缺血性脑病,儿科
+HIV,Human Immunodeficiency Virus,人类免疫缺陷病毒,儿科[reference:188]
+ICP,Intracranial Pressure,颅内压,儿科
+IUGR,Intrauterine Growth Restriction,宫内生长受限,儿科
+IVIG,Intravenous Immunoglobulin,静脉注射免疫球蛋白,儿科
+LBW,Low Birth Weight,低出生体重,儿科
+NEC,Necrotizing Enterocolitis,坏死性小肠结肠炎,儿科
+NGT,Nasogastric Tube,鼻胃管,儿科
+NICU,Neonatal Intensive Care Unit,新生儿重症监护病房,儿科
+PDA,Patent Ductus Arteriosus,动脉导管未闭,儿科
+PICU,Pediatric Intensive Care Unit,儿科重症监护病房,儿科
+PND,Parenteral Nutrition,肠外营养,儿科
+RSV,Respiratory Syncytial Virus,呼吸道合胞病毒,儿科
+SGA,Small for Gestational Age,小于胎龄,儿科
+SIDS,Sudden Infant Death Syndrome,婴儿猝死综合征,儿科[reference:190]
+VSD,Ventricular Septal Defect,室间隔缺损,儿科
+AMD,Age-Related Macular Degeneration,年龄相关性黄斑变性,眼科[reference:191]
+BCVA,Best Corrected Visual Acuity,最佳矫正视力,眼科
+CCT,Central Corneal Thickness,中央角膜厚度,眼科
+CDFI,Color Doppler Flow Imaging,彩色多普勒血流成像,眼科[reference:192]
+DME,Diabetic Macular Edema,糖尿病性黄斑水肿,眼科
+DR,Diabetic Retinopathy,糖尿病视网膜病变,眼科
+ERM,Epiretinal Membrane,视网膜前膜,眼科
+ERG,Electroretinogram,视网膜电图,眼科
+FFA,Fluorescein Fundus Angiography,荧光素眼底血管造影,眼科
+FOV,Vitreous Opacity,玻璃体混浊,眼科
+GA,Geographic Atrophy,地图样萎缩,眼科[reference:193]
+IOL,Intraocular Lens,人工晶状体,眼科[reference:194]
+IOP,Intraocular Pressure,眼内压,眼科
+LASIK,Laser-Assisted In Situ Keratomileusis,准分子激光原位角膜磨镶术,眼科
+OCT,Optical Coherence Tomography,光学相干断层扫描,眼科[reference:195]
+OD,Oculus Dexter,右眼,眼科[reference:196]
+OS,Oculus Sinister,左眼,眼科[reference:197]
+OU,Oculus Unitas,双眼,眼科[reference:198]
+PDR,Proliferative Diabetic Retinopathy,增殖性糖尿病视网膜病变,眼科
+PRK,Photorefractive Keratectomy,屈光性角膜切削术,眼科
+RAPD,Relative Afferent Pupillary Defect,相对性传入性瞳孔缺陷,眼科
+RNFL,Retinal Nerve Fiber Layer,视网膜神经纤维层,眼科
+VEP,Visual Evoked Potential,视觉诱发电位,眼科
+ENT,Ear-Nose-Throat,耳鼻喉科,耳鼻喉科[reference:199]
+ABR,Auditory Brainstem Response,听性脑干反应,耳鼻喉科[reference:200]
+AOM,Acute Otitis Media,急性中耳炎,耳鼻喉科
+AR,Allergic Rhinitis,变应性鼻炎,耳鼻喉科
+BPPV,Benign Paroxysmal Positional Vertigo,良性阵发性位置性眩晕,耳鼻喉科
+CRS,Chronic Rhinosinusitis,慢性鼻窦炎,耳鼻喉科[reference:202]
+CSA,Central Sleep Apnea,中枢性睡眠呼吸暂停,耳鼻喉科[reference:203]
+EAC,External Auditory Canal,外耳道,耳鼻喉科
+ETD,Eustachian Tube Dysfunction,咽鼓管功能障碍,耳鼻喉科
+FESS,Functional Endoscopic Sinus Surgery,功能性内镜鼻窦手术,耳鼻喉科
+HL,Hearing Loss,听力损失,耳鼻喉科
+LPR,Laryngopharyngeal Reflux,喉咽反流,耳鼻喉科
+ME,Middle Ear,中耳,耳鼻喉科
+NSD,Nasal Septal Deviation,鼻中隔偏曲,耳鼻喉科[reference:204]
+OME,Otitis Media with Effusion,分泌性中耳炎,耳鼻喉科
+OSA,Obstructive Sleep Apnea,阻塞性睡眠呼吸暂停,耳鼻喉科[reference:205]
+SNHL,Sensorineural Hearing Loss,感音神经性听力损失,耳鼻喉科[reference:206]
+TM,Tympanic Membrane,鼓膜,耳鼻喉科
+TMD,Temporomandibular Disorder,颞下颌关节紊乱,耳鼻喉科
+TNA,Transnasal Approach,经鼻入路,耳鼻喉科
+VR,Vestibular Rehabilitation,前庭康复,耳鼻喉科
+BSA,Body Surface Area,体表面积,皮肤科[reference:207]
+CKC,Cryosurgery,冷冻手术,皮肤科
+COC,Combined Oral Contraceptive,复方口服避孕药,皮肤科[reference:208]
+DDAVP,Desmopressin,去氨加压素,皮肤科
+DMSO,Dimethyl Sulfoxide,二甲基亚砜,皮肤科[reference:209]
+GAG,Glucosaminoglycan,氨基葡聚糖,皮肤科
+HSV,Herpes Simplex Virus,单纯疱疹病毒,皮肤科
+IL,Interleukin,白细胞介素,皮肤科[reference:211]
+KO,Koilocyte,挖空细胞,皮肤科
+MM,Malignant Melanoma,恶性黑色素瘤,皮肤科
+NSAIDs,Non-Steroidal Anti-Inflammatory Drugs,非甾体抗炎药,皮肤科
+PASI,Psoriasis Area and Severity Index,银屑病面积和严重程度指数,皮肤科[reference:213]
+PDT,Photodynamic Therapy,光动力疗法,皮肤科
+PUVA,Psoralen Ultraviolet A,补骨脂素长波紫外线,皮肤科
+RAST,Radioallergosorbent Test,放射变应原吸附试验,皮肤科
+RPR,Rapid Plasma Reagin,快速血浆反应素,皮肤科
+SCORAD,Scoring Atopic Dermatitis,特应性皮炎评分,皮肤科[reference:214]
+SLE,Systemic Lupus Erythematosus,系统性红斑狼疮,皮肤科[reference:215]
+STD,Sexually Transmitted Disease,性传播疾病,皮肤科
+TEN,Toxic Epidermal Necrolysis,中毒性表皮坏死松解症,皮肤科
+UVA,Ultraviolet A,长波紫外线,皮肤科[reference:216]
+UVB,Ultraviolet B,中波紫外线,皮肤科
+VDRL,Venereal Disease Research Laboratory,性病研究实验室(试验),皮肤科
+ACL,Anterior Cruciate Ligament,前交叉韧带,骨科[reference:217]
+AO,Arbeitsgemeinschaft für Osteosynthesefragen,国际内固定研究学会,骨科[reference:218]
+AVN,Avascular Necrosis,缺血性坏死,骨科[reference:219]
+BMD,Bone Mineral Density,骨密度,骨科
+BMP,Bone Morphogenetic Protein,骨形态发生蛋白,骨科[reference:220]
+CT,Computed Tomography,计算机断层扫描,骨科
+DDH,Developmental Dysplasia of the Hip,发育性髋关节发育不良,骨科[reference:221]
+DVT,Deep Vein Thrombosis,深静脉血栓形成,骨科[reference:222]
+EMG,Electromyography,肌电图,骨科
+FNF,Femoral Neck Fracture,股骨颈骨折,骨科[reference:223]
+HA,Harris Hip Score,Harris髋关节评分,骨科
+IVD,Intervertebral Disc,椎间盘,骨科[reference:224]
+KOA,Knee Osteoarthritis,膝关节骨关节炎,骨科
+LBP,Low Back Pain,下背痛,骨科[reference:225]
+MRI,Magnetic Resonance Imaging,磁共振成像,骨科
+NSAIDs,Non-Steroidal Anti-Inflammatory Drugs,非甾体抗炎药,骨科
+OA,Osteoarthritis,骨关节炎,骨科
+ORIF,Open Reduction and Internal Fixation,切开复位内固定,骨科
+PCL,Posterior Cruciate Ligament,后交叉韧带,骨科
+PMMA,Polymethyl Methacrylate,聚甲基丙烯酸甲酯,骨科
+ROM,Range of Motion,活动范围,骨科
+THA,Total Hip Arthroplasty,全髋关节置换术,骨科
+TKA,Total Knee Arthroplasty,全膝关节置换术,骨科
+VAS,Visual Analog Scale,视觉模拟评分法,骨科[reference:227]
+AUA,American Urological Association,美国泌尿外科学会,泌尿外科[reference:228]
+BOO,Bladder Outlet Obstruction,膀胱出口梗阻,泌尿外科[reference:229]
+BPH,Benign Prostatic Hyperplasia,良性前列腺增生,泌尿外科[reference:230]
+CIS,Carcinoma In Situ,原位癌,泌尿外科
+ED,Erectile Dysfunction,勃起功能障碍,泌尿外科[reference:231]
+ESWL,Extracorporeal Shock Wave Lithotripsy,体外冲击波碎石术,泌尿外科[reference:232]
+GCT,Germ Cell Tumor,生殖细胞肿瘤,泌尿外科
+IPSS,International Prostate Symptom Score,国际前列腺症状评分,泌尿外科[reference:233]
+IVU,Intravenous Urography,静脉尿路造影,泌尿外科[reference:234]
+KUB,Kidney-Ureter-Bladder,肾-输尿管-膀胱(平片),泌尿外科[reference:235]
+LUTS,Lower Urinary Tract Symptoms,下尿路症状,泌尿外科[reference:236]
+NSS,Nephron-Sparing Surgery,保留肾单位手术,泌尿外科[reference:237]
+OAB,Overactive Bladder,膀胱过度活动症,泌尿外科[reference:238]
+PCNL,Percutaneous Nephrolithotomy,经皮肾镜取石术,泌尿外科[reference:239]
+PSA,Prostate-Specific Antigen,前列腺特异性抗原,泌尿外科[reference:240]
+PSAD,Prostate-Specific Antigen Density,前列腺特异性抗原密度,泌尿外科[reference:241]
+Qmax,Maximum Urinary Flow Rate,最大尿流率,泌尿外科[reference:242]
+QOL,Quality of Life,生活质量,泌尿外科[reference:243]
+RCC,Renal Cell Carcinoma,肾细胞癌,泌尿外科
+SUI,Stress Urinary Incontinence,压力性尿失禁,泌尿外科[reference:244]
+TUR,Transurethral Resection,经尿道切除术,泌尿外科[reference:245]
+TURP,Transurethral Resection of Prostate,经尿道前列腺切除术,泌尿外科[reference:246]
+UPJ,Ureteropelvic Junction,肾盂输尿管连接处,泌尿外科[reference:247]
+5-HT,5-Hydroxytryptamine,5-羟色胺,精神病学[reference:248]
+ADHD,Attention-Deficit/Hyperactivity Disorder,注意缺陷多动障碍,精神病学[reference:249]
+BPRS,Brief Psychiatric Rating Scale,简明精神病评定量表,精神病学
+CGI,Clinical Global Impression,临床疗效总评量表,精神病学[reference:250]
+DSM-5,Diagnostic and Statistical Manual of Mental Disorders 5th Edition,美国精神障碍诊断与统计手册第5版,精神病学[reference:251]
+ECT,Electroconvulsive Therapy,电休克治疗,精神病学[reference:252]
+fMRI,Functional Magnetic Resonance Imaging,功能磁共振成像,精神病学[reference:253]
+GAD,Generalized Anxiety Disorder,广泛性焦虑障碍,精神病学
+HAMA,Hamilton Anxiety Rating Scale,汉密尔顿焦虑量表,精神病学[reference:254]
+HAMD,Hamilton Depression Rating Scale,汉密尔顿抑郁量表,精神病学[reference:255]
+ICD-10,International Classification of Diseases 10th Revision,国际疾病分类第10版,精神病学[reference:256]
+MCI,Mild Cognitive Impairment,轻度认知功能障碍,精神病学[reference:257]
+MECT,Modified Electroconvulsive Therapy,改良电休克治疗,精神病学
+MINI,Mini-International Neuropsychiatric Interview,简明国际神经精神访谈,精神病学[reference:258]
+MMSE,Mini-Mental State Examination,简明精神状态检查,精神病学[reference:259]
+MRI,Magnetic Resonance Imaging,磁共振成像,精神病学[reference:260]
+OCD,Obsessive-Compulsive Disorder,强迫障碍,精神病学
+PANSS,Positive and Negative Syndrome Scale,阳性和阴性症状量表,精神病学[reference:261]
+PTSD,Post-Traumatic Stress Disorder,创伤后应激障碍,精神病学[reference:262]
+SNRI,Serotonin-Norepinephrine Reuptake Inhibitor,5-羟色胺和去甲肾上腺素再摄取抑制剂,精神病学[reference:263]
+SSRI,Selective Serotonin Reuptake Inhibitor,选择性5-羟色胺再摄取抑制剂,精神病学[reference:264]
+TCA,Tricyclic Antidepressant,三环类抗抑郁药,精神病学[reference:265]
+WCST,Wisconsin Card Sorting Test,威斯康星卡片分类测验,精神病学[reference:266]
+Y-BOCS,Yale-Brown Obsessive Compulsive Scale,耶鲁-布朗强迫症状量表,精神病学[reference:267]
+BI-RADS,Breast Imaging Reporting and Data System,乳腺影像报告和数据系统,影像医学[reference:268]
+CDFI,Color Doppler Flow Imaging,彩色多普勒血流成像,影像医学[reference:269]
+CR,Computed Radiography,计算机X线摄影,影像医学
+CT,Computed Tomography,计算机断层成像,影像医学[reference:270]
+CTA,CT Angiography,CT血管造影,影像医学[reference:271]
+DSA,Digital Subtraction Angiography,数字减影血管造影,影像医学[reference:272]
+DWI,Diffusion-Weighted Imaging,弥散加权成像,影像医学[reference:273]
+FDG,Fluorodeoxyglucose,氟脱氧葡萄糖,影像医学[reference:274]
+FLAIR,Fluid-Attenuated Inversion Recovery,液体衰减反转恢复,影像医学
+HRCT,High-Resolution CT,高分辨率CT,影像医学[reference:275]
+MIP,Maximum Intensity Projection,最大密度投影,影像医学
+MPR,Multiplanar Reformation,多平面重建,影像医学
+MR,Magnetic Resonance,磁共振,影像医学
+MRA,MR Angiography,磁共振血管造影,影像医学[reference:276]
+MRI,Magnetic Resonance Imaging,磁共振成像,影像医学[reference:277]
+MSCT,Multi-Slice CT,多层螺旋CT,影像医学[reference:278]
+PET,Positron Emission Tomography,正电子发射断层显像,影像医学[reference:279]
+PET/CT,Positron Emission Tomography/Computed Tomography,正电子发射断层显像/X线计算机体层成像,影像医学
+PACS,Picture Archiving and Communication System,医学影像存档与通信系统,影像医学
+SPECT,Single-Photon Emission Computed Tomography,单光子发射计算机断层显像,影像医学
+TI-RADS,Thyroid Imaging Reporting and Data System,甲状腺影像报告和数据系统,影像医学[reference:280]
+TOF,Time of Flight,时间飞跃法,影像医学[reference:281]
+US,Ultrasound,超声,影像医学
+VRT,Volume Rendering Technique,容积再现技术,影像医学
