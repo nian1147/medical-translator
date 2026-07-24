@@ -1,10 +1,9 @@
 """
-桌面悬浮翻译窗 — 配合 Zotero 或任何 PDF 阅读器使用
-用法：
-1. 先启动 api_server.py
-2. 再启动本脚本：python float_translator.py
-3. 在 Zotero/PDF里选中英文 → Ctrl+C → 翻译窗自动显示结果
-"""
+Medical Literature Translator - Desktop Floating Window
+======================================================
+Works with: Zotero, Adobe Reader, Chrome, Edge, or any PDF reader
+Requires:   api_server.py running in another terminal
+Usage:      python float_translator.py"
 import sys, io, os, json, threading, time
 import tkinter as tk
 import requests
@@ -107,7 +106,7 @@ class FloatingTranslator:
         self.running = True
 
     def _check_clipboard(self):
-        """每2秒检查剪贴板，自动填入新复制的英文"""
+        """Check clipboard every 2 seconds for new English text"""
         if not self.running:
             return
         try:
