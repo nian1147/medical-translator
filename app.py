@@ -116,12 +116,6 @@ with st.sidebar:
 
     st.markdown("---")
 
-    # Word library stats
-    abbr_count = len(MEDICAL_ABBREVIATIONS) if isinstance(MEDICAL_ABBREVIATIONS, dict) else 0
-    vocab_count = len(MEDICAL_VOCABULARY) if isinstance(MEDICAL_VOCABULARY, dict) else 0
-    st.markdown(f"## Medical Term Library")
-    st.caption(f"{abbr_count} abbreviations + {vocab_count} medical terms loaded")
-
     st.markdown("---")
 
     # 使用说明
