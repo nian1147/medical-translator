@@ -138,10 +138,10 @@ class FloatingTranslator:
     def do_translate(self):
         text = self.source_text.get("1.0", tk.END).strip()
         if not text or len(text) < 3:
-            self.status.config(text="Please enter at least 3 characters")
+            self.status.config(text="Please enter / paste at least 3 characters of English medical text")
             return
 
-        self.status.config(text="Translating...")
+        self.status.config(text="Translating... please wait")
         self.result_text.delete("1.0", tk.END)
         self.result_text.insert("1.0", "Translating...")
         self.root.update()
@@ -151,7 +151,7 @@ class FloatingTranslator:
                 resp = requests.post(
                     f"{API}/api/translate",
                     json={"text": text},
-                    timeout=60,
+                    timeout=120,
                 )
                 data = resp.json()
                 if resp.status_code == 200:
@@ -165,19 +165,19 @@ class FloatingTranslator:
                     msg = data.get("error", str(resp.status_code))
                     self.root.after(0, lambda: self._show_error(msg))
             except Exception as e:
-                self.root.after(0, lambda: self._show_error(str(e)))
+                self.root.after(0, lambda: self._show_error("Cannot connect to API server.\n\nRun: python api_server.py\n\nError: " + str(e)))
 
         threading.Thread(target=_translate, daemon=True).start()
 
     def _show_result(self, text):
         self.result_text.delete("1.0", tk.END)
         self.result_text.insert("1.0", text)
-        self.status.config(text="Done! Select new text -> Ctrl+C -> Click Translate")
+        self.status.config(text="Done! Select new text in PDF, copy, and click Translate again")
 
     def _show_error(self, msg):
         self.result_text.delete("1.0", tk.END)
-        self.result_text.insert("1.0", f"Error: {msg}\n\nMake sure api_server.py is running.")
-        self.status.config(text="Error - check api_server.py is running")
+        self.result_text.insert("1.0", "Error: " + msg)
+        self.status.config(text="Error - check that api_server.py is running")
 
     def clear_all(self):
         self.source_text.delete("1.0", tk.END)
