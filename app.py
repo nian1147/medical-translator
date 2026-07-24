@@ -116,12 +116,6 @@ with st.sidebar:
 
     st.markdown("---")
 
-    # 词库统计
-    st.markdown(f"## 📚 术语库")
-    st.caption(f"已加载 {len(MEDICAL_ABBREVIATIONS)} 个缩写术语 + {len(MEDICAL_VOCABULARY)} 个通用术语")
-
-    st.markdown("---")
-
     # 使用说明
     st.markdown("## 📖 使用说明")
     st.markdown("""
