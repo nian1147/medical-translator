@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "medical-translator",
+  "name": "Medical Translator",
   "version": "1.0.0",
-  "description": "Medical literature translation plugin for Zotero. Supports selected-text translation and abbreviation lookup using DeepSeek API.",
+  "description": "Medical literature translation plugin with DeepSeek API and 3375-term medical library",
   "author": "nian1147",
   "applications": {
     "zotero": {
       "id": "medical-translator@zotero.org",
       "update_url": "",
-      "strict_min_version": "7.0",
+      "strict_min_version": "6.999",
       "strict_max_version": "8.*"
     }
   }
