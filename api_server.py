@@ -1,15 +1,23 @@
 """
-医学文献翻译 API 服务器
-为 Zotero 插件提供翻译接口，共享 terms.csv / vocabulary.csv 词库
-本地运行：python api_server.py
+Medical Translation API Server
+Provides translation endpoints for the Zotero plugin.
+Usage: python api_server.py
 """
+
+import sys
+import io
+# Force UTF-8 output to prevent UnicodeEncodeError on Windows
+_stdout_buffer = getattr(sys.stdout, 'buffer', None)
+_stderr_buffer = getattr(sys.stderr, 'buffer', None)
+if sys.platform == "win32" and _stdout_buffer and _stderr_buffer:
+    sys.stdout = io.TextIOWrapper(_stdout_buffer, encoding="utf-8", errors="replace")
+    sys.stderr = io.TextIOWrapper(_stderr_buffer, encoding="utf-8", errors="replace")
 
 from flask import Flask, request, jsonify
 from openai import OpenAI
 import csv
 import os
 import re
-import sys
 
 app = Flask(__name__)
 
@@ -72,7 +80,21 @@ print(f"[OK] Loaded {len(MEDICAL_ABBREVIATIONS)} abbreviations + {len(MEDICAL_VO
 # API Key & Client
 # ============================================================
 def get_api_key():
-    return os.environ.get("DEEPSEEK_API_KEY", "")
+    # Try env var; also accept a hardcoded default for local dev
+    import os
+    key = os.environ.get("DEEPSEEK_API_KEY", "")
+    if not key:
+        # Fallback: read from .streamlit/secrets.toml if present
+        secrets_path = os.path.join(os.path.dirname(__file__), ".streamlit", "secrets.toml")
+        if os.path.exists(secrets_path):
+            with open(secrets_path, "r") as f:
+                for line in f:
+                    if "=" in line:
+                        k, v = line.split("=", 1)
+                        if k.strip() == "DEEPSEEK_API_KEY":
+                            key = v.strip().strip('"').strip("'")
+                            break
+    return key
 
 def get_client():
     key = get_api_key()
@@ -102,21 +124,24 @@ def build_prompt():
         f"{en} -> {cn}"
         for en, cn in sorted(MEDICAL_VOCABULARY.items())[:300]
     ])
-    return f"""You are a senior medical translation expert. Translate English medical literature into Chinese.
+    return f"""You are a senior medical translation expert. Translate the following English medical text into Chinese (Simplified Chinese).
 
 Rules:
-1. Use MeSH/CMeSH standard terminology.
-2. Mark abbreviations as [ABBR: full English, full Chinese].
-3. Be academically rigorous - no additions, omissions, or distortions.
-4. Mark rare terms as [reference translation].
+1. Use MeSH/CMeSH standard Chinese terminology for all medical terms.
+2. Mark abbreviations found in the text using the format: [ABBR: English Full Name, Chinese Full Name].
+3. Be academically rigorous: do not add, omit, or distort the original meaning.
+4. If an abbreviation appears multiple times, mark it only on first occurrence.
+5. For rare terms, provide a reference translation and mark it with [reference].
 
-Abbreviation reference:
+Reference - Medical Abbreviations (use these standard translations):
 {term_ref}
 
-General term reference:
+Reference - General Medical Terms (use these standard translations):
 {vocab_ref}
 
-Output the translation paragraph by paragraph, then list Key Term Notes at the end."""
+Output format:
+- Translate paragraph by paragraph, separated by blank lines.
+- End with a section titled "Key Term Notes" listing the abbreviations found and their translations."""
 
 # ============================================================
 # API Endpoints
@@ -146,7 +171,8 @@ def translate():
         )
         translation = response.choices[0].message.content
     except Exception as e:
-        return jsonify({"error": f"Translation API error: {str(e)}"}), 500
+        import traceback
+        return jsonify({"error": f"Translation API error: {str(e)}", "traceback": traceback.format_exc()}), 500
 
     return jsonify({
         "original": text,
