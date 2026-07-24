@@ -800,3 +800,115 @@ wheezing,喘息,呼吸
 wound,伤口,外科
 xenograft,异种移植物,移植
 zygote,受精卵,生殖
+﻿英文术语,中文译名,学科
+nephrolithiasis,肾结石,泌尿外科
+urolithiasis,尿石症,泌尿外科
+hydronephrosis,肾积水,泌尿外科
+pyelonephritis,肾盂肾炎,泌尿外科
+cystitis,膀胱炎,泌尿外科
+prostatitis,前列腺炎,泌尿外科
+epididymitis,附睾炎,泌尿外科
+orchitis,睾丸炎,泌尿外科
+balanitis,龟头炎,泌尿外科
+phimosis,包茎,泌尿外科
+paraphimosis,嵌顿包茎,泌尿外科
+varicocele,精索静脉曲张,泌尿外科
+hydrocele,鞘膜积液,泌尿外科
+spermatocele,精液囊肿,泌尿外科
+azoospermia,无精子症,泌尿外科
+oligospermia,少精子症,泌尿外科
+pyuria,脓尿,泌尿外科
+nocturia,夜尿症,泌尿外科
+dysuria,排尿困难,泌尿外科
+anuria,无尿,泌尿外科
+oliguria,少尿,泌尿外科
+polyuria,多尿,泌尿外科
+enuresis,遗尿症,泌尿外科
+ureterocele,输尿管囊肿,泌尿外科
+ureterolithiasis,输尿管结石,泌尿外科
+cystolithiasis,膀胱结石,泌尿外科
+nephrostomy,肾造瘘术,泌尿外科
+ureterostomy,输尿管造口术,泌尿外科
+urothelial carcinoma,尿路上皮癌,泌尿外科
+seminoma,精原细胞瘤,泌尿外科
+teratoma,畸胎瘤,泌尿外科
+angiomyolipoma,血管平滑肌脂肪瘤,泌尿外科
+oncocytoma,嗜酸细胞瘤,泌尿外科
+pheochromocytoma,嗜铬细胞瘤,泌尿外科
+retroperitoneal fibrosis,腹膜后纤维化,泌尿外科
+priapism,阴茎异常勃起,泌尿外科
+testicular torsion,睾丸扭转,泌尿外科
+Fournier gangrene,Fournier坏疽,泌尿外科
+antenatal hydronephrosis,产前肾积水,小儿泌尿外科
+congenital hydronephrosis,先天性肾积水,小儿泌尿外科
+ureteropelvic junction obstruction,肾盂输尿管连接部梗阻,小儿泌尿外科
+megaureter,巨输尿管,小儿泌尿外科
+ectopic ureter,异位输尿管,小儿泌尿外科
+duplex kidney,重复肾,小儿泌尿外科
+renal agenesis,肾缺如,小儿泌尿外科
+renal ectopia,肾异位,小儿泌尿外科
+horseshoe kidney,马蹄肾,小儿泌尿外科
+crossed fused ectopia,交叉融合性肾异位,小儿泌尿外科
+prune belly syndrome,Prune-Belly综合征,小儿泌尿外科
+cloacal exstrophy,泄殖腔外翻,小儿泌尿外科
+ambiguous genitalia,两性畸形,小儿泌尿外科
+micropenis,小阴茎,小儿泌尿外科
+cryptorchidism,隐睾,小儿泌尿外科
+retractile testis,回缩性睾丸,小儿泌尿外科
+anorchia,无睾症,小儿泌尿外科
+dysfunctional voiding,排尿功能障碍,小儿泌尿外科
+Hinman syndrome,Hinman综合征,小儿泌尿外科
+lazy bladder syndrome,惰性膀胱综合征,小儿泌尿外科
+neuropathic bladder pediatric,儿童神经性膀胱,小儿泌尿外科
+Mitrofanoff procedure,Mitrofanoff手术,小儿泌尿外科
+bladder augmentation,膀胱扩大术,小儿泌尿外科
+enterocystoplasty,肠膀胱成形术,小儿泌尿外科
+ureteral reimplantation,输尿管再植术,小儿泌尿外科
+orchiopexy,睾丸固定术,小儿泌尿外科
+Fowler-Stephens orchiopexy,Fowler-Stephens睾丸固定术,小儿泌尿外科
+descriptive statistics,描述性统计,医学统计学
+inferential statistics,推断性统计,医学统计学
+parametric test,参数检验,医学统计学
+nonparametric test,非参数检验,医学统计学
+chi-square test,卡方检验,医学统计学
+Fisher exact test,Fisher精确检验,医学统计学
+Mann-Whitney U test,Mann-Whitney U检验,医学统计学
+Wilcoxon signed-rank test,Wilcoxon符号秩检验,医学统计学
+Kruskal-Wallis test,Kruskal-Wallis检验,医学统计学
+McNemar test,McNemar检验,医学统计学
+log-rank test,log-rank检验,医学统计学
+Pearson correlation,Pearson相关,医学统计学
+Spearman correlation,Spearman相关,医学统计学
+linear regression,线性回归,医学统计学
+logistic regression,logistic回归,医学统计学
+Poisson regression,Poisson回归,医学统计学
+survival analysis,生存分析,医学统计学
+competing risks analysis,竞争风险分析,医学统计学
+mixed effects model,混合效应模型,医学统计学
+random effects model,随机效应模型,医学统计学
+fixed effects model,固定效应模型,医学统计学
+mediation analysis,中介分析,医学统计学
+moderation analysis,调节效应分析,医学统计学
+path analysis,路径分析,医学统计学
+latent class analysis,潜类别分析,医学统计学
+growth mixture modeling,增长混合模型,医学统计学
+item response theory,项目反应理论,医学统计学
+Rasch model,Rasch模型,医学统计学
+Youden index,Youden指数,医学统计学
+decision curve analysis,决策曲线分析,医学统计学
+calibration plot,校准图,医学统计学
+Brier score,Brier评分,医学统计学
+bootstrap method,Bootstrap法,医学统计学
+permutation test,置换检验,医学统计学
+cross-validation,交叉验证,医学统计学
+internal validation,内部验证,医学统计学
+external validation,外部验证,医学统计学
+effect size,效应量,医学统计学
+Cohen d,Cohen d值（效应量）,医学统计学
+meta-analysis,Meta分析,医学统计学
+meta-regression,Meta回归,医学统计学
+forest plot,森林图,医学统计学
+Bayesian analysis,贝叶斯分析,医学统计学
+frequentist analysis,频率学派分析,医学统计学
+Markov model,Markov模型,医学统计学
+cost-effectiveness analysis,成本效果分析,医学统计学
