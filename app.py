@@ -2,6 +2,7 @@
 医学文献智能翻译助手
 面向：医学院学生、临床规培医师、科研初学者
 功能：专业术语翻译 + 缩写全称互查
+防御版 v3.0：所有术语解析带防御，报错显示完整堆栈
 """
 
 import streamlit as st
@@ -12,6 +13,9 @@ import io
 import os
 import csv
 import re
+import traceback
+
+VERSION = "v3.0"
 
 # ============================================================
 # 页面设置
@@ -333,10 +337,10 @@ def load_terms_from_csv(filepath: str):
                         abbr = (row.get("缩写") or "").strip()
                         full_en = (row.get("英文全称") or "").strip()
                         full_cn = (row.get("中文译名") or "").strip()
-                        if abbr:
-                            abbreviations[abbr] = (full_en, full_cn)
-                        if full_cn and full_cn not in cn_to_en:
-                            cn_to_en[full_cn] = (abbr, full_en)
+                        if abbr and abbr not in ("缩写",):
+                            abbreviations[str(abbr)] = (str(full_en), str(full_cn))
+                        if full_cn and full_cn not in cn_to_en and full_cn not in ("中文译名",):
+                            cn_to_en[str(full_cn)] = (str(abbr), str(full_en))
                     except Exception:
                         pass
             break
@@ -364,8 +368,8 @@ def load_vocabulary(filepath: str) -> dict:
                     try:
                         en = (row.get("英文术语") or "").strip().lower()
                         cn = (row.get("中文译名") or "").strip()
-                        if en and cn and en not in vocab:
-                            vocab[en] = cn
+                        if en and cn and en not in vocab and en not in ("英文术语",):
+                            vocab[str(en)] = str(cn)
                     except Exception:
                         pass
             break
@@ -404,19 +408,34 @@ _extra_cn = {
     "慢性肾脏病": ("CKD", "Chronic Kidney Disease"),
     "炎症性肠病": ("IBD", "Inflammatory Bowel Disease"),
 }
-for cn, (abbr, en) in _extra_cn.items():
-    if cn not in CN_TO_EN:
-        CN_TO_EN[cn] = (abbr, en)
+for _cn, (_abbr, _en) in _extra_cn.items():
+    if _cn not in CN_TO_EN:
+        CN_TO_EN[_cn] = (_abbr, _en)
+
+
+def _pair(val):
+    """把任意值安全地转成 (a, b) 二元组，绝不解包失败。"""
+    if isinstance(val, (tuple, list)):
+        if len(val) >= 2:
+            return str(val[0]), str(val[1])
+        if len(val) == 1:
+            return str(val[0]), ""
+        return "", ""
+    return str(val), ""
 
 
 def find_abbreviations_in_text(text: str) -> list:
     abbr_list = MEDICAL_ABBREVIATIONS if isinstance(MEDICAL_ABBREVIATIONS, dict) else {}
     found = []
     text_upper = text.upper()
-    for abbr, (full_en, full_cn) in abbr_list.items():
-        pattern = r'\b' + re.escape(abbr.upper()) + r'\b'
-        if re.search(pattern, text_upper):
-            found.append((abbr, full_en, full_cn))
+    for abbr, val in abbr_list.items():
+        try:
+            full_en, full_cn = _pair(val)
+            pattern = r'\b' + re.escape(str(abbr).upper()) + r'\b'
+            if re.search(pattern, text_upper):
+                found.append((str(abbr), full_en, full_cn))
+        except Exception:
+            continue
     seen = set()
     result = []
     for item in found:
@@ -434,24 +453,33 @@ def translate_text(client: OpenAI, text: str, target_lang: str = "中文") -> st
     # 只匹配原文中真正出现的术语，避免把整本词库塞进提示词拖慢速度
     text_upper = text.upper()
     matched_abbrs = []
-    for abbr, (full_en, full_cn) in sorted(abbr_list.items()):
-        if re.search(r'\b' + re.escape(abbr.upper()) + r'\b', text_upper):
-            matched_abbrs.append((abbr, full_en, full_cn))
-            if len(matched_abbrs) >= 30:
-                break
+    for abbr, val in sorted(abbr_list.items()):
+        try:
+            full_en, full_cn = _pair(val)
+            if re.search(r'\b' + re.escape(str(abbr).upper()) + r'\b', text_upper):
+                matched_abbrs.append((str(abbr), full_en, full_cn))
+                if len(matched_abbrs) >= 30:
+                    break
+        except Exception:
+            continue
 
     text_lower = text.lower()
     matched_vocab = []
-    for en, cn in sorted(vocab_list.items()):
-        if en and (" " in en or len(en) > 4):
-            if re.search(r'\b' + re.escape(en) + r'\b', text_lower):
-                matched_vocab.append((en, cn))
-                if len(matched_vocab) >= 20:
-                    break
+    for en, val in sorted(vocab_list.items()):
+        try:
+            cn = _pair(val)[0]
+            en = str(en)
+            if en and (" " in en or len(en) > 4):
+                if re.search(r'\b' + re.escape(en) + r'\b', text_lower):
+                    matched_vocab.append((en, cn))
+                    if len(matched_vocab) >= 20:
+                        break
+        except Exception:
+            continue
 
     term_ref = "\n".join([
         f"{abbr}: {full_en} -> {full_cn}"
-        for abbr, (full_en, full_cn) in matched_abbrs
+        for abbr, full_en, full_cn in matched_abbrs
     ])
     vocab_ref = "\n".join([
         f"{en} -> {cn}"
@@ -485,11 +513,15 @@ def lookup_abbreviation(client: OpenAI, query: str) -> str:
     query_upper = query.strip().upper()
     abbr_list = MEDICAL_ABBREVIATIONS if isinstance(MEDICAL_ABBREVIATIONS, dict) else {}
     if query_upper in abbr_list:
-        full_en, full_cn = abbr_list[query_upper]
+        full_en, full_cn = _pair(abbr_list[query_upper])
         local_results.append(f"【本地词库匹配】\n📌 {query_upper}\n→ {full_en}\n→ {full_cn}")
-    for cn_name, (abbr, full_en) in CN_TO_EN.items():
-        if query.strip() in cn_name or cn_name in query.strip():
-            local_results.append(f"【本地词库匹配】\n📌 {cn_name}\n→ {full_en}\n→ 缩写: {abbr}")
+    for cn_name, val in CN_TO_EN.items():
+        try:
+            abbr, full_en = _pair(val)
+            if query.strip() in cn_name or cn_name in query.strip():
+                local_results.append(f"【本地词库匹配】\n📌 {cn_name}\n→ {full_en}\n→ 缩写: {abbr}")
+        except Exception:
+            continue
 
     system_prompt = """你是一个医学缩写查询专家。根据用户输入，判断查询方向并回答：
 
@@ -623,6 +655,8 @@ with st.sidebar:
     """, unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
+    st.caption(f"🧪 当前版本：{VERSION}")
+
     # ── 使用说明 ──
     with st.expander("📖 使用说明"):
         st.markdown("""
@@ -647,7 +681,7 @@ st.markdown(f"""
 <div class="app-header">
     <div class="app-header-title">🩺 医学文献智能翻译助手</div>
     <div class="app-header-sub">
-        面向医学院学生 · 临床规培医师 · 科研初学者 ｜ 精准专业术语翻译 · 缩写全称互查
+        面向医学院学生 · 临床规培医师 · 科研初学者 ｜ 精准专业术语翻译 · 缩写全称互查 ｜ {VERSION}
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -732,24 +766,13 @@ was also lower in the PCI group (8.3% vs 15.7%, p<0.001).""", language=None)
                                     )
                                 st.markdown(chips_html, unsafe_allow_html=True)
 
-                        # 将「关键术语注释」部分折叠
-                        import re as _re
-                        _parts = _re.split(
-                            r'(?:\n|\r\n)(?:#{1,3}\s*)?(?:[^\n]{0,10})?(?:关键术语注释|关键术语|术语注释)(?:[^\n]*)?(?:\n)',
-                            result, maxsplit=1
-                        )
-                        translation_body = _parts[0].strip()
-                        glossary_section = _parts[1].strip() if len(_parts) > 1 else ""
-
                         st.markdown("##### 📝 翻译正文")
-                        st.markdown(f'<div class="result-box">{translation_body}</div>', unsafe_allow_html=True)
-                        if glossary_section:
-                            with st.expander("📋 关键术语注释", expanded=False):
-                                st.markdown(glossary_section)
+                        st.markdown(f'<div class="result-box">{result}</div>', unsafe_allow_html=True)
 
                     except Exception as e:
-                        st.error(f"翻译失败：{str(e)}")
-                        st.caption("常见原因：API Key 无效、网络不通、或余额不足")
+                        st.error(f"翻译失败：{e}")
+                        st.caption("下面是完整报错，方便定位问题：")
+                        st.code(traceback.format_exc())
 
         st.markdown("</div>", unsafe_allow_html=True)
 
@@ -783,7 +806,8 @@ with tab2:
                     result = lookup_abbreviation(client, query_term)
                     st.markdown(f'<div class="result-box">{result}</div>', unsafe_allow_html=True)
                 except Exception as e:
-                    st.error(f"查询失败：{str(e)}")
+                    st.error(f"查询失败：{e}")
+                    st.code(traceback.format_exc())
 
     st.markdown("</div>", unsafe_allow_html=True)
 
@@ -813,7 +837,7 @@ with tab2:
                     items_html = ""
                     for a in abbrs:
                         if a in abbr_dict:
-                            _, full_cn = abbr_dict[a]
+                            _, full_cn = _pair(abbr_dict[a])
                             items_html += (
                                 f'<div class="ref-card-item">'
                                 f'<span class="abbr-name">{a}</span>'
@@ -858,7 +882,7 @@ with tab3:
                 else:
                     extracted_text = file_bytes.decode("utf-8", errors="replace")
             except Exception as e:
-                st.error(f"提取文件内容失败：{str(e)}")
+                st.error(f"提取文件内容失败：{e}")
                 extracted_text = ""
 
         if extracted_text:
@@ -891,68 +915,56 @@ with tab3:
                         )
                     st.markdown(chips_html, unsafe_allow_html=True)
 
-            # 翻译按钮
-                if not api_key:
-                    st.error("⚠️ 请先在左侧边栏输入 DeepSeek API Key")
-                else:
-                    MAX_CHUNK = 2000
-                    chunks = []
-                    paragraphs = extracted_text.split("\n")
-                    current_chunk = ""
-                    for para in paragraphs:
-                        if len(current_chunk) + len(para) < MAX_CHUNK:
-                            current_chunk += para + "\n"
-                        else:
-                            if current_chunk:
-                                chunks.append(current_chunk.strip())
-                            current_chunk = para + "\n"
-                    if current_chunk.strip():
-                        chunks.append(current_chunk.strip())
+            if not api_key:
+                st.error("⚠️ 请先在左侧边栏输入 DeepSeek API Key")
+            else:
+                MAX_CHUNK = 2000
+                chunks = []
+                paragraphs = extracted_text.split("\n")
+                current_chunk = ""
+                for para in paragraphs:
+                    if len(current_chunk) + len(para) < MAX_CHUNK:
+                        current_chunk += para + "\n"
+                    else:
+                        if current_chunk:
+                            chunks.append(current_chunk.strip())
+                        current_chunk = para + "\n"
+                if current_chunk.strip():
+                    chunks.append(current_chunk.strip())
 
-                    st.info(f"📑 文档共 {len(chunks)} 段，正在分段翻译...")
+                st.info(f"📑 文档共 {len(chunks)} 段，正在分段翻译...")
 
-                    full_result = []
-                    progress_bar = st.progress(0)
-                    status_text = st.empty()
+                full_result = []
+                progress_bar = st.progress(0)
+                status_text = st.empty()
 
-                    try:
-                        client = get_client()
-                        for i, chunk in enumerate(chunks):
-                            status_text.text(f"正在翻译第 {i+1}/{len(chunks)} 段...")
-                            result = translate_text(client, chunk)
-                            full_result.append(result)
-                            progress_bar.progress((i + 1) / len(chunks))
+                try:
+                    client = get_client()
+                    for i, chunk in enumerate(chunks):
+                        status_text.text(f"正在翻译第 {i+1}/{len(chunks)} 段...")
+                        result = translate_text(client, chunk)
+                        full_result.append(result)
+                        progress_bar.progress((i + 1) / len(chunks))
 
-                        status_text.text("✅ 翻译完成！")
-                        combined = "\n\n---\n\n".join(full_result)
+                    status_text.text("✅ 翻译完成！")
+                    combined = "\n\n---\n\n".join(full_result)
 
-                        # 将「关键术语注释」部分折叠
-                        import re as _re2
-                        _parts2 = _re2.split(
-                            r'(?:\n\n|\n)(?:##\s*)?(?:关键术语注释|关键术语|术语注释|📌 关键术语|📋 术语注释)',
-                            combined, maxsplit=1
+                    st.markdown("##### 📝 翻译结果")
+                    st.markdown(f'<div class="result-box">{combined}</div>', unsafe_allow_html=True)
+
+                    col_dl1, col_dl2 = st.columns([1, 3])
+                    with col_dl1:
+                        st.download_button(
+                            label="📥 下载翻译结果",
+                            data=combined,
+                            file_name=f"翻译_{uploaded_file.name.rsplit('.', 1)[0]}.txt",
+                            mime="text/plain",
+                            use_container_width=True,
                         )
-                        _body = _parts2[0].strip()
-                        _glossary = _parts2[1].strip() if len(_parts2) > 1 else ""
 
-                        st.markdown("##### 📝 翻译结果")
-                        st.markdown(f'<div class="result-box">{_body}</div>', unsafe_allow_html=True)
-                        if _glossary:
-                            with st.expander("📋 关键术语注释", expanded=False):
-                                st.markdown(_glossary)
-
-                        col_dl1, col_dl2 = st.columns([1, 3])
-                        with col_dl1:
-                            st.download_button(
-                                label="📥 下载翻译结果",
-                                data=combined,
-                                file_name=f"翻译_{uploaded_file.name.rsplit('.', 1)[0]}.txt",
-                                mime="text/plain",
-                                use_container_width=True,
-                            )
-
-                    except Exception as e:
-                        st.error(f"翻译失败：{str(e)}")
+                except Exception as e:
+                    st.error(f"翻译失败：{e}")
+                    st.code(traceback.format_exc())
 
 # ============================================================
 # 页脚
