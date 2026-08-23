@@ -431,45 +431,45 @@ def translate_text(client: OpenAI, text: str, target_lang: str = "中文") -> st
     abbr_list = MEDICAL_ABBREVIATIONS if isinstance(MEDICAL_ABBREVIATIONS, dict) else {}
     vocab_list = MEDICAL_VOCABULARY if isinstance(MEDICAL_VOCABULARY, dict) else {}
 
+    # 只匹配原文中真正出现的术语，避免把整本词库塞进提示词拖慢速度
+    text_upper = text.upper()
+    matched_abbrs = []
+    for abbr, (full_en, full_cn) in sorted(abbr_list.items()):
+        if re.search(r'\b' + re.escape(abbr.upper()) + r'\b', text_upper):
+            matched_abbrs.append((abbr, full_en, full_cn))
+            if len(matched_abbrs) >= 30:
+                break
+
+    text_lower = text.lower()
+    matched_vocab = []
+    for en, cn in sorted(vocab_list.items()):
+        if en and (" " in en or len(en) > 4):
+            if re.search(r'\b' + re.escape(en) + r'\b', text_lower):
+                matched_vocab.append((en, cn))
+                if len(matched_vocab) >= 20:
+                    break
+
     term_ref = "\n".join([
         f"{abbr}: {full_en} -> {full_cn}"
-        for abbr, (full_en, full_cn) in sorted(abbr_list.items())
+        for abbr, (full_en, full_cn) in matched_abbrs
     ])
-    vocab_items = list(vocab_list.items())[:500]
     vocab_ref = "\n".join([
         f"{en} -> {cn}"
-        for en, cn in sorted(vocab_items)
+        for en, cn in matched_vocab
     ])
 
-    system_prompt = f"""你是一位资深医学翻译专家，专门为医学院校学生、临床规培医师和科研初学者服务。
+    system_prompt = f"""你是一位资深医学翻译专家。请把下面的英文医学文献段落翻译成{target_lang}。
 
-你的核心任务：将英文医学文献翻译为{target_lang}，严格遵循以下规则：
-
-1. **术语标准化**：优先使用《医学主题词表》(MeSH/CMeSH)中的标准译名。
-
-以下是常见医学缩写对照参考：
+翻译时严格遵守以下医学术语对照（自定义术语优先级最高）：
 {term_ref}
 
-以下是通用医学术语对照参考：
+通用医学术语对照：
 {vocab_ref}
 
-2. **缩写处理**：翻译中遇到的医学缩写，使用格式【缩写：英文全称，中文全称】标注。
-
-3. **学术严谨性**：
-   - 不添加原文没有的信息
-   - 不删减原文内容
-   - 不曲解原文含义
-   - 保持段落的逻辑结构
-
-4. **首次出现术语**：对专业术语首次出现时，在括号中附简要中文解释。
-
-5. **罕见术语**：对于新的或罕见的术语，给出参考译名并标注「译名供参考」。
-
-6. 输出格式：逐段翻译，段落之间用空行分隔。先给出翻译结果，再在末尾列出「关键术语注释」部分。
-"""
+要求：直接输出译文，逐段对应原文，段落之间用空行分隔。不要添加任何注释、标注、括号解释、术语注释或对照表，只输出译文本身。"""
 
     response = client.chat.completions.create(
-        model="deepseek-chat",
+        model="deepseek-v4-flash",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"请翻译以下英文医学文献段落：\n\n{text}"},
@@ -510,7 +510,7 @@ def lookup_abbreviation(client: OpenAI, query: str) -> str:
 """
 
     response = client.chat.completions.create(
-        model="deepseek-chat",
+        model="deepseek-v4-flash",
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"查询：{query}"},

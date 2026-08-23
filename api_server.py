@@ -88,7 +88,7 @@ def deepseek_chat(messages, temperature=0.3, max_tokens=4096):
         "Authorization": f"Bearer {get_key()}",
     }
     body = {
-        "model": "deepseek-chat",
+        "model": "deepseek-v4-flash",
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
@@ -122,14 +122,27 @@ def translate():
             if len(found) >= 30:
                 break
 
-    # Build system prompt
+    # Find matched vocabulary in text
+    found_vocab = []
+    text_lower = text.lower()
+    for e, c in sorted(vocab_dict.items()):
+        if e and (" " in e or len(e) > 4):
+            if re.search(r'\b' + re.escape(e) + r'\b', text_lower):
+                found_vocab.append(f"{e} -> {c}")
+                if len(found_vocab) >= 20:
+                    break
+
+    # Build system prompt using only matched terms (not the whole dictionary)
     sample = "\n".join([
-        f"{a}: {e} -> {c}" for a, (e, c) in sorted(abbr_dict.items())[:50]
+        f"{f['abbr']}: {f['en']} -> {f['cn']}" for f in found
     ])
+    vocab_sample = "\n".join(found_vocab)
     system = (
-        "Translate the following English medical text into Simplified Chinese.\n"
-        "Use standard MeSH/CMeSH terminology. Mark abbreviations as [ABBR: English, Chinese].\n"
-        "Standard abbreviations:\n" + sample
+        "You are an expert medical translator. Translate the following English medical text into Simplified Chinese.\n"
+        "Use standard MeSH/CMeSH terminology and the references below.\n"
+        "Output only the translation. Do not add any annotations, explanations, or terminology lists.\n"
+        "Standard abbreviations:\n" + sample +
+        "\n\nMedical vocabulary:\n" + vocab_sample
     )
 
     try:
